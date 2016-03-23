@@ -24,8 +24,8 @@ Os PCDT têm o objetivo de estabelecer claramente os critérios de diagnóstico 
 algoritmo de tratamento das doenças com as respectivas doses adequadas e os mecanismos para o 
 monitoramento clínico em relação à efetividade do tratamento e a supervisão de possíveis efeitos 
 adversos. Observando ética e tecnicamente a prescrição médica, os PCDT, também, objetivam criar 
-mecanismos para a garantia da prescrição segura e eficaz. Portanto, no âmbito do CEAF, os medicamentos 
-devem ser dispensados para os pacientes que se enquadrarem nos critérios estabelecidos no respectivo 
-Protocolo Clínico e Diretriz Terapêutica (Ministério da Saúde do Brasil).
+mecanismos para a garantia da prescrição segura e eficaz. Portanto, no âmbito do CEAF, os 
+medicamentos devem ser dispensados para os pacientes que se enquadrarem nos critérios estabelecidos no 
+respectivo Protocolo Clínico e Diretriz Terapêutica (Ministério da Saúde do Brasil).
 
 ```
