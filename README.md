@@ -7,9 +7,11 @@ Manuscrito de texto de revisão dos protocolos de tratamento utilizados pela neu
 pro·to·co·lo |ó| 
 substantivo masculino
 1. Formulário.
-2. .Ata de conferências celebradas entre ministros plenipotenciários de diferentes nações, ou entre os membros de um congresso internacional.
-3. .Registro em que o escrivão do juízo relata o que se passou na audiência.
-4. Regulamento que se observa em alguns .atos públicos.
+2. Ata de conferências celebradas entre ministros plenipotenciários de diferentes nações, ou entre 
+os membros de um congresso internacional.
+3. Registro em que o escrivão do juízo relata o que se passou na audiência.
+4. Regulamento que se observa em alguns atos públicos.
 
-"protocolo", in Dicionário Priberam da Língua Portuguesa [em linha], 2008-2013, http://www.priberam.pt/dlpo/protocolo [consultado em 23-03-2016].
+"protocolo", in Dicionário Priberam da Língua Portuguesa [em linha], 2008-2013, 
+http://www.priberam.pt/dlpo/protocolo [consultado em 23-03-2016].
 ```
