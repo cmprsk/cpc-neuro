@@ -30,6 +30,21 @@ algoritmos voltados para garantir o melhor cuidado em determinado serviço de sa
 os protocolos clínicos, numa parte do processo da condição ou doenca e, em geral, num único 
 ponto de atenção à saúde. 
 
+Protocolos clínicos (definição 1): rotinas dos cuidados e das ações de gestão de um determinado
+serviço, equipe ou departamento, elaborados a partir do conhecimento científico atual, 
+respaldados em evidências científicas, por profissionais experientes e especialistas em uma dada
+área, e que servem para orientar fluxos, condutas e procedimentos clínicos dos trabalhadores dos 
+serviços de saúde. 
+
+Protocolos clínicos (definição 2): conjunto de diretrizes, de estratégias, de critérios e de 
+pautas, provenientes da revisão sistemática da evidência científica disponível e de uma avaliação
+profissional, apresentado de maneira estruturada e elaborado com o objetivo de ajudar os 
+profissionais de saúde e os pacientes em suas decisões. Nota: nos protocolos clínicos são
+estabelecidos claramente os critérios diagnósticos de cada doença, o tratamento preconizado,
+com os medicamentos disponíveis nas respectivas doses corretas, os mecanismos de controle,
+o acompanhamento e a verificação de resultados e a racionalização da prescrição e do
+fornecimento dos medicamentos.
+
 Fonte: Implantação de diretrizes e protocolos clínicos, E-EFT-01, Agência Nacional de Saúde 
 Suplementar - ANS, Ministerio da Saúde do Brasil, novembro de 2012.
 
