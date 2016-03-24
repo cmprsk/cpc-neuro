@@ -5,19 +5,15 @@ Manuscrito de texto de revisão dos protocolos de tratamento utilizados pela neu
 Este manuscrito é voltado para falantes da língua portuguesa. Para baixar o arquivo em formato **pdf**, por favor, clique [aqui](v0.1/CPC-NEURO2014.pdf).
 
 ### Responsável: 
-> Francisco Helder Cavalcante Felix
->
+> Francisco Helder Cavalcante Felix,
 > Médico cancerologista pediátrico
->
-> Atuando desde 2008 (ingresso por concurso público) no [Hospital Infantil Albert Sabin](http://www.hias.ce.gov.br), Fortaleza - CÊ, Brasil
->
-> Membro da Sociedade Brasileira de Pediatria - [SBP](http://www.sbp.com.br) desde 2002
->
-> Membro da Sociedade Brasileira de Oncología Pediátrica - [SOBOPE](http://www.sobope.org.br) desde 2013
+> atuando desde 2008 (ingresso por concurso público) no [Hospital Infantil Albert Sabin](http://www.hias.ce.gov.br), Fortaleza - CÊ, Brasil
+
+> Membro da Sociedade Brasileira de Pediatria - [SBP](http://www.sbp.com.br) desde 2002,
+> Membro da Sociedade Brasileira de Oncología Pediátrica - [SOBOPE](http://www.sobope.org.br) desde 2013,
 > Membro da Society for Neuroncology - [SNO](http://soc-neuro-onc.org) desde 2015
->
-> Título de especialista em pediatria em 2012
->
+
+> Título de especialista em pediatria em 2012,
 > Título de especialista em cancerologia pediátrica em 2014
 
 Obs.: este manuscrito não necessariamente representa os pontos de vista ou é endossado pelo Hospital Infantil Albert Sabin
