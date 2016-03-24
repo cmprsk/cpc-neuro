@@ -7,7 +7,7 @@ Este manuscrito é voltado para falantes da língua portuguesa. Para baixar o ar
 ### Responsável: 
 > Francisco Helder Cavalcante Felix,
 > Médico cancerologista pediátrico
-> atuando desde 2008 (ingresso por concurso público) no [Hospital Infantil Albert Sabin](http://www.hias.ce.gov.br), Fortaleza - CÊ, Brasil
+> atuando desde 2008 (ingresso por concurso público) no [Hospital Infantil Albert Sabin](http://www.hias.ce.gov.br), Fortaleza - CE, Brasil
 
 > Membro da Sociedade Brasileira de Pediatria - [SBP](http://www.sbp.com.br) desde 2002,
 > Membro da Sociedade Brasileira de Oncología Pediátrica - [SOBOPE](http://www.sobope.org.br) desde 2013,
