@@ -1,6 +1,6 @@
 # cpc-neuro
 
-Manuscrito de texto de revisão dos protocolos de tratamento utilizados pela neuro-oncologia do Centro Pediátrico do Câncer. Protocolo aqui significa um esquema de tratamento baseado em um ensaio clínico patrocinado por grandes grupos cooperativos de tratamento do câncer infantil. Nenhum destes protocolos inclui o texto completo ou trechos dos protocolos originais de pesquisa. Os pacientes tratados em nosso centro seguindo estes protocolos não estão sendo recrutados para pesquisa clínica. Estes protocolos também não constituem diretrizes terapêuticas no sentido estrito, pois não foram elaborados por instituições ou grupos organizados, usando metodologia explícita. Nossos protocolos podem ser encarados como rotinas de manuseio dos pacientes e suas patologias, utilizados em nosso serviço hospitalar e baseados em ensaios clínicos dos grande grupos cooperativos. 
+Manuscrito de texto de revisão dos protocolos de tratamento utilizados pela neuro-oncologia do Centro Pediátrico do Câncer. Protocolo aqui significa um esquema de tratamento baseado em um ensaio clínico patrocinado por grandes grupos cooperativos de tratamento do câncer infantil. Nenhum destes protocolos inclui o texto completo ou trechos dos protocolos originais de pesquisa. Os pacientes tratados em nosso centro seguindo estes protocolos não estão sendo recrutados para pesquisa clínica. Estes protocolos também não constituem diretrizes terapêuticas, nem protocolos clínicos no sentido estrito, pois não foram elaborados por instituições ou grupos organizados, usando metodologia explícita. Nossos protocolos podem ser encarados como rotinas de manuseio dos pacientes e suas patologias, utilizados em nosso serviço hospitalar e baseados em ensaios clínicos dos grande grupos cooperativos. 
 
 ## Definições:
 ```
@@ -60,6 +60,16 @@ adversos. Observando ética e tecnicamente a prescrição médica, os PCDT, tamb
 mecanismos para a garantia da prescrição segura e eficaz. Portanto, no âmbito do Componente 
 Especializado da Assistência Farmacêutica (CEAF), os medicamentos devem ser dispensados para os 
 pacientes que se enquadrarem nos critérios estabelecidos no respectivo Protocolo Clínico e 
-Diretriz Terapêutica (Ministério da Saúde do Brasil, ).
+Diretriz Terapêutica (Ministério da Saúde do Brasil).
 
 ```
+
+> Protocolo (definição de trabalho deste projeto): rotinas de tratamento de doenças neoplásicas
+> cerebrais baseadas em ensaios clínicos de grupos cooperativos nacionais ou internacionais. 
+> O esquema terapêutico é apresentado **_as per_** o descrito no protocolo de pesquisa dos ensaios
+> clínicos nos quais ele se baseia. Mais de um protocolo de pesquisa de ensaios clínicos pode
+> ser usado para embasar cada protocolo de tratamento de nosso serviço. Adaptações são feitas 
+> baseadas na melhor evidência científica disponível e nas particularidades locais de nosso serviço. 
+> Os pacientes não são incluídos em nenhum dos ensaios clínicos, nem recrutados para nenhuma outra 
+> pesquisa clínica. O recrutamento para pesquisa clínica pressupõe a não inclusão dos pacientes nos 
+> tratamentos descritos nestas rotinas. 
