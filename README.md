@@ -16,6 +16,8 @@ Este manuscrito tem fins educativos e é voltado para falantes da língua portug
 > Título de especialista em pediatria em 2012,
 > Título de especialista em cancerologia pediátrica em 2014
 
+> Contato: heldercfelix@gmail.com - twitter: @cmprsk
+
 Obs.: este manuscrito não necessariamente representa os pontos de vista ou é endossado pelo Hospital Infantil Albert Sabin
 ou pela Secretaria de Saúde do Estado do Ceará, sendo de iniciativa do responsável acima identificado.
 
