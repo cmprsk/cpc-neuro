@@ -3,7 +3,6 @@ layout: post
 comments: true
 title: "Definições sobre protocolos clínicos"
 date:   2016-03-23 16:03:45 -0300
-categories: neuro-oncologia
 ---
 
 ```
