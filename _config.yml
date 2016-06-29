@@ -7,7 +7,7 @@
 
 # Site settings
 baseurl: "/cpc-neuro" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://fhcflx.github.io" # the base hostname & protocol for your site
 defaults:
   -
     scope:
