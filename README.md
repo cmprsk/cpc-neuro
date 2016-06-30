@@ -22,3 +22,5 @@ Obs.: este manuscrito não necessariamente representa os pontos de vista ou é e
 ou pela Secretaria de Saúde do Estado do Ceará, sendo de iniciativa do responsável acima identificado.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">CPC-NEURO</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>
+
+[![DOI](https://zenodo.org/badge/19810/fhcflx/cpc-neuro.svg)](https://zenodo.org/badge/latestdoi/19810/fhcflx/cpc-neuro)
