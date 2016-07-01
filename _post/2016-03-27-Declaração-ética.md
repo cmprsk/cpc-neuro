@@ -1,3 +1,9 @@
+---
+title: "Declaração ética"
+date: 2016-03-27 12:00 -3:00
+comments: true
+---
+
 # cpc-neuro
 
 Estes são os arquivos da página do projeto *cpc-neuro*, criada para divulgar publicamente o projeto e o manuscrito o qual dele resulta. Abaixo está a descrição do README do projeto *cpc-neuro*.
