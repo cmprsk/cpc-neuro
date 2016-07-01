@@ -16,11 +16,11 @@ layout: default
 
         {% if page.previous %} 
           <span class="previous-link">
-            <a rel="prev" href="{{ page.previous.url | prepend:github.url }}">Próxima página</a>
+            <a rel="prev" href="{{ page.previous.url | prepend:site.github.url }}">Próxima página</a>
           </span>
         {% endif %}
         {% if page.next %} 
           <span class="next-link">
-            <a rel="next" href="{{ page.next.url | prepend:github.url }}">Página anterior</a>
+            <a rel="next" href="{{ page.next.url | prepend:site.github.url }}">Página anterior</a>
           </span>
         {% endif %}
