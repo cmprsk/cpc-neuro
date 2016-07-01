@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Licensa para reprodução"
+comments: true
+---
+
 ## creative commons
 
 # Attribution-NonCommercial 4.0 International
