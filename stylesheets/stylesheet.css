@@ -243,3 +243,15 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.previous-link {
+   text-align = right;
+   }
+
+.next-link {
+   text-align = left;
+   }
+
+.main-page-link {
+   text-align = center;
+   }
