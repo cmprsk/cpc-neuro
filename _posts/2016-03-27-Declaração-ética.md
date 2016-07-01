@@ -1,6 +1,7 @@
 ---
+layout: post
 title: "Declaração ética"
-date: 2016-03-27 12:00 -3:00
+date: 2016-03-27 12:00:00 -0300
 comments: true
 ---
 
