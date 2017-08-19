@@ -1,3 +1,8 @@
+[![GitHub release](https://img.shields.io/github/release/fhcflx/cpc-neuro.svg)](https://github.com/fhcflx/cpc-neuro/releases)
+[![GitHub stars](https://img.shields.io/github/stars/fhcflx/cpc-neuro.svg)](https://github.com/fhcflx/cpc-neuro/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/fhcflx/cpc-neuro.svg)](https://github.com/fhcflx/cpc-neuro/issues)
+[![GitHub downloads](https://img.shields.io/github/downloads/fhcflx/cpc-neuro/total.svg)](https://github.com/fhcflx/cpc-neuro/releases)
+
 # cpc-neuro
 
 Manuscrito de texto de revisão dos protocolos de tratamento utilizados pela neuro-oncologia do Centro Pediátrico do Câncer. Protocolo aqui significa um esquema de tratamento baseado em um ensaio clínico patrocinado por grandes grupos cooperativos de tratamento do câncer infantil. Nenhum destes protocolos inclui o texto completo ou trechos dos protocolos originais de pesquisa. Os pacientes tratados em nosso centro seguindo estes protocolos não estão sendo recrutados para pesquisa clínica. Estes protocolos também não constituem diretrizes terapêuticas, nem protocolos clínicos no sentido estrito, pois não foram elaborados por instituições ou grupos organizados, usando metodologia explícita. Nossos protocolos podem ser encarados como rotinas de manuseio dos pacientes e suas patologias, utilizados em nosso serviço hospitalar e baseados em ensaios clínicos dos grande grupos cooperativos. 
@@ -23,4 +28,10 @@ ou pela Secretaria de Saúde do Estado do Ceará, sendo de iniciativa do respons
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">CPC-NEURO</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Francisco H C Felix</span> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>
 
-[![DOI](https://zenodo.org/badge/19810/fhcflx/cpc-neuro.svg)](https://zenodo.org/badge/latestdoi/19810/fhcflx/cpc-neuro)
+Versão 0.0.1:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.56750.svg)](https://doi.org/10.5281/zenodo.56750)
+
+Versão 0.1:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.845724.svg)](https://doi.org/10.5281/zenodo.845724)
