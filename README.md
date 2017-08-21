@@ -5,6 +5,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.845724.svg)](https://doi.org/10.5281/zenodo.845724)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8398--0993-red%20.svg)](http://orcid.org/0000-0002-8398-0993)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0)
+[![Build](https://img.shields.io/travis/fhcflx/cpc-neuro.svg)](https://travis-ci.org/fhcflx/cpc-neuro)
 
 # cpc-neuro
 
