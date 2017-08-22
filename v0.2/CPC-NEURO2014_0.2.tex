@@ -3,6 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
 \usepackage[dvips]{graphicx}
+\graphicspath{{../fig/}}
 \usepackage{xcolor}
 \usepackage{times}
 \usepackage[brazilian]{babel}
@@ -48,7 +49,7 @@ bindingoffset=10mm, top=25mm,bottom=25mm}
 
 
 %%% STYLE OF PAGES NUMBERING
-%\pagestyle{companion}\nouppercaseheads 
+%\pagestyle{companion}\nouppercaseheads
 %\pagestyle{headings}
 %\pagestyle{Ruled}
 \pagestyle{plain}
@@ -142,24 +143,24 @@ bindingoffset=10mm, top=25mm,bottom=25mm}
 \def\rrelax{\relax}
 
 \def\pickupnewlett#1{\def\letter{#1}%
-\ifx\letter\saveast\unskip% 
-\let\go\relax \else%  
+\ifx\letter\saveast\unskip%
+\let\go\relax \else%
 \ifx\letter\rrelax{\bigscfont\ }%
-\let\go\pickupnewword\else% 
+\let\go\pickupnewword\else%
 \uppercase{\def\ucletter{#1}%  upper case letter
 \ifx\letter\ucletter%
-{\bigscfont#1}\else{\smscfont#1}\fi}%% 
+{\bigscfont#1}\else{\smscfont#1}\fi}%%
 \let\go\pickupnewlett\fi\fi\go}
 
 \def\pickupnewword#1 {\expandafter\pickupnewlett#1\relax}
 
 \def\halftitlepage{\thispagestyle{empty}
   \vspace*{9pc}%
-  {\parindent \z@ 
+  {\parindent \z@
     \interlinepenalty\@M
 \LARGE
 \hyphenpenalty10000
-\bfseries\halftitlefont 
+\bfseries\halftitlefont
 \def\\ {\vskip1sp}
 \noindent\thetitle\vskip 1sp
 }
@@ -171,11 +172,11 @@ bindingoffset=10mm, top=25mm,bottom=25mm}
 \vbox to\vsize{\vspace*{36pt}%
 \hrule height3pt
 \vskip6pc
-\parindent \z@ 
+\parindent \z@
 \interlinepenalty\@M
 \Huge
 \hyphenpenalty10000
-\bfseries\titlefont 
+\bfseries\titlefont
 \uppercase{\thetitle}
 \ifx\subtitle\empty\else
 {\vskip1pt\baselineskip22pt
@@ -229,7 +230,7 @@ bindingoffset=10mm, top=25mm,bottom=25mm}
 
 %~\vspace{\fill}
 
-%{\huge 
+%{\huge
 %Protocolos de Quimioterapia
 %}
 
@@ -271,7 +272,7 @@ bindingoffset=10mm, top=25mm,bottom=25mm}
 \vspace*{\baselineskip}
 {\LARGE PROTOCOLOS DE QUIMIOTERAPIA \\[0.5\baselineskip]}
 	\scshape
-{\Large Manual de 
+{\Large Manual de
 tratamento clínico de pacientes pediátricos com tumores cerebrais \\[0.5\baselineskip]}\par
 
 \vfill
@@ -281,7 +282,7 @@ tratamento clínico de pacientes pediátricos com tumores cerebrais \\[0.5\basel
 {\itshape Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin \par}
 
 {\Large JUVENIA B. FONTENELE \par}
-{\itshape Faculdade de Farmácia, Odontologia e Enfermagem, 
+{\itshape Faculdade de Farmácia, Odontologia e Enfermagem,
 
 Universidade Federal do Ceará - Fortaleza - CE\par}
 \vspace*{4\baselineskip}
@@ -349,11 +350,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus ante, auctor
     \multicolumn{1}{c|}{}&&&\multicolumn{1}{|c|}{Anaplásico}&&{4,4\%}&{2,2\%}\\
 	\cline{3-7}
     \multicolumn{1}{c|}{}&{}&\multicolumn{2}{c|}{Oligodendrogliomas}&{NI}&{0,9\%}&{0,9\%}\\
-	\cline{3-7}    
+	\cline{3-7}
     \multicolumn{1}{c|}{}&&{\multirow{2}{*}{Ependimomas}}&\multicolumn{1}{|c|}{Clássico}&{\multirow{2}{*}{6,8\%}}&{\multirow{2}{*}{7,4\%}}&{7,9\%}\\
     \cline{4-4}\cline{7-7}
     \multicolumn{1}{c|}{}&&&\multicolumn{1}{|c|}{Anaplásico}&&&{4\%}\\
-	\cline{3-7}    
+	\cline{3-7}
     \multicolumn{1}{c|}{}&&\multicolumn{2}{c|}{Glioblastoma}&{NI}&{3,7\%}&{3,5\%}\\
     \cline{2-7}
     \multicolumn{1}{c|}{}&{\multirow{6}{*}{Embrionários}}&{\multirow{3}{*}{Meduloblastomas}}&\multicolumn{1}{|c|}{Clássico}&{\multirow{3}{*}{13,6\%}}&{\multirow{3}{*}{11,2\%}}&{21\%}\\
@@ -363,7 +364,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus ante, auctor
     \multicolumn{1}{c|}{}&&&\multicolumn{1}{|c|}{Anaplásico}&&&{0,4\%}\\
 	\cline{3-7}
     \multicolumn{1}{c|}{}&{}&\multicolumn{2}{c|}{Pineoblastomas}&{\multirow{3}{*}{3,9\%}}&{NI}&{0,4\%}\\
-	\cline{3-4}\cline{6-7} 
+	\cline{3-4}\cline{6-7}
     \multicolumn{1}{c|}{}&&{\multirow{2}{*}{PNET}}&\multicolumn{1}{|c|}{Supratentorial}&&{\multirow{2}{*}{2,7\%}}&{1,3\%}\\
     \cline{4-4}\cline{7-7}
     \multicolumn{1}{c|}{}&&&\multicolumn{1}{|c|}{Outros}&&&{0,9\%}\\
@@ -385,12 +386,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus ante, auctor
 \section{Tumores cerebrais na infância e adolescência}
 \begin{center}
 \begin{figure}[htpb]
-\includegraphics[scale=0.9,trim = 30mm 10mm 8mm 15mm,clip]{../fig/fig1.pdf}
+\includegraphics[scale=0.9,trim = 30mm 10mm 8mm 15mm,clip]{fig1.pdf}
 \caption{Tratamento de crianças com tumores cerebrais, com histologia}
 %\label{Rotulo}
 \end{figure}
 \begin{figure}[!htb]
-\includegraphics[trim = 20mm 50mm 10mm 13mm,clip]{../fig/fig2.pdf}
+\includegraphics[trim = 20mm 50mm 10mm 13mm,clip]{fig2.pdf}
 \caption{Tratamento de crianças com tumores cerebrais, sem histologia}
 %\label{Rotulo}
 \end{figure}
@@ -415,7 +416,7 @@ O HIAS-CPC é referência estadual para o tratamento de crianças com tumores ce
 
 \subsection{Avaliação crítica de ensaios clínicos}
 \begin{figure}[!htb]
-\includegraphics[trim = 18mm 30mm 15mm 12mm,clip]{../fig/fig3.pdf}
+\includegraphics[trim = 18mm 30mm 15mm 12mm,clip]{fig3.pdf}
 \caption{Tratamento de crianças com gliomas de baixo grau.}
 %\label{Rotulo}
 \end{figure}
@@ -462,7 +463,7 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
 \textbf{Elegível:} pacientes com menos de 12 anos ou portadores de NF-1, com astrocitoma de baixo grau (pilocítico, difuso, outros), oligodendroglioma, ganglioglioma, tumores mistos (oligoastrocitomas, outros), tumores de vias ópticas/hipotálamo (imagem típica, mesmo sem biópsia). Incluir tumores focais de tronco, excluir DIPG, ou tumores difusos de linha média H3K27M+. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
 
-\textbf{Alternativa:} a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. O tratamento com vimblastina semanal também pode ser usado como primeira linha. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT. 
+\textbf{Alternativa:} a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. O tratamento com vimblastina semanal também pode ser usado como primeira linha. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT.
 
 \def\entrywithlabel[#1]#2{\parbox{#1}{{\small #2:} \hrulefill}}
 \def\entrywithlabelunder[#1]#2{\parbox{#1}{\hrulefill\\[-.75ex]\centerline {#2}}}
@@ -470,7 +471,7 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
 \def\boxentry[#1]#2{{\setlength{\fboxsep}{-\fboxrule}\fbox{\parbox{#1}{\smash{\raise-6.5pt\hbox{~{\tiny #2}}}\vspace{2ex}\mbox{}}}}}
 \def\boxpar[#1]#2#3{{\setlength{\fboxsep}{-\fboxrule}\fbox{\parbox[][#2][t]{#1}{\mbox{}\\[-.125\baselineskip]\mbox{}~#3}}}}
 
-\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill 
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill
 
 \entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 
@@ -519,7 +520,7 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \\
     \hline
     \\
-	\hline    
+	\hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D50}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
     \hline
@@ -581,7 +582,7 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \multicolumn{1}{c|}{Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
     \\
     \hline
-    
+
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D141}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
@@ -767,7 +768,7 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
 
 \end{center}
 
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar ciclo 1 semana se Neut < 500mm\(^3\) ou Plaq > 50 mil/mm\(^3\). Qualquer paciente com febre ou neutropenia e/ ou infecção localizada terão tratamento in- terrompido até que estas complicações sejam resolvidas. Para os pacientes com mais do que um atraso de 2 semanas de tratamento, associados com sepse, neutropenia ou uma contagem de plaquetas inferior a 20000, a próxima dose de carboplatina será diminuída em 50\%. Para aqueles pacientes que desenvolverem neurotoxicidade significativa relacionada à vincristina  (queda do pé, íleo), a administração de vincristina será suspensa até que haja evidência de melhora neurológica e a próxima dose de vincristina será reduzida em 50\%.
 
 \textbf{ATENÇÃO:} o objetivo deste protocolo é ADIAR O USO DA RT até a criança atingir uma idade onde os efeitos adversos da radiação sejam reduzidos. A principal resposta deste protocolo é ESTABILIZAÇÃO DA DOENÇA. Logo, é inadequado iniciar este esquema de QT em crianças em regime de internação prolongada, dependentes de cuidados hospitalares, visando "melhorar" sua condição clínica. Igualmente, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
@@ -780,7 +781,7 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
 
 \textbf{Elegível:} astrocitoma de baixo grau (pilocítico, difuso, outros), oligodendroglioma, ganglioglioma, tumores mistos (oligoastrocitomas, outros), tumores de vias ópticas/hipotálamo (imagem típica, mesmo sem biópsia). Incluir tumores focais de tronco, excluir DIPG, ou tumores difusos de linha média H3K27M+. Pacientes com reação ou contraindicação ao uso de carboplatina; doença recorrente após prévio tratamento com quimioterapia e/ou radioterapia. Alternativa como primeira linha de tratamento. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
-\textbf{Alternativa:} a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. O protocolo baseado no estudo COG-A9952 (carboplatina e vincristina) pode ser usado como primeira linha. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT. 
+\textbf{Alternativa:} a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. O protocolo baseado no estudo COG-A9952 (carboplatina e vincristina) pode ser usado como primeira linha. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT.
 
 \entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill\\
 
@@ -1094,10 +1095,10 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
    \hline
 \end{longtable}
 \textbf{\textit{Final de Protocolo}}
- 
+
 \textbf{Solicitar imagem (RNM)}
 \end{center}
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{2}. Se Neut < 500mm\(^3\), interromper até subir para 750 ou mais. Se toxicidade hematológica recorrente, reduzir dose para 4mg/m\textsuperscript{2}.
 
 \textbf{ATENÇÃO:} o objetivo deste protocolo é ADIAR O USO DA RT (se não tiver sido feita) até a criança atingir uma idade onde os efeitos adversos da radiação sejam reduzidos, ou controlar doença recidivada após a RT. A principal resposta deste protocolo é ESTABILIZAÇÃO DA DOENÇA. Logo, é inadequado iniciar este esquema de QT em crianças em regime de internação prolongada, dependentes de cuidados hospitalares, visando "melhorar" sua condição clínica. Igualmente, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.\\
@@ -1109,7 +1110,7 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
 
 \textbf{Elegível:} apenas meduloblastoma (fossa posterior), com menos de 1,5cm\textsuperscript{2} de tumor residual (RNM de controle até 21 dias pós-op, preferido 72h após); sem metástases (RNM de neuro-eixo e PL/MO); excluir tumores com anaplasia ou positivos para N-MYC/C-MYC. Tratamento precisa iniciar até 31 dias após cirurgia. Excluir pacientes com menos de 3 anos. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
-\textbf{Alternativa:} a principal alternativa é a RT para neuro-eixo sem redução de dose (36 Gy) com boost para a fossa posterior de 18-20 Gy, completando 54-56 Gy de dose total. Essa estratégia, na ausência de QT adjuvante, é capaz de evitar recidivas em pacientes de risco padrão. 
+\textbf{Alternativa:} a principal alternativa é a RT para neuro-eixo sem redução de dose (36 Gy) com boost para a fossa posterior de 18-20 Gy, completando 54-56 Gy de dose total. Essa estratégia, na ausência de QT adjuvante, é capaz de evitar recidivas em pacientes de risco padrão.
 
 \entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
 
@@ -1305,7 +1306,7 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \\
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D120}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
 \begin{longtable}{p{1cm}p{6cm}|p{1cm}|p{3cm}|p{2.5cm}}
@@ -1322,7 +1323,7 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \cline{2-5}
     \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{ClearCreat Neut (\(>7,5\times10^2\)):}&{}&{}\\
     \hline
-    
+
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D148}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
     \hline
@@ -1350,7 +1351,7 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \\
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D190}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
 \begin{longtable}{p{1cm}p{6cm}|p{1cm}|p{3cm}|p{2.5cm}}
@@ -1394,7 +1395,7 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \\
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D260}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
 \clearpage
@@ -1436,16 +1437,16 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \cline{2-5}
     \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{ClearCreat  Neut (\(>7,5\times10^2\)):}&{}&{}\\
     \hline
-    
+
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D330}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{FIM DE PROTOCOLO}
 
 \end{center}
 
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 Se tiver que adiar a CTX por neutropenia, reduzir em 50\% a dose, mesmo após recuperação.\\
 Toxicidade grau 3-4 pela VCR, suspender dose seguinte. Reiniciar com dose normal. Recorrência: reduzir dose.
 Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000Hz), reduzir CDDP em 50\%. Se ocorrer redução de 30dB na faixa de 4000-8000 Hz), reduzir CDDP em 50\%. Ototoxicidade grau IV: interromper CDDP até nível de lesão retornar ao grau II.
@@ -1948,7 +1949,7 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
 
 \textit{\textbf{Final de Protocolo}}
 \end{center}
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 
 Adiar se L < 1000/mm\(^3\) ou P < 100000/mm\(^3\). Se atraso maior que 7 dias, reduzir dose de ciclofosfamida em 20%.
 Toxicidade grau 3-4 pela VCR, suspender dose seguinte. Reiniciar com dose normal. Recorrência: reduzir dose.
@@ -1969,7 +1970,7 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
 
 \textbf{Elegível:} pacientes com astrocitoma pilocítico, pilomixóide, difuso (ou fibrilar), oligodendroglioma, ganglioglioma, tumores mistos, tumores de vias ópticas/hipotálamo, tumores focais de tronco. Todos os pacientes devem ter feito, pelo menos, 2 (dois) esquemas de QT previamente (recorrência múltipla). Pacientes com contra-indicação à RT (menores de 5 anos e portadores de NF-1) podem ser incluídos. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
-\textbf{Alternativa:} a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT. 
+\textbf{Alternativa:} a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT.
 
 \entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
 
@@ -2263,11 +2264,11 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
     \\
     \hline
 \end{longtable}
- 
+
 \textbf{FIM DE PROTOCOLO}
 
 \end{center}
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 150 mg/m\textsuperscript{2}/dia.
 
 \textbf{Avaliação:} imagem a cada 3 ciclos (3 meses), se progressão, interromper protocolo.
@@ -2286,7 +2287,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
 
 \textbf{Elegível:} meduloblastoma (fossa posterior) e PNET, com mais de 1,5cm\textsuperscript{2} de tumor residual (RNM de controle até 21 dias pós-op, preferido 72h após); e/ou com metástases (RNM de neuro-eixo e PL/MO); incluir tumores com anaplasia ou positivos para N-MYC/C-MYC. Excluir pacientes com marcador INI-1 negativo ou menores de 3 anos. Tratamento precisa iniciar até 31 dias após cirurgia. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
-\textbf{Alternativa:} não existe alternativa de QT amplamente aceita para este grupo de pacientes. Invariavelmente, os pacientes com doença metastática e fatores de risco molecular têm prognóstico insatisfatório, com reduzida sobrevida livre de progressão prolongada. 
+\textbf{Alternativa:} não existe alternativa de QT amplamente aceita para este grupo de pacientes. Invariavelmente, os pacientes com doença metastática e fatores de risco molecular têm prognóstico insatisfatório, com reduzida sobrevida livre de progressão prolongada.
 
 \entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
 
@@ -2462,7 +2463,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \\
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D92}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
     \begin{longtable}{p{1cm}p{5cm}|p{1cm}|p{4cm}|p{2.5cm}}
@@ -2482,7 +2483,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \\
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D120}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
     \begin{longtable}{p{1cm}p{5cm}|p{1cm}|p{4cm}|p{2.5cm}}
@@ -2502,7 +2503,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \\
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D148}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
 \    \begin{longtable}{p{1cm}p{5cm}|p{1cm}|p{4cm}|p{2.5cm}}
@@ -2521,7 +2522,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \hline\\
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D176}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
     \begin{longtable}{p{1cm}p{5cm}|p{1cm}|p{4cm}|p{2.5cm}}
@@ -2541,7 +2542,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \\
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D204}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
 \    \begin{longtable}{p{1cm}p{5cm}|p{1cm}|p{4cm}|p{2.5cm}}
@@ -2561,12 +2562,12 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \\
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D232}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline    
+    \hline
 \end{longtable}
 \textbf{FIM DE PROTOCOLO}
 
 \end{center}
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 Se tiver que adiar a CTX por neutropenia, reduzir em 25\% a dose, mesmo após recuperação.Toxicidade grau 3-4 pela VCR, suspender dose seguinte. Reiniciar com dose normal. Recorrência: reduzir dose.
 
 \textbf{Avaliação:} imagem a cada 3 ciclos (3 meses), se progressão, interromper protocolo.
@@ -2802,7 +2803,7 @@ Se tiver que adiar a CTX por neutropenia, reduzir em 25\% a dose, mesmo após re
 \clearpage
 
 
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 150 mg/m\textsuperscript{2}/dia
 
 \textbf{Avaliação:} imagem a cada 3 ciclos (3 meses), se progressão, interromper protocolo.
@@ -3048,7 +3049,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
 \textbf{FIM DE PROTOCOLO}
 
 \end{center}
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 \textbf{ATENÇÃO:} este protocolo é off-label (não padronizado) e não tem eficácia comprovada quando comparado com tratamento padrão sem QT. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
 
 \textbf{Avaliação:} imagem a cada 3 ciclos (3 meses), se progressão, interromper protocolo. RNM após fim do protocolo (30 semanas): considerar segunda cirurgia.
@@ -3320,7 +3321,7 @@ Apenas pacientes com ependimomas ressecados incompletamente, de acordo com a def
 \end{longtable}
 \textit{\textbf{Final de Protocolo}}
 \end{center}
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 
 Adiar se L < 1000/mm\(^3\) ou P < 100000/mm\(^3\). Se atraso maior que 7 dias, reduzir dose de ciclofosfamida em 20%.
 Toxicidade grau 3-4 pela VCR, suspender dose seguinte. Reiniciar com dose normal. Recorrência: reduzir dose.
@@ -3406,7 +3407,7 @@ Carboplatina: 12,5 mg/kg – Vincristina: 0,05 mg/kg – Ciclofosfamida: 33 mg/k
 \end{longtable}
 \textbf{Intervalo de 14-21 dias.}
 \end{center}
- 
+
 \begin{center}
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{3cm}|p{3cm}}
 	\hline
@@ -3435,7 +3436,7 @@ Carboplatina: 12,5 mg/kg – Vincristina: 0,05 mg/kg – Ciclofosfamida: 33 mg/k
 \textbf{REAVALIAR A CADA 3 CICLOS}
 \end{center}
 
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes em 25% (ambas as drogas).
 
 \textbf{Avaliação:} imagem a cada 3 ciclos, se progressão, interromper protocolo.
@@ -3485,7 +3486,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes em 25%
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D6 até recuperação}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
-    
+
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}
     \\hline
@@ -3527,7 +3528,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes em 25%
 \end{center}
 
 
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subsequentes em 25% (todas as drogas). Caso não ocorra recuperação após o D35, o protocolo deve ser interrompido.
 
 \textbf{Avaliação:} imagem a cada 4 ciclos, se progressão, interromper protocolo.
@@ -3868,11 +3869,11 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \\
     \hline
 \end{longtable}
- 
+
 \textbf{FIM DE PROTOCOLO}
 
 \end{center}
-\subsection{Modificações de dose:} 
+\subsection{Modificações de dose:}
 Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 150 mg/m\textsuperscript{2}/dia
 
 \textbf{Avaliação:} imagem a cada 3 ciclos (3 meses), se progressão, interromper protocolo.
