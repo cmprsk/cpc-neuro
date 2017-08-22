@@ -1,0 +1,13 @@
+sudo: required
+before_install:
+- sudo apt-get update
+- sudo apt-get install -y --no-install-recommends
+      texlive-latex-recommended
+      texlive-latex-extra
+      texlive-fonts-recommended
+      latex-xcolor
+      texlive-lang-portuguese
+script:
+- latex    -interaction=nonstopmode -halt-on-error v0.1/CPC-NEURO2014.tex
+- bibtex   v0.1/CPC-NEURO2014.tex
+- pdflatex -interaction=nonstopmode -halt-on-error v0.1/CPC-NEURO2014.tex
