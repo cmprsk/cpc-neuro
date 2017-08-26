@@ -29,7 +29,8 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 %left=20mm,right=20mm,
 %bindingoffset=10mm, top=25mm,bottom=25mm}
 
-\hfuzz=0.6pt
+\hfuzz=0.7pt
+\vfuzz=0.7pt
 
 \OnehalfSpacing
 %\linespread{1.3}
@@ -107,7 +108,7 @@ Juvenia Bezerra Fontenele
 
 Manual de tratamento clínico de pacientes pediátricos com tumores cerebrais\\[1em]
 
-Versão 0.11\\
+Versão 0.1.1\\
 \small Código: http://bit.ly/fhcflx-2ifVArn
 
 \vspace{3.5cm}
@@ -279,6 +280,9 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
 \def\boxpar[#1]#2#3{{\setlength{\fboxsep}{-\fboxrule}\fbox{\parbox[][#2][t]{#1}{\mbox{}\\[-.125\baselineskip]\mbox{}~#3}}}}
 
 \entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill
+
+\vspace{4mm}
+
 \entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 
 \subsection{Indução: 10 semanas}
@@ -295,8 +299,9 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D8}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
     \hline
-    \\
-    \hline
+\end{longtable}
+\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
+   \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D15}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
     \hline
@@ -344,6 +349,13 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
 \textbf{Intervalo de 21 dias.}
 \end{center}
 
+\clearpage
+\vspace{5mm}
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+
 \subsection{Manutenção: 48 semanas (08 blocos de 6 semanas)}
 
 \begin{center}
@@ -372,16 +384,6 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias.}
-\end{center}
-
-\pagebreak
-
-\vspace{5mm}
-\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
-
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
-\begin{center}
 \begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D127}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
@@ -408,7 +410,6 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
 \end{longtable}
 \textbf{Intervalo de 21 dias.}
 \end{center}
-
 \begin{center}
 \begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
@@ -420,6 +421,7 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D176}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
     \hline
+
     \multicolumn{1}{c|}{Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
     \\
     \hline
@@ -428,17 +430,15 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D183}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
     \hline
-    \\
+
+\end{longtable}
+\textbf{Intervalo de 21 dias.}
+
+\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D190}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
 	\multicolumn{1}{c|}{}&&{Data:}&\\
-    \hline
-\end{longtable}
-\textbf{Intervalo de 21 dias.}
-\end{center}
-
-\begin{center}
-\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
+    \hline    \\
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D211}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
@@ -463,9 +463,7 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias.}
-\end{center}
 
-\begin{center}
 \begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D253}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
@@ -479,8 +477,19 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
     \\
     \hline
-    \\
-    \hline
+\end{longtable}
+\end{center}
+
+
+\vspace{5mm}
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{center}
+
+\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
+       \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D267}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
     \hline
@@ -491,9 +500,7 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias.}
-\end{center}
-
-\begin{center}
+\
 \begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D295}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
@@ -519,16 +526,7 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias.}
-\end{center}
 
-\pagebreak
-
-\vspace{5mm}
-\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
-
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
-\begin{center}
 \begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D337}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
@@ -547,16 +545,16 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D351}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
     \hline
-    \\
+\end{longtable}
+
+\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D358}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
 	\multicolumn{1}{c|}{}&&{Data:}&\\
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias.}
-\end{center}
 
-\begin{center}
 \begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D379}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
@@ -602,7 +600,7 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
 \textbf{Elegível:} astrocitoma de baixo grau (pilocítico, difuso, outros), oligodendroglioma, ganglioglioma, tumores mistos (oligoastrocitomas, outros), tumores de vias ópticas/hipotálamo (imagem típica, mesmo sem biópsia). Incluir tumores focais de tronco, excluir DIPG, ou tumores difusos de linha média H3K27M+. Pacientes com reação ou contraindicação ao uso de carboplatina; doença recorrente após prévio tratamento com quimioterapia e/ou radioterapia. Alternativa como primeira linha de tratamento. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
 \textbf{Alternativa:} a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. O protocolo baseado no estudo COG-A9952 (carboplatina e vincristina) pode ser usado como primeira linha. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT.
-
+\clearpage
 \vspace{5mm}
 \entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
 
@@ -663,7 +661,9 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
     {Exames:}&{Neut (\(>7,5\times10^2\)):}&{Plaq(\(>10^5\)):}&{TGO:}
     \\
     \hline
-    \\
+\end{longtable}
+
+\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D64}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
@@ -696,16 +696,7 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D99}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
-\end{longtable}
-\end{center}
-
-\vspace{5mm}
-\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
-
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
-\begin{center}
-\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
+    \\
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D106}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
@@ -732,7 +723,17 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D134}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
-    \\
+    \end{longtable}
+\end{center}
+
+\vspace{5mm}
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{center}
+\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
+
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D141}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
@@ -786,7 +787,10 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
     {Exames:}&{Neut (\(>7,5\times10^2\)):}&{Plaq(\(>10^5\)):}&{TGO:}
     \\
     \hline
-    \\
+    \end{longtable}
+	
+	\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
+
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D204}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
@@ -837,16 +841,7 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D260}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
-\end{longtable}
-\end{center}
-
-\vspace{5mm}
-\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
-
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
-\begin{center}
-\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
+	\\
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D267}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
@@ -856,7 +851,17 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D274}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
-    \\
+    \end{longtable}
+\end{center}
+
+\vspace{5mm}
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{center}
+\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
+
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D281}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
@@ -909,7 +914,8 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
     {Exames:}&{Neut (\(>7,5\times10^2\)):}&{Plaq(\(>10^5\)):}&{TGO:}
     \\
     \hline
-    \\
+\end{longtable}
+\begin{longtable}{p{1cm}p{4.5cm}|p{4.5cm}|p{2.5cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{344}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
@@ -1108,8 +1114,8 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \hline
 \end{longtable}
 \textbf{Intervalo de 28 dias}\\
+\textbf{\tiny{Máximo de 8 doses de VCR, máximo de 20 dias recebendo RT cranioespinhal, máximo de 51 dias de RT no total}}
 \end{center}
-\textbf{Máximo de 8 doses de VCR, máximo de 20 dias recebendo RT cranioespinhal, máximo de 51 dias de RT no total}
 \pagebreak
 \subsection{Manutenção: 04 ciclos A e 04 ciclos B}
 
@@ -1177,15 +1183,8 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D148}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
     \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D155}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
-    \hline
     \end{longtable}
-    \textbf{Intervalo de 28 dias}
-
 \end{center}
-\pagebreak
 
 \vspace{5mm}
 \entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
@@ -1193,6 +1192,14 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
 \entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 
 \begin{center}
+\begin{longtable}{p{1cm}p{5.5cm}|p{1cm}|p{3cm}|p{1.5cm}}
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D155}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \end{longtable}
+    \textbf{Intervalo de 28 dias}
+
 \begin{longtable}{p{1cm}p{5.5cm}|p{1cm}|p{3cm}|p{1.5cm}}
     \hline
 	\multicolumn{5}{c}{\textbf{CICLO B}}\\
@@ -1234,7 +1241,7 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \hline
     \end{longtable}
     \textbf{Intervalo de 28 dias}
-    \\
+\clearpage
 \begin{longtable}{p{1cm}p{5.5cm}|p{1cm}|p{3cm}|p{1.5cm}}
     \hline
 	\multicolumn{5}{c}{\textbf{CICLO B}}\\
@@ -1255,7 +1262,6 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
-\pagebreak
 \begin{longtable}{p{1cm}p{5.5cm}|p{1cm}|p{3cm}|p{1.5cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO A}}\\
@@ -1493,6 +1499,11 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
 \textbf{Menos de 36 meses de idade ao terminar indução:} Sem doença residual – ir para manutenção. Doença residual: considerar \textit{second look surgery}.\\
 \textbf{Mais de 36 meses de idade ao terminar a indução:} Sem doença residual, nem metástase – manutenção. Doença residual/metástase – RT antes da manutenção. Reiniciar QT 4 semanas após o fim da RT e completar a manutenção.
 
+\vspace{5mm}
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
 \subsection{Manutenção: 08 ciclos}
 \begin{center}
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
@@ -1534,8 +1545,7 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{30}}}&&{Etoposido \(1,5\) mg/kg/dia)}&{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\end{center}
-\begin{center}
+
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Ciclo 2} \\
@@ -1551,14 +1561,7 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \multicolumn{1}{c|}{\textbf{51}}&\multirow{1}{*}{}&{Etoposido \(1,5\) mg/kg/dia}&{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\end{center}
 
-\vspace{5mm}
-\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
-
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
-\begin{center}
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&{}&&{Administrado}&{Rubrica} \\
@@ -1622,6 +1625,13 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{128}}}&&{Etoposido \(1,5\) mg/kg/dia)}&{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
+
+\end{center}
+
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+\begin{center}
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Ciclo 4} \\
@@ -1661,8 +1671,6 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{177}}}&&{Etoposido \(1,5\) mg/kg/dia)}&{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\end{center}
-\begin{center}
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Ciclo 5} \\
@@ -1678,6 +1686,7 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \multicolumn{1}{c|}{\textbf{198}}&\multirow{1}{*}{}&{Etoposido \(1,5\) mg/kg/dia}&{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
+
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&{}&&{Administrado}&{Rubrica} \\
@@ -1689,14 +1698,6 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \multicolumn{1}{c|}{\textbf{218}}&&{Vincristina \(0,05\) mg/kg}&\multicolumn{1}{c}{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\end{center}
-
-\vspace{5mm}
-\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
-
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
-\begin{center}
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&\multicolumn{1}{c|}{Leuco}&\multicolumn{1}{c|}{Plaq}&{Administrado}&{Rubrica} \\
@@ -1709,8 +1710,7 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{226}}}&&{Etoposido \(1,5\) mg/kg/dia)}&{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\end{center}
-\begin{center}
+
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Ciclo 6} \\
@@ -1751,6 +1751,12 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \hline
 \end{longtable}
 \end{center}
+
+\vspace{5mm}
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
 \begin{center}
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
@@ -1791,8 +1797,7 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{324}}}&&{Etoposido \(1,5\) mg/kg/dia)}&{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\end{center}
-\begin{center}
+
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Ciclo 8} \\
@@ -1819,14 +1824,6 @@ Se ocorrer redução de 20dB ou mais em frequências auditivas baixas (500-2000H
     \multicolumn{1}{c|}{\textbf{365}}&&{Vincristina \(0,05\) mg/kg}&\multicolumn{1}{c}{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\end{center}
-
-\vspace{5mm}
-\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
-
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
-\begin{center}
 \begin{longtable}{p{1cm}c|p{4.7cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&\multicolumn{1}{c|}{Leuco}&\multicolumn{1}{c|}{Plaq}&{Administrado}&{Rubrica} \\
@@ -1900,8 +1897,6 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
 \\
-\end{center}
-\begin{center}
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
@@ -1928,9 +1923,7 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\end{center}
 
-\begin{center}
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 3}}\\
@@ -1956,9 +1949,7 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
     \\
     \hline
 \end{longtable}
-\textbf{Intervalo de 14 dias.}
 \end{center}
-\pagebreak
 
 \vspace{5mm}
 \entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
@@ -1966,6 +1957,8 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
 \entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 
 \begin{center}
+\textbf{Intervalo de 14 dias.}
+
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 4}}\\
@@ -1992,9 +1985,7 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\end{center}
 
-\begin{center}
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 5}}\\
@@ -2021,9 +2012,7 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\end{center}
-\clearpage
-\begin{center}
+
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 6}}\\
@@ -2050,9 +2039,7 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\end{center}
 
-\begin{center}
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 7}}\\
@@ -2114,9 +2101,7 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\end{center}
 
-\begin{center}
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 9}}\\
@@ -2143,9 +2128,7 @@ Se ocorrer redução de 20dB ou mais em freqüências auditivas baixas (500-2000
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\end{center}
-\clearpage
-\begin{center}
+
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 10}}\\
@@ -2225,7 +2208,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{BT(<1,9mg/dl):}&\multicolumn{2}{l|}{BD(\(<1,5\)mg/dl):}&\\
     \hline
 \end{longtable}
-\clearpage
+
 \begin{longtable}{p{1cm}p{2cm}|p{2cm}|p{1cm}|p{3.5cm}|p{2.5cm}}
 	\hline
 	\multicolumn{6}{c}{\textbf{SEMANA 2}}\\
@@ -2268,7 +2251,15 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \\
     \hline
 \end{longtable}
-\clearpage
+\end{center}
+
+\pagebreak
+\vspace{5mm}
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{center}
 \begin{longtable}{p{1cm}p{2cm}|p{2cm}|p{1cm}|p{3.5cm}|p{2.5cm}}
 	\hline
 	\multicolumn{6}{c}{\textbf{SEMANA 4}}\\
@@ -2351,6 +2342,12 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
 \end{longtable}
 \textbf{Intervalo de 42 dias}\\
 \end{center}
+\pagebreak
+\vspace{5mm}
+
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 
 \subsection{Manutenção: 06 ciclos}
 
@@ -2395,7 +2392,9 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
-    \begin{longtable}{p{1cm}p{5cm}|p{1cm}|p{3.5cm}|p{2cm}}
+   \pagebreak
+   
+ \begin{longtable}{p{1cm}p{5cm}|p{1cm}|p{3.5cm}|p{2cm}}
     \hline
 	\multicolumn{5}{c}{\textbf{CICLO 3}}\\
 	\hline
@@ -2448,7 +2447,17 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \cline{2-5}
     \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{ClearCreat:}&{}&{}\\
     \hline
-    \\
+\end{longtable}
+\end{center}
+    \pagebreak
+\vspace{5mm}
+
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+\begin{center}
+    \begin{longtable}{p{1cm}p{5cm}|p{1cm}|p{3.5cm}|p{2cm}}
+
     \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D204}}}&{Vincristina \(1,5\) mg/m\(^2\), max \(2\) mg}&&{(  ) Sim (  ) Não}&\\
     \hline
@@ -2579,8 +2588,13 @@ Se tiver que adiar a CTX por neutropenia, reduzir em 25\% a dose, mesmo após re
     \\
     \hline
 \end{longtable}
-\textbf{Intervalo de 28 dias.}
-\\
+\end{center}
+
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}\\
+\begin{center}
+\textbf{Intervalo de 28 dias.}\\
 
 \begin{longtable}{p{1cm}p{4cm}|p{1.5cm}|p{4cm}|p{2cm}}
 	\hline
@@ -2770,6 +2784,12 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \multicolumn{1}{c|}{\textbf{26}}&&{Vincristina \(1,5\) mg/m\(^2\)/dia}&\multicolumn{1}{c}{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
+\end{center}
+\clearpage
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}\\
+\begin{center}
 \begin{longtable}{p{1cm}c|p{3.5cm}|p{2cm}p{2cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{PEIV} \\
@@ -2805,7 +2825,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
 \subsection{Manutenção: 08 ciclos}
 
 \begin{center}
-\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{2cm}|c|c}
+\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{1.7cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Vincristina semanal} \\
 	\hline
@@ -2822,7 +2842,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
-\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{2cm}|c|c}
+\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{1.7cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Vincristina semanal} \\
 	\hline
@@ -2839,7 +2859,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
-\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{2cm}|c|c}
+\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{1.7cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Vincristina semanal} \\
 	\hline
@@ -2855,9 +2875,16 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \multicolumn{1}{c|}{\textbf{147}}&&{Vincristina \(1,5\) mg/m\(^2\)/dia}&\multicolumn{1}{c}{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
+\end{center}
+
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}\\
+\begin{center}
+
 \textbf{Intervalo de 21 dias}
-\\[0.8cm]
-\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{2cm}|c|c}
+\\
+\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{1.7cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Vincristina semanal} \\
 	\hline
@@ -2874,7 +2901,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
-\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{2cm}|c|c}
+\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{1.7cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Vincristina semanal} \\
 	\hline
@@ -2890,8 +2917,10 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \multicolumn{1}{c|}{\textbf{217}}&&{Vincristina \(1,5\) mg/m\(^2\)/dia}&\multicolumn{1}{c}{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
+
 \textbf{Intervalo de 21 dias}
-\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{2cm}|c|c}
+\clearpage
+\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{1.7cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Vincristina semanal} \\
 	\hline
@@ -2908,8 +2937,8 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
-\\[1.5cm]
-\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{2cm}|c|c}
+\\
+\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{1.7cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Vincristina semanal} \\
 	\hline
@@ -2926,7 +2955,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
     \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias}
-\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{2cm}|c|c}
+\begin{longtable}{p{1cm}c|p{5cm}|p{1cm}p{1.7cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Vincristina semanal} \\
 	\hline
@@ -2983,6 +3012,7 @@ Durante a radioterapia:\\
 {Obstipação}&{Adiar vincristina por 1 semana Lactulose \(0,1\) g/kg cada 12h profilática}\\
 \hline
 \end{longtable}
+\clearpage
 \textbf{Antes do segundo bloco (PEIV):}
 
 \begin{longtable}{p{5cm}|p{4.5cm}}
@@ -3033,12 +3063,12 @@ Os pacientes do estrato 1 foram apenas observados, sendo que 5 de 11 apresentara
 \entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
 
 \entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
+\clearpage
 \subsection{Indução: 2 ciclos (pré-radioterapia)}
 \renewcommand{\arraystretch}{1.5}
 
 \begin{center}
-\begin{longtable}{p{1cm}c|p{5cm}|p{1.5cm}p{1.5cm}|c|c}
+\begin{longtable}{p{1cm}c|p{4.5cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&\multicolumn{1}{c|}{Leuco}&\multicolumn{1}{c|}{Plaq}&{Administrado}&{Rubrica} \\
     \hline
@@ -3055,7 +3085,7 @@ Os pacientes do estrato 1 foram apenas observados, sendo que 5 de 11 apresentara
     \multicolumn{1}{c|}{\textbf{3-12}}&&{G-CSF \(5 \mu g/ml\) }&&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\begin{longtable}{p{1cm}c|p{4cm}|p{2cm}p{2cm}|c|c}
+\begin{longtable}{p{1cm}c|p{3.6cm}|p{2cm}p{2cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&{}&&{Administrado}&{Rubrica} \\
     \hline
@@ -3064,9 +3094,7 @@ Os pacientes do estrato 1 foram apenas observados, sendo que 5 de 11 apresentara
 \end{longtable}
 \textbf{Intervalo de 14 dias}
 
-\clearpage
-
-\begin{longtable}{p{1cm}c|p{5cm}|p{1.5cm}p{1.5cm}|c|c}
+\begin{longtable}{p{1cm}c|p{4.5cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&\multicolumn{1}{c|}{Leuco}&\multicolumn{1}{c|}{Plaq}&{Administrado}&{Rubrica} \\
     \hline
@@ -3081,7 +3109,7 @@ Os pacientes do estrato 1 foram apenas observados, sendo que 5 de 11 apresentara
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{23}}}&&{Etoposido \(100\) mg/m\(^2\)/dia)}&{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\begin{longtable}{p{1cm}c|p{4cm}|p{2cm}p{2cm}|c|c}
+\begin{longtable}{p{1cm}c|p{3.6cm}|p{2cm}p{2cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&{}&&{Administrado}&{Rubrica} \\
     \hline
@@ -3093,12 +3121,16 @@ Os pacientes do estrato 1 foram apenas observados, sendo que 5 de 11 apresentara
 \textit{\textbf{Encaminhar para Radioterapia}}
 
 \end{center}
+\clearpage
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
 
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+\
 \subsection{Manutenção: 04 ciclos (VCEC)}
 Apenas pacientes com ependimomas ressecados incompletamente, de acordo com a definição do COG.
 
 \begin{center}
-\begin{longtable}{p{1cm}c|p{5cm}|p{1.5cm}p{1.5cm}|c|c}
+\begin{longtable}{p{1cm}c|p{4.5cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Ciclo 1} \\
 	\hline
@@ -3121,7 +3153,7 @@ Apenas pacientes com ependimomas ressecados incompletamente, de acordo com a def
     \multicolumn{1}{c|}{\textbf{4-13}}&&{G-CSF \(5 \mu g/ml\) }&&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\begin{longtable}{p{1cm}c|p{4cm}|p{2cm}p{2cm}|c|c}
+\begin{longtable}{p{1cm}c|p{3.6cm}|p{2cm}p{2cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&{}&&{Administrado}&{Rubrica} \\
     \hline
@@ -3130,8 +3162,8 @@ Apenas pacientes com ependimomas ressecados incompletamente, de acordo com a def
     \multicolumn{1}{c|}{\textbf{15}}&&{Vincristina \(1,5\) mg/m\(^2\)/dia}&\multicolumn{1}{c}{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-
-\begin{longtable}{p{1cm}c|p{5cm}|p{1.5cm}p{1.5cm}|c|c}
+\clearpage
+\begin{longtable}{p{1cm}c|p{4.5cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Ciclo 2} \\
 	\hline
@@ -3154,7 +3186,7 @@ Apenas pacientes com ependimomas ressecados incompletamente, de acordo com a def
     \multicolumn{1}{c|}{\textbf{25-34}}&&{G-CSF \(5 \mu g/ml\) }&&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\begin{longtable}{p{1cm}c|p{4cm}|p{2cm}p{2cm}|c|c}
+\begin{longtable}{p{1cm}c|p{3.6cm}|p{2cm}p{2cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&{}&&{Administrado}&{Rubrica} \\
     \hline
@@ -3163,7 +3195,8 @@ Apenas pacientes com ependimomas ressecados incompletamente, de acordo com a def
     \multicolumn{1}{c|}{\textbf{36}}&&{Vincristina \(1,5\) mg/m\(^2\)/dia}&\multicolumn{1}{c}{}&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\begin{longtable}{p{1cm}c|p{5cm}|p{1.5cm}p{1.5cm}|c|c}
+
+\begin{longtable}{p{1cm}c|p{4.5cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Ciclo 3} \\
 	\hline
@@ -3183,11 +3216,22 @@ Apenas pacientes com ependimomas ressecados incompletamente, de acordo com a def
     \multicolumn{1}{c|}{}&&{MESNA \(200\) mg/m\(^2 \times 0,1,5\)h}&&&{(  ) Sim (  ) Não}&\\
     \multicolumn{1}{c|}{}&\multirow{1}{*}{}&{Etoposido \(100\) mg/m\(^2\)/dia)}&{}&&{(  ) Sim (  ) Não}&\\
     \hline
+    \end{longtable}
+\end{center}
+
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{center}
+\begin{longtable}{p{1cm}|p{0.6cm}|p{4.5cm}|p{1.5cm}p{1.5cm}|c|p{0.9cm}}
+
+\hline
     \multicolumn{1}{c|}{\textbf{46-55}}&&{G-CSF \(5 \mu g/ml\) }&&&{(  ) Sim (  ) Não}&\\
     \hline
 \end{longtable}
-\clearpage
-\begin{longtable}{p{1cm}c|p{4cm}|p{2cm}p{2cm}|c|c}
+
+\begin{longtable}{p{1cm}c|p{3.6cm}|p{2cm}p{2cm}|c|c}
 	\hline
 	\multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Data}&{}&{}&&{Administrado}&{Rubrica} \\
     \hline
@@ -3197,7 +3241,7 @@ Apenas pacientes com ependimomas ressecados incompletamente, de acordo com a def
     \hline
 \end{longtable}
 
-\begin{longtable}{p{1cm}c|p{5cm}|p{1.5cm}p{1.5cm}|c|c}
+\begin{longtable}{p{1cm}c|p{4.5cm}|p{1.5cm}p{1.5cm}|c|c}
 	\hline
 	\multicolumn{7}{c}{Ciclo 4} \\
 	\hline
@@ -3279,9 +3323,7 @@ Carboplatina: 12,5 mg/kg – Vincristina: 0,05 mg/kg – Ciclofosfamida: 33 mg/k
     \hline
 \end{longtable}
 \textbf{Intervalo de 14-21 dias.}
-\end{center}
-\clearpage
-\begin{center}
+
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{3cm}|p{3cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
@@ -3306,9 +3348,7 @@ Carboplatina: 12,5 mg/kg – Vincristina: 0,05 mg/kg – Ciclofosfamida: 33 mg/k
     \hline
 \end{longtable}
 \textbf{Intervalo de 14-21 dias.}
-\end{center}
 
-\begin{center}
 \begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{3cm}|p{3cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 3}}\\
@@ -3356,12 +3396,13 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes em 25%
 
 \entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 
+\clearpage
 \subsection{Resgate: 02 ciclos - repetir enquanto não houver progressão}
 
 \renewcommand{\arraystretch}{1.5}
 
 \begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{3cm}|p{3cm}}
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{2.5cm}|p{2.4cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
 \hline
@@ -3388,14 +3429,18 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes em 25%
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D6 até recuperação}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
 
     \hline
-    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}
-    \\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
 \end{longtable}
 \textbf{Intervalo de 21 dias.}
 \end{center}
+\clearpage
 
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 \begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{3cm}|p{3cm}}
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{2.5cm}|p{2.4cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
 \hline
@@ -3421,8 +3466,8 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes em 25%
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D6 até recuperação}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
 
     \hline
-    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}
-    \\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
 \end{longtable}
 \textbf{REAVALIAR A CADA 2 CICLOS}
 \end{center}
@@ -3479,7 +3524,7 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
 \subsection{Manutenção: 10 ciclos}
 
 \begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
 \hline
@@ -3498,18 +3543,15 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\\[1.5cm]
-\end{center}
 
-\begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
 \hline
@@ -3528,7 +3570,7 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\
@@ -3537,8 +3579,12 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
 \textbf{Intervalo de 14 dias.}
 \end{center}
 \clearpage
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
 \begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 3}}\\
 \hline
@@ -3557,18 +3603,15 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\\[1.5cm]
-\end{center}
-
-\begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+\\
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 4}}\\
 \hline
@@ -3587,7 +3630,7 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\
@@ -3595,9 +3638,9 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
 \end{center}
-\clearpage
+
 \begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 5}}\\
 \hline
@@ -3616,18 +3659,15 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\\[1.5cm]
-\end{center}
-
-\begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+\\
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 6}}\\
 \hline
@@ -3646,7 +3686,7 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\
@@ -3655,8 +3695,12 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
 \textbf{Intervalo de 14 dias.}
 \end{center}
 \clearpage
+\entrywithlabel[.96\hsize]{\textbf{Nome}}\hfill \\
+
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
 \begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 7}}\\
 \hline
@@ -3675,18 +3719,15 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\\[1.5cm]
-\end{center}
 
-\begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 8}}\\
 \hline
@@ -3705,17 +3746,15 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\end{center}
-\clearpage
-\begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 9}}\\
 \hline
@@ -3734,17 +3773,15 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\end{center}
 
-\begin{center}
-\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{5cm}|p{3cm}}
+\begin{longtable}{p{1cm}p{4cm}|p{1cm}|p{4.5cm}|p{2cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 10}}\\
 \hline
@@ -3763,7 +3800,7 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
     \hline
 \end{longtable}
 \textbf{Intervalo de 14 dias.}
-\begin{longtable}{p{5cm}|p{5cm}|p{5cm}}
+\begin{longtable}{p{5cm}|p{4.4cm}|p{4cm}}
     \hline
     \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
     \\

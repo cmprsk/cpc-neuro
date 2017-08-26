@@ -36,7 +36,7 @@ O manual foi escrito em [LaTeX][latex], usando [ShareLatex][share] e programas p
 
 > Membro da Sociedade Brasileira de Pediatria - [SBP][sbp] desde 2002,
 > Membro da Sociedade Brasileira de Oncología Pediátrica - [SOBOPE][sobope] desde 2013,
-#> Membro da Society for Neuroncology - [SNO][sno] desde 2015
+<!-- > Membro da Society for Neuroncology - [SNO][sno] desde 2015 -->
 
 > Título de especialista em pediatria em 2012,
 > Título de especialista em cancerologia pediátrica em 2014
