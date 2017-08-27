@@ -1,5 +1,4 @@
 [![GitHub release](https://img.shields.io/github/release/fhcflx/cpc-neuro.svg)](https://github.com/fhcflx/cpc-neuro/releases)
-[![GitHub stars](https://img.shields.io/github/stars/fhcflx/cpc-neuro.svg)](https://github.com/fhcflx/cpc-neuro/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/fhcflx/cpc-neuro.svg)](https://github.com/fhcflx/cpc-neuro/issues)
 [![GitHub downloads](https://img.shields.io/github/downloads/fhcflx/cpc-neuro/total.svg)](https://github.com/fhcflx/cpc-neuro/releases)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.845724.svg)](https://doi.org/10.5281/zenodo.845724)
@@ -7,7 +6,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0)
 [![Build](https://img.shields.io/travis/fhcflx/cpc-neuro.svg)](https://travis-ci.org/fhcflx/cpc-neuro)
 
-# Manual de tratamento clínico de pacientes pediátricos com tumores cerebrais
+# Manual de tratamento clínico de pacientes pediátricos com tumores cerebrais
 
 ## O que é:
 
