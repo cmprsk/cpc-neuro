@@ -8,8 +8,8 @@
 # Site settings
 title: Neuro-oncologia pediátrica
 exclude: [README.md,LICENSE.md,.bundle,.git,_site,Gemfile,Gemfile.lock,NO-HIAS,v0.1,vendor]
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/cpc-neuro" # the subpath of your site, e.g. /blog
+url: "http://fhcflx.github.io" # the base hostname & protocol for your site
 defaults:
   -
     scope:
