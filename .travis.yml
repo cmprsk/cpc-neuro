@@ -7,12 +7,7 @@ before_install:
       texlive-fonts-recommended
       latex-xcolor
       texlive-lang-portuguese
-<<<<<<< HEAD
 - openssl aes-256-cbc -K $encrypted_6609dda7fdde_key -iv $encrypted_6609dda7fdde_iv -in publish-key.enc -out publish-key -d
-=======
-- openssl aes-256-cbc -K $encrypted_6609dda7fdde_key -iv $encrypted_6609dda7fdde_iv
-  -in publish-key.enc -out publish-key -d
->>>>>>> 09ecbb6deb6d6cabe549cddf2e477b7624586b48
 - chmod u=rw,og= ~/.ssh/publish-key
 - echo "Host github.com" >> ~/.ssh/config
 - echo "  IdentityFile ~/.ssh/publish-key" >> ~/.ssh/config
