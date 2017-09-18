@@ -11,7 +11,7 @@ before_install:
 - chmod u=rw,og= ~/.ssh/publish-key
 - echo "Host github.com" >> ~/.ssh/config
 - echo "  IdentityFile ~/.ssh/publish-key" >> ~/.ssh/config
-- git remote set-url origin git@github.com:fhcflx/alt-pub.git
+- git remote set-url origin git@github.com:fhcflx/cpc-neuro.git
 - git fetch origin -f master:master
 script:
 - pdflatex -interaction=nonstopmode -halt-on-error CPC-NEURO2014.tex
