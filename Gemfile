@@ -1,2 +1,5 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyl_plugins
+group :jekyl_plugins do
+    gem "github-pages"
+    gem "jekyll-seo-tag"
+end

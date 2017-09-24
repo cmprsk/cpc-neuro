@@ -22,3 +22,6 @@ defaults:
       author: "Francisco H. C. Felix"
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
