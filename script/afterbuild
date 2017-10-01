@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+git add CPC-NEURO2014.pdf
+git commit -m "pdf update"
+git push origin HEAD:master
+
+end
