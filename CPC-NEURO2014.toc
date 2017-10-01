@@ -10,8 +10,12 @@
 \contentsline {subsection}{\numberline {2.1.1}Avalia\IeC {\c c}\IeC {\~a}o cr\IeC {\'\i }tica de ensaios cl\IeC {\'\i }nicos}{9}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}O panorama molecular dos gliomas de baixo grau}{14}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Tumores embrion\IeC {\'a}rios}{14}{section.2.2}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{15}{section*.13}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{15}{section*.11}
 \contentsline {appendix}{\chapternumberline {A}Esquemas de tratamento}{19}{appendix.A}
+\contentsline {section}{\numberline {A.1}Introdu\IeC {\c c}\IeC {\~a}o}{19}{section.A.1}
+\contentsline {section}{\numberline {A.2}O que s\IeC {\~a}o estes protocolos}{19}{section.A.2}
+\contentsline {section}{\numberline {A.3}Como utilizar estes protocolos}{20}{section.A.3}
+\contentsline {section}{\numberline {A.4}Formato e contribui\IeC {\c c}\IeC {\~o}es}{20}{section.A.4}
 \contentsline {appendix}{\chapternumberline {B}Protocolos principais}{21}{appendix.B}
 \contentsline {section}{\numberline {B.1}GLIOMA DE BAIXO GRAU -- Adaptado do ensaio COG-A9952}{23}{section.B.1}
 \contentsline {subsection}{\numberline {B.1.1}Indu\IeC {\c c}\IeC {\~a}o: 10 semanas}{23}{subsection.B.1.1}
@@ -29,34 +33,39 @@
 \contentsline {subsection}{\numberline {B.4.2}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{44}{subsection.B.4.2}
 \contentsline {subsection}{\numberline {B.4.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{48}{subsection.B.4.3}
 \contentsline {appendix}{\chapternumberline {C}Protocolos \textit {off-label} (n\IeC {\~a}o padronizados)}{51}{appendix.C}
-\contentsline {section}{\numberline {C.1}GLIOMA DE BAIXO GRAU: RECORR\IeC {\^E}NCIA AP\IeC {\'O}S M\IeC {\'U}LTIPLOS TRATAMENTOS (protocolo \textit {off-label})}{53}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}Quimioterapia: 10 ciclos}{53}{subsection.C.1.1}
-\contentsline {subsection}{\numberline {C.1.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{58}{subsection.C.1.2}
-\contentsline {section}{\numberline {C.2}PNET - ALTO RISCO -- Adaptado dos ensaios COG-A99701 e ACNS0332 - protocolo \textit {off-label}}{59}{section.C.2}
-\contentsline {subsection}{\numberline {C.2.1}Radioquimioterapia: 7 semanas (43 dias)}{59}{subsection.C.2.1}
-\contentsline {subsection}{\numberline {C.2.2}Manuten\IeC {\c c}\IeC {\~a}o: 06 ciclos}{62}{subsection.C.2.2}
-\contentsline {subsection}{\numberline {C.2.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{64}{subsection.C.2.3}
-\contentsline {section}{\numberline {C.3}GLIOMA DE ALTO GRAU E DIPG -- Adaptado do ensaio ACNS0423 - protocolo \textit {off-label}}{65}{section.C.3}
+\contentsline {section}{\numberline {C.1}PNET - ALTO RISCO -- Adaptado dos ensaios COG-A99701 e ACNS0332 - protocolo \textit {off-label}}{53}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Radioquimioterapia: 7 semanas (43 dias)}{53}{subsection.C.1.1}
+\contentsline {subsection}{\numberline {C.1.2}Manuten\IeC {\c c}\IeC {\~a}o: 06 ciclos}{56}{subsection.C.1.2}
+\contentsline {subsection}{\numberline {C.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{58}{subsection.C.1.3}
+\contentsline {section}{\numberline {C.2}GLIOMA DE ALTO GRAU E DIPG -- Adaptado do ensaio ACNS0423 - protocolo \textit {off-label}}{59}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{59}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Manuten\IeC {\c c}\IeC {\~a}o: 06 ciclos}{60}{subsection.C.2.2}
+\contentsline {subsection}{\numberline {C.2.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{63}{subsection.C.2.3}
+\contentsline {section}{\numberline {C.3}GLIOMA DE ALTO GRAU E DIPG -- Adaptado do ensaio HIT-GBM-D - protocolo \textit {off-label}}{65}{section.C.3}
 \contentsline {subsection}{\numberline {C.3.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{65}{subsection.C.3.1}
-\contentsline {subsection}{\numberline {C.3.2}Manuten\IeC {\c c}\IeC {\~a}o: 06 ciclos}{66}{subsection.C.3.2}
+\contentsline {subsection}{\numberline {C.3.2}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{67}{subsection.C.3.2}
 \contentsline {subsection}{\numberline {C.3.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{69}{subsection.C.3.3}
-\contentsline {section}{\numberline {C.4}GLIOMA DE ALTO GRAU E DIPG -- Adaptado do ensaio HIT-GBM-D - protocolo \textit {off-label}}{71}{section.C.4}
-\contentsline {subsection}{\numberline {C.4.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{71}{subsection.C.4.1}
-\contentsline {subsection}{\numberline {C.4.2}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{73}{subsection.C.4.2}
-\contentsline {subsection}{\numberline {C.4.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{75}{subsection.C.4.3}
-\contentsline {appendix}{\chapternumberline {D}Quimioterapia de resgate (doen\IeC {\c c}a recorrente/progressiva)}{79}{appendix.D}
-\contentsline {section}{\numberline {D.1}IFOSFAMIDA/ETOPOSIDO - protocolo \textit {off-label}}{81}{section.D.1}
-\contentsline {subsection}{\numberline {D.1.1}Resgate: 03 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{81}{subsection.D.1.1}
-\contentsline {subsection}{\numberline {D.1.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{83}{subsection.D.1.2}
-\contentsline {section}{\numberline {D.2}IFOSFAMIDA, CARBOPLATINA E ETOPOSIDO (ICE) - protocolo \textit {off-label}}{85}{section.D.2}
-\contentsline {subsection}{\numberline {D.2.1}Resgate: 02 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{85}{subsection.D.2.1}
-\contentsline {subsection}{\numberline {D.2.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{87}{subsection.D.2.2}
-\contentsline {appendix}{\chapternumberline {E}Protocolos depreciados (substitu\IeC {\'\i }dos por atualiza\IeC {\c c}\IeC {\~o}es)}{89}{appendix.E}
-\contentsline {section}{\numberline {E.1}GLIOMA DE ALTO GRAU E DIPG -- Adaptado do ensaio ACNS0126 - protocolo \textit {off-label}}{91}{section.E.1}
-\contentsline {subsection}{\numberline {E.1.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{91}{subsection.E.1.1}
-\contentsline {subsection}{\numberline {E.1.2}Manuten\IeC {\c c}\IeC {\~a}o: 10 ciclos}{92}{subsection.E.1.2}
-\contentsline {subsection}{\numberline {E.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{96}{subsection.E.1.3}
-\contentsline {section}{\numberline {E.2}EPENDIMOMA N\IeC {\~A}O METAST\IeC {\'A}TICO -- Adaptado dos ensaios ACNS0121 e ACNS0831 - protocolo \textit {off-label}}{99}{section.E.2}
-\contentsline {subsection}{\numberline {E.2.1}Indu\IeC {\c c}\IeC {\~a}o: 2 ciclos (pr\IeC {\'e}-radioterapia)}{99}{subsection.E.2.1}
-\contentsline {subsection}{\numberline {E.2.2}Manuten\IeC {\c c}\IeC {\~a}o: 04 ciclos (VCEC)}{100}{subsection.E.2.2}
-\contentsline {subsection}{\numberline {E.2.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{103}{subsection.E.2.3}
+\contentsline {appendix}{\chapternumberline {D}Quimioterapia de resgate (doen\IeC {\c c}a recorrente/progressiva)}{73}{appendix.D}
+\contentsline {section}{\numberline {D.1}TUMORES PEDI\IeC {\'A}TRICOS DO SISTEMA NERVOSO CENTRAL RECORRENTES (protocolo \textit {off-label})}{75}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}Quimioterapia: 10 ciclos}{75}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{80}{subsection.D.1.2}
+\contentsline {section}{\numberline {D.2}IFOSFAMIDA/ETOPOSIDO - protocolo \textit {off-label}}{81}{section.D.2}
+\contentsline {subsection}{\numberline {D.2.1}Resgate: 03 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{81}{subsection.D.2.1}
+\contentsline {subsection}{\numberline {D.2.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{83}{subsection.D.2.2}
+\contentsline {section}{\numberline {D.3}IFOSFAMIDA, CARBOPLATINA E ETOPOSIDO (ICE) - protocolo \textit {off-label}}{85}{section.D.3}
+\contentsline {subsection}{\numberline {D.3.1}Resgate: 02 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{85}{subsection.D.3.1}
+\contentsline {subsection}{\numberline {D.3.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{87}{subsection.D.3.2}
+\contentsline {appendix}{\chapternumberline {E}Quimioterapia metron\IeC {\^o}mica}{89}{appendix.E}
+\contentsline {section}{\numberline {E.1}VIMBLASTINA SEMANAL}{91}{section.E.1}
+\contentsline {subsection}{\numberline {E.1.1}Esquema 1: 6 semanas}{91}{subsection.E.1.1}
+\contentsline {subsection}{\numberline {E.1.2}Esquema 2: 6 semanas}{92}{subsection.E.1.2}
+\contentsline {subsection}{\numberline {E.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{94}{subsection.E.1.3}
+\contentsline {appendix}{\chapternumberline {F}Protocolos depreciados (substitu\IeC {\'\i }dos por atualiza\IeC {\c c}\IeC {\~o}es)}{95}{appendix.F}
+\contentsline {section}{\numberline {F.1}GLIOMA DE ALTO GRAU E DIPG -- Adaptado do ensaio ACNS0126 - protocolo \textit {off-label}}{97}{section.F.1}
+\contentsline {subsection}{\numberline {F.1.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{97}{subsection.F.1.1}
+\contentsline {subsection}{\numberline {F.1.2}Manuten\IeC {\c c}\IeC {\~a}o: 10 ciclos}{98}{subsection.F.1.2}
+\contentsline {subsection}{\numberline {F.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{102}{subsection.F.1.3}
+\contentsline {section}{\numberline {F.2}EPENDIMOMA N\IeC {\~A}O METAST\IeC {\'A}TICO -- Adaptado dos ensaios ACNS0121 e ACNS0831 - protocolo \textit {off-label}}{105}{section.F.2}
+\contentsline {subsection}{\numberline {F.2.1}Indu\IeC {\c c}\IeC {\~a}o: 2 ciclos (pr\IeC {\'e}-radioterapia)}{105}{subsection.F.2.1}
+\contentsline {subsection}{\numberline {F.2.2}Manuten\IeC {\c c}\IeC {\~a}o: 04 ciclos (VCEC)}{106}{subsection.F.2.2}
+\contentsline {subsection}{\numberline {F.2.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{109}{subsection.F.2.3}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.21)  26 AUG 2017 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.21)  30 SEP 2017 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,6 +683,9 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 )
 \c@ContinuedFloat=\count142
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip186
@@ -855,26 +858,26 @@ Package geometry Warning: Over-specification in `v'-direction.
 (./CPC-NEURO2014.aux)
 \openout1 = `CPC-NEURO2014.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 202.
-LaTeX Font Info:    ... okay on input line 202.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 202.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 203.
+LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 203.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-LaTeX Info: Redefining \microtypecontext on input line 202.
+LaTeX Info: Redefining \microtypecontext on input line 203.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -927,7 +930,7 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 202.
+Package hyperref Info: Link coloring ON on input line 203.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -939,10 +942,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 202.
-LaTeX Info: Redefining \ref on input line 202.
-LaTeX Info: Redefining \pageref on input line 202.
-LaTeX Info: Redefining \nameref on input line 202.
+LaTeX Info: Redefining \nameref on input line 203.
+LaTeX Info: Redefining \ref on input line 203.
+LaTeX Info: Redefining \pageref on input line 203.
+LaTeX Info: Redefining \nameref on input line 203.
 (./CPC-NEURO2014.out) (./CPC-NEURO2014.out)
 \@outlinefile=\write4
 \openout4 = `CPC-NEURO2014.out'.
@@ -984,54 +987,54 @@ LaTeX Info: Redefining \nameref on input line 202.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 209.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 209.
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 209.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 209.
 
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 272--275
+Underfull \hbox (badness 10000) in paragraph at lines 273--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 [3]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
  [4
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 299.
+(babel)             in language  on input line 300.
  [5]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 303.
+(babel)             in language  on input line 304.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 303.
+(babel)             in language  on input line 304.
  [6
 
 ]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 303.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 304.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -1040,21 +1043,21 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 303.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 304.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 307.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 306.
+(babel)             in language  on input line 307.
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.306 \end{contributors}
+l.307 \end{contributors}
                          [5
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 310.
  (./CPC-NEURO2014.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
@@ -1069,12 +1072,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-
-Overfull \hbox (1.63206pt too wide) in paragraph at lines 23--23
- [][] [][][]\T1/ptm/m/n/10.95 (-20) MEDULOBLASTOMA - RISCO PA-DR�O -- Adap-tado
- dos en-saios CCG-9961 e ACNS0331[][] []  
- []
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining portuges shorthand "|
@@ -1083,219 +1080,223 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 ...ptado do ensaio CCG 9921}{41}{section.B.4}
+l.27 ...aios CCG-9961 e ACNS0331}{35}{section.B.3}
                                                    [6]
+Overfull \hbox (1.63206pt too wide) in paragraph at lines 27--27
+ [][] [][][]\T1/ptm/m/n/10.95 (-20) MEDULOBLASTOMA - RISCO PA-DR�O -- Adap-tado
+ dos en-saios CCG-9961 e ACNS0331[][] []  
+ []
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 31.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 35.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 63.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 62.
- [7])
+(babel)             in language  on input line 63.
+[7])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 310.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 309.
+(babel)             in language  on input line 310.
  [8]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 311.
-
-(./CPC-NEURO2014.lof)
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 312.
+ (./CPC-NEURO2014.lof)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 313.
  (./CPC-NEURO2014.lot)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 315.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 315.
  [9
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 315.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 314.
+(babel)             in language  on input line 315.
  [10
 
 ]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 321.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 321.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 330.
+(babel)             in language  on input line 331.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 330.
+(babel)             in language  on input line 331.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.330 \clearpage
+l.331 \clearpage
                  [1
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 336.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.335 \chapter
+l.336 \chapter
               {Introdução} [2
 
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 335.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 336.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 335.
+(babel)             in language  on input line 336.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 387.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 387.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 386.
+(babel)             in language  on input line 387.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/fig1.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<fig/fig1.pdf, id=392, 614.295pt x 794.97pt>
+<fig/fig1.pdf, id=435, 614.295pt x 794.97pt>
 File: fig/fig1.pdf Graphic file (type pdf)
  <use fig/fig1.pdf>
-Package pdftex.def Info: fig/fig1.pdf used on input line 389.
+Package pdftex.def Info: fig/fig1.pdf used on input line 390.
 (pdftex.def)             Requested size: 455.55289pt x 651.44832pt.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/fig2.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<fig/fig2.pdf, id=394, 614.295pt x 794.97pt>
+<fig/fig2.pdf, id=437, 614.295pt x 794.97pt>
 File: fig/fig2.pdf Graphic file (type pdf)
  <use fig/fig2.pdf>
-Package pdftex.def Info: fig/fig2.pdf used on input line 394.
+Package pdftex.def Info: fig/fig2.pdf used on input line 395.
 (pdftex.def)             Requested size: 454.88483pt x 529.51628pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 403.
+(babel)             in language  on input line 404.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 403.
+(babel)             in language  on input line 404.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.403 
+l.404 
        [3]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 403.
+(babel)             in language  on input line 404.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 403.
+(babel)             in language  on input line 404.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.403 
+l.404 
        [4 <./fig/fig1.pdf>]
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 408.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 408.
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.407 
+l.408 
        [5]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 408.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 408.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.407 
+l.408 
        [6 <./fig/fig2.pdf>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 408.
+(babel)             in language  on input line 409.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 413.
+(babel)             in language  on input line 414.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 413.
+(babel)             in language  on input line 414.
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 \chapter
+l.414 \chapter
               {O tratamento de tumores cerebrais em crianças} [7]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 413.
+(babel)             in language  on input line 414.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 413.
+(babel)             in language  on input line 414.
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 \chapter
+l.414 \chapter
               {O tratamento de tumores cerebrais em crianças} [8
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 413.
+(babel)             in language  on input line 414.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 415.
+(babel)             in language  on input line 416.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 417.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 418.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 417.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 418.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 418.
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/fig3.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<fig/fig3.pdf, id=448, 614.295pt x 794.97pt>
+<fig/fig3.pdf, id=492, 614.295pt x 794.97pt>
 File: fig/fig3.pdf Graphic file (type pdf)
  <use fig/fig3.pdf>
-Package pdftex.def Info: fig/fig3.pdf used on input line 419.
+Package pdftex.def Info: fig/fig3.pdf used on input line 420.
 (pdftex.def)             Requested size: 452.74516pt x 587.65282pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 426.
+(babel)             in language  on input line 427.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 426.
+(babel)             in language  on input line 427.
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.426 
+l.427 
        [9]
 Underfull \vbox (badness 4967) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 428.
+(babel)             in language  on input line 429.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 428.
+(babel)             in language  on input line 429.
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.428 
+l.429 
        [10 <./fig/fig3.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 431.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 431.
  [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 434.
+(babel)             in language  on input line 435.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 434.
+(babel)             in language  on input line 435.
  [12]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 437.
+(babel)             in language  on input line 438.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 439.
+(babel)             in language  on input line 440.
 
 (./CPC-NEURO2014.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1328,662 +1329,660 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 150.
  [16])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 447.
+(babel)             in language  on input line 448.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 447.
+(babel)             in language  on input line 448.
  [17]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 447.
+(babel)             in language  on input line 448.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 447.
+(babel)             in language  on input line 448.
  [18
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 447.
+(babel)             in language  on input line 448.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 456.
+(babel)             in language  on input line 450.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 456.
+(babel)             in language  on input line 455.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 458.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 458.
  [19]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 456.
+(babel)             in language  on input line 463.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 456.
- [20
+(babel)             in language  on input line 467.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 471.
 
-]
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 457.
+(babel)             in language  on input line 472.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 458.
+(babel)             in language  on input line 472.
+ [20]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 458.
+(babel)             in language  on input line 473.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 474.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 474.
  [21
 
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 458.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 458.
- [22
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 459.
+(babel)             in language  on input line 474.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 474.
+
+[22
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 475.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 460.
+(Font)              <9> on input line 476.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 460.
+(Font)              <5> on input line 476.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 460.
+Package hyperref Warning: Ignoring empty anchor on input line 476.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 474.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 490.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 478.
+(babel)             in language  on input line 494.
 
-Underfull \vbox (badness 10000) detected at line 517
+Underfull \vbox (badness 10000) detected at line 533
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 537.
+(babel)             in language  on input line 553.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 537.
+(babel)             in language  on input line 553.
 [23]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 541.
+(babel)             in language  on input line 557.
 
-Underfull \vbox (badness 10000) detected at line 567
+Underfull \vbox (badness 10000) detected at line 583
  []
 
 
-Underfull \vbox (badness 10000) detected at line 595
+Underfull \vbox (badness 10000) detected at line 611
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 595.
+(babel)             in language  on input line 611.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 595.
+(babel)             in language  on input line 611.
 [24]
-Underfull \vbox (badness 10000) detected at line 623
+Underfull \vbox (badness 10000) detected at line 639
  []
 
 
-Underfull \vbox (badness 10000) detected at line 651
+Underfull \vbox (badness 10000) detected at line 667
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 654.
+(babel)             in language  on input line 670.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 654.
+(babel)             in language  on input line 670.
 [25]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 667.
+(Font)              <7> on input line 683.
 
-Underfull \vbox (badness 10000) detected at line 680
+Underfull \vbox (badness 10000) detected at line 696
  []
 
 
-Underfull \vbox (badness 10000) detected at line 708
+Underfull \vbox (badness 10000) detected at line 724
  []
 
 
-Underfull \vbox (badness 10000) detected at line 736
+Underfull \vbox (badness 10000) detected at line 752
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 752.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 752.
 [26
 
 ]
-Underfull \vbox (badness 10000) detected at line 764
+Underfull \vbox (badness 10000) detected at line 780
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 772.
+(babel)             in language  on input line 788.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 777.
+(babel)             in language  on input line 793.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 777.
+(babel)             in language  on input line 793.
 [27]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 777.
+(babel)             in language  on input line 793.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 777.
+(babel)             in language  on input line 793.
  [28
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 795.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.780 ...\relax\footnotetext{Versão Janeiro/2017}
+l.796 ...\relax\footnotetext{Versão Janeiro/2017}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 787--788
+Underfull \hbox (badness 10000) in paragraph at lines 803--804
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 789--790
+Underfull \hbox (badness 10000) in paragraph at lines 805--806
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 791.
+(babel)             in language  on input line 807.
 
-Underfull \vbox (badness 10000) detected at line 827
+Underfull \vbox (badness 10000) detected at line 843
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 862.
+(babel)             in language  on input line 878.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 862.
+(babel)             in language  on input line 878.
 [29]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 930.
+(babel)             in language  on input line 946.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 930.
+(babel)             in language  on input line 946.
  [30]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 999.
+(babel)             in language  on input line 1015.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 999.
+(babel)             in language  on input line 1015.
  [31]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1067.
+(babel)             in language  on input line 1083.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1067.
+(babel)             in language  on input line 1083.
  [32]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1097.
+(babel)             in language  on input line 1113.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1097.
+(babel)             in language  on input line 1113.
  [33]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1102.
+(babel)             in language  on input line 1118.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1107.
+(babel)             in language  on input line 1123.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1107.
+(babel)             in language  on input line 1123.
 [34]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1108.
+(babel)             in language  on input line 1124.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1109 ...relax\footnotetext{Versão Janeiro/2015}
+l.1125 ...relax\footnotetext{Versão Janeiro/2015}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 1116--1117
+Underfull \hbox (badness 10000) in paragraph at lines 1132--1133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
+Underfull \hbox (badness 10000) in paragraph at lines 1134--1135
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1120.
+(babel)             in language  on input line 1136.
 
-Underfull \vbox (badness 10000) detected at line 1142
+Underfull \vbox (badness 10000) detected at line 1158
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1143.
+(babel)             in language  on input line 1159.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1143.
+(babel)             in language  on input line 1159.
 [35
 
 ]
-Underfull \vbox (badness 10000) detected at line 1163
+Underfull \vbox (badness 10000) detected at line 1179
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1183
+Underfull \vbox (badness 10000) detected at line 1199
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1203
+Underfull \vbox (badness 10000) detected at line 1219
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1204.
+(babel)             in language  on input line 1220.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1204.
+(babel)             in language  on input line 1220.
 [36
 
 ]
-Underfull \vbox (badness 10000) detected at line 1224
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1245
+Underfull \vbox (badness 10000) detected at line 1240
  []
 
 
 Underfull \vbox (badness 10000) detected at line 1261
  []
 
+
+Underfull \vbox (badness 10000) detected at line 1277
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1265.
+(babel)             in language  on input line 1281.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1265.
+(babel)             in language  on input line 1281.
 [37
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1266.
+(babel)             in language  on input line 1282.
 
-Underfull \vbox (badness 10000) detected at line 1291
+Underfull \vbox (badness 10000) detected at line 1307
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1311
+Underfull \vbox (badness 10000) detected at line 1327
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1335
+Underfull \vbox (badness 10000) detected at line 1351
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1337.
+(babel)             in language  on input line 1353.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1337.
+(babel)             in language  on input line 1353.
 [38
 
 ]
-Underfull \vbox (badness 10000) detected at line 1356
+Underfull \vbox (badness 10000) detected at line 1372
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1380
+Underfull \vbox (badness 10000) detected at line 1396
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1400
+Underfull \vbox (badness 10000) detected at line 1416
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1402.
+(babel)             in language  on input line 1418.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1402.
+(babel)             in language  on input line 1418.
 [39
 
 ]
-Underfull \vbox (badness 10000) detected at line 1425
+Underfull \vbox (badness 10000) detected at line 1441
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1445
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1450.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1455--1456
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1457--1458
-
+Underfull \vbox (badness 10000) detected at line 1461
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1458.
+(babel)             in language  on input line 1466.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1471--1472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1473--1474
+
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1458.
+(babel)             in language  on input line 1474.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1474.
 [40
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1459.
+(babel)             in language  on input line 1475.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1460 ...relax\footnotetext{Versão Janeiro/2015}
+l.1476 ...relax\footnotetext{Versão Janeiro/2015}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 1468--1469
+Underfull \hbox (badness 10000) in paragraph at lines 1484--1485
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1470--1471
+Underfull \hbox (badness 10000) in paragraph at lines 1486--1487
 
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1472.
-
-Underfull \vbox (badness 10000) detected at line 1497
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1506
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1530
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1530.
+(babel)             in language  on input line 1488.
+
+Underfull \vbox (badness 10000) detected at line 1513
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1522
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1546
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1530.
+(babel)             in language  on input line 1546.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1546.
 [41
 
 ]
-Underfull \vbox (badness 10000) detected at line 1539
+Underfull \vbox (badness 10000) detected at line 1555
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1562
+Underfull \vbox (badness 10000) detected at line 1578
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1563.
+(babel)             in language  on input line 1579.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1563.
+(babel)             in language  on input line 1579.
 [42]
-Underfull \vbox (badness 10000) detected at line 1572
+Underfull \vbox (badness 10000) detected at line 1588
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1594
+Underfull \vbox (badness 10000) detected at line 1610
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1615
+Underfull \vbox (badness 10000) detected at line 1631
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1621.
+(babel)             in language  on input line 1637.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1621.
+(babel)             in language  on input line 1637.
 [43
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1622.
+(babel)             in language  on input line 1638.
 
-Underfull \vbox (badness 10000) detected at line 1638
+Underfull \vbox (badness 10000) detected at line 1654
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1649
+Underfull \vbox (badness 10000) detected at line 1665
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1662
+Underfull \vbox (badness 10000) detected at line 1678
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1679
+Underfull \vbox (badness 10000) detected at line 1695
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1690
+Underfull \vbox (badness 10000) detected at line 1706
  []
 
 
 Overfull \vbox (4.2798pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1690.
+(babel)             in language  on input line 1706.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1690.
+(babel)             in language  on input line 1706.
 
 [44
 
 ]
-Underfull \vbox (badness 10000) detected at line 1702
+Underfull \vbox (badness 10000) detected at line 1718
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1719
+Underfull \vbox (badness 10000) detected at line 1735
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1730
+Underfull \vbox (badness 10000) detected at line 1746
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1743
+Underfull \vbox (badness 10000) detected at line 1759
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1758
+Underfull \vbox (badness 10000) detected at line 1774
  []
 
 
 Overfull \vbox (6.24188pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1758.
+(babel)             in language  on input line 1774.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1758.
+(babel)             in language  on input line 1774.
 
 [45]
-Underfull \vbox (badness 10000) detected at line 1769
+Underfull \vbox (badness 10000) detected at line 1785
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1782
+Underfull \vbox (badness 10000) detected at line 1798
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1799
+Underfull \vbox (badness 10000) detected at line 1815
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1810
+Underfull \vbox (badness 10000) detected at line 1826
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1823
+Underfull \vbox (badness 10000) detected at line 1839
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1840
+Underfull \vbox (badness 10000) detected at line 1856
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1840.
+(babel)             in language  on input line 1856.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1840.
+(babel)             in language  on input line 1856.
 [46]
-Underfull \vbox (badness 10000) detected at line 1851
+Underfull \vbox (badness 10000) detected at line 1867
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1864
+Underfull \vbox (badness 10000) detected at line 1880
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1881
+Underfull \vbox (badness 10000) detected at line 1897
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1892
+Underfull \vbox (badness 10000) detected at line 1908
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1905
+Underfull \vbox (badness 10000) detected at line 1921
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1905.
+(babel)             in language  on input line 1921.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1905.
+(babel)             in language  on input line 1921.
 [47]
-Underfull \vbox (badness 10000) detected at line 1922
+Underfull \vbox (badness 10000) detected at line 1938
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1933
+Underfull \vbox (badness 10000) detected at line 1949
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1946
+Underfull \vbox (badness 10000) detected at line 1962
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1947.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1963.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1953.
+(babel)             in language  on input line 1969.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1960.
+(babel)             in language  on input line 1976.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1960.
+(babel)             in language  on input line 1976.
 [48]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1965.
+(babel)             in language  on input line 1981.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1965.
+(babel)             in language  on input line 1981.
  [49]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1965.
+(babel)             in language  on input line 1981.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1965.
+(babel)             in language  on input line 1981.
  [50
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 1966.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 1982.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 1966.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 1982.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1966.
+(babel)             in language  on input line 1982.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1967.
+(babel)             in language  on input line 1984.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1967.
+(babel)             in language  on input line 1984.
  [51
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1967.
+(babel)             in language  on input line 1984.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1967.
+(babel)             in language  on input line 1984.
  [52
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 1968.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 1986.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 1968.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 1986.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1968.
+(babel)             in language  on input line 1986.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1969 ...relax\footnotetext{Versão Janeiro/2015}
+l.1987 ...relax\footnotetext{Versão Janeiro/2015}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 1976--1977
+Underfull \hbox (badness 10000) in paragraph at lines 1994--1995
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
+Underfull \hbox (badness 10000) in paragraph at lines 1996--1997
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 1980.
+(babel)             in language  on input line 1998.
 
-Underfull \vbox (badness 10000) detected at line 1999
+Underfull \vbox (badness 10000) detected at line 2020
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2001.
+(babel)             in language  on input line 2021.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2001.
+(babel)             in language  on input line 2021.
 [53]
-Underfull \vbox (badness 10000) detected at line 2006
+Underfull \vbox (badness 10000) detected at line 2041
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2028
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2035
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2057
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2064
+Underfull \vbox (badness 10000) detected at line 2063
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2067.
+(babel)             in language  on input line 2064.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2067.
+(babel)             in language  on input line 2064.
 [54
 
 ]
-Underfull \vbox (badness 10000) detected at line 2086
+Underfull \vbox (badness 10000) detected at line 2085
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2093
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2115
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2122
+Underfull \vbox (badness 10000) detected at line 2106
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2125.
+(babel)             in language  on input line 2107.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2125.
+(babel)             in language  on input line 2107.
 [55
 
 ]
+Underfull \vbox (badness 10000) detected at line 2128
+ []
+
+
 Underfull \vbox (badness 10000) detected at line 2144
  []
 
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2148.
 
-Underfull \vbox (badness 10000) detected at line 2151
+Underfull \vbox (badness 10000) detected at line 2169
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2173
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2180
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2183.
+(babel)             in language  on input line 2189.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2183.
-[56
+(babel)             in language  on input line 2189.
+ [56
 
 ]
-Underfull \vbox (badness 10000) detected at line 2202
+Underfull \vbox (badness 10000) detected at line 2189
  []
 
 
@@ -1991,372 +1990,406 @@ Underfull \vbox (badness 10000) detected at line 2209
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2231
+Underfull \vbox (badness 10000) detected at line 2228
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2238
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2241.
+(babel)             in language  on input line 2248.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2241.
-[57
-
-]
-Underfull \vbox (badness 10000) detected at line 2260
+(babel)             in language  on input line 2248.
+ [57]
+Underfull \vbox (badness 10000) detected at line 2248
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2267
+Underfull \vbox (badness 10000) detected at line 2268
  []
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 2272.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2283.
+(babel)             in language  on input line 2279.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2283.
-[58
-
-]
+(babel)             in language  on input line 2279.
+[58]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2285.
-pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.5})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2286 ...relax\footnotetext{Versão Janeiro/2015}
-                                                  }
-Underfull \hbox (badness 10000) in paragraph at lines 2293--2294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2295--2296
-
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2297.
-
-Underfull \vbox (badness 10000) detected at line 2319
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2320.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2320.
-[59
-
-]
-Underfull \vbox (badness 10000) detected at line 2340
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2362
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2363.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2363.
-[60
-
-]
-Underfull \vbox (badness 10000) detected at line 2384
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2405
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2406.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2406.
-[61
-
-]
-Underfull \vbox (badness 10000) detected at line 2427
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2443
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2447.
-
-Underfull \vbox (badness 10000) detected at line 2468
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2488.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2488.
- [62
-
-]
-Underfull \vbox (badness 10000) detected at line 2488
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2508
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2527
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2547.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2547.
- [63]
-Underfull \vbox (badness 10000) detected at line 2547
- []
-
-
-Underfull \vbox (badness 10000) detected at line 2567
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2571.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2578.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2578.
-[64]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2580.
+(babel)             in language  on input line 2281.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.6})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2581 ...relax\footnotetext{Versão Janeiro/2017}
+l.2282 ...relax\footnotetext{Versão Janeiro/2017}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 2588--2589
+Underfull \hbox (badness 10000) in paragraph at lines 2289--2290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2590--2591
+Underfull \hbox (badness 10000) in paragraph at lines 2291--2292
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2592.
+(babel)             in language  on input line 2293.
 
-Underfull \vbox (badness 10000) detected at line 2613
+Underfull \vbox (badness 10000) detected at line 2314
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2616.
+(babel)             in language  on input line 2317.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2616.
-[65
+(babel)             in language  on input line 2317.
+[59
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2617.
+(babel)             in language  on input line 2318.
 
-Underfull \vbox (badness 10000) detected at line 2638
+Underfull \vbox (badness 10000) detected at line 2339
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2645
+Underfull \vbox (badness 10000) detected at line 2346
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2669
+Underfull \vbox (badness 10000) detected at line 2370
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2676
+Underfull \vbox (badness 10000) detected at line 2377
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2680.
+(babel)             in language  on input line 2381.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2680.
-[66
+(babel)             in language  on input line 2381.
+[60
 
 ]
-Underfull \vbox (badness 10000) detected at line 2700
+Underfull \vbox (badness 10000) detected at line 2401
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2707
+Underfull \vbox (badness 10000) detected at line 2408
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2731
+Underfull \vbox (badness 10000) detected at line 2432
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2738
+Underfull \vbox (badness 10000) detected at line 2439
  []
 
 
 Underfull \vbox (badness 7759) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2742.
+(babel)             in language  on input line 2443.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2742.
- [67
+(babel)             in language  on input line 2443.
+ [61
 
 ]
-Underfull \vbox (badness 10000) detected at line 2762
+Underfull \vbox (badness 10000) detected at line 2463
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2769
+Underfull \vbox (badness 10000) detected at line 2470
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2793
+Underfull \vbox (badness 10000) detected at line 2494
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2800
+Underfull \vbox (badness 10000) detected at line 2501
  []
 
 
 Underfull \vbox (badness 7759) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2804.
+(babel)             in language  on input line 2505.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2804.
- [68
+(babel)             in language  on input line 2505.
+ [62
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2807.
+(babel)             in language  on input line 2508.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2816--2817
+Underfull \hbox (badness 10000) in paragraph at lines 2519--2520
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2817.
+(babel)             in language  on input line 2520.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2817.
-[69
+(babel)             in language  on input line 2520.
+[63
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2817.
+(babel)             in language  on input line 2520.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2817.
- [70
+(babel)             in language  on input line 2520.
+ [64
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2819.
+(babel)             in language  on input line 2522.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.7})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2820 ...relax\footnotetext{Versão Janeiro/2015}
+l.2523 ...relax\footnotetext{Versão Janeiro/2015}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 2828--2829
+Underfull \hbox (badness 10000) in paragraph at lines 2531--2532
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2830--2831
+Underfull \hbox (badness 10000) in paragraph at lines 2533--2534
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2832.
+(babel)             in language  on input line 2535.
 
-Underfull \vbox (badness 10000) detected at line 2863
+Underfull \vbox (badness 10000) detected at line 2566
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2876
+Underfull \vbox (badness 10000) detected at line 2579
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2876.
+(babel)             in language  on input line 2579.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2876.
-[71]
-Underfull \vbox (badness 10000) detected at line 2903
+(babel)             in language  on input line 2579.
+[65]
+Underfull \vbox (badness 10000) detected at line 2606
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2908.
+(babel)             in language  on input line 2611.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2908.
-[72]
+(babel)             in language  on input line 2611.
+[66]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2909.
+(babel)             in language  on input line 2612.
 
-Underfull \vbox (badness 10000) detected at line 2927
+Underfull \vbox (badness 10000) detected at line 2630
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2944
+Underfull \vbox (badness 10000) detected at line 2647
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2961
+Underfull \vbox (badness 10000) detected at line 2664
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2979.
+(babel)             in language  on input line 2682.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 2979.
-[73
+(babel)             in language  on input line 2682.
+[67
 
 ]
-Underfull \vbox (badness 10000) detected at line 2979
+Underfull \vbox (badness 10000) detected at line 2682
  []
 
 
-Underfull \vbox (badness 10000) detected at line 2996
+Underfull \vbox (badness 10000) detected at line 2699
  []
 
 
-Underfull \vbox (badness 10000) detected at line 3013
+Underfull \vbox (badness 10000) detected at line 2716
  []
 
 
 Underfull \vbox (badness 3364) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3031.
+(babel)             in language  on input line 2734.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3031.
- [74]
+(babel)             in language  on input line 2734.
+ [68]
+Underfull \vbox (badness 10000) detected at line 2734
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2751
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2756.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2773.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2773.
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 2778--2779
+[]|\T1/ptm/b/n/10 Recomenda��es de tra-ta-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2792
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2797--2798
+[]|\T1/ptm/b/n/10 Recomenda��es de tra-ta-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2813
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2820.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2820.
+ [70]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2821.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2821.
+
+[71]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2821.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2821.
+ [72
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2822.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2824.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2824.
+ [73
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2824.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2824.
+ [74
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2826.
+pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.8})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2827 ...elax\footnotetext{Versão Setembro/2017}
+                                                  }
+Underfull \hbox (badness 10000) in paragraph at lines 2834--2835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2836--2837
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2838.
+
+Underfull \vbox (badness 10000) detected at line 2857
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2858.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2858.
+[75]
+Underfull \vbox (badness 10000) detected at line 2864
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2886
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2893
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2915
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2922
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2923.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2923.
+[76]
+Underfull \vbox (badness 10000) detected at line 2944
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2951
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2973
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2980
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2983.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 2983.
+[77
+
+]
+Underfull \vbox (badness 10000) detected at line 3002
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3009
+ []
+
+
 Underfull \vbox (badness 10000) detected at line 3031
  []
 
 
-Underfull \vbox (badness 10000) detected at line 3048
+Underfull \vbox (badness 10000) detected at line 3038
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3053.
+(babel)             in language  on input line 3041.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3070.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3070.
-[75]
-Underfull \hbox (badness 10000) in paragraph at lines 3075--3076
-[]|\T1/ptm/b/n/10 Recomenda��es de tra-ta-
+(babel)             in language  on input line 3041.
+[78
+
+]
+Underfull \vbox (badness 10000) detected at line 3060
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3067
  []
 
 
@@ -2364,447 +2397,503 @@ Underfull \vbox (badness 10000) detected at line 3089
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3094--3095
-[]|\T1/ptm/b/n/10 Recomenda��es de tra-ta-
+Underfull \vbox (badness 10000) detected at line 3096
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3099.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3099.
+[79
+
+]
+Underfull \vbox (badness 10000) detected at line 3118
  []
 
 
-Underfull \vbox (badness 10000) detected at line 3110
+Underfull \vbox (badness 10000) detected at line 3125
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3117.
+(babel)             in language  on input line 3130.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3117.
- [76]
+(babel)             in language  on input line 3141.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3118.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3118.
-
-[77]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3118.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3118.
- [78
+(babel)             in language  on input line 3141.
+[80
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3119.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3120.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3120.
- [79
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3120.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3120.
- [80
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3121.
+(babel)             in language  on input line 3142.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.8})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3122 ...relax\footnotetext{Versão Janeiro/2017}
+l.3143 ...relax\footnotetext{Versão Janeiro/2017}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 3129--3130
+Underfull \hbox (badness 10000) in paragraph at lines 3150--3151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3131--3132
+Underfull \hbox (badness 10000) in paragraph at lines 3152--3153
 
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3133.
-
-Underfull \vbox (badness 10000) detected at line 3160
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3163.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3163.
-[81]
-Underfull \vbox (badness 10000) detected at line 3187
- []
+(babel)             in language  on input line 3154.
 
-
-Underfull \vbox (badness 10000) detected at line 3214
+Underfull \vbox (badness 10000) detected at line 3181
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3219.
+(babel)             in language  on input line 3184.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3184.
+[81
+
+]
+Underfull \vbox (badness 10000) detected at line 3208
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3235
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3240.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3222.
+(babel)             in language  on input line 3243.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3222.
+(babel)             in language  on input line 3243.
  [82
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 3224--3225
+Underfull \hbox (badness 10000) in paragraph at lines 3245--3246
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3225.
+(babel)             in language  on input line 3246.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3225.
+(babel)             in language  on input line 3246.
 [83]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3225.
+(babel)             in language  on input line 3246.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3225.
+(babel)             in language  on input line 3246.
  [84
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3227.
+(babel)             in language  on input line 3248.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.9})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3228 ...relax\footnotetext{Versão Janeiro/2017}
+l.3249 ...relax\footnotetext{Versão Janeiro/2017}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 3235--3236
+Underfull \hbox (badness 10000) in paragraph at lines 3256--3257
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3239.
+(babel)             in language  on input line 3260.
 
-Underfull \vbox (badness 10000) detected at line 3269
+Underfull \vbox (badness 10000) detected at line 3290
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3273.
+(babel)             in language  on input line 3294.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3273.
+(babel)             in language  on input line 3294.
 [85]
-Underfull \vbox (badness 10000) detected at line 3302
+Underfull \vbox (badness 10000) detected at line 3323
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3311.
+(babel)             in language  on input line 3332.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3314.
+(babel)             in language  on input line 3335.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3314.
+(babel)             in language  on input line 3335.
  [86]
-Underfull \hbox (badness 10000) in paragraph at lines 3316--3317
+Underfull \hbox (badness 10000) in paragraph at lines 3337--3338
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3318.
+(babel)             in language  on input line 3339.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3318.
+(babel)             in language  on input line 3339.
 [87]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3318.
+(babel)             in language  on input line 3339.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3318.
+(babel)             in language  on input line 3339.
  [88
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3320.
+(babel)             in language  on input line 3340.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3321.
+(babel)             in language  on input line 3341.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3321.
+(babel)             in language  on input line 3341.
  [89
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3321.
+(babel)             in language  on input line 3341.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3321.
+(babel)             in language  on input line 3341.
  [90
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3322.
+(babel)             in language  on input line 3342.
 pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.10}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3323 ...relax\footnotetext{Versão Janeiro/2015}
+l.3343 ...elax\footnotetext{Versão Setembro/2017}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 3330--3331
+Underfull \hbox (badness 10000) in paragraph at lines 3350--3351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3332--3333
+Underfull \hbox (badness 10000) in paragraph at lines 3352--3353
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3334.
+(babel)             in language  on input line 3354.
 
-Underfull \vbox (badness 10000) detected at line 3355
+Underfull \vbox (badness 10000) detected at line 3392
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3358.
+(babel)             in language  on input line 3393.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3358.
+(babel)             in language  on input line 3393.
 [91]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3359.
+(babel)             in language  on input line 3397.
 
-Underfull \vbox (badness 10000) detected at line 3379
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3386
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3409
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3416
+Underfull \vbox (badness 10000) detected at line 3435
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3419.
+(babel)             in language  on input line 3470.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3419.
-[92
-
-]
-Underfull \vbox (badness 10000) detected at line 3438
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3445
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3468
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3475
- []
-
+(babel)             in language  on input line 3470.
+[92]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3478.
+(babel)             in language  on input line 3506.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3478.
-[93
-
-]
-Underfull \vbox (badness 10000) detected at line 3497
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3504
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3527
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3534
- []
-
+(babel)             in language  on input line 3506.
+ [93]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3537.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3537.
-[94
+(babel)             in language  on input line 3511.
 
-]
-Underfull \vbox (badness 10000) detected at line 3556
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3563
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3586
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3593
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3596.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3596.
-[95
-
-]
-Underfull \vbox (badness 10000) detected at line 3615
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3622
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3644
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3651
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3656.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3665--3666
+Underfull \hbox (badness 10000) in paragraph at lines 3514--3515
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3666.
+(babel)             in language  on input line 3516.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3666.
-[96
+(babel)             in language  on input line 3516.
+[94]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3517.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3518.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3518.
+ [95
+
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3666.
+(babel)             in language  on input line 3518.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3666.
- [97]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3666.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3666.
- [98
+(babel)             in language  on input line 3518.
+ [96
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3668.
-pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.11}
+(babel)             in language  on input line 3519.
+pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.13}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3669 ...relax\footnotetext{Versão Janeiro/2017}
+l.3520 ...relax\footnotetext{Versão Janeiro/2015}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 3685--3686
+Underfull \hbox (badness 10000) in paragraph at lines 3527--3528
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3687--3688
+Underfull \hbox (badness 10000) in paragraph at lines 3529--3530
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3689.
+(babel)             in language  on input line 3531.
 
-Underfull \vbox (badness 10000) detected at line 3709
+Underfull \vbox (badness 10000) detected at line 3552
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3555.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3555.
+[97]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3556.
+
+Underfull \vbox (badness 10000) detected at line 3576
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3583
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3606
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3613
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3616.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3616.
+[98
+
+]
+Underfull \vbox (badness 10000) detected at line 3635
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3642
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3665
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3672
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3675.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3675.
+[99
+
+]
+Underfull \vbox (badness 10000) detected at line 3694
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3701
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3724
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3731
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3734.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3734.
+[100
+
+]
+Underfull \vbox (badness 10000) detected at line 3753
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3760
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3783
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3790
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3793.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3793.
+[101
+
+]
+Underfull \vbox (badness 10000) detected at line 3812
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3819
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3841
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3848
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3853.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3862--3863
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3863.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3863.
+[102
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3863.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3863.
+ [103]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3863.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3863.
+ [104
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3865.
+pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.14}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3866 ...relax\footnotetext{Versão Janeiro/2017}
+                                                  }
+Underfull \hbox (badness 10000) in paragraph at lines 3882--3883
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3884--3885
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3886.
+
+Underfull \vbox (badness 10000) detected at line 3906
  []
 
 
 Overfull \vbox (9.30063pt too high) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3716.
+(babel)             in language  on input line 3913.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3716.
+(babel)             in language  on input line 3913.
 
-[99]
-Underfull \vbox (badness 10000) detected at line 3716
+[105]
+Underfull \vbox (badness 10000) detected at line 3913
  []
 
 
-Underfull \vbox (badness 10000) detected at line 3733
+Underfull \vbox (badness 10000) detected at line 3930
  []
 
 
-Underfull \vbox (badness 10000) detected at line 3740
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3747.
-
-Underfull \vbox (badness 10000) detected at line 3773
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3782
+Underfull \vbox (badness 10000) detected at line 3937
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3782.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3782.
-[100]
-Underfull \vbox (badness 10000) detected at line 3806
+(babel)             in language  on input line 3944.
+
+Underfull \vbox (badness 10000) detected at line 3970
  []
 
 
-Underfull \vbox (badness 10000) detected at line 3815
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3816.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3816.
-[101]
-Underfull \vbox (badness 10000) detected at line 3839
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3849
- []
-
-
-Underfull \vbox (badness 10000) detected at line 3871
+Underfull \vbox (badness 10000) detected at line 3979
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3874.
+(babel)             in language  on input line 3979.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3979.
+[106]
+Underfull \vbox (badness 10000) detected at line 4003
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4012
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4013.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4013.
+[107]
+Underfull \vbox (badness 10000) detected at line 4036
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4046
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4068
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4071.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3879.
+(babel)             in language  on input line 4076.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3879.
- [102
+(babel)             in language  on input line 4076.
+ [108
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 3883.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 4080.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3887--3888
+Underfull \hbox (badness 10000) in paragraph at lines 4084--4085
 
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3889.
+(babel)             in language  on input line 4086.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 3889.
-[103]
+(babel)             in language  on input line 4086.
+[109]
 \tf@toc=\write5
 \openout5 = `CPC-NEURO2014.toc'.
 
@@ -2814,62 +2903,44 @@ Package babel Info: Redefining portuges shorthand "|
 \tf@lot=\write7
 \openout7 = `CPC-NEURO2014.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3889.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3889.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4086.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4086.
  (./CPC-NEURO2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3889.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3889.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4086.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4086.
 
-
-
-Package rerunfilecheck Warning: File `CPC-NEURO2014.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CPC-NEURO2014.out':
-(rerunfilecheck)             Before: 0FC65C252D2FAE99600B67E6E3C0A9E8;5723
-(rerunfilecheck)             After:  7C0627D79A2DAC311097509274594E6C;5723.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3889.
+Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
+(rerunfilecheck)             Checksum: 622D989B6953F9AD397A96DAD7F606EA;6372.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4086.
  ) 
 Here is how much of TeX's memory you used:
- 14020 strings out of 493089
- 204373 string characters out of 6134841
- 400192 words of memory out of 5000000
- 16647 multiletter control sequences out of 15000+600000
- 118492 words of font info for 285 fonts, out of 8000000 for 9000
+ 14102 strings out of 493089
+ 205487 string characters out of 6134841
+ 400410 words of memory out of 5000000
+ 16693 multiletter control sequences out of 15000+600000
+ 119749 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,40p,3313b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.C.5.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.C.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.C.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.C.5} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
-/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
-bi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CPC-NEURO2014.pdf (115 pages, 437993 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
+/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on CPC-NEURO2014.pdf (121 pages, 461543 bytes).
 PDF statistics:
- 1210 PDF objects out of 1440 (max. 8388607)
- 1061 compressed objects within 11 object streams
- 368 named destinations out of 1000 (max. 500000)
- 53770 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1289 PDF objects out of 1440 (max. 8388607)
+ 1132 compressed objects within 12 object streams
+ 382 named destinations out of 1000 (max. 500000)
+ 54354 words of extra memory for PDF output out of 61914 (max. 10000000)
 
