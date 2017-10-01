@@ -18,6 +18,8 @@ script:
 - bibtex   CPC-NEURO2014
 - pdflatex -interaction=nonstopmode -halt-on-error CPC-NEURO2014.tex
 after_success:
-- git add CPC-NEURO2014.pdf && git commit -m "pdf update" && git push origin HEAD:master
+- git add CPC-NEURO2014.pdf 
+- git commit -m "pdf update" 
+- git push origin HEAD:master
 on:
   branch: master
