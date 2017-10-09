@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.21)  3 OCT 2017 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.21)  9 OCT 2017 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1917,27 +1917,18 @@ l.3522 ...relax\footnotetext{Versão Janeiro/2017}
                                                   }
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3533.
-
-Overfull \hbox (1.64499pt too wide) in paragraph at lines 3561--3572
-[][] 
- []
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3573.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3573.
-[81]
-Overfull \hbox (1.64499pt too wide) in paragraph at lines 3575--3604
-[][] 
- []
-
+ [81]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3609.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3615.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3615.
-[82]
+ [82]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3616.
 Package babel Info: Redefining portuges shorthand "|
@@ -1956,7 +1947,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3618.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 3618.
- [85
+
+[85
 
 ]
 Package babel Info: Redefining portuges shorthand "|
@@ -2125,46 +2117,25 @@ Package babel Info: Redefining portuges shorthand "|
  [103]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4307.
-
-Overfull \hbox (0.58557pt too wide) in paragraph at lines 4348--4371
-[][] 
- []
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4371.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4371.
-[104]
-Overfull \hbox (0.58557pt too wide) in paragraph at lines 4384--4407
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ [104]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4418.
+(babel)             in language  on input line 4441.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4418.
+(babel)             in language  on input line 4441.
  [105]
-Overfull \hbox (0.58557pt too wide) in paragraph at lines 4420--4441
-[][] 
- []
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4444.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4449.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 4449.
-[106]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 4453.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4459.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 4459.
- [107]
+ [106]
 \tf@toc=\write5
 \openout5 = `CPC-NEURO2014.toc'.
 
@@ -2176,7 +2147,8 @@ Package babel Info: Redefining portuges shorthand "|
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4459.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 4459.
- (./CPC-NEURO2014.aux)
+
+(./CPC-NEURO2014.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4459.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 4459.
 
@@ -2185,33 +2157,30 @@ Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4459.
  ) 
 Here is how much of TeX's memory you used:
- 13844 strings out of 493089
- 203581 string characters out of 6134841
- 377470 words of memory out of 5000000
- 16590 multiletter control sequences out of 15000+600000
+ 13841 strings out of 493089
+ 203564 string characters out of 6134841
+ 378398 words of memory out of 5000000
+ 16588 multiletter control sequences out of 15000+600000
  120697 words of font info for 295 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,40p,3313b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
-/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times
-/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CPC-NEURO2014.pdf (119 pages, 456124 bytes).
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/ut
+mbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on CPC-NEURO2014.pdf (118 pages, 433753 bytes).
 PDF statistics:
- 1093 PDF objects out of 1200 (max. 8388607)
- 940 compressed objects within 10 object streams
- 225 named destinations out of 1000 (max. 500000)
+ 1077 PDF objects out of 1200 (max. 8388607)
+ 928 compressed objects within 10 object streams
+ 224 named destinations out of 1000 (max. 500000)
  54354 words of extra memory for PDF output out of 61914 (max. 10000000)
 
