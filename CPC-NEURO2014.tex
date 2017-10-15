@@ -45,6 +45,12 @@ top=25mm,bottom=25mm
 % top=25mm,bottom=25mm
 % }
 
+\usepackage{array}
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols,shapes.arrows}
+    
 \OnehalfSpacing
 %\linespread{1.3}
 
@@ -461,12 +467,10 @@ O resultado deste ensaio deve ser encarado com senso crítico. Apesar de ambos o
 \bibliographystyle{unsrt}
 \bibliography{bib}
 
-\appendix
-
 \chapter{Esquemas de tratamento}
 
 \section{Introdução}
-No Centro Pediátrico do Câncer do Hospital Infantil Albert Sabin, utilizamos um total de 12 (doze) protocolos de tratamento farmacológico para tumores cerebrais em crianças e adolescentes, baseados na literatura que foi citada neste manual. Estes protocolos foram adaptados a partir dos racionais dos ensaios clínicos descritos, com modificações pertinentes à realidade e disponibilidade de recursos em nosso serviço hospitalar. Além disso, quaisquer conclusões oriundas dos resultados destes ensaios clínicos, bem como informações de outros trabalhos e de outras fontes, foram usadas para adaptar os esquemas de tratamento à luz da melhor evidência disponível no momento em que este manual foi escrito. Alguns dos ensaios clínicos utilizados como modelo para parametrizar nossos protocolos ainda estão em andamento. Neste caso, apenas a parte não randomizada, não experimental dos esquemas foi adaptada e utilizada, mas não os braços de tratamento experimental ou não comprovado por evidências científicas.
+No Centro Pediátrico do Câncer do Hospital Infantil Albert Sabin, utilizamos um total de 16 (dezesseis) protocolos de tratamento farmacológico para tumores cerebrais em crianças e adolescentes, baseados na literatura que foi citada neste manual. Estes protocolos foram adaptados a partir dos racionais dos ensaios clínicos descritos, com modificações pertinentes à realidade e disponibilidade de recursos em nosso serviço hospitalar. Além disso, quaisquer conclusões oriundas dos resultados destes ensaios clínicos, bem como informações de outros trabalhos e de outras fontes, foram usadas para adaptar os esquemas de tratamento à luz da melhor evidência disponível no momento em que este manual foi escrito. Alguns dos ensaios clínicos utilizados como modelo para parametrizar nossos protocolos ainda estão em andamento. Neste caso, apenas a parte não randomizada, não experimental dos esquemas foi adaptada e utilizada, mas não os braços de tratamento experimental ou não comprovado por evidências científicas.
 
 Pacientes com condições patológicas que não têm nenhum tratamento amplamente aceito, ou sobre as quais recaem controvérsias importantes quanto à terapêutica, não poderão ser tratados com os protocolos principais descritos, mas poderão entrar, mediante consentimento informado, em esquemas de tratamento \textit{off-label} (não padronizado). Estes esquemas incluem aqueles sobre os quais a evidência científica presente é inconclusiva ou preliminar. Tratamentos baseados em trabalhos observacionais, ensaios clínicos fase I ou II com número limitado de pacientes estão nesta condição. Os resultados favoráveis de ensaios fase II que tenham recrutado maior número de pacientes, mesmo que não randomizado, poderão servir de base para o tratamento de pacientes entre os protocolos principais, em vista da falta de evidências científicas de qualidade maior, como ficou exposto no texto deste manual.
 
@@ -488,6 +492,8 @@ Nas páginas que se seguem, apresentamos as folhas de acompanhamento ambulatoria
 
 O manual foi escrito em LaTeX, usando ShareLatex e programas para desktop (Texmaker). Todo o código do projeto está disponível num repositório público do GitHub, que pode ser acessado neste endereço: \texttt{https://github.com/fhcflx/cpc-neuro.git}. O arquivo \texttt{*.tex} contém o código correspondente. Contribuições são bem-vindas. Visite o repositório ou a página do projeto em \texttt{https://fhcflx.github.io/cpc-neuro}. Se você ainda não tem uma conta no GitHub (gratuita), inscreva-se, abra uma pendência (\textit{issue}) ou faça uma cópia (\textit{fork}), modifique o que achar necessário e peça para integrar (\textit{pull request}) suas mudanças ao projeto.
 \cleardoublepage
+
+\appendix
 \chapter{Protocolos principais}
 \cleardoublepage
 \section{GLIOMA DE BAIXO GRAU -- Adaptado do ensaio COG-A9952}
@@ -2166,6 +2172,126 @@ Assim, o principal tratamento para pacientes com ependimoma mantém-se a ressec�
 \textbf{Elegível:}Estadiamento pré-tratamento: até 0,5cm de tumor residual (RNM de controle até 21 dias pós-op, preferido 72h após); sem metástases (RNM de neuro-eixo e PL/MO). Tratamento precisa iniciar até 56 dias após cirurgia. Apenas EPENDIMOMA (excluindo espinhal). Pacientes com mais de 3 anos de idade. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
 \textbf{Alternativa:} não existe esquema de QT amplamente aceito para tratar crianças com ependimoma. O tratamento padrão é RT no leito tumoral. Os pacientes com ressecção incompleta têm um prognóstico insatisfatório e sobrevida livre de progressão prolongada reduzida.}
+
+\tikzset{
+>=stealth',
+  punktchain/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=10em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=8em,
+    draw=blue!40!black!90, very thick,
+    text width=10em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+\begin{tikzpicture}
+  [node distance=.8cm,
+  start chain=going below,]
+    \node[punktchain, join] (tc) {Ependimoma};
+    \node[punktchain, join] (ine)      {Imagem de neuro-eixo};
+    \node[punktchain, join] (rc)      {Ressecção cirúrgica};
+    \node[punktchain, join] (ipo) {Imagem pós-operatória};
+    \node[punktchain, join] (ta) {Terapia adjuvante};
+    \node (rco) [punktchain ]  {Ressecção completa};
+    \begin{scope}[start branch=venstre,
+        %We need to redefine the join-style to have the -> turn out right
+        every join/.style={->, thick, shorten <=1pt}, ]
+        \node[punktchain, on chain=going left, join=by {<-}]
+            (nme) {Não metastático};
+    \end{scope}
+    \begin{scope}[start branch=hoejre,]
+        \node (excspin) [punktchain, on chain=going right] {Exclui tumor espinhal};
+    \end{scope}
+    \node[punktchain, join,] (rt) {RT local 59.4 Gy};
+    \node[punktchain, join,] (reav) {Reavaliação};
+    \node[punktchain, join] (seg) {Seguimento};
+    \node[punktchain] (reav2) {Reavaliação};
+    \node[punktchain] (rtne) {RT NE 36 Gy e boost local 59.4 Gy};
+    \node (dor) [punktchain ]  {Doença residual};
+    \begin{scope}[start branch=venstre,
+        %We need to redefine the join-style to have the -> turn out right
+        every join/.style={->, thick, shorten <=1pt}, ]
+        \node[punktchain, on chain=going left, join=by {<-}]
+            (me) {Metastático};
+    \end{scope}
+    \begin{scope}[start branch=hoejre,]
+        \node (rci) [punktchain, on chain=going right] 
+            {Mais que 0,5 cm de tumor residual};
+    \end{scope}
+    
+  % Now that we have finished the main figure let us add some "after-drawings"
+  %% First, let us connect (finans) with (disk). We want it to have
+  %% square corners.
+  \draw[|-,-|,->, thick,] (excspin.south) |-+(0,-1em)-| (rt.north);
+  \draw[-|,|-,->, thick,] (rci.east) -|+(1em,0)|- (excspin.east);
+  \draw[-,->, thick,] (dor.north) -|+(0,0)|- (rtne.south);
+  \draw[-,->, thick,] (rtne.north) -|+(0,0)|- (reav2.south);
+  \draw[-,->, thick,] (reav2.north) -|+(0,0)|- (seg.south);
+  % Now, let us add some braches. 
+  %% No. 1
+  \draw[tuborg] let
+    \p1=(nme.west), \p2=(excspin.east) in
+    ($(\x1,\y1+2.5em)$) -- ($(\x2,\y2+2.5em)$) node[above, midway]  {Protocolo de tratamento};
+  %% No. 2
+  \draw[tuborg, decoration={brace}] let \p1=(reav.north), \p2=(reav2.south) in
+    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Remissão completa};
+  %% No. 3
+  \draw[tuborg, decoration={brace}] let \p1=(ipo.north), \p2=(ta.south) in
+    ($(2, \y1)$) -- ($(2, \y2)$) node[tubnode] {Estratificação};
+  \end{tikzpicture}
+  
+  \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, text width=3cm, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\begin{tikzpicture} [node distance=2cm]
+\node (start) [startstop] {Tumor cerebral};
+\node (in1) [io, below of=start] {Idade > 3 anos};
+\node (pro1) [process, below of=in1] {RM};
+\node (dec1) [decision, below of=pro1, yshift=-0.5cm] {Espinhal?};
+\node (pro2a) [process, below of=dec1] {Ressecção cirúrgica};
+\node (pro2b) [process, right of=dec1, xshift=2cm] {Cirurgia exclusiva};
+\node (dec2) [decision, below of=pro2a, yshift=-0.5cm] {Completa?};
+\node (pro3a) [process, below of=dec2] {Imagem NE};
+\node (pro3b) [process, right of=dec2, xshift=2cm] {Considerar Terapia Adjuvante};
+\node (dec3) [decision, below of=pro3a, yshift=-0.5cm] {Metastático?};
+\node (pro4a) [process, below of=dec3] {Radioterapia local 59,4 Gy};
+\node (pro4b) [process, right of=dec3, xshift=2cm] {Radioterapia NE};
+\node (out1) [io, below of=pro4a] {Remissão completa};
+\node (stop) [startstop, below of=out1] {Seguimento};
+\draw [arrow] (start) -- (in1);
+\draw [arrow] (in1) -- (pro1);
+\draw [arrow] (pro1) -- (dec1);
+\draw [arrow] (pro2a) -- (dec2);
+\draw [arrow] (pro3a) -- (dec3);
+\draw [arrow] (dec1) -- node[anchor=east] {não} (pro2a);
+\draw [arrow] (dec1) -- node[anchor=south] {sim} (pro2b);
+\draw [arrow] (dec2) -- node[anchor=east] {sim} (pro3a);
+\draw [arrow] (dec2) -- node[anchor=south] {não} (pro3b);
+\draw [arrow] (dec3) -- node[anchor=east] {sim} (pro4a);
+\draw [arrow] (dec3) -- node[anchor=south] {não} (pro4b);
+\draw [arrow] (dec2) -- (pro3a);
+\draw [arrow] (pro4a) -- (out1);
+\draw [arrow] (out1) -- (stop);
+\end{tikzpicture}
+
 \cleardoublepage
 \chapter{Protocolos \textit{off-label} (não padronizados)}
 
@@ -3639,9 +3765,257 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
 \textbf{ATENÇÃO:} este protocolo é \textit{off-label} (não padronizado) e não tem eficácia comprovada quando comparado com tratamento padrão sem QT. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
 
 \cleardoublepage
+\chapter{Quimioterapia neoadjuvante}
+\cleardoublepage
+
+\section{VIMBLASTINA METRONÔMICA NEOADJUVANTE - protocolo \textit{off-label}}
+{\let\thefootnote\relax\footnotetext{Versão Outubro/2017}}
+\textbf{Racional:} Estudos mostraram a utilidade da vimblastina como monoterapia ou associada à terapia convencional em pacientes pediátricos com linfoma anaplásico de grandes células, na primeira linha ou após recorrência.  \footnote{Le Deley \textit{et al}, 2010; Brugières \textit{et al}, 2009}. Um estudo fase II piloto que incluiu 33 pacientes pediátricos com tumores sólidos recorrentes usou a vimblastina como terapia metronômica, associada ou não à ciclofosfamida, mostrando resultados objetivos num subgrupo pequeno \footnote{Stempak \textit{et al}, 2006}. Um outro estudo tratou 64 pacientes pediátricos com tumores sólidos recorrentes (incluindo 9 pacientes com tumor cerebral) com vimblastina metronômica e radioterapia, obtendo resposta objetiva em quase 50\% \footnote{Ali \textit{et al}, 2016}. Os esquemas variam na dose ($1-6 mg/m^2$), na frequência (1 a 3 vezes por semana) e na associação com outras terapias (celecoxibe, quimioterapia convencional, radioterapia). 
+
+\textbf{Elegível:} pacientes pediátricos com tumores cerebelares estadiamento de Chang T3 ou T4. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:}  O tratamento padrão é a cirurgia com ressecção máxima possível, mantendo com segurança uma mínima incidência de complicações. Este tratamento é experimental e somente deve ser iniciado após aprovação pelo Comitê de Ética em Pesquisa da unidade proponente.
+\\[0.4cm]
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Esquema: 6 semanas}
+\begin{center}
+\textbf{Solicitar imagem (RNM com perfusão se disponível)}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D1}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D3}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D5}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D8}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D10}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D12}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+   \hline
+       \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D15}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D17}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+   \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D19}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D22}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D24}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D26}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+   \hline
+          \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D29}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D31}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+\end{tabular}
+\end{table}
+
+\pagebreak
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D33}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D36}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D38}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D40}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+   \hline
+\end{tabular}
+\end{table}
+\textbf{\textit{Reavaliar e encaminhar à cirurgia}}
+
+\textbf{Solicitar imagem (RNM com perfusão se disponível)}
+\end{center}
+\subsection{Modificações de dose:}
+Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{2}. Se Neut < 500mm\(^3\), interromper até subir para 750 ou mais. Se toxicidade hematológica recorrente, reduzir dose para 4mg/m\textsuperscript{2}.
+
+\textbf{ATENÇÃO:} o objetivo deste protocolo é permitir a máxima ressecção possível em tumores cerebelares de difícil abordagem. Seu desfecho principal mensurável é a quantidade de pacientes com ressecção total ou subtotal. Logo, deve-se considerar caso a caso a possibilidade de iniciar este esquema de QT em crianças em regime de internação prolongada, dependentes de cuidados hospitalares intensivos, ou com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+\clearpage
+
+\section{IFOSFAMIDA, CARBOPLATINA E ETOPOSIDO (ICE) NEOADJUVANTE PARA TUMORES DE PLEXO CORÓIDE - protocolo \textit{off-label}}
+{\let\thefootnote\relax\footnotetext{Versão Outubro/2017}}
+\textbf{Racional:} o Children's Cancer Group (CCG) publicou os resultados de alguns ensaios fase II que incluíram, conjuntamente, 229 pacientes com tumores previamente tratados (43 com tumores cerebrais) que receberam uma mediana de 1 ciclo. Dos pacientes com sarcomas, cerca de 50\% obtiveram resposta parcial ou completa \footnote{Davenport \textit{et al}, 2000; Winkle \textit{et al}, 2005}.
+
+\textbf{Elegível:} Inclui meduloblastoma, outros tumores embrionários, ependimoma clássico ou anaplásico, gliomas difusos de linha média H3K27M+ (DIPG), glioblastoma multiforme, astrocitoma anaplásico, oligodendroglioma anaplásico, tumores malignos raros do SNC. Pacientes com doença recorrente e/ou progressiva após 1 ou mais esquemas de tratamento. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} não existe esquema de QT amplamente aceito para tratar crianças com tumores malignos do SNC recorrentes e/ou progressivos. Verificar a possibilidade de incluir o paciente em algum estudo investigacional. Outra alternativa é repetir RT craniana.
+\\[0.4cm]
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Dois ciclos - repetir uma vez se necessário e não houver progressão}
+
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{c|p{5cm}|p{1.4cm}|p{4cm}|p{2.8cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(400\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(400\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{c|p{4cm}|p{1.3cm}|p{3cm}|p{2.7cm}}
+   \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D6 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 21 dias.}
+\begin{table}[H]
+\begin{tabular}{c|p{4cm}|p{1.3cm}|p{3cm}|p{2.7cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(400\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(400\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D6 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{REAVALIAR A CADA 2 CICLOS}
+\end{center}
+
+\subsection{Modificações de dose:}
+Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subsequentes em 25% (todas as drogas). Caso não ocorra recuperação após o D35, o protocolo deve ser interrompido.
+
+\textbf{Avaliação:} imagem a cada 4 ciclos, se progressão, interromper protocolo.
+
+\textbf{ATENÇÃO:} este protocolo é \textit{off-label} (não padronizado) e não tem eficácia comprovada quando comparado com tratamento padrão sem QT. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+
+\cleardoublepage
 \chapter{Quimioterapia metronômica}
 \cleardoublepage
-\section{VIMBLASTINA SEMANAL METRONÔMICA}
+
+\section{VIMBLASTINA SEMANAL METRONÔMICA - protocolo \textit{off-label}}
 {\let\thefootnote\relax\footnotetext{Versão Setembro/2017}}
 \textbf{Racional:} Estudos mostraram a utilidade da vimblastina como monoterapia ou associada à terapia convencional em pacientes pediátricos com linfoma anaplásico de grandes células, na primeira linha ou após recorrência.  \footnote{Le Deley \textit{et al}, 2010; Brugières \textit{et al}, 2009}. Um estudo fase II piloto que incluiu 33 pacientes pediátricos com tumores sólidos recorrentes usou a vimblastina como terapia metronômica, associada ou não à ciclofosfamida, mostrando resultados objetivos num subgrupo pequeno \footnote{Stempak \textit{et al}, 2006}. Um outro estudo tratou 64 pacientes pediátricos com tumores sólidos recorrentes (incluindo 9 pacientes com tumor cerebral) com vimblastina metronômica e radioterapia, obtendo resposta objetiva em quase 50\% \footnote{Ali \textit{et al}, 2016}. Os esquemas variam na dose ($1-6 mg/m^2$), na frequência (1 a 3 vezes por semana) e na associação com outras terapias (celecoxibe, quimioterapia convencional, radioterapia). 
 
@@ -3874,7 +4248,7 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
 \cleardoublepage
 \chapter{Protocolos depreciados (substituídos por atualizações)}
 \cleardoublepage
-\section{GLIOMA DE ALTO GRAU E DIPG -- Adaptado do ensaio ACNS0126 - protocolo \textit{off-label}}
+\section{GLIOMA DE ALTO GRAU E DIPG -- Adaptado do ensaio ACNS0126}
 {\let\thefootnote\relax\footnotetext{Versão Janeiro/2015}}
 \textbf{Racional:} no estudo do COG, a temozolomida (TMZ) não mostrou aumento de sobrevida em relação ao controle histórico (CCG-945), porém é proposta como alternativa principal por suas vantagens \footnote{Cohen \textit{et al}, 2011}. Deve-se levar em conta a disponibilidade e custo do esquema. Este protocolo foi substituído em 2017 pelo ACNS-0423, que mostrou resultados superiores.
 
@@ -4243,7 +4617,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
 \textbf{ATENÇÃO:} este protocolo é \textit{off-label} (não padronizado) e não tem eficácia comprovada quando comparado com tratamento padrão sem QT. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
 \cleardoublepage
 
-\section{EPENDIMOMA NÃO METASTÁTICO -- Adaptado dos ensaios ACNS0121 e ACNS0831 - protocolo \textit{off-label}}
+\section{EPENDIMOMA NÃO METASTÁTICO -- Adaptado dos ensaios ACNS0121 e ACNS0831}
 {\let\thefootnote\relax\footnotetext{Versão Janeiro/2017}}
 \small{
 \textbf{Racional:} no estudo recém-terminado do COG (ACNS0121), os pacientes foram estratificados em 4 grupos \footnote{Merchant \textit{et al}, 2015}:
@@ -4906,155 +5280,5 @@ Durante a radioterapia:\\
 \textbf{Reação ao etoposido:}
 Na reação aguda: interromper a infusão, administrar anti-histamínicos e corticóide, re-iniciar infusão na metade da velocidade.
 Antes da próxima dose: anti-histamínicos e corticóide pré-quimioterapia e metade da velocidade de infusão.
-\cleardoublepage
-
-\section{VIMBLASTINA METRONÔMICA NEOADJUVANTE}
-{\let\thefootnote\relax\footnotetext{Versão Outubro/2017}}
-\textbf{Racional:} Estudos mostraram a utilidade da vimblastina como monoterapia ou associada à terapia convencional em pacientes pediátricos com linfoma anaplásico de grandes células, na primeira linha ou após recorrência.  \footnote{Le Deley \textit{et al}, 2010; Brugières \textit{et al}, 2009}. Um estudo fase II piloto que incluiu 33 pacientes pediátricos com tumores sólidos recorrentes usou a vimblastina como terapia metronômica, associada ou não à ciclofosfamida, mostrando resultados objetivos num subgrupo pequeno \footnote{Stempak \textit{et al}, 2006}. Um outro estudo tratou 64 pacientes pediátricos com tumores sólidos recorrentes (incluindo 9 pacientes com tumor cerebral) com vimblastina metronômica e radioterapia, obtendo resposta objetiva em quase 50\% \footnote{Ali \textit{et al}, 2016}. Os esquemas variam na dose ($1-6 mg/m^2$), na frequência (1 a 3 vezes por semana) e na associação com outras terapias (celecoxibe, quimioterapia convencional, radioterapia). 
-
-\textbf{Elegível:} pacientes pediátricos com tumores cerebelares estadiamento de Chang T3 ou T4. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
-
-\textbf{Alternativa:}  O tratamento padrão é a cirurgia com ressecção máxima possível, mantendo com segurança uma mínima incidência de complicações. Este tratamento é experimental e somente deve ser iniciado após aprovação pelo Comitê de Ética em Pesquisa da unidade proponente.
-\\[0.4cm]
-\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
-\\[0.3cm]
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
-
-\subsection{Esquema: 6 semanas}
-\begin{center}
-\textbf{Solicitar imagem (RNM com perfusão se disponível)}
-\begin{table}[H]
-\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D1}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
-    \\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D3}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D5}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D8}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-\end{tabular}
-\end{table}
-\begin{table}[H]
-\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D10}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
-    \\
-    \hline\\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D12}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-   \hline
-       \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D15}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
-    \\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D17}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-   \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D19}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D22}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D24}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
-    \\
-    \hline\\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D26}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-   \hline
-          \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D29}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
-    \\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D31}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-\end{tabular}
-\end{table}
-
-\pagebreak
-    \noindent
-\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
-\\[0.3cm]
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
-
-\begin{table}[H]
-\begin{tabular}{p{1cm}p{5cm}|p{5cm}|p{3cm}}
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D33}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D36}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D38}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
-    \\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D40}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-   \hline
-\end{tabular}
-\end{table}
-\textbf{\textit{Reavaliar e encaminhar à cirurgia}}
-
-\textbf{Solicitar imagem (RNM com perfusão se disponível)}
-\end{center}
-\subsection{Modificações de dose:}
-Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{2}. Se Neut < 500mm\(^3\), interromper até subir para 750 ou mais. Se toxicidade hematológica recorrente, reduzir dose para 4mg/m\textsuperscript{2}.
-
-\textbf{ATENÇÃO:} o objetivo deste protocolo é permitir a máxima ressecção possível em tumores cerebelares de difícil abordagem. Seu desfecho principal mensurável é a quantidade de pacientes com ressecção total ou subtotal. Logo, deve-se considerar caso a caso a possibilidade de iniciar este esquema de QT em crianças em regime de internação prolongada, dependentes de cuidados hospitalares intensivos, ou com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
 
 \end{document}
