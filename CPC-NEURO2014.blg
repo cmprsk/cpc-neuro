@@ -3,46 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: CPC-NEURO2014.aux
 The style file: unsrt.bst
 Database file #1: bib.bib
-Warning--I didn't find a database entry for "piñero2014santiago"
-You've used 26 entries,
+You've used 27 entries,
             1791 wiz_defined-function locations,
-            633 strings with 11920 characters,
-and the built_in function-call counts, 7713 in all, are:
-= -- 556
-> -- 620
+            637 strings with 12019 characters,
+and the built_in function-call counts, 7871 in all, are:
+= -- 572
+> -- 624
 < -- 2
-+ -- 215
-- -- 189
-* -- 725
-:= -- 1335
-add.period$ -- 82
-call.type$ -- 26
++ -- 217
+- -- 190
+* -- 729
+:= -- 1361
+add.period$ -- 86
+call.type$ -- 27
 change.case$ -- 26
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 243
-empty$ -- 614
-format.name$ -- 189
-if$ -- 1612
+cite$ -- 27
+duplicate$ -- 253
+empty$ -- 633
+format.name$ -- 190
+if$ -- 1651
 int.to.chr$ -- 0
-int.to.str$ -- 26
-missing$ -- 24
-newline$ -- 135
-num.names$ -- 28
-pop$ -- 49
+int.to.str$ -- 27
+missing$ -- 26
+newline$ -- 140
+num.names$ -- 29
+pop$ -- 54
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 92
+skip$ -- 94
 stack$ -- 0
 substring$ -- 481
-swap$ -- 37
+swap$ -- 38
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 57
-width$ -- 28
-write$ -- 293
-(There was 1 warning)
+while$ -- 58
+width$ -- 29
+write$ -- 304
