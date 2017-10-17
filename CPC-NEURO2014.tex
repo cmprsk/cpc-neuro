@@ -1,6 +1,10 @@
 \documentclass[11pt,a4paper,oldfontcommands]{memoir}
 \hfuzz=2.1pt 
-\usepackage{hyperref}
+\usepackage[
+breaklinks=true,colorlinks=true,
+%linkcolor=blue,urlcolor=blue,citecolor=blue,% PDF VIEW
+linkcolor=black,urlcolor=black,citecolor=black,% PRINT
+bookmarks=true,bookmarksopenlevel=2]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
@@ -22,12 +26,6 @@
 \newlength{\drop}% for my convenience
 \newcommand*{\plogo}{\fbox{$\mathcal{FHC}$}}
 \makeatletter
-
-\usepackage[
-breaklinks=true,colorlinks=true,
-%linkcolor=blue,urlcolor=blue,citecolor=blue,% PDF VIEW
-linkcolor=black,urlcolor=black,citecolor=black,% PRINT
-bookmarks=true,bookmarksopenlevel=2]{hyperref}
 
 \usepackage{geometry}
 % PDF VIEW
