@@ -1,3 +1,46 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: CPC-NEURO2014.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: CPC-NEURO2014.aux
 The style file: unsrt.bst
 Database file #1: bib.bib
+You've used 27 entries,
+            1791 wiz_defined-function locations,
+            637 strings with 12019 characters,
+and the built_in function-call counts, 7871 in all, are:
+= -- 572
+> -- 624
+< -- 2
++ -- 217
+- -- 190
+* -- 729
+:= -- 1361
+add.period$ -- 86
+call.type$ -- 27
+change.case$ -- 26
+chr.to.int$ -- 0
+cite$ -- 27
+duplicate$ -- 253
+empty$ -- 633
+format.name$ -- 190
+if$ -- 1651
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 26
+newline$ -- 140
+num.names$ -- 29
+pop$ -- 54
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 94
+stack$ -- 0
+substring$ -- 481
+swap$ -- 38
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 58
+width$ -- 29
+write$ -- 304
