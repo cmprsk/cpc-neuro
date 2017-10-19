@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.10.19)  19 OCT 2017 19:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.10.19)  19 OCT 2017 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1325,10 +1325,8 @@ ABD: EveryShipout initializing macros [1
 
 ] [3] [4
 
-] [5] [6
-
-]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 328.
+] [5]
+LaTeX Font Info:    Try loading font information for T1+phv on input line 334.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1338,15 +1336,8 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 328.
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.331 \end{contributors}
-                         [5
-
-] (./CPC-NEURO2014.toc
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 334.
+ (./CPC-NEURO2014.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 
@@ -1360,16 +1351,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27 ...aios CCG-9961 e ACNS0331}{41}{section.A.3}
-                                                   [6]
+ [6
+
+]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 36.
- [7]) [8]
-(./CPC-NEURO2014.lof) (./CPC-NEURO2014.lot) [9
+ [7])
+[8] (./CPC-NEURO2014.lof) (./CPC-NEURO2014.lot) [9
 
 ] [10
 
@@ -1395,13 +1383,13 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 411.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 411.
- <fig/fig1.pdf, id=511, 614.295pt x 794.97pt>
+ <fig/fig1.pdf, id=503, 614.295pt x 794.97pt>
 File: fig/fig1.pdf Graphic file (type pdf)
 
 <use fig/fig1.pdf>
 Package pdftex.def Info: fig/fig1.pdf used on input line 414.
 (pdftex.def)             Requested size: 455.55289pt x 651.44832pt.
- <fig/fig2.pdf, id=513, 614.295pt x 794.97pt>
+ <fig/fig2.pdf, id=505, 614.295pt x 794.97pt>
 File: fig/fig2.pdf Graphic file (type pdf)
 
 <use fig/fig2.pdf>
@@ -1449,7 +1437,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 442.
 
-<fig/fig3.pdf, id=567, 614.295pt x 794.97pt>
+<fig/fig3.pdf, id=559, 614.295pt x 794.97pt>
 File: fig/fig3.pdf Graphic file (type pdf)
  <use fig/fig3.pdf>
 Package pdftex.def Info: fig/fig3.pdf used on input line 444.
@@ -1945,13 +1933,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5250.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5250.
 
 Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
-(rerunfilecheck)             Checksum: 12015A7722BBF376F2A6ED80C2C933F3;7819.
+(rerunfilecheck)             Checksum: 6AE9DADF01365B70A2812980A81BD13E;7818.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5250.
  ) 
 Here is how much of TeX's memory you used:
- 24666 strings out of 495004
- 446856 string characters out of 6180661
- 625244 words of memory out of 5000000
+ 24665 strings out of 495004
+ 446844 string characters out of 6180661
+ 625229 words of memory out of 5000000
  26802 multiletter control sequences out of 15000+600000
  124172 words of font info for 307 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -1969,10 +1957,10 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on CPC-NEURO2014.pdf (164 pages, 491253 bytes).
+Output written on CPC-NEURO2014.pdf (162 pages, 490734 bytes).
 PDF statistics:
- 1388 PDF objects out of 1440 (max. 8388607)
- 1191 compressed objects within 12 object streams
- 299 named destinations out of 1000 (max. 500000)
+ 1380 PDF objects out of 1440 (max. 8388607)
+ 1185 compressed objects within 12 object streams
+ 298 named destinations out of 1000 (max. 500000)
  54990 words of extra memory for PDF output out of 61914 (max. 10000000)
 
