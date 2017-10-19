@@ -1,7 +1,7 @@
 \select@language {brazilian}
-\contentsline {chapter}{Sum\'ario}{6}{section*.2}
-\contentsline {chapter}{Lista de Figuras}{9}{section*.3}
-\contentsline {chapter}{Lista de Tabelas}{9}{section*.4}
+\contentsline {chapter}{Sum\'ario}{6}{section*.1}
+\contentsline {chapter}{Lista de Figuras}{9}{section*.2}
+\contentsline {chapter}{Lista de Tabelas}{9}{section*.3}
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Tumores cerebrais na inf\IeC {\^a}ncia e adolesc\IeC {\^e}ncia}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Por qu\IeC {\^e} criar um comp\IeC {\^e}ndio de protocolos de quimioterapia?}{7}{section.1.2}
@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Avalia\IeC {\c c}\IeC {\~a}o cr\IeC {\'\i }tica de ensaios cl\IeC {\'\i }nicos}{9}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}O panorama molecular dos gliomas de baixo grau}{14}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Tumores embrion\IeC {\'a}rios}{14}{section.2.2}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{15}{section*.10}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{15}{section*.9}
 \contentsline {chapter}{\chapternumberline {3}Esquemas de tratamento}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introdu\IeC {\c c}\IeC {\~a}o}{19}{section.3.1}
 \contentsline {section}{\numberline {3.2}O que s\IeC {\~a}o estes protocolos}{19}{section.3.2}
@@ -80,9 +80,9 @@
 \contentsline {appendix}{\chapternumberline {G}Protocolos experimentais (estudos cl\IeC {\'\i }nicos)}{141}{appendix.G}
 \contentsline {section}{\numberline {G.1}VALQUIRIA (VALPROATO, QUIMIOTERAPIA E RADIOTERAPIA - protocolo experimental cancelado}{143}{section.G.1}
 \contentsline {subsection}{\numberline {G.1.1}Resumo do tratamento:}{144}{subsection.G.1.1}
-\contentsline {subsubsection}{Droga oral:}{144}{section*.11}
-\contentsline {subsubsection}{Protocolo de quimioterapia:}{144}{section*.12}
-\contentsline {subsubsection}{Radioquimioterapia simult\IeC {\^a}nea:}{144}{section*.13}
+\contentsline {subsubsection}{Droga oral:}{144}{section*.10}
+\contentsline {subsubsection}{Protocolo de quimioterapia:}{144}{section*.11}
+\contentsline {subsubsection}{Radioquimioterapia simult\IeC {\^a}nea:}{144}{section*.12}
 \contentsline {subsection}{\numberline {G.1.2}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{144}{subsection.G.1.2}
 \contentsline {subsection}{\numberline {G.1.3}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{147}{subsection.G.1.3}
 \contentsline {subsection}{\numberline {G.1.4}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{150}{subsection.G.1.4}
