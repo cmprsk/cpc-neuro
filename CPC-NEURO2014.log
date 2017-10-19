@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.10.19)  19 OCT 2017 18:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.10.19)  19 OCT 2017 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **CPC-NEURO2014.tex
 (./CPC-NEURO2014.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 3 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2013/05/30 v3.7b configurable book, report, article docu
 ment class
@@ -18,10 +18,8 @@ ment class
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
-Package: ifetex 2011/12/15 v1.2 ifetex
+Class memoir Info: An `ifetex' package is being emulated on input line 265.
 
-(/usr/share/texlive/texmf-dist/tex/plain/ifetex/ifetex.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -315,6 +313,7 @@ Package delarray [2008/07/23] emulated by memoir.
 Package enumerate [2008/07/23] emulated by memoir.
 Package epigraph [2008/07/23] emulated by memoir.
 Package ifmtarg [2008/07/23] emulated by memoir.
+Package ifetex [2008/07/23] emulated by memoir.
 Package index [2008/07/23] emulated by memoir.
 Package makeidx [2008/07/23] emulated by memoir.
 Package moreverb [2008/07/23] emulated by memoir.
@@ -1950,12 +1949,12 @@ Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5250.
  ) 
 Here is how much of TeX's memory you used:
- 24679 strings out of 493304
- 447254 string characters out of 6139870
- 629797 words of memory out of 5000000
- 27048 multiletter control sequences out of 15000+600000
+ 24666 strings out of 495004
+ 446856 string characters out of 6180661
+ 625244 words of memory out of 5000000
+ 26802 multiletter control sequences out of 15000+600000
  124172 words of font info for 307 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 16 hyphenation exceptions out of 8191
  61i,14n,61p,3313b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
