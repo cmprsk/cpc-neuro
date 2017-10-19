@@ -3,7 +3,7 @@ before_script:
 - chmod a+x script/cibuild
 - script/cibuild
 script:
-- xelatex -interaction=nonstopmode -halt-on-error CPC-NEURO2014.tex
+- pdflatex -interaction=nonstopmode -halt-on-error CPC-NEURO2014.tex
 - bibtex   CPC-NEURO2014
 - pdflatex -interaction=nonstopmode -halt-on-error CPC-NEURO2014.tex
 after_success:
