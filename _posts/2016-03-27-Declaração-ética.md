@@ -20,12 +20,12 @@ Este manuscrito tem fins educativos e é voltado para falantes da língua portug
 
 > Membro da Sociedade Brasileira de Pediatria - [SBP](http://www.sbp.com.br) desde 2002,
 > Membro da Sociedade Brasileira de Oncología Pediátrica - [SOBOPE](http://www.sobope.org.br) desde 2013,
-> Membro da Society for Neuroncology - [SNO](http://soc-neuro-onc.org) desde 2015
+> Membro da Society for Neuroncology/Society for Neuroncology Latin America - [SNO/SNOLA](http://soc-neuro-onc.org) desde 2015
 
 > Título de especialista em pediatria em 2012,
 > Título de especialista em cancerologia pediátrica em 2014
 
-> Contato: heldercfelix@gmail.com - twitter: @fhcflx
+> Contato: fhcflx@outlook.com - twitter: @fhcflx
 
 Obs.: este manuscrito não necessariamente representa os pontos de vista ou é endossado pelo Hospital Infantil Albert Sabin
 ou pela Secretaria de Saúde do Estado do Ceará, sendo de iniciativa do responsável acima identificado.
