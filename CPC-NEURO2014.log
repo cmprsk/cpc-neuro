@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.21)  21 NOV 2017 01:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.12.7)  7 DEC 2017 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1418,7 +1418,9 @@ ABD: EveryShipout initializing macros [1
 
 ] [3] [4
 
-] [5]
+] [5] [6
+
+]
 LaTeX Font Info:    Try loading font information for T1+phv on input line 334.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
@@ -1444,7 +1446,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
- [6
+ [7
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
@@ -1452,10 +1454,8 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
 
 Underfull \vbox (badness 3713) has occurred while \output is active []
 
- [7])
-[8] (./CPC-NEURO2014.lof) (./CPC-NEURO2014.lot) [9
-
-] [10
+ [8])
+[9] (./CPC-NEURO2014.lof) (./CPC-NEURO2014.lot) [10
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
@@ -1463,6 +1463,7 @@ Underfull \vbox (badness 3713) has occurred while \output is active []
                    \relax 
 l.355 \clearpage
                  [1
+
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
@@ -1953,8 +1954,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5250.
  ) 
 Here is how much of TeX's memory you used:
  24775 strings out of 494926
- 448420 string characters out of 6180258
- 629579 words of memory out of 5000000
+ 448420 string characters out of 6180259
+ 629580 words of memory out of 5000000
  27019 multiletter control sequences out of 15000+600000
  124647 words of font info for 307 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -1972,7 +1973,7 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on CPC-NEURO2014.pdf (137 pages, 476901 bytes).
+Output written on CPC-NEURO2014.pdf (137 pages, 476992 bytes).
 PDF statistics:
  1266 PDF objects out of 1440 (max. 8388607)
  1097 compressed objects within 11 object streams
