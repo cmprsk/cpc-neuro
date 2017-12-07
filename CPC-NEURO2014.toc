@@ -1,7 +1,7 @@
 \select@language {brazilian}
-\contentsline {chapter}{Sum\'ario}{6}{section*.1}
-\contentsline {chapter}{Lista de Figuras}{9}{section*.2}
-\contentsline {chapter}{Lista de Tabelas}{9}{section*.3}
+\contentsline {chapter}{Sum\'ario}{7}{section*.1}
+\contentsline {chapter}{Lista de Figuras}{10}{section*.2}
+\contentsline {chapter}{Lista de Tabelas}{10}{section*.3}
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Tumores cerebrais na inf\IeC {\^a}ncia e adolesc\IeC {\^e}ncia}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Por qu\IeC {\^e} criar um comp\IeC {\^e}ndio de protocolos de quimioterapia?}{7}{section.1.2}
