@@ -3,9 +3,11 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: CPC-NEURO2014.aux
 The style file: unsrt.bst
 Database file #1: bib.bib
+Warning--I didn't find a database entry for "Jones2008"
+Warning--I didn't find a database entry for "Eisenhardt2011"
 You've used 27 entries,
             1791 wiz_defined-function locations,
-            637 strings with 12019 characters,
+            641 strings with 12065 characters,
 and the built_in function-call counts, 7871 in all, are:
 = -- 572
 > -- 624
@@ -44,3 +46,4 @@ warning$ -- 0
 while$ -- 58
 width$ -- 29
 write$ -- 304
+(There were 2 warnings)
