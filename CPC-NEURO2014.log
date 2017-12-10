@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.12.10)  10 DEC 2017 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.12.10)  10 DEC 2017 21:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1573,14 +1573,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [12]
 [13]
 
-LaTeX Warning: Citation `Qadoummi2016' on page 14 undefined on input line 469.
+LaTeX Warning: Citation `Qaddoummi2016' on page 14 undefined on input line 469.
+
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 
-LaTeX Warning: Citation `Qadoummi2016' on page 15 undefined on input line 471.
+LaTeX Warning: Citation `Qaddoummi2016' on page 15 undefined on input line 471.
+
 
 (./CPC-NEURO2014.bbl [15] [16
 
@@ -1980,8 +1982,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5258.
  ) 
 Here is how much of TeX's memory you used:
  24793 strings out of 494926
- 448656 string characters out of 6180258
- 629845 words of memory out of 5000000
+ 448657 string characters out of 6180258
+ 629846 words of memory out of 5000000
  27028 multiletter control sequences out of 15000+600000
  124647 words of font info for 307 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
