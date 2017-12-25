@@ -4,7 +4,10 @@
 \contentsline {chapter}{Lista de Tabelas}{9}{section*.4}
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Tumores cerebrais na inf\IeC {\^a}ncia e adolesc\IeC {\^e}ncia}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Por qu\IeC {\^e} criar um comp\IeC {\^e}ndio de protocolos de quimioterapia?}{7}{section.1.2}
+\contentsline {section}{\numberline {1.2}Qual o objetivo desta obra}{6}{section.1.2}
+\contentsline {section}{\numberline {1.3}Como esta obra foi feita}{7}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Revis\IeC {\~a}o da literatura}{7}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Protocolos de tratamento utilizados no HIAS}{8}{subsection.1.3.2}
 \contentsline {chapter}{\chapternumberline {2}O tratamento de tumores cerebrais em crian\IeC {\c c}as}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Tumores neuro-epiteliais de baixo grau}{9}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Avalia\IeC {\c c}\IeC {\~a}o cr\IeC {\'\i }tica de ensaios cl\IeC {\'\i }nicos}{9}{subsection.2.1.1}
