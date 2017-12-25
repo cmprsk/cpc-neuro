@@ -56,14 +56,6 @@ Orlandira~L Araujo, Karinne~M Trindade, Nadia~M Trompieri, Juvenia~B Fontenele,
   with brain tumor.
 \newblock {\em Jornal de Pediatria (Rio J)}, 87(5):425--432, 2011.
 
-\bibitem{ocebm}
-Jeremy Howick, Iain (on behalf of the James Lind~Library) Chalmers, Paul
-  Glasziou, Trish Greenhalgh, Carl Heneghan, Alessandro Liberati, Ivan
-  Moschetti, Bob Phillips, Hazel Thornton, Olive Goddard, and Mary Hodgkinson.
-\newblock {The Oxford 2011 Levels of Evidence}.
-\newblock Technical report, Oxford Centre for Evidence-Based Medicine, 2011.
-\newblock http://www.cebm.net/index.aspx?o=5653.
-
 \bibitem{cnes}
 {Cadastro Nacional de Estabelecimentos de Saúde}.
 \newblock http://bit.ly/1rrj62P, 2014.
@@ -80,6 +72,83 @@ Instituto Nacional de Ca\^{a}ncer~(Brasil). Coordena\c{c}\~{a}o de
 \newblock {\em {C\^{a}ncer da crian\c{c}a e adolescente no Brasil: dados dos
   registros de base populacional e de mortalidade.}}
 \newblock INCA, 2008.
+
+\bibitem{vosgerau}
+Dilmeire Sant’Anna~Ramos Vosgerau and Joana~Paulin Romanowski.
+\newblock Estudos de revisão: implicações conceituais e metodológicas.
+\newblock {\em Revista Diálogo Educacional}, 14(41):165--189, 2014.
+
+\bibitem{ocebm}
+Jeremy Howick, Iain (on behalf of the James Lind~Library) Chalmers, Paul
+  Glasziou, Trish Greenhalgh, Carl Heneghan, Alessandro Liberati, Ivan
+  Moschetti, Bob Phillips, Hazel Thornton, Olive Goddard, and Mary Hodgkinson.
+\newblock {The Oxford 2011 Levels of Evidence}.
+\newblock Technical report, Oxford Centre for Evidence-Based Medicine, 2011.
+\newblock http://www.cebm.net/index.aspx?o=5653.
+
+\bibitem{Ater20072012}
+Joann~L. Ater, Tianni Zhou, Emiko Holmes, Claire~M. Mazewski, Timothy~N. Booth,
+  David~R. Freyer, Ken~H. Lazarus, Roger~J. Packer, Michael Prados, Richard
+  Sposto, Gilbert Vezina, Jeffrey~H. Wisoff, and Ian~F. Pollack.
+\newblock Randomized study of two chemotherapy regimens for treatment of
+  low-grade glioma in young children: A report from the children's oncology
+  group.
+\newblock {\em Journal of Clinical Oncology}, 30(21):2641--2647, 2012.
+
+\bibitem{Wolff2011}
+Johannes~E. Wolff, Rolf-Dieter Kortmann, Birte Wolff, Torsten Pietsch, Ove
+  Peters, Hans-Joerg Schmid, Stefan Rutkowski, Monika Warmuth-Metz, and
+  Christoph Kramm.
+\newblock High dose methotrexate for pediatric high grade glioma: results of
+  the hit-gbm-d pilot study.
+\newblock {\em Journal of Neuro-Oncology}, 102(3):433--442, May 2011.
+
+\bibitem{slaop1}
+S~Epelman, S~Aguia, J~Quintana, R~Melaragno, V~Moraes, MZ~Fernandes,
+  E~Morinaka, FM~Torres, MN~Alvares, MC~Dondonis, and P~Azevedo.
+\newblock Intensive chemotherapy after surgery and pre-radiation in children
+  with high-risk medulloblastoma. results of the latin american study group -
+  slaop.
+\newblock {\em Medical and Pediatric Oncology}, 25(4):240, 1995.
+
+\bibitem{noq191}
+Kenneth~J. Cohen, Ian~F. Pollack, Tianni Zhou, Allen Buxton, Emiko~J. Holmes,
+  Peter~C. Burger, Daniel~J. Brat, Marc~K. Rosenblum, Ronald~L. Hamilton,
+  Robert~S. Lavey, and Richard~L. Heideman.
+\newblock Temozolomide in the treatment of high-grade gliomas in children: a
+  report from the children's oncology group.
+\newblock {\em Neuro-Oncology}, 13(3):317--323, 2011.
+
+\bibitem{4980}
+Roger~J. Packer, Amar Gajjar, Gilbert Vezina, Lucy Rorke-Adams, Peter~C.
+  Burger, Patricia~L. Robertson, Lisa Bayer, Deborah LaFond, Bernadine~R.
+  Donahue, MaryAnne~H. Marymont, Karin Muraszko, James Langston, and Richard
+  Sposto.
+\newblock Phase iii study of craniospinal radiation therapy followed by
+  adjuvant chemotherapy for newly diagnosed average-risk medulloblastoma.
+\newblock {\em Journal of Clinical Oncology}, 24(25):4202--4208, 2006.
+\newblock PMID: 16943538.
+
+\bibitem{095}
+J.~Russell Geyer, Richard Sposto, Mark Jennings, James~M. Boyett, Richard~A.
+  Axtell, David Breiger, Emmett Broxson, Bernadine Donahue, Jonathan~L. Finlay,
+  Joel~W. Goldwein, Linda~A. Heier, Dennis Johnson, Claire Mazewski, Douglas~C.
+  Miller, Roger Packer, Diane Puccetti, Jerilynn Radcliffe, May~Lin Tao, and
+  Tania Shiminski-Maher.
+\newblock Multiagent chemotherapy and deferred radiotherapy in infants with
+  malignant brain tumors: A report from the children’s cancer group.
+\newblock {\em Journal of Clinical Oncology}, 23(30):7621--7631, 2005.
+\newblock PMID: 16234523.
+
+\bibitem{2792}
+Regina~I. Jakacki, Peter~C. Burger, Tianni Zhou, Emiko~J. Holmes, Mehmet Kocak,
+  Arzu Onar, Joel Goldwein, Minesh Mehta, Roger~J. Packer, Nancy Tarbell,
+  Charles Fitz, Gilbert Vezina, Joanne Hilden, and Ian~F. Pollack.
+\newblock Outcome of children with metastatic medulloblastoma treated with
+  carboplatin during craniospinal radiotherapy: A children's oncology group
+  phase i/ii study.
+\newblock {\em Journal of Clinical Oncology}, 30(21):2648--2653, 2012.
+\newblock PMID: 22665539.
 
 \bibitem{CNCR20910}
 Eva Steliarova-Foucher, Charles Stiller, Brigitte Lacour, and Peter Kaatsch.
@@ -175,15 +244,6 @@ Astrid~K. Gnekow, Fabian Falkenstein, David Walker, Giorgio Perilongo, Sue
   strategy for low grade glioma in children and adolescents including a
   randomised chemotherapy trial and a radiotherapy trial}.
 \newblock {\em Neuro-Oncology}, 14(suppl 1):i74, 2012.
-
-\bibitem{Ater20072012}
-Joann~L. Ater, Tianni Zhou, Emiko Holmes, Claire~M. Mazewski, Timothy~N. Booth,
-  David~R. Freyer, Ken~H. Lazarus, Roger~J. Packer, Michael Prados, Richard
-  Sposto, Gilbert Vezina, Jeffrey~H. Wisoff, and Ian~F. Pollack.
-\newblock Randomized study of two chemotherapy regimens for treatment of
-  low-grade glioma in young children: A report from the children's oncology
-  group.
-\newblock {\em Journal of Clinical Oncology}, 30(21):2641--2647, 2012.
 
 \bibitem{lassaletta}
 Alvaro Lassaletta, Katrin Scheinemann, Shayna~M. Zelcer, Juliette Hukin,
