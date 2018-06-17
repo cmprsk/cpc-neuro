@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.6.17)  17 JUN 2018 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.6.17)  17 JUN 2018 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1968,6 +1968,10 @@ l.5117 ...e\relax\footnotetext{Versão Junho/2018}
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [126]
+Overfull \hbox (42.47557pt too wide) in paragraph at lines 5132--5140
+[][] 
+ []
+
 [127] [128
 
 ] [129
@@ -2052,7 +2056,7 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on CPC-NEURO2014.pdf (149 pages, 518142 bytes).
+Output written on CPC-NEURO2014.pdf (149 pages, 518249 bytes).
 PDF statistics:
  1467 PDF objects out of 1728 (max. 8388607)
  1284 compressed objects within 13 object streams
