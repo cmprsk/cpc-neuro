@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.6.17)  17 JUN 2018 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.6.17)  17 JUN 2018 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1948,10 +1948,7 @@ l.4913 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [123]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [124]pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
+ [123]pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
 te.30}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1959,12 +1956,14 @@ l.5015 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [124]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [125]
-[126] [127] [128
+[126] [127
 
-] [129
 
-] [130
+] [128
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.31
 }) has been already used, duplicate ignored
@@ -1979,27 +1978,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 5155--5156
 
 Underfull \vbox (badness 3229) has occurred while \output is active []
 
- [131]
+ [129]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 5190.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [132]
-[133] [134]
+ [130]
+[131] [132]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135]
+ [133]
 Underfull \hbox (badness 3482) in paragraph at lines 5496--5497
 []|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
  []
 
-[136]
+[134]
 Underfull \hbox (badness 3482) in paragraph at lines 5517--5518
 []|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
  []
 
-[137]
+[135]
 \tf@toc=\write6
 \openout6 = `CPC-NEURO2014.toc'.
 
@@ -2024,8 +2023,8 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5540.
  ) 
 Here is how much of TeX's memory you used:
- 24877 strings out of 494926
- 449623 string characters out of 6180259
+ 24875 strings out of 494926
+ 449607 string characters out of 6180259
  630053 words of memory out of 5000000
  27054 multiletter control sequences out of 15000+600000
  122065 words of font info for 310 fonts, out of 8000000 for 9000
@@ -2044,10 +2043,10 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on CPC-NEURO2014.pdf (149 pages, 516202 bytes).
+Output written on CPC-NEURO2014.pdf (147 pages, 515258 bytes).
 PDF statistics:
- 1452 PDF objects out of 1728 (max. 8388607)
- 1269 compressed objects within 13 object streams
- 333 named destinations out of 1000 (max. 500000)
+ 1444 PDF objects out of 1728 (max. 8388607)
+ 1263 compressed objects within 13 object streams
+ 331 named destinations out of 1000 (max. 500000)
  54566 words of extra memory for PDF output out of 61914 (max. 10000000)
 
