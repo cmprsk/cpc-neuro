@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.11)  17 JUN 2018 22:55
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.6.18)  18 JUN 2018 00:42
->>>>>>> 1627fb7c31515d60581069bb6d571525fff9edef
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.6.18)  18 JUN 2018 02:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2042,34 +2038,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5613.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 27067 strings out of 494437
- 516613 string characters out of 6166644
- 674526 words of memory out of 5000000
- 29265 multiletter control sequences out of 15000+600000
- 122195 words of font info for 312 fonts, out of 8000000 for 9000
- 319 hyphenation exceptions out of 8191
- 60i,14n,71p,2082b,785s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017basic/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/lo
-cal/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/urw/courier/ucrr8a.
-pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pf
-b></usr/local/texlive/2017basic/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb
-></usr/local/texlive/2017basic/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-</usr/local/texlive/2017basic/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
-/local/texlive/2017basic/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/loc
-al/texlive/2017basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
-xlive/2017basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CPC-NEURO2014.pdf (149 pages, 521141 bytes).
-=======
- 24886 strings out of 494926
- 449732 string characters out of 6180259
- 630054 words of memory out of 5000000
- 27056 multiletter control sequences out of 15000+600000
+ 24891 strings out of 494926
+ 449802 string characters out of 6180259
+ 630058 words of memory out of 5000000
+ 27058 multiletter control sequences out of 15000+600000
  122195 words of font info for 312 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  61i,14n,61p,2082b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2086,8 +2058,7 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on CPC-NEURO2014.pdf (149 pages, 518516 bytes).
->>>>>>> 1627fb7c31515d60581069bb6d571525fff9edef
+Output written on CPC-NEURO2014.pdf (149 pages, 521114 bytes).
 PDF statistics:
  1479 PDF objects out of 1728 (max. 8388607)
  1296 compressed objects within 13 object streams
