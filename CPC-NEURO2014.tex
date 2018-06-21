@@ -71,8 +71,8 @@ top=25mm,bottom=25mm
 %\pagestyle{Ruled}
 \pagestyle{plain}
 \makepagestyle{plain}
-\makeevenfoot{plain}{\thepage}{}{CC-BY 4.0 FHC Felix}
-\makeoddfoot{plain}{CC-BY 4.0 FHC Felix}{}{\thepage}
+\makeevenfoot{plain}{\thepage}{}{CC-BY 4.0 FHC Felix 2014-2018}
+\makeoddfoot{plain}{CC-BY 4.0 FHC Felix 2014-2018}{}{\thepage}
 \makeevenhead{plain}{}{}{}
 \makeoddhead{plain}{}{}{}
 
@@ -184,34 +184,6 @@ top=25mm,bottom=25mm
 \newpage
 }
 
-\def\titlepage{\ifodd\c@page\else\thispagestyle{empty}\null\newpage\fi
-\thispagestyle{empty}
-\vbox to\vsize{\vspace*{36pt}%
-\hrule height3pt
-\vskip6pc
-\parindent \z@
-\interlinepenalty\@M
-\Huge
-\hyphenpenalty10000
-\bfseries\titlefont
-\uppercase{\thetitle}
-\ifx\subtitle\empty\else
-{\vskip1pt\baselineskip22pt
-\subtitlefont \vrule height2pc width0pt\thesubtitle\vskip1sp}\fi
-\vskip1pc
-\hrule
-\ifx\theeditionstatement\empty\else
-\vskip48pt
-{\editionfont \theeditionstatement}\fi
-\vskip6.5pc
-{\frenchspacing\baselineskip=12pt
-\authorfont \theauthor\vskip1sp}
-\vfill
-\noindent{\includegraphics[width=1.7in]{wileylogo}}
-\vskip-8pt
-{\wileyfont A JOHN WILEY \& SONS, INC., PUBLICATION}
-\vskip24pt}\newpage}
-
 %\def\affil#1{{\affilfont #1}\vskip18pt}
 
 %\def\dotspace{\hskip5pt/\hskip5pt}
@@ -224,69 +196,9 @@ top=25mm,bottom=25mm
 
 \begin{document}
 
-%\titlepage
-
 \titleGP
 
 \cleardoublepage
-%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
-%   TITLEPAGE
-%
-%   due to variety of titlepage schemes it is probably better to make titlepage manually
-%
-%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
-
-%\thispagestyle{empty}
-%{%%%
-%\sffamily
-%\centering
-%\Large
-
-%{\large
-%Hospital Infantil Albert Sabin - Secretaria de Saúde do Estado do Ceará
-%}
-
-%{\LARGE
-%Centro Pediátrico do Câncer
-%}
-
-%~\vspace{\fill}
-
-%{\huge
-%Protocolos de Quimioterapia
-%}
-
-%{\Large
-%Neuro-oncologia
-%}
-
-%\vspace{2.5cm}
-
-%{\LARGE
-%Francisco Hélder Cavalcante Félix\\
-%Juvenia Bezerra Fontenele
-%}
-
-%\vspace{3.5cm}
-
-%Manual de tratamento clínico de pacientes pediátricos com tumores cerebrais\\[1em]
-
-%Versão 0.1\\
-
-%\vspace{3.5cm}
-
-%Revisão: Dra. Nádia M. Trompieri
-
-%\vspace{\fill}
-
-%Janeiro 2015
-
-%%%
-%}%%%
-
-%\cleardoublepage
-%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
-%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
 
 {\begingroup % Geometric Modeling
 \drop=0.1\textheight
