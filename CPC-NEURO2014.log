@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.6.21)  21 JUN 2018 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.6.22)  22 JUN 2018 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1457,7 +1457,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 ...eC {\~o}es de dose:}{35}{subsection.A.1.2}
+l.29 ...eC {\~o}es de dose:}{37}{subsection.A.1.2}
                                                    [6] [7]) [8]
 (./CPC-NEURO2014.lof) (./CPC-NEURO2014.lot) [9
 
@@ -1584,453 +1584,457 @@ l.393
 Underfull \vbox (badness 2922) has occurred while \output is active []
 
  [11]
+
+LaTeX Warning: Citation `gnekow4' on page 12 undefined on input line 410.
+
+
 Underfull \vbox (badness 1067) has occurred while \output is active []
 
  [12]
-[13] [14] <fig/fig4.pdf, id=753, 614.295pt x 794.97pt>
+[13] [14] <fig/fig4.pdf, id=750, 614.295pt x 794.97pt>
 File: fig/fig4.pdf Graphic file (type pdf)
  <use fig/fig4.pdf>
-Package pdftex.def Info: fig/fig4.pdf used on input line 465.
+Package pdftex.def Info: fig/fig4.pdf used on input line 467.
 (pdftex.def)             Requested size: 452.74516pt x 587.65282pt.
 
-<fig/fig5.pdf, id=755, 614.295pt x 794.97pt>
+[15] <fig/fig5.pdf, id=767, 614.295pt x 794.97pt>
 File: fig/fig5.pdf Graphic file (type pdf)
  <use fig/fig5.pdf>
-Package pdftex.def Info: fig/fig5.pdf used on input line 471.
+Package pdftex.def Info: fig/fig5.pdf used on input line 473.
 (pdftex.def)             Requested size: 452.74516pt x 587.65282pt.
- [15] [16 <./fig/fig3.pdf>] [17 <./fig/fig4.pdf>] [18 <./fig/fig5.pdf>] [19
+ [16]
+[17 <./fig/fig3.pdf>] [18 <./fig/fig4.pdf>] [19 <./fig/fig5.pdf>] [20
 
-]
+] [21]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 507.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 509.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 507.
- [20]
-(./CPC-NEURO2014.bbl [21] [22
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 509.
+
+[22] (./CPC-NEURO2014.bbl [23] [24
 
 ]
 bibitemlist
-[23] [24]
+[25] [26]
 Overfull \hbox (0.9073pt too wide) in paragraph at lines 205--209
 \T1/ptm/m/n/10.95 (-20) low-grade gliomas with a nitrosourea-based multiagent c
 hemotherapy regimen.  \T1/ptm/m/it/10.95 (-20) J Neurooncol\T1/ptm/m/n/10.95 (-
 20) , 32(3):235--
  []
 
-[25] [26]) [27] [28
+[27] [28] [29]) [30] [31
 
-] [29
 
-] [30
+] [32
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 530.
+(Font)              <9> on input line 532.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 530.
+(Font)              <5> on input line 532.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 530.
+Package hyperref Warning: Ignoring empty anchor on input line 532.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 537.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 539.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+ [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33]
+ [34]
+[35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34
+ [36
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 883.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 885.
 
-[35] [36
+[37] [38
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.2}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.894 ...te\relax\footnotetext{Versão Abril/2018}
-                                                  } [37] [38]
+l.896 ...te\relax\footnotetext{Versão Abril/2018}
+                                                  } [39] [40]
 Underfull \vbox (badness 1264) has occurred while \output is active []
 
- [39]
-[40] [41
+ [41]
+[42] [43
 
-] [42]pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
+] [44]pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
 te.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1282 ...e\relax\footnotetext{Versão Abril/2018}
+l.1284 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1284.
+(Font)              <7> on input line 1286.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43
+ [45
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
-[45]
+ [46]
+[47]
 Underfull \vbox (badness 7631) has occurred while \output is active []
 
- [46
+ [48
 
 ]
-[47]
+[49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [50]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1829.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1831.
 
-[49] [50]pdfTeX warning (ext4): destination with the same identifier (name{Hfoo
+[51] [52]pdfTeX warning (ext4): destination with the same identifier (name{Hfoo
 tnote.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1849 ...e\relax\footnotetext{Versão Abril/2018}
+l.1851 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 1189) has occurred while \output is active []
-
- [51
-
-]
-[52]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
-.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1959 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  }
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53
 
 ]
+[54]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
+.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1961 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [55
 
- [55]
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56]
-[57] [58
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+[59] [60
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.9}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2290 ...e\relax\footnotetext{Versão Abril/2018}
+l.2292 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
-[60] [61] [62] [63] [64
+ [61]
+[62] [63] [64] [65] [66
 
-] [65
+] [67
 
-] [66
+] [68
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.10
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2547 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [67] [68]
-Underfull \vbox (badness 2134) has occurred while \output is active []
-
- [69]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [70]
+l.2549 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [69] [70]
 Underfull \vbox (badness 2134) has occurred while \output is active []
 
  [71]
-[72]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+Underfull \vbox (badness 2134) has occurred while \output is active []
+
+ [73]
+[74]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
 .10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2889 ...e\relax\footnotetext{Versão Abril/2018}
+l.2891 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [73
+ [75
 
 ]
-[74] [75] [76
+[76] [77] [78
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.11
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2993 ...e\relax\footnotetext{Versão Abril/2018}
+l.2995 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 3386) has occurred while \output is active []
 
- [77]
-[78] [79] [80
+ [79]
+[80] [81] [82
 
-] [81
+] [83
 
-] [82
+] [84
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.12
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3092 ...e\relax\footnotetext{Versão Junho/2018}
+l.3094 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [84]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [85]
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 3222--3222
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87]
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 3224--3224
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
-[86]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
+[88]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
 .18}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3245 ...e\relax\footnotetext{Versão Junho/2018}
+l.3247 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
-Underfull \hbox (badness 1648) in paragraph at lines 3278--3278
+Underfull \hbox (badness 1648) in paragraph at lines 3280--3280
 []|\T1/ptm/m/n/10.95 (+20) Plaq ($\OML/cmm/m/it/10.95 > \OT1/cmr/m/n/10.95 7\OM
 L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5 \OMS/cmsy/m/n/10.95 ^^B
  []
 
 
-Overfull \hbox (4.49pt too wide) in paragraph at lines 3262--3281
+Overfull \hbox (4.49pt too wide) in paragraph at lines 3264--3283
 [][] 
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 3301--3301
+Underfull \hbox (badness 1648) in paragraph at lines 3303--3303
 []|\T1/ptm/m/n/10.95 (+20) Plaq ($\OML/cmm/m/it/10.95 > \OT1/cmr/m/n/10.95 7\OM
 L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5 \OMS/cmsy/m/n/10.95 ^^B
  []
 
 
-Overfull \hbox (4.49pt too wide) in paragraph at lines 3285--3304
+Overfull \hbox (4.49pt too wide) in paragraph at lines 3287--3306
 [][] 
  []
 
 
 Underfull \vbox (badness 2384) has occurred while \output is active []
 
- [87
+ [89
 
 ]
-[88] [89
+[90] [91
 
 
-] [90
+] [92
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.20
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3320 ...e\relax\footnotetext{Versão Abril/2018}
+l.3322 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 2142) has occurred while \output is active []
-
- [91]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [93]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [94]
-[95] [96
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [97
+ [95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [98
+ [96]
+[97] [98
+
+] [99
+
+] [100
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
-.24}) has been already used, duplicate ignored
+ [101pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
+e.24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.3631 \textbf{Intervalo de 21 dias.}
+l.3633 \textbf{Intervalo de 21 dias.}
                                      ]
 Underfull \vbox (badness 1655) has occurred while \output is active []
-
- [100]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [102]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [103]
-[104]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105]
+[106]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
 e.24}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3886 ...relax\footnotetext{Versão Outubro/2017}
+l.3888 ...relax\footnotetext{Versão Outubro/2017}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105
+ [107
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [106]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [108]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [109]
-[110]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+[112]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
 e.25}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4254 ...relax\footnotetext{Versão Outubro/2017}
+l.4256 ...relax\footnotetext{Versão Outubro/2017}
                                                   }
 Underfull \vbox (badness 8132) has occurred while \output is active []
 
- [111
+ [113
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [112]
-[113]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [114]
-Underfull \hbox (badness 3482) in paragraph at lines 4546--4547
-[]|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
- []
-
 [115]
-Underfull \hbox (badness 3482) in paragraph at lines 4567--4568
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+Underfull \hbox (badness 3482) in paragraph at lines 4548--4549
 []|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
  []
 
-[116]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
+[117]
+Underfull \hbox (badness 3482) in paragraph at lines 4569--4570
+[]|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
+ []
+
+[118]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
 e.26}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4592 ...relax\footnotetext{Versão Outubro/2017}
+l.4594 ...relax\footnotetext{Versão Outubro/2017}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117
+ [119
 
 ]
-[118] [119] [120]
+[120] [121] [122]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 4825.
- [121] [122
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 4827.
+ [123] [124
 
-] [123
+] [125
 
-] [124
+] [126
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.28
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4836 ...e\relax\footnotetext{Versão Junho/2018}
+l.4838 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [125]pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
-te.30}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.4938 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  }
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [126]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [127]pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
-te.31}) has been already used, duplicate ignored
+te.30}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5040 ...e\relax\footnotetext{Versão Junho/2018}
+l.4940 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [128]
-[129]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129]pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
+te.31}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5042 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  }
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [130]
+[131]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
 e.33}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5077 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [130
+l.5079 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [132
 
-] [131
+] [133
 
 
-] [132
+] [134
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.34
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5117 ...relax\footnotetext{Versão Outubro/2017}
+l.5119 ...relax\footnotetext{Versão Outubro/2017}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 5151--5152
+Underfull \hbox (badness 10000) in paragraph at lines 5153--5154
 
  []
 
 
 Underfull \vbox (badness 3229) has occurred while \output is active []
 
- [133]
+ [135]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 5186.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 5188.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [134]
-[135] [136]
+ [136]
+[137] [138]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [137]
-Underfull \hbox (badness 3482) in paragraph at lines 5492--5493
+ [139]
+Underfull \hbox (badness 3482) in paragraph at lines 5494--5495
 []|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
  []
 
-[138]
-Underfull \hbox (badness 3482) in paragraph at lines 5513--5514
+[140]
+Underfull \hbox (badness 3482) in paragraph at lines 5515--5516
 []|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
  []
 
-[139]
+[141]
 \tf@toc=\write6
 \openout6 = `CPC-NEURO2014.toc'.
 
@@ -2040,11 +2044,11 @@ Underfull \hbox (badness 3482) in paragraph at lines 5513--5514
 \tf@lot=\write8
 \openout8 = `CPC-NEURO2014.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5536.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5536.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5538.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5538.
  (./CPC-NEURO2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5536.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5536.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5538.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5538.
 
 Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
 (rerunfilecheck)             Checksum: 84DE0865189F45CE8CE0FACE2A9C85CE;8715.
@@ -2052,14 +2056,17 @@ Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5536.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5538.
  ) 
 Here is how much of TeX's memory you used:
- 24896 strings out of 494926
- 449904 string characters out of 6180259
+ 24903 strings out of 494926
+ 449971 string characters out of 6180259
  630013 words of memory out of 5000000
- 27057 multiletter control sequences out of 15000+600000
- 122195 words of font info for 312 fonts, out of 8000000 for 9000
+ 27058 multiletter control sequences out of 15000+600000
+ 122420 words of font info for 314 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  61i,14n,61p,2082b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -2075,10 +2082,10 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on CPC-NEURO2014.pdf (151 pages, 562316 bytes).
+Output written on CPC-NEURO2014.pdf (153 pages, 565298 bytes).
 PDF statistics:
- 1526 PDF objects out of 1728 (max. 8388607)
- 1336 compressed objects within 14 object streams
- 344 named destinations out of 1000 (max. 500000)
+ 1535 PDF objects out of 1728 (max. 8388607)
+ 1343 compressed objects within 14 object streams
+ 347 named destinations out of 1000 (max. 500000)
  54620 words of extra memory for PDF output out of 61914 (max. 10000000)
 
