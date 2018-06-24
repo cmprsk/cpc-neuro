@@ -2,8 +2,8 @@
 \hfuzz=2.1pt 
 \usepackage[
 breaklinks=true,colorlinks=true,
-%linkcolor=blue,urlcolor=blue,citecolor=blue,% PDF VIEW
-linkcolor=black,urlcolor=black,citecolor=black,% PRINT
+linkcolor=blue,urlcolor=blue,citecolor=blue,% PDF VIEW
+%linkcolor=black,urlcolor=black,citecolor=black,% PRINT
 bookmarks=true,bookmarksopenlevel=2]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -24,13 +24,14 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 \fi
 \pdfminorversion=7
 \newlength{\drop}% for my convenience
-\newcommand*{\plogo}{\fbox{$\mathcal{FHC}$}}
+\newcommand*{\plogo}{%\fbox
+{$\mathcal{GPMCP}$}}
 \makeatletter
 
 \usepackage{geometry}
 % PDF VIEW
 \geometry{
-% total={210mm,297mm}, 
+%total={210mm,297mm}, 
 left=22mm,
 right=23mm,
 bindingoffset=0mm, 
@@ -69,10 +70,13 @@ top=25mm,bottom=25mm
 %\pagestyle{companion}\nouppercaseheads
 %\pagestyle{headings}
 %\pagestyle{Ruled}
-\pagestyle{plain}
-\makepagestyle{plain}
-\makeevenfoot{plain}{\thepage}{}{CC-BY 4.0 FHC Felix 2014-2018}
-\makeoddfoot{plain}{CC-BY 4.0 FHC Felix 2014-2018}{}{\thepage}
+%\pagestyle{plain}
+%\makepagestyle{plain}
+\copypagestyle{chapter}{plain}
+\makeevenfoot{chapter}{\thepage}{}{}
+\makeoddfoot{chapter}{}{}{\thepage}
+\makeevenfoot{headings}{\thepage}{}{CC-BY 4.0 FHC Felix 2014-2018}
+\makeoddfoot{headings}{CC-BY 4.0 FHC Felix 2014-2018}{}{\thepage}
 \makeevenhead{plain}{}{}{}
 \makeoddhead{plain}{}{}{}
 
@@ -106,29 +110,60 @@ top=25mm,bottom=25mm
 \newcommand*{\titleGP}
 {\begingroup % Geometric Modeling
 \drop=0.1\textheight
-\centering
+\raggedright
 \vspace*{\baselineskip}
-%\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
-%\rule{\textwidth}{0.4pt}\\[\baselineskip]
+\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+\rule{\textwidth}{0.4pt}\\[\baselineskip]
 {\HUGE PROTOCOLOS DE QUIMIOTERAPIA \\[0.5\baselineskip]}
-%\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
-%\rule{\textwidth}{1.6pt}\\[\baselineskip]
+\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+\rule{\textwidth}{1.6pt}\\[\baselineskip]
 \scshape
-\Large Manual de tratamento clínico de pacientes pediátricos com tumores cerebrais
-\par
-%{\Large \textit{Introdução por} \textsc{Selma Lessa de Castro}}\par
+\large Manual de tratamento clínico de pacientes pediátricos \break com tumores cerebrais
 \vfill
-%\plogo
+\par
+\raggedleft
+{\Large \textsc{FHC Félix}}
+\par
+\plogo
 
-%{\scshape 2017}
+{\scshape 2018}
 
 %{\large Editoração própria}\par
 \endgroup}
 
-% Book's title and subtitle
-\title{\Huge \textbf{PROTOCOLOS DE QUIMIOTERAPIA}  \footnote{This is a footnote.} \\ \huge  \footnote{This is yet another footnote.}}
-% Author
-\author{\textsc{Francisco Hélder Cavalcante Félix\\Juvenia Bezerra Fontenele}\thanks{\url{www.example.com}}}
+\newcommand*{\titleM}
+{\begingroup % Geometric Modeling
+\drop=0.1\textheight
+\centering
+\vspace*{\baselineskip}
+{\LARGE PROTOCOLOS DE QUIMIOTERAPIA 
+\\[0.5\baselineskip]
+}
+	\scshape
+{\Large Manual de
+tratamento clínico de pacientes pediátricos com tumores cerebrais \\[0.5\baselineskip]}\par
+
+\vfill
+{\Large \textit{Editado por}} \\
+[\baselineskip]\par
+{\Large FRANCISCO H. C. FÉLIX \par}
+{\itshape Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin \par}
+
+{\Large JUVENIA B. FONTENELE \par}
+{\itshape Faculdade de Farmácia, Odontologia e Enfermagem,
+
+Universidade Federal do Ceará - Fortaleza - CE\par}
+\vspace*{4\baselineskip}
+
+%{\Large \textit{Prefácio de}
+
+% \textsc{Nádia M. Trompieri}}
+\vfill
+{\scshape 2018}
+
+{\large Github\par}
+{\itshape \small http://bit.ly/fhcflx1p\par}
+\endgroup}
 
 \def\contributors{\chapter*{COLABORADORES}
 \vskip1sp
@@ -196,42 +231,13 @@ top=25mm,bottom=25mm
 
 \begin{document}
 
+\begin{titlingpage}
+
 \titleGP
-
 \cleardoublepage
+\titleM
 
-{\begingroup % Geometric Modeling
-\drop=0.1\textheight
-\centering
-\vspace*{\baselineskip}
-{\LARGE PROTOCOLOS DE QUIMIOTERAPIA 
-\\[0.5\baselineskip]
-}
-	\scshape
-{\Large Manual de
-tratamento clínico de pacientes pediátricos com tumores cerebrais \\[0.5\baselineskip]}\par
-
-\vfill
-{\Large \textit{Editado por}} \\
-[\baselineskip]\par
-{\Large FRANCISCO H. C. FÉLIX \par}
-{\itshape Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin \par}
-
-{\Large JUVENIA B. FONTENELE \par}
-{\itshape Faculdade de Farmácia, Odontologia e Enfermagem,
-
-Universidade Federal do Ceará - Fortaleza - CE\par}
-\vspace*{4\baselineskip}
-
-%{\Large \textit{Prefácio de}
-
-% \textsc{Nádia M. Trompieri}}
-\vfill
-{\scshape 2018}
-
-{\large Overleaf\par}
-{\itshape \small http://bit.ly/fhcflxJI\par}
-\endgroup}
+\end{titlingpage}
 
 \begin{dedication}
 Dedicado a nossos filhos, Lucas, Beatriz e Sofia, sem cujo suporte e paciência nada teria sido realizado.
