@@ -20,31 +20,31 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 \usepackage{float}
 \restylefloat{table}
 \ifpdf
-    \usepackage{pdfcolmk}
+	\usepackage{pdfcolmk}
 \fi
 \pdfminorversion=7
 \newlength{\drop}% for my convenience
 \newcommand*{\plogo}{%\fbox
-{$\mathcal{GPMCP}$}}
+	{$\mathcal{GPMCP}$}}
 \makeatletter
 
 \usepackage{geometry}
 % PDF VIEW
 \geometry{
-%total={210mm,297mm}, 
-left=22mm,
-right=23mm,
-bindingoffset=0mm, 
-top=25mm,bottom=25mm
-}
+	%total={210mm,297mm}, 
+	left=22mm,
+	right=23mm,
+	bindingoffset=0mm, 
+	top=25mm,bottom=25mm
+	}
 % PRINT
 % \geometry{
-% total={210mm,297mm},
-% left=20mm,
-% right=20mm,
-% bindingoffset=10mm, 
-% top=25mm,bottom=25mm
-% }
+	% total={210mm,297mm},
+	% left=20mm,
+	% right=20mm,
+	% bindingoffset=10mm, 
+	% top=25mm,bottom=25mm
+	% }
 
 \usepackage{array}
 \usepackage{tikz}
@@ -80,102 +80,91 @@ top=25mm,bottom=25mm
 \makeevenhead{plain}{}{}{}
 \makeoddhead{plain}{}{}{}
 
-
 \maxsecnumdepth{subsection} % chapters, sections, and subsections are numbered
 \maxtocdepth{subsection} % chapters, sections, and subsections are in the Table of Contents
 
 \newenvironment{dedication}
-{
-   \cleardoublepage
-   \thispagestyle{empty}
-   \vspace*{\stretch{3}}
-   \hfill\begin{minipage}[t]{0.66\textwidth}
-   \raggedright
-
-   \end{minipage}
-   \vspace*{\stretch{1}}
-   \clearpage
-}
+	{
+	\cleardoublepage
+	\thispagestyle{empty}
+	\vspace*{\stretch{3}}
+	\hfill
+		\begin{minipage}[t]{0.66\textwidth}
+		\raggedright
+		\end{minipage}
+	\vspace*{\stretch{1}}
+	\clearpage
+	}
 
 \makeatletter
 \renewcommand{\@chapapp}{}% Not necessary...
 \newenvironment{chapquote}[2][2em]
-  {\setlength{\@tempdima}{#1}%
-   \def\chapquote@author{#2}%
-   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
-   \itshape}
-  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+	{\setlength{\@tempdima}{#1}%
+	\def\chapquote@author{#2}%
+	\parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+	\itshape}
+{\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
 \makeatother
 
 \newcommand*{\titleGP}
-{\begingroup % Geometric Modeling
-\drop=0.1\textheight
-\raggedright
-\vspace*{\baselineskip}
-\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
-\rule{\textwidth}{0.4pt}\\[\baselineskip]
-{\HUGE PROTOCOLOS DE QUIMIOTERAPIA \\[0.5\baselineskip]}
-\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
-\rule{\textwidth}{1.6pt}\\[\baselineskip]
-\scshape
-\large Manual de tratamento clínico de pacientes pediátricos \break com tumores cerebrais
-\vfill
-\par
-\raggedleft
-{\Large \textsc{FHC Félix}}
-\par
-\plogo
-
-{\scshape 2018}
-
-%{\large Editoração própria}\par
-\endgroup}
+	{\begingroup % Geometric Modeling
+		\drop=0.1\textheight
+		\raggedright
+			\vspace*{\baselineskip}
+			\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+			\rule{\textwidth}{0.4pt}\\[\baselineskip]
+			{\HUGE PROTOCOLOS DE QUIMIOTERAPIA \\[0.5\baselineskip]}
+			\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+			\rule{\textwidth}{1.6pt}\\[\baselineskip]
+			\scshape
+			\large Manual de tratamento clínico de pacientes pediátricos \break com tumores cerebrais
+			\vfill
+			\par
+		\raggedleft
+			{\Large \textsc{FHC Félix}}
+			\par
+			\plogo
+			{\scshape 2018}
+			%{\large Editoração própria}\par
+	\endgroup}
 
 \newcommand*{\titleM}
-{\begingroup % Geometric Modeling
-\drop=0.1\textheight
-\centering
-\vspace*{\baselineskip}
-{\LARGE PROTOCOLOS DE QUIMIOTERAPIA 
-\\[0.5\baselineskip]
-}
-	\scshape
-{\Large Manual de
-tratamento clínico de pacientes pediátricos com tumores cerebrais \\[0.5\baselineskip]}\par
-
-\vfill
-{\Large \textit{Editado por}} \\
-[\baselineskip]\par
-{\Large FRANCISCO H. C. FÉLIX \par}
-{\itshape Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin \par}
-
-{\Large JUVENIA B. FONTENELE \par}
-{\itshape Faculdade de Farmácia, Odontologia e Enfermagem,
-
-Universidade Federal do Ceará - Fortaleza - CE\par}
-\vspace*{4\baselineskip}
-
-%{\Large \textit{Prefácio de}
-
-% \textsc{Nádia M. Trompieri}}
-\vfill
-{\scshape 2018}
-
-{\large Github\par}
-{\itshape \small http://bit.ly/fhcflx1p\par}
-\endgroup}
+	{\begingroup % Geometric Modeling
+		\drop=0.1\textheight
+		\centering
+			\vspace*{\baselineskip}
+			{\LARGE PROTOCOLOS DE QUIMIOTERAPIA 
+			\\[0.5\baselineskip]}
+			\scshape
+			{\Large Manual de
+			tratamento clínico de pacientes pediátricos com tumores cerebrais \\[0.5\baselineskip]}\par
+			\vfill
+			{\Large \textit{Editado por}} \\
+			[\baselineskip]\par
+			{\Large FRANCISCO H. C. FÉLIX \par}
+			{\itshape Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin \par}
+			{\Large JUVENIA B. FONTENELE \par}
+			{\itshape Faculdade de Farmácia, Odontologia e Enfermagem,
+			Universidade Federal do Ceará - Fortaleza - CE\par}
+			\vspace*{4\baselineskip}
+			%{\Large \textit{Prefácio de}
+			% \textsc{Nádia M. Trompieri}}
+			\vfill
+			{\scshape 2018}
+			{\large Github\par}
+			{\itshape \small http://bit.ly/fhcflx1p\par}
+	\endgroup}
 
 \def\contributors{\chapter*{COLABORADORES}
-\vskip1sp
-\leftskip=10pt
-\parindent-10pt
-\vskip-2pt
-\everypar={}
-\def\footnote##1{\hskip-10pt\savefootnote{##1}\hskip10pt}
-\setcounter{page}{5}
-%\global\titletrue
-\markboth{COLABORADORES}{COLABORADORES}}
-
+	\vskip1sp
+	\leftskip=10pt
+	\parindent-10pt
+	\vskip-2pt
+	\everypar={}
+	\def\footnote##1{\hskip-10pt\savefootnote{##1}\hskip10pt}
+	\setcounter{page}{5}
+	%\global\titletrue
+	\markboth{COLABORADORES}{COLABORADORES}}
 \def\endcontributors{\newpage\markboth{}{}}
 
 \def\name#1{\vskip2pt\fakesc #1*\hskip10pt}
@@ -207,17 +196,17 @@ Universidade Federal do Ceará - Fortaleza - CE\par}
 \def\pickupnewword#1 {\expandafter\pickupnewlett#1\relax}
 
 \def\halftitlepage{\thispagestyle{empty}
-  \vspace*{9pc}%
-  {\parindent \z@
-    \interlinepenalty\@M
-\LARGE
-\hyphenpenalty10000
-\bfseries\halftitlefont
-\def\\ {\vskip1sp}
-\noindent\thetitle\vskip 1sp
-}
-\newpage
-}
+	\vspace*{9pc}%
+		{\parindent \z@
+			\interlinepenalty\@M
+		\LARGE
+		\hyphenpenalty10000
+		\bfseries\halftitlefont
+		\def\\ {\vskip1sp}
+		\noindent\thetitle\vskip 1sp
+		}
+	\newpage
+	}
 
 %\def\affil#1{{\affilfont #1}\vskip18pt}
 
@@ -231,21 +220,20 @@ Universidade Federal do Ceará - Fortaleza - CE\par}
 
 \begin{document}
 
-\begin{titlingpage}
+	\begin{titlingpage}
+		\titleGP
+		\cleardoublepage
+		\titleM
+	\end{titlingpage}
 
-\titleGP
-\cleardoublepage
-\titleM
+	\begin{dedication}
+		Dedicado a nossos filhos, Lucas, Beatriz e Sofia, sem cujo suporte e paciência nada teria sido realizado.
+	\end{dedication}
 
-\end{titlingpage}
-
-\begin{dedication}
-Dedicado a nossos filhos, Lucas, Beatriz e Sofia, sem cujo suporte e paciência nada teria sido realizado.
-\end{dedication}
-\begin{contributors}
-\name{Francisco Helder Cavalcante Felix,} Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin, Fortaleza, Ceará
-\name{Juvenia Bezerra Fontenele,} Curso de Farmácia, Faculdade de Farnácia, Odontologia e Enfermgem, Universidade Federal do Ceará, Fortaleza,Ceará
-\end{contributors}
+	\begin{contributors}
+		\name{Francisco Helder Cavalcante Felix,} Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin, Fortaleza, Ceará
+		\name{Juvenia Bezerra Fontenele,} Curso de Farmácia, Faculdade de Farnácia, Odontologia e Enfermgem, Universidade Federal do Ceará, Fortaleza,Ceará
+	\end{contributors}
 
 \tableofcontents
 \clearpage
@@ -536,7 +524,7 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
 
 \section{Glioma de baixo grau}
 {\let\thefootnote\relax\footnotetext{Versão Abril/2018}}
-\textbf{Racional:} num estudo piloto de 2003, o grupo de Eric Bouffet mostrou a viabilidade e boa resposta do uso de vimblastina semanal em pacientes com reação à carboplatina. No estudo fase II do The Hospital for Sick Children, a vimblastina foi eficaz em induzir remissão parcial ou completa em 36\% de 51 pacientes com gliomas de baixo grau recorrentes ou progressivos, após esquemas prévios de quimioterapia e/ou radioterapia \footnote{Lafay-Cousin \textit{et al}, 2003; Bouffet \textit{et al}, 2012}. Um estudo fase II que incluiu 54 pacientes com gliomas de baixo grau progressivos usou a vimblastina como primeira linha, mostrando resultados aparentemente semelhantes a outros estudos (como o COG-A9952) \footnote{Lassaletta \textit{et al}, 2016}.
+\textbf{Racional:} num estudo piloto de 2003, o grupo de Eric Bouffet mostrou a viabilidade e boa resposta do uso de vimblastina semanal em pacientes com reação à carboplatina. No estudo fase II do The Hospital for Sick Children, a vimblastina foi eficaz em induzir remissão parcial ou completa em 36\% de 51 pacientes com gliomas de baixo grau recorrentes ou progressivos, após esquemas prévios de quimioterapia e/ou radioterapia \footnote{Lafay-Cousin \textit{et al}, 2003; Bouffet \textit{et al}, 2012}. Um estudo fase II que incluiu 54 pacientes com gliomas de baixo grau progressivos usou a vimblastina como primeira linha, mostrando resultados aparentemente semelhantes a outros estudos (como o COG-A9952) \footnote{Lassaletta \textit{et al}, 2016}. O protocolo original tratou os pacientes por 70 semanas. Nesta adaptação, os pacientes serão tratados por 1 ano (53 semanas), sendo opcional a prorrogação até completar 70 semanas de tratamento.
 
 \textbf{Elegível:} astrocitoma de baixo grau (pilocítico, difuso, outros), oligodendroglioma, ganglioglioma, tumores mistos (oligoastrocitomas, outros), tumores de vias ópticas/hipotálamo (imagem típica, mesmo sem biópsia). Incluir tumores focais de tronco, excluir DIPG, ou tumores difusos de linha média H3K27M+. Pacientes com reação ou contraindicação ao uso de carboplatina; doença recorrente após prévio tratamento com quimioterapia e/ou radioterapia. Alternativa como primeira linha de tratamento. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -546,12 +534,12 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
 \\[0.3cm]
 \entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 
-\subsection{Quimioterapia adjuvante: 52 semanas ou 1 ano}
+\subsection{Quimioterapia adjuvante: 53 semanas ou 1 ano}
 \begin{center}
 \begin{table}[H]
 \begin{tabular}{p{1,3cm}p{5,3cm}|p{4,7cm}|p{3cm}}
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D1}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S1}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -559,7 +547,7 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D8}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S2}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
 \end{tabular}
@@ -567,62 +555,39 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
 \begin{table}[H]
 \begin{tabular}{p{1,3cm}p{5,3cm}|p{4,7cm}|p{3cm}}
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D15}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S3}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D22}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S4}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D29}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S5}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
     \\
     \hline\\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D36}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S6}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D43}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S7}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D50}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S8}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D57}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
-    \\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D64}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D71}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D78}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D85}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S9}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -630,28 +595,50 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D92}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S10}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D99}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S11}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D106}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S12}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S13}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S14}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S15}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S16}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
      \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D113}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S17}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
     \\
     \hline
-    \\
 \end{tabular}
 \end{table}
 
@@ -665,21 +652,21 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
 \begin{tabular}{p{1,3cm}p{5,3cm}|p{4,7cm}|p{3cm}}
 
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D120}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S18}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline\\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D127}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S19}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D134}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S20}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D141}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S21}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -687,44 +674,46 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D148}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S22}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D155}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S23}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D162}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S24}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D169}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S25}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
     \\
     \hline\\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D176}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S26}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \multicolumn{4}{c}{Realizar imagem (RM) - não interromper protocolo aguardando resultado}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S27}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D183}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S28}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D190}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D197}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S29}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -732,28 +721,26 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D204}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S30}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
-    \\
 \end{tabular}
 \end{table}
-\clearpage
 \begin{table}[H]
 \begin{tabular}{p{1,3cm}p{5,3cm}|p{4,7cm}|p{3cm}}
 
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D211}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S31}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
    \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D218}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S32}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{225}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S33}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -761,22 +748,22 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D232}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S34}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D239}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S35}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D246}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S36}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
         \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D253}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S37}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -784,22 +771,24 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D260}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S38}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D267}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S39}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+   \hline
+   \multicolumn{4}{c}{Realizar imagem (RM) - não interromper protocolo aguardando resultado}\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S40}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D274}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
-    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
-    \hline
-    \\
-    \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D281}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S41}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -807,22 +796,22 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
     \hline
     \\
         \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D288}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S42}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D295}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S43}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D302}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S44}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D309}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S45}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -842,22 +831,22 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
 \begin{tabular}{p{1,3cm}p{5,3cm}|p{4,7cm}|p{3cm}}
 
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D316}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S46}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
    \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D323}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S47}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D330}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S48}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D337}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S49}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -865,22 +854,22 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D344}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S50}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D351}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S51}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D358}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S52}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     \\
     \hline
-    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D365}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S53}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
     \hline
     {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
@@ -893,9 +882,168 @@ Diversos autores já frisaram a necessidade de mais estudos a fim de validar as 
 \textbf{Solicitar imagem (RNM)}
 \end{center}
 \subsection{Modificações de dose:}
-Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{2}. Se Neut < 500mm\(^3\), interromper até subir para 750 ou mais. Se toxicidade hematológica recorrente, reduzir dose para 4mg/m\textsuperscript{2}.
+O protocolo original requeria uma dose semanal de vimblastina, com uma tolerância de dois dias a mais ou a menos. Atrasos frequentes ou muito maiores que isso podem reduzir de forma imprevisível a eficácia do tratamento. Em pacientes com \(SC < 0,6 m^2\), as doses devem ser calculadas de acordo com o peso: 
+
+\[\frac{dose/m^2 \times peso(kg)}{30}\] 
+
+Se a contagem de neutrófilos for $< 750/mm^3$, porém $\geq 500/mm^3$, reduzir dose para $5 mg/m^2$ ou 80\% da dose se $SC < 0,6 m^2$. Se a contagem de neutrófilos for $< 500mm^3$, interromper até subir para $\geq 750/mm^2$. Se toxicidade hematológica recorrente, reduzir dose para $4 mg/m^2$ ou 67\% da dose se $SC < 0,6 m^2$. No protocolo original, não foram permitidos fatores de crescimento.
+
+\subsection{Avaliação de resposta:}
+
+Uma ressonância magnética (RM) realizada com até 1 mês de antecedência foi exigida para iniciar o protocolo original. As imagens subsequentes foram realizadas nas semanas 26, 39, 52 e 70 após o início do protocolo. Todas as imagens de RM devem incluir obrigatoriamente as sequências T1, T2, FLAIR e T1 com contraste. Os critérios de avaliação de resposta estão listados na tabela abaixo:
+
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{l|c|c r}
+			\multicolumn{2}{l}{\textbf{Resposta}} & \textbf{Método 2D} & \textbf{Método 3D}\\
+			\hline
+			Resposta completa & RC & Desaparecimento completo & Desaparecimento completo\\
+			Resposta parcial & RP & Redução $\geq 50\%$ & Redução $\geq 65\%$ \\
+			Resposta menor & RM & Redução $25-50\%$ & Redução $40-65\%$ \\
+			Doença estável & DE & Mudança $< 25\%$ & Mudança $< 40\%$ \\
+			Progressão & RP & Aumento $\geq 25\%$ & Redução $\geq 40\%$ \\
+			\hline
+			\multicolumn{4}{l}{\small{2D = bidimensional, 3D = tridimensional}}
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\begin{figure}[h!]
+	\begin{center}
+		\includegraphics[scale=0.3]{fig/fig6.pdf}
+		\caption{Exemplo de medida bidimensional (2D) em dois momentos, mostrando avaliação de resposta. Antes do tratamento, a lesão mediu $8,19 \times 6,2 cm = 50,8$, depois do tratamento, mediu $6,92 \times 5,5 cm = 38,1$. O cálculo da resposta é feito obtendo o produto dos maiores diâmetros perpendiculares e dividindo o valor posterior pelo valor anterior. $R = 38,1 \div 50,8 = 0,75$ Neste caso, ocorreu uma redução objetiva de 25\% pelo método 2D, o que autoriza a classificação da resposta como \textit{menor} (imagem do arquivo do autor, modificada com o programa Gimp 2.8.}
+		%\label{Rotulo}
+	\end{center}
+\end{figure}
+
+A imagem onde a(s) lesão(s) aparece(m) com maior tamanho deve ser escolhida. As medidas subsequentes devem ser realizadas sempre no mesmo plano (axial, sagital, coronal) e aproximadamente mesmo nível da imagem inicial. No exemplo da figura acima, o plano é axial e o nível é logo acima dos núcleos da base. A lesão de grandes proporções ocupa o ventrículo lateral direito e atravessa a linha média. A imagem pós-tratamento é nitidamente menor, mas essa redução precisa ser objetivamente quantificada. Escolhendo-se a imagem com maior área lesional no corte axial, mede-se os dois maiores diâmetros perpendiculares entre si. O produto destes diâmetros é uma estimativa do volume tumoral (método 2D). O método 2D tem maior acurácia na pediatria \cite{warren}.
+
+A comparação entre os valores antes e após o tratamento mostra que ocorreu uma redução de 25\% do valor estimado para o tamanho tumoral. Esta magnitude de redução encontra-se no limite entre a ausência de mudança (doença estável) e uma mudança menos significativa (resposta menor), ilustrando como a inspeção visual e a avaliação quantitativa podem dar impressões subjetivas diferentes. A avaliação quantitativa da resposta é imprescindível para classificar adequadamente os pacientes e decidir a conduta clínica.
+
+\subsection{Avaliação no seguimento:}
+
+Para os pacientes que completaram o protocolo, uma imagem de RM deve ser solicitada a cada 3 meses no primeiro ano, a cada 6 seis meses no segundo ano e, depois, anualmente por 5 anos. 
 
 \textbf{ATENÇÃO:} o objetivo deste protocolo é ADIAR O USO DA RT (se não tiver sido feita) até a criança atingir uma idade onde os efeitos adversos da radiação sejam reduzidos, ou controlar doença recidivada após a RT. A principal resposta deste protocolo é ESTABILIZAÇÃO DA DOENÇA. Logo, é inadequado iniciar este esquema de QT em crianças em regime de internação prolongada, dependentes de cuidados hospitalares, visando "melhorar" sua condição clínica. Igualmente, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+\clearpage
+\subsection{Sequência opcional - semanas 54 a 70}
+\begin{center}
+
+\noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{table}[H]
+\begin{tabular}{p{1,3cm}p{5,3cm}|p{4,7cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S54}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S55}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+   \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S56}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S4}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S57}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S58}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S59}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S60}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S61}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S62}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S63}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S64}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S65}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{p{1,3cm}p{5,3cm}|p{4,7cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S66}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S67}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S68}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+     \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S69}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S70}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{\textit{Final de Protocolo}}
+
+\textbf{Solicitar imagem (RNM)}
+\end{center}
 
 \cleardoublepage
 \section{Meduloblastoma - Risco padrão -- Adaptado dos ensaios CCG-9961 e ACNS0331}
