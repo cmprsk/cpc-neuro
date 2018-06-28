@@ -164,7 +164,9 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 	\def\footnote##1{\hskip-10pt\savefootnote{##1}\hskip10pt}
 	\setcounter{page}{5}
 	%\global\titletrue
-	\markboth{COLABORADORES}{COLABORADORES}}
+	\markboth{COLABORADORES}{COLABORADORES}
+	}
+
 \def\endcontributors{\newpage\markboth{}{}}
 
 \def\name#1{\vskip2pt\fakesc #1*\hskip10pt}
@@ -178,20 +180,21 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 \font\wherefont\timesitalic at 10pt
 
 \def\fakesc#1*{\edef\stuff{#1 }%
-\expandafter\pickupnewword\stuff* }
+	\expandafter\pickupnewword\stuff* }
 \def\saveast{*}
 
 \def\rrelax{\relax}
 
 \def\pickupnewlett#1{\def\letter{#1}%
-\ifx\letter\saveast\unskip%
-\let\go\relax \else%
-\ifx\letter\rrelax{\bigscfont\ }%
-\let\go\pickupnewword\else%
-\uppercase{\def\ucletter{#1}%  upper case letter
-\ifx\letter\ucletter%
-{\bigscfont#1}\else{\smscfont#1}\fi}%%
-\let\go\pickupnewlett\fi\fi\go}
+	\ifx\letter\saveast\unskip%
+	\let\go\relax \else%
+	\ifx\letter\rrelax{\bigscfont\ }%
+	\let\go\pickupnewword\else%
+	\uppercase{\def\ucletter{#1}%  upper case letter
+	\ifx\letter\ucletter%
+	{\bigscfont#1}\else{\smscfont#1}\fi}%%
+	\let\go\pickupnewlett\fi\fi\go
+	}
 
 \def\pickupnewword#1 {\expandafter\pickupnewlett#1\relax}
 
@@ -219,27 +222,22 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 \def\boxpar[#1]#2#3{{\setlength{\fboxsep}{-\fboxrule}\fbox{\parbox[][#2][t]{#1}{\mbox{}\\[-.125\baselineskip]\mbox{}~#3}}}}
 
 \begin{document}
-
-	\begin{titlingpage}
-		\titleGP
-		\cleardoublepage
-		\titleM
-	\end{titlingpage}
-
-	\begin{dedication}
-		Dedicado a nossos filhos, Lucas, Beatriz e Sofia, sem cujo suporte e paciência nada teria sido realizado.
-	\end{dedication}
-
-	\begin{contributors}
-		\name{Francisco Helder Cavalcante Felix,} Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin, Fortaleza, Ceará
-		\name{Juvenia Bezerra Fontenele,} Curso de Farmácia, Faculdade de Farnácia, Odontologia e Enfermgem, Universidade Federal do Ceará, Fortaleza,Ceará
-	\end{contributors}
-
+\begin{titlingpage}
+	\titleGP
+	\cleardoublepage
+	\titleM
+\end{titlingpage}
+\begin{dedication}
+	Dedicado a nossos filhos, Lucas, Beatriz e Sofia, sem cujo suporte e paciência nada teria sido realizado.
+\end{dedication}
+\begin{contributors}
+	\name{Francisco Helder Cavalcante Felix,} Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin, Fortaleza, Ceará
+	\name{Juvenia Bezerra Fontenele,} Curso de Farmácia, Faculdade de Farnácia, Odontologia e Enfermgem, Universidade Federal do Ceará, Fortaleza,Ceará
+\end{contributors}
 \tableofcontents
 \clearpage
 \listoffigures
 \listoftables
-
 \mainmatter
 
 %%%%%%%%%%%
@@ -248,8 +246,25 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 \chapter*{Prefácio}
 
 
-%\section*{Un-numbered sample section}
+\section*{Prefácio do autor}
 
+Se a oncologia pediátrica teve sua concepção imbrincada no alvorecer da própria oncologia clínica como campo da atenção médica, quando Sidney Farber tratou, pela primeira vez, crianças com leucemia com aminopterina \footnote{Farber, S., Diamond, L.K., Mercer, R.D., Sylvester, R.F. & Wolff, J.A. (1948). "Temporary remissions in acute leukemia in children produced by folic acid antagonist, 4-aminopteroyl-glutamic acid (aminopterin)". New England Journal of Medicine. 238: 787–793. doi:10.1056/nejm194806032382301}, a neuro-oncologia pediátrica constitui um campo ainda em organização. O primeiro estudo clínico sobre o tratamento de meduloblastomas da SIOP foi publicado em 1980 \footnote{Gerosa M, DiStefano E, Carli M, Iraci G. Combined treatment of pediatric medulloblastoma. A review of an integrated program (two-arm chemotherapy trial). Childs Brain. 1980;6(5):262-73.}, reportando um discreto efeito da quimioterapia (QT) com ciclofosfamida e vincristina EV, comparada com metotrexato intratecal e vincristina EV. Naquele estudo pioneiro, nenhum dos braços logrou êxito em aumentar a sobrevida dos pacientes em comparação com os resultados históricos com radioterapia (RT) após a cirurgia. 
+
+Nos últimos 38 anos, um grande número de estudos clínicos foi realizado na área neuro-oncológica, embora, infelizmente, apenas uma pequena parte tenha sido publicada e, destes, muito poucos tenham mostrado eficácia clínica de tratamentos quimioterápicos \footnote{Vanderbeek AM, Rahman R, Fell G, Ventz S, Chen T, Redd R, Parmigiani G, Cloughesy TF, Wen PY, Trippa L, Alexander BM. The clinical trials landscape for glioblastoma: is it adequate to develop new treatments? Neuro Oncol. 2018 Mar 6. doi: 10.1093/neuonc/noy027.}. Especificamente na neuro-oncologia pediátrica, a norma tem sido a realização de estudos abertos, sem controle, sem cegamento e sem randomização. A maioria dos estudos usa dados históricos como controle. Este panorama tem determinantes complexos que envolvem fatores científicos, éticos e profissionais.
+
+É inequívoco que ocorreu um enorme avanço no tratamento e sobrevida dos pacientes pediátricos com meduloblastoma, o tumor cerebral maligno mais comum na infância e adolescência. No início dos anos 70, a sobrevida em 5 anos dos pacientes variava entre 20-50\% e a sobrevida em 10 anos era muito pequena \footnote{McFarland DR, Horwitz H, Saenger EL, Bahr GK. Medulloblastoma--a review of prognosis and survival. Br J Radiol. 1969 Mar;42(495):198-214.}. Séries contemporâneas de pacientes com meduloblastoma relatam uma sobrevida em 5 anos entre 50-90\% \footnote{Dressler EV, Dolecek TA, Liu M, Villano JL. Demographics, patterns of care, and survival in pediatric medulloblastoma. J Neurooncol. 2017 May;132(3):497-506. doi: 10.1007/s11060-017-2400-5.}, sendo que o principal fator determinante desta variação é a RT: crianças menores de 4 anos que não recebem RT tem sobrevida muito menor do que os pacientes mais velhos que recebem uma dose completa de RT cranioespinhal. Quanto desta dramática melhora de resultados deveu-se à QT e quanto ocorreu por causa de melhorias no tratamento com RT? Mesmo hoje, é difícil responder a esta pergunta. 
+
+No estudo de Dressler \textit{et al}, a curva de sobrevida dos pacientes tratados com RT + QT se sobrepõe aquela dos pacientes tratador apnas com RT. É claro que não há como comparar os dois tratamentos diretamente nesta coorte, pois os grupos são muito heterogêneos: a princípio, todos os pacientes com maior risco de recidiva foram tratados com radioquimioterapia, enquanto todos os pacientes tratados apenas com RT tinham patologia de baixo risco de recorrência. No entanto, isso também nos impede de responder objetivamente à questão acima. Sem uma comparação direta, a qual não ocorrerá por óbvios motivos éticos, não há como dizer com certeza se a adição da QT à RT teve um efeito \textit{per si} na sobrevida dos pacientes com meduloblastoma.
+
+o entanto, uma questão é indisputável hoje: a adição de QT à RT em pacientes com doença de baixo risco de recidiva permite a redução da dose total de irradiação para o neuro-eixo, sem prejuízo da sobrevida. Ainda falta confirmar se esta redução na dose de radiação se correlaciona com menos efeitos tardios, mas esta é uma expectativa razoável \footnote{Ris MD, Walsh K, Wallace D, Armstrong FD, Holmes E, Gajjar A, Zhou T, Packer RJ. Intellectual and academic outcome following two chemotherapy regimens and radiotherapy for average-risk medulloblastoma: COG A9961. Pediatr Blood Cancer. 2013 Aug;60(8):1350-7. doi: 10.1002/pbc.24496.}. Infelizmente, ainda não temos confirmação de que a adição de QT melhore a sobrevida em pacientes com doença de alto risco de recorrência.
+
+\begin{center}
+	\begin{figure}[sf]
+		\includegraphics[scale=0.9]{fig/sidfar.jpg}
+		\caption{Sidney Farber, considerado o pai da quimioterapa anticâncer moderna e da oncologia pediátrica}
+		%\label{Rotulo}
+	\end{figure}
+\end{center}
 
 %\section*{Another sample section}
 
