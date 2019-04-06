@@ -24,7 +24,7 @@
 \contentsline {section}{\numberline {3.6}Uso n\IeC {\~a}o padronizado (\textit {off-label}) de medicamentos}{22}{section.3.6}
 \contentsline {chapter}{\chapternumberline {4}Informa\IeC {\c c}\IeC {\~o}es sobre as drogas utilizadas}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}Carboplatina}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Cisplatina}{25}{section.4.2}
+\contentsline {section}{\numberline {4.2}Cisplatina}{26}{section.4.2}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{27}{section*.13}
 \contentsline {appendix}{\chapternumberline {A}Quimioterapia de primeira linha}{33}{appendix.A}
 \contentsline {section}{\numberline {A.1}Glioma de baixo grau}{35}{section.A.1}
