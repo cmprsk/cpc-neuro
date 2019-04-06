@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.4.6)  6 APR 2019 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.4.6)  6 APR 2019 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1624,11 +1624,11 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
 
 [22] [23] [24
 
-] (./CPC-NEURO2014.bbl [25] [26
-
-]
+] [25] (./CPC-NEURO2014.bbl [26]
 bibitemlist
-[27] [28]
+[27
+
+] [28]
 Overfull \hbox (0.9073pt too wide) in paragraph at lines 205--209
 \T1/ptm/m/n/10.95 (-20) low-grade gliomas with a nitrosourea-based multiagent c
 hemotherapy regimen.  \T1/ptm/m/it/10.95 (-20) J Neurooncol\T1/ptm/m/n/10.95 (-
@@ -1644,10 +1644,10 @@ hemotherapy regimen.  \T1/ptm/m/it/10.95 (-20) J Neurooncol\T1/ptm/m/n/10.95 (-
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.552 ...te\relax\footnotetext{Versão Abril/2018}
+l.572 ...te\relax\footnotetext{Versão Abril/2018}
                                                   }
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 559.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 579.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1663,15 +1663,15 @@ Overfull \vbox (1.21625pt too high) has occurred while \output is active []
 
 [38]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 906.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 926.
 
 Underfull \vbox (badness 1616) has occurred while \output is active []
 
  [39]
-<fig/fig6.pdf, id=984, 660.4675pt x 467.7475pt>
+<fig/fig6.pdf, id=991, 660.4675pt x 467.7475pt>
 File: fig/fig6.pdf Graphic file (type pdf)
  <use fig/fig6.pdf>
-Package pdftex.def Info: fig/fig6.pdf used on input line 939.
+Package pdftex.def Info: fig/fig6.pdf used on input line 959.
 (pdftex.def)             Requested size: 198.14177pt x 140.32532pt.
  [40 <./fig/fig6.pdf>] [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1685,7 +1685,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1076 ...e\relax\footnotetext{Versão Abril/2018}
+l.1096 ...e\relax\footnotetext{Versão Abril/2018}
                                                   } [45] [46]
 Underfull \vbox (badness 1264) has occurred while \output is active []
 
@@ -1696,10 +1696,10 @@ Underfull \vbox (badness 1264) has occurred while \output is active []
 te.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1464 ...e\relax\footnotetext{Versão Abril/2018}
+l.1484 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1466.
+(Font)              <7> on input line 1486.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1708,7 +1708,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Class memoir Warning: The material used in the headers is too large
 (27.2pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 1549.
+(in both cases you will find help in the memoir manual). on input line 1569.
 
 
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
@@ -1737,7 +1737,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2011.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2031.
 
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
@@ -1746,7 +1746,7 @@ Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 tnote.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2031 ...e\relax\footnotetext{Versão Abril/2018}
+l.2051 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
@@ -1760,7 +1760,7 @@ Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 te.17}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2141 ...e\relax\footnotetext{Versão Abril/2018}
+l.2161 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1782,7 +1782,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2472 ...e\relax\footnotetext{Versão Abril/2018}
+l.2492 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1797,7 +1797,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2729 ...e\relax\footnotetext{Versão Abril/2018}
+l.2749 ...e\relax\footnotetext{Versão Abril/2018}
                                                   } [75] [76]
 Underfull \vbox (badness 2134) has occurred while \output is active []
 
@@ -1812,7 +1812,7 @@ Underfull \vbox (badness 2134) has occurred while \output is active []
 .19}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3071 ...e\relax\footnotetext{Versão Abril/2018}
+l.3091 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
@@ -1825,7 +1825,7 @@ Underfull \vbox (badness 2626) has occurred while \output is active []
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3175 ...e\relax\footnotetext{Versão Abril/2018}
+l.3195 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 3386) has occurred while \output is active []
 
@@ -1840,7 +1840,7 @@ Underfull \vbox (badness 3386) has occurred while \output is active []
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3274 ...e\relax\footnotetext{Versão Junho/2018}
+l.3294 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1851,7 +1851,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [93]
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 3404--3404
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 3424--3424
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
@@ -1859,26 +1859,26 @@ Overfull \hbox (8.50432pt too wide) in paragraph at lines 3404--3404
 .27}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3427 ...e\relax\footnotetext{Versão Junho/2018}
+l.3447 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
-Underfull \hbox (badness 1648) in paragraph at lines 3460--3460
+Underfull \hbox (badness 1648) in paragraph at lines 3480--3480
 []|\T1/ptm/m/n/10.95 (+20) Plaq ($\OML/cmm/m/it/10.95 > \OT1/cmr/m/n/10.95 7\OM
 L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5 \OMS/cmsy/m/n/10.95 ^^B
  []
 
 
-Overfull \hbox (4.49pt too wide) in paragraph at lines 3444--3463
+Overfull \hbox (4.49pt too wide) in paragraph at lines 3464--3483
 [][] 
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 3483--3483
+Underfull \hbox (badness 1648) in paragraph at lines 3503--3503
 []|\T1/ptm/m/n/10.95 (+20) Plaq ($\OML/cmm/m/it/10.95 > \OT1/cmr/m/n/10.95 7\OM
 L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5 \OMS/cmsy/m/n/10.95 ^^B
  []
 
 
-Overfull \hbox (4.49pt too wide) in paragraph at lines 3467--3486
+Overfull \hbox (4.49pt too wide) in paragraph at lines 3487--3506
 [][] 
  []
 
@@ -1897,7 +1897,7 @@ Underfull \vbox (badness 2384) has occurred while \output is active []
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3502 ...e\relax\footnotetext{Versão Abril/2018}
+l.3522 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 Underfull \vbox (badness 2142) has occurred while \output is active []
 
@@ -1925,7 +1925,7 @@ e.33}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.3813 \textbf{Intervalo de 21 dias.}
+l.3833 \textbf{Intervalo de 21 dias.}
                                      ]
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
@@ -1943,7 +1943,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 e.33}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4068 ...relax\footnotetext{Versão Outubro/2017}
+l.4088 ...relax\footnotetext{Versão Outubro/2017}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1966,7 +1966,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 e.34}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4436 ...relax\footnotetext{Versão Outubro/2017}
+l.4456 ...relax\footnotetext{Versão Outubro/2017}
                                                   }
 Underfull \vbox (badness 8132) has occurred while \output is active []
 
@@ -1980,12 +1980,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [122]
-Underfull \hbox (badness 3482) in paragraph at lines 4728--4729
+Underfull \hbox (badness 3482) in paragraph at lines 4748--4749
 []|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
  []
 
 [123]
-Underfull \hbox (badness 3482) in paragraph at lines 4749--4750
+Underfull \hbox (badness 3482) in paragraph at lines 4769--4770
 []|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
  []
 
@@ -1993,7 +1993,7 @@ Underfull \hbox (badness 3482) in paragraph at lines 4749--4750
 e.35}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4774 ...relax\footnotetext{Versão Outubro/2017}
+l.4794 ...relax\footnotetext{Versão Outubro/2017}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2002,7 +2002,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 [126] [127] [128]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5007.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5027.
  [129] [130
 
 ] [131
@@ -2013,7 +2013,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5018 ...e\relax\footnotetext{Versão Junho/2018}
+l.5038 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2021,47 +2021,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 te.39}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5120 ...e\relax\footnotetext{Versão Abril/2019}
+l.5140 ...e\relax\footnotetext{Versão Abril/2019}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [134]
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5148--5148
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 5168--5168
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
 
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5157--5157
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 5177--5177
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
 
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5169--5169
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 5189--5189
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
 
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5178--5178
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 5198--5198
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
 [135]
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5191--5191
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 5211--5211
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
 
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5200--5200
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 5220--5220
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
 
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5212--5212
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 5232--5232
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
 
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5221--5221
+Overfull \hbox (8.50432pt too wide) in paragraph at lines 5241--5241
 []|\T1/ptm/m/n/10.95 (-20) Exames:| 
  []
 
@@ -2069,7 +2069,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.40}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5229 ...e\relax\footnotetext{Versão Junho/2018}
+l.5249 ...e\relax\footnotetext{Versão Junho/2018}
                                                   }
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2078,14 +2078,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 e.42}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5266 ...e\relax\footnotetext{Versão Junho/2018}
+l.5286 ...e\relax\footnotetext{Versão Junho/2018}
                                                   } [138
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.43
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5303 ...e\relax\footnotetext{Versão Junho/2018}
+l.5323 ...e\relax\footnotetext{Versão Junho/2018}
                                                   } [139
 
 ] [140
@@ -2098,9 +2098,9 @@ l.5303 ...e\relax\footnotetext{Versão Junho/2018}
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5342 ...relax\footnotetext{Versão Outubro/2017}
+l.5362 ...relax\footnotetext{Versão Outubro/2017}
                                                   }
-Underfull \hbox (badness 10000) in paragraph at lines 5376--5377
+Underfull \hbox (badness 10000) in paragraph at lines 5396--5397
 
  []
 
@@ -2113,7 +2113,7 @@ Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
 [143]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 5411.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 5431.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2129,12 +2129,12 @@ Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
 
 [147]
-Underfull \hbox (badness 3482) in paragraph at lines 5717--5718
+Underfull \hbox (badness 3482) in paragraph at lines 5737--5738
 []|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
  []
 
 [148]
-Underfull \hbox (badness 3482) in paragraph at lines 5738--5739
+Underfull \hbox (badness 3482) in paragraph at lines 5758--5759
 []|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
  []
 
@@ -2142,7 +2142,7 @@ Underfull \hbox (badness 3482) in paragraph at lines 5738--5739
 Class memoir Warning: The material used in the headers is too large
 (27.2pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 5761.
+(in both cases you will find help in the memoir manual). on input line 5781.
 
 
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
@@ -2158,11 +2158,11 @@ Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 \tf@lot=\write8
 \openout8 = `CPC-NEURO2014.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5761.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5761.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5781.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5781.
  (./CPC-NEURO2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5761.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5761.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5781.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5781.
 
 Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
 (rerunfilecheck)             Checksum: 261BB8B852F338E380F21E798D6893C8;9373.
@@ -2170,11 +2170,11 @@ Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5761.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5781.
  ) 
 Here is how much of TeX's memory you used:
- 25028 strings out of 494926
- 451592 string characters out of 6180260
+ 25035 strings out of 494926
+ 451641 string characters out of 6180260
  636419 words of memory out of 5000000
  27117 multiletter control sequences out of 15000+600000
  127828 words of font info for 340 fonts, out of 8000000 for 9000
@@ -2195,10 +2195,10 @@ xlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf
 s/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CPC-NEURO2014.pdf (161 pages, 813211 bytes).
+Output written on CPC-NEURO2014.pdf (161 pages, 815532 bytes).
 PDF statistics:
- 1666 PDF objects out of 1728 (max. 8388607)
- 1459 compressed objects within 15 object streams
- 376 named destinations out of 1000 (max. 500000)
+ 1674 PDF objects out of 1728 (max. 8388607)
+ 1467 compressed objects within 15 object streams
+ 383 named destinations out of 1000 (max. 500000)
  59297 words of extra memory for PDF output out of 61914 (max. 10000000)
 
