@@ -1,5 +1,48 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: CPC-NEURO2014.aux
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: CPC-NEURO2014.aux
 The style file: unsrt.bst
 Database file #1: bib.bib
 Warning--I didn't find a database entry for "grant"
+You've used 49 entries,
+            1791 wiz_defined-function locations,
+            774 strings with 22189 characters,
+and the built_in function-call counts, 17074 in all, are:
+= -- 1074
+> -- 1708
+< -- 2
++ -- 586
+- -- 537
+* -- 1774
+:= -- 3081
+add.period$ -- 154
+call.type$ -- 49
+change.case$ -- 48
+chr.to.int$ -- 0
+cite$ -- 49
+duplicate$ -- 447
+empty$ -- 1173
+format.name$ -- 537
+if$ -- 3423
+int.to.chr$ -- 0
+int.to.str$ -- 49
+missing$ -- 47
+newline$ -- 252
+num.names$ -- 51
+pop$ -- 79
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 163
+stack$ -- 0
+substring$ -- 1018
+swap$ -- 60
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 110
+width$ -- 51
+write$ -- 549
 (There was 1 warning)
