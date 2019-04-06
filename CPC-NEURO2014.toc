@@ -92,11 +92,11 @@
 \contentsline {section}{\numberline {F.2}Interferon alfa 2b para doen\IeC {\c c}as neopl\IeC {\'a}sicas}{133}{section.F.2}
 \contentsline {subsection}{\numberline {F.2.1}Esquema geral: 4 semanas - continuar at\IeC {\'e} progress\IeC {\~a}o}{133}{subsection.F.2.1}
 \contentsline {section}{\numberline {F.3}Everolimo para astrocitoma subependim\IeC {\'a}rio de c\IeC {\'e}lulas gigantes}{135}{section.F.3}
-\contentsline {subsection}{\numberline {F.3.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{136}{subsection.F.3.1}
-\contentsline {section}{\numberline {F.4}Sirolimo para anomalias vasculares}{137}{section.F.4}
-\contentsline {subsection}{\numberline {F.4.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{137}{subsection.F.4.1}
-\contentsline {section}{\numberline {F.5}Sirolimo para tumores cerebrais recorrentes}{138}{section.F.5}
-\contentsline {subsection}{\numberline {F.5.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{138}{subsection.F.5.1}
+\contentsline {subsection}{\numberline {F.3.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{135}{subsection.F.3.1}
+\contentsline {section}{\numberline {F.4}Sirolimo para anomalias vasculares}{136}{section.F.4}
+\contentsline {subsection}{\numberline {F.4.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{136}{subsection.F.4.1}
+\contentsline {section}{\numberline {F.5}Sirolimo para tumores cerebrais recorrentes}{137}{section.F.5}
+\contentsline {subsection}{\numberline {F.5.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{137}{subsection.F.5.1}
 \contentsline {appendix}{\chapternumberline {G}Protocolos experimentais (estudos cl\IeC {\'\i }nicos)}{139}{appendix.G}
 \contentsline {section}{\numberline {G.1}VALQUIRIA (VALPROATO, QUIMIOTERAPIA E RADIOTERAPIA - protocolo experimental cancelado}{141}{section.G.1}
 \contentsline {subsection}{\numberline {G.1.1}Resumo do tratamento:}{142}{subsection.G.1.1}
