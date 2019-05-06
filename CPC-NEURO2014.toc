@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {A.2.1}Radioquimioterapia: 7 semanas (43 dias)}{45}{subsection.A.2.1}
 \contentsline {subsection}{\numberline {A.2.2}Manuten\IeC {\c c}\IeC {\~a}o: 04 ciclos A e 04 ciclos B}{47}{subsection.A.2.2}
 \contentsline {subsection}{\numberline {A.2.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{49}{subsection.A.2.3}
-\contentsline {section}{\numberline {A.3}Tumores malignos do SNc em menores de 3 anos -- Adaptado do ensaio CCG 9921}{51}{section.A.3}
+\contentsline {section}{\numberline {A.3}Tumores malignos do SNC em menores de 3 anos -- Adaptado do ensaio CCG 9921}{51}{section.A.3}
 \contentsline {subsection}{\numberline {A.3.1}Indu\IeC {\c c}\IeC {\~a}o: 5 ciclos (VCEC)}{51}{subsection.A.3.1}
 \contentsline {subsection}{\numberline {A.3.2}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{54}{subsection.A.3.2}
 \contentsline {subsection}{\numberline {A.3.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{58}{subsection.A.3.3}
