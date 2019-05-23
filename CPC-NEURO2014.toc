@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {1.3}Qual o objetivo desta obra}{7}{section.1.3}
 \contentsline {section}{\numberline {1.4}Como esta obra foi feita}{8}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Revis\IeC {\~a}o da literatura}{8}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Protocolos de tratamento utilizados no HIAS}{8}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Protocolos de tratamento utilizados no HIAS}{9}{subsection.1.4.2}
 \contentsline {chapter}{\chapternumberline {2}O tratamento de tumores cerebrais em crian\IeC {\c c}as}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Tumores neuro-epiteliais de baixo grau}{11}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Avalia\IeC {\c c}\IeC {\~a}o cr\IeC {\'\i }tica de ensaios cl\IeC {\'\i }nicos}{11}{subsection.2.1.1}
