@@ -33,9 +33,9 @@ O manual foi escrito em [LaTeX][latex], usando [ShareLatex][share] e programas p
 > Médico cancerologista pediátrico
 > atuando desde 2008 (ingresso por concurso público) no [Hospital Infantil Albert Sabin][hias], Fortaleza - CE, Brasil
 
-<!--> Membro da Sociedade Brasileira de Pediatria - [SBP][sbp] desde 2002,-->
-<!--> Membro da Sociedade Brasileira de Oncología Pediátrica - [SOBOPE][sobope] desde 2013,-->
-<!--> Membro da Society for Neuroncology - [SNO][sno] desde 2015 -->
+<!-- > Membro da Sociedade Brasileira de Pediatria - [SBP][sbp] desde 2002,
+> Membro da Sociedade Brasileira de Oncología Pediátrica - [SOBOPE][sobope] desde 2013,
+> Membro da Society for Neuroncology - [SNO][sno] desde 2015 -->
 
 > Título de especialista em pediatria pela Sociedade Brasileira de Pediatria - [SBP][sbp] em 2012,
 > Título de especialista em cancerologia pediátrica pela Sociedade Brasileira de Cancerologia - [SBC][sbc] em 2014
