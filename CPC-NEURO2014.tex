@@ -5,6 +5,8 @@ breaklinks=true,colorlinks=true,
 linkcolor=blue,urlcolor=blue,citecolor=blue,% PDF VIEW
 %linkcolor=black,urlcolor=black,citecolor=black,% PRINT
 bookmarks=true,bookmarksopenlevel=2]{hyperref}
+\setlength{\headheight}{14pt}
+\raggedbottom
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
@@ -123,7 +125,7 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 		\raggedleft
 			{\Large \textsc{FHC Félix}}
 			\par
-			\plogo
+			%\plogo
 			{\scshape 2019}
 			%{\large Editoração própria}
 			\par
@@ -199,18 +201,18 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 
 \def\pickupnewword#1 {\expandafter\pickupnewlett#1\relax}
 
-\def\halftitlepage{\thispagestyle{empty}
-	\vspace*{9pc}%
-		{\parindent \z@
-			\interlinepenalty\@M
-		\LARGE
-		\hyphenpenalty10000
-		\bfseries\halftitlefont
-		\def\\ {\vskip1sp}
-		\noindent\thetitle\vskip 1sp
-		}
-	\newpage
-	}
+%\def\halftitlepage{\thispagestyle{empty}
+%	\vspace*{9pc}%
+%		{\parindent \z@
+%			\interlinepenalty\@M
+%		\LARGE
+%		\hyphenpenalty10000
+%		\bfseries\halftitlefont
+%		\def\\ {\vskip 1sp}
+%		\noindent\thetitle\vskip 1sp
+%		}
+%	\newpage
+%	}
 
 %\def\affil#1{{\affilfont #1}\vskip18pt}
 
@@ -333,10 +335,11 @@ Não antes dos séculos 18 e 19, surgiram descrições mais precisas acerca de t
 \section{Tumores cerebrais na infância e adolescência}
 \begin{center}
 \begin{figure}[htpb]
-\includegraphics[scale=0.9,trim = 10mm 10mm 8mm 5mm,clip]{fig/fig1.pdf}
+\includegraphics[scale=0.8,trim = 10mm 10mm 8mm 5mm,clip]{fig/fig1.pdf}
 \caption{Tratamento de crianças com tumores cerebrais, com histologia}
 %\label{Rotulo}
 \end{figure}
+\clearpage
 \begin{figure}[!htb]
 \includegraphics[scale=0.86,trim = 20mm 5mm 10mm 8mm,clip]{fig/fig2.pdf}
 \caption{Tratamento de crianças com tumores cerebrais, sem histologia}
@@ -377,7 +380,7 @@ No capítulo sobre os protocolos usados no HIAS, forencemos maiores detalhes sob
 
 \subsection{Avaliação crítica de ensaios clínicos}
 \begin{figure}[!htb]
-\includegraphics[scale=0.87,trim = 18mm 0mm 15mm 5mm,clip]{fig/fig3.pdf}
+\includegraphics[scale=0.86,trim = 18mm 0mm 15mm 5mm,clip]{fig/fig3.pdf}
 \caption{Tratamento de crianças com gliomas e outros tumores neuroepiteliais de baixo grau.}
 %\label{Rotulo}
 \end{figure}
