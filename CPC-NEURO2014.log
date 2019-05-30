@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.11)  28 MAY 2019 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.11)  29 MAY 2019 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1469,8 +1469,8 @@ Package caption Info: End \AtBeginDocument code.
 * \textheight=702.78308pt
 * \oddsidemargin=-9.67393pt
 * \evensidemargin=-6.82866pt
-* \topmargin=-35.0119pt
-* \headheight=14.0pt
+* \topmargin=-48.3119pt
+* \headheight=27.3pt
 * \headsep=19.8738pt
 * \topskip=11.0pt
 * \footskip=27.46295pt
@@ -1722,322 +1722,192 @@ l.1497 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1499.
-
-
-Class memoir Warning: The material used in the headers is too large
-(27.2pt) for the given head height (14.0pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 1582.
-
-
-Overfull \vbox (13.2pt too high) has occurred while \output is active []
-
  [53
 
-]
-[54]
-Overfull \vbox (13.2pt too high) has occurred while \output is active []
+] [54] [55
 
- [55]
-[56
+] [56]
+[57
 
-]
-Overfull \vbox (13.2pt too high) has occurred while \output is active []
-
- [57]
-[58]
+] [58] [59]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2044.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2045.
+ [60] [61] [62
 
-Overfull \vbox (13.2pt too high) has occurred while \output is active []
-
- [59]
-[60]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
-.13}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.13
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2064 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  }
-Overfull \vbox (13.2pt too high) has occurred while \output is active []
-
- [61
-
-]
-[62]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
-.17}) has been already used, duplicate ignored
+l.2065 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [63] [64]pdfTeX warning (ex
+t4): destination with the same identifier (name{Hfootnote.17}) has been already
+ used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2174 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [63
+l.2175 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [65
 
-] [64] [65] [66]
-[67] [68
+] [66] [67] [68]
+[69] [70
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.18
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2505 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [69] [70] [71] [72]
-[73] [74
+l.2506 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [71] [72] [73] [74]
+[75] [76
 
-] [75
+] [77
 
-] [76
+] [78
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.19
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2762 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [77] [78] [79] [80]
-[81] [82]pdfTeX warning (ext4): destination with the same identifier (name{Hfoo
+l.2763 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [79] [80] [81] [82]
+[83] [84]pdfTeX warning (ext4): destination with the same identifier (name{Hfoo
 tnote.19}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3104 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [83
+l.3105 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [85
 
-] [84] [85] [86
+] [86] [87] [88
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.20
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3208 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [87] [88] [89] [90
+l.3209 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [89] [90] [91] [92
 
 ]
-[91
+[93
 
-] [92
+] [94
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.21
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3307 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [93] [94] [95]
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 3437--3437
-[]|\T1/ptm/m/n/10.95 (-20) Exames:| 
- []
-
-[96]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote
-.27}) has been already used, duplicate ignored
+l.3308 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [95] [96] [97] [98]pdfTeX w
+arning (ext4): destination with the same identifier (name{Hfootnote.27}) has be
+en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3460 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  }
-Underfull \hbox (badness 1648) in paragraph at lines 3493--3493
-[]|\T1/ptm/m/n/10.95 (+20) Plaq ($\OML/cmm/m/it/10.95 > \OT1/cmr/m/n/10.95 7\OM
-L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5 \OMS/cmsy/m/n/10.95 ^^B
- []
+l.3461 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [99
+
+] [100] [101
 
 
-Overfull \hbox (4.49pt too wide) in paragraph at lines 3477--3496
-[][] 
- []
-
-
-Underfull \hbox (badness 1648) in paragraph at lines 3516--3516
-[]|\T1/ptm/m/n/10.95 (+20) Plaq ($\OML/cmm/m/it/10.95 > \OT1/cmr/m/n/10.95 7\OM
-L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 5 \OMS/cmsy/m/n/10.95 ^^B
- []
-
-
-Overfull \hbox (4.49pt too wide) in paragraph at lines 3500--3519
-[][] 
- []
-
-[97
-
-] [98] [99
-
-
-] [100
+] [102
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.29
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3535 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [101] [102] [103] [104]
-[105] [106
+l.3536 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [103] [104] [105] [106]
+[107] [108
 
-] [107
+] [109
 
-] [108
+] [110
 
-] [109pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
+] [111pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
 te.33}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.3846 \textbf{Intervalo de 21 dias.}
-                                     ] [110] [111] [112] [113] [114]pdfTeX warn
+l.3847 \textbf{Intervalo de 21 dias.}
+                                     ] [112] [113] [114] [115] [116]pdfTeX warn
 ing (ext4): destination with the same identifier (name{Hfootnote.33}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4101 ...relax\footnotetext{Versão Outubro/2017}
-                                                  } [115
+l.4102 ...relax\footnotetext{Versão Outubro/2017}
+                                                  } [117
 
-] [116] [117] [118]
-[119] [120]pdfTeX warning (ext4): destination with the same identifier (name{Hf
+] [118] [119] [120]
+[121] [122]pdfTeX warning (ext4): destination with the same identifier (name{Hf
 ootnote.34}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4469 ...relax\footnotetext{Versão Outubro/2017}
-                                                  } [121
+l.4470 ...relax\footnotetext{Versão Outubro/2017}
+                                                  } [123
 
-] [122] [123] [124]
-Underfull \hbox (badness 3482) in paragraph at lines 4761--4762
-[]|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
- []
-
-[125]
-Underfull \hbox (badness 3482) in paragraph at lines 4782--4783
-[]|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
- []
-
-[126]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnot
-e.35}) has been already used, duplicate ignored
+] [124] [125] [126]
+[127] [128]pdfTeX warning (ext4): destination with the same identifier (name{Hf
+ootnote.35}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4807 ...relax\footnotetext{Versão Outubro/2017}
-                                                  } [127
+l.4808 ...relax\footnotetext{Versão Outubro/2017}
+                                                  } [129
 
-] [128] [129] [130]
+] [130] [131] [132]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5040.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5041.
 
-[131] [132
+[133] [134
 
-] [133
+] [135
 
-] [134
+] [136
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.37
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5051 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [135]pdfTeX warning (ext4):
+l.5052 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [137]pdfTeX warning (ext4):
  destination with the same identifier (name{Hfootnote.39}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.5153 ...e\relax\footnotetext{Versão Abril/2019}
-                                                  } [136]
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5181--5181
-[]|\T1/ptm/m/n/10.95 (-20) Exames:| 
- []
-
-
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5190--5190
-[]|\T1/ptm/m/n/10.95 (-20) Exames:| 
- []
-
-
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5202--5202
-[]|\T1/ptm/m/n/10.95 (-20) Exames:| 
- []
-
-
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5211--5211
-[]|\T1/ptm/m/n/10.95 (-20) Exames:| 
- []
-
-[137]
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5224--5224
-[]|\T1/ptm/m/n/10.95 (-20) Exames:| 
- []
-
-
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5233--5233
-[]|\T1/ptm/m/n/10.95 (-20) Exames:| 
- []
-
-
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5245--5245
-[]|\T1/ptm/m/n/10.95 (-20) Exames:| 
- []
-
-
-Overfull \hbox (8.50432pt too wide) in paragraph at lines 5254--5254
-[]|\T1/ptm/m/n/10.95 (-20) Exames:| 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.40}
-) has been already used, duplicate ignored
+l.5154 ...e\relax\footnotetext{Versão Abril/2019}
+                                                  } [138] [139] [140]pdfTeX war
+ning (ext4): destination with the same identifier (name{Hfootnote.40}) has been
+ already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5262 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [138] [139]pdfTeX warning (
-ext4): destination with the same identifier (name{Hfootnote.42}) has been alrea
-dy used, duplicate ignored
+l.5263 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [141
+
+]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.42
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5299 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [140
+l.5300 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [142
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.43
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5336 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [141
-
-] [142
-
-] [143
+l.5337 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [143
 
 ] [144
+
+] [145
+
+] [146
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.44
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5375 ...relax\footnotetext{Versão Outubro/2017}
-                                                  }
-Underfull \hbox (badness 10000) in paragraph at lines 5409--5410
-
- []
-
-
-Overfull \vbox (13.2pt too high) has occurred while \output is active []
-
- [145]
+l.5376 ...relax\footnotetext{Versão Outubro/2017}
+                                                  } [147]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 5444.
-
-[146]
-Overfull \vbox (13.2pt too high) has occurred while \output is active []
-
- [147]
-[148]
-Overfull \vbox (13.2pt too high) has occurred while \output is active []
-
- [149]
-Underfull \hbox (badness 3482) in paragraph at lines 5750--5751
-[]|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
- []
-
-[150]
-Underfull \hbox (badness 3482) in paragraph at lines 5771--5772
-[]|\T1/ptm/m/n/10.95 (+20) Iniciar ra-di-o-qui-mi-o-te-ra-pia con-co-mi-
- []
-
-
-Class memoir Warning: The material used in the headers is too large
-(27.2pt) for the given head height (14.0pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 5794.
-
-
-Overfull \vbox (13.2pt too high) has occurred while \output is active []
-
- [151]
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 5445.
+ [148] [149] [150]
+[151] [152] [153]
 \tf@toc=\write6
 \openout6 = `CPC-NEURO2014.toc'.
 
@@ -2047,22 +1917,21 @@ Overfull \vbox (13.2pt too high) has occurred while \output is active []
 \tf@lot=\write8
 \openout8 = `CPC-NEURO2014.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5794.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5794.
-
-(./CPC-NEURO2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5794.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5794.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5795.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5795.
+ (./CPC-NEURO2014.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5795.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5795.
 
 Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
 (rerunfilecheck)             Checksum: 1B69630E132B25EF816238D940EA5E96;9433.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5794.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5795.
  ) 
 Here is how much of TeX's memory you used:
- 27217 strings out of 494437
- 518480 string characters out of 6166644
- 680827 words of memory out of 5000000
- 29322 multiletter control sequences out of 15000+600000
+ 27218 strings out of 494437
+ 518479 string characters out of 6166644
+ 680816 words of memory out of 5000000
+ 29321 multiletter control sequences out of 15000+600000
  127365 words of font info for 341 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  60i,14n,71p,2082b,785s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2083,10 +1952,10 @@ a.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/urw/helvetic/uhvro8a
 r/local/texlive/2017basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loc
 al/texlive/2017basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2017basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CPC-NEURO2014.pdf (163 pages, 819894 bytes).
+Output written on CPC-NEURO2014.pdf (165 pages, 820726 bytes).
 PDF statistics:
- 1691 PDF objects out of 1728 (max. 8388607)
- 1482 compressed objects within 15 object streams
- 387 named destinations out of 1000 (max. 500000)
+ 1699 PDF objects out of 1728 (max. 8388607)
+ 1488 compressed objects within 15 object streams
+ 389 named destinations out of 1000 (max. 500000)
  58793 words of extra memory for PDF output out of 61914 (max. 10000000)
 

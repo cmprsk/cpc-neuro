@@ -40,73 +40,73 @@
 \contentsline {subsection}{\numberline {A.2.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{51}{subsection.A.2.3}
 \contentsline {section}{\numberline {A.3}Tumores malignos do SNC em menores de 3 anos -- Adaptado do ensaio CCG 9921}{53}{section.A.3}
 \contentsline {subsection}{\numberline {A.3.1}Indu\IeC {\c c}\IeC {\~a}o: 5 ciclos (VCEC)}{53}{subsection.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{56}{subsection.A.3.2}
-\contentsline {subsection}{\numberline {A.3.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{60}{subsection.A.3.3}
-\contentsline {section}{\numberline {A.4}Ependimoma -- Adaptado dos ensaios do COG e SIOP e de dados combinados da literatura}{61}{section.A.4}
-\contentsline {section}{\numberline {A.5}Tumores embrion\IeC {\'a}rios -- Adaptado dos ensaios COG-A99701 e ACNS0332}{63}{section.A.5}
-\contentsline {subsection}{\numberline {A.5.1}Radioquimioterapia: 7 semanas (43 dias)}{63}{subsection.A.5.1}
-\contentsline {subsection}{\numberline {A.5.2}Manuten\IeC {\c c}\IeC {\~a}o: 06 ciclos}{66}{subsection.A.5.2}
-\contentsline {subsection}{\numberline {A.5.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{67}{subsection.A.5.3}
-\contentsline {section}{\numberline {A.6}Glioma de alto grau -- Adaptado do ensaio ACNS0423}{69}{section.A.6}
-\contentsline {subsection}{\numberline {A.6.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{69}{subsection.A.6.1}
-\contentsline {subsection}{\numberline {A.6.2}Manuten\IeC {\c c}\IeC {\~a}o: 06 ciclos}{70}{subsection.A.6.2}
-\contentsline {subsection}{\numberline {A.6.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{72}{subsection.A.6.3}
-\contentsline {appendix}{\chapternumberline {B}Quimioterapia de resgate (doen\IeC {\c c}a recorrente/progressiva)}{75}{appendix.B}
-\contentsline {section}{\numberline {B.1}Tumores do SNC recorrentes}{77}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}Quimioterapia: 10 ciclos}{77}{subsection.B.1.1}
-\contentsline {subsection}{\numberline {B.1.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{82}{subsection.B.1.2}
-\contentsline {section}{\numberline {B.2}Ifosfamida/Etoposido}{83}{section.B.2}
-\contentsline {subsection}{\numberline {B.2.1}Resgate: 03 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{83}{subsection.B.2.1}
-\contentsline {subsection}{\numberline {B.2.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{84}{subsection.B.2.2}
-\contentsline {section}{\numberline {B.3}Ifosfamida, carboplatina e etoposido (ICE)}{87}{section.B.3}
-\contentsline {subsection}{\numberline {B.3.1}Resgate: 02 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{87}{subsection.B.3.1}
-\contentsline {subsection}{\numberline {B.3.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{88}{subsection.B.3.2}
-\contentsline {appendix}{\chapternumberline {C}Quimioterapia neoadjuvante}{91}{appendix.C}
-\contentsline {section}{\numberline {C.1}Vimblastina neoadjuvante}{93}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}Esquema: 6 semanas}{93}{subsection.C.1.1}
-\contentsline {subsection}{\numberline {C.1.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{96}{subsection.C.1.2}
-\contentsline {section}{\numberline {C.2}Ifosfamida, carboplatina e etoposido neoadjuvante}{97}{section.C.2}
-\contentsline {subsection}{\numberline {C.2.1}Dois ciclos - repetir uma vez se necess\IeC {\'a}rio e n\IeC {\~a}o houver progress\IeC {\~a}o}{97}{subsection.C.2.1}
-\contentsline {subsection}{\numberline {C.2.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{98}{subsection.C.2.2}
-\contentsline {appendix}{\chapternumberline {D}Quimioterapia metron\IeC {\^o}mica}{99}{appendix.D}
-\contentsline {section}{\numberline {D.1}Vimblastina metron\IeC {\^o}mica}{101}{section.D.1}
-\contentsline {subsection}{\numberline {D.1.1}Esquema 1: 6 semanas - usar esquema 1 ou 2, n\IeC {\~a}o ambos}{101}{subsection.D.1.1}
-\contentsline {subsection}{\numberline {D.1.2}Esquema 2: 6 semanas - usar esquema 1 ou 2, n\IeC {\~a}o ambos}{103}{subsection.D.1.2}
-\contentsline {subsection}{\numberline {D.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{105}{subsection.D.1.3}
-\contentsline {appendix}{\chapternumberline {E}Qumioterapia alternativa (substitu\IeC {\'\i }dos por atualiza\IeC {\c c}\IeC {\~o}es)}{107}{appendix.E}
-\contentsline {section}{\numberline {E.1}Glioma de baixo grau -- Adaptado do ensaio COG-A9952}{109}{section.E.1}
-\contentsline {subsection}{\numberline {E.1.1}Indu\IeC {\c c}\IeC {\~a}o: 10 semanas}{109}{subsection.E.1.1}
-\contentsline {subsection}{\numberline {E.1.2}Manuten\IeC {\c c}\IeC {\~a}o: 48 semanas (08 blocos de 6 semanas)}{110}{subsection.E.1.2}
-\contentsline {subsection}{\numberline {E.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{114}{subsection.E.1.3}
-\contentsline {section}{\numberline {E.2}Glioma de alto grau -- Adaptado do ensaio ACNS0126}{115}{section.E.2}
-\contentsline {subsection}{\numberline {E.2.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{115}{subsection.E.2.1}
-\contentsline {subsection}{\numberline {E.2.2}Manuten\IeC {\c c}\IeC {\~a}o: 10 ciclos}{116}{subsection.E.2.2}
-\contentsline {subsection}{\numberline {E.2.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{120}{subsection.E.2.3}
-\contentsline {section}{\numberline {E.3}Glioma de alto grau -- Adaptado do ensaio HIT-GBM-D}{121}{section.E.3}
-\contentsline {subsection}{\numberline {E.3.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{121}{subsection.E.3.1}
-\contentsline {subsection}{\numberline {E.3.2}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{123}{subsection.E.3.2}
-\contentsline {subsection}{\numberline {E.3.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{125}{subsection.E.3.3}
-\contentsline {section}{\numberline {E.4}Ependimoma n\IeC {\~a}o metast\IeC {\'a}tico -- Adaptado dos ensaios ACNS0121 e ACNS0831}{127}{section.E.4}
-\contentsline {subsection}{\numberline {E.4.1}Indu\IeC {\c c}\IeC {\~a}o: 2 ciclos (pr\IeC {\'e}-radioterapia)}{128}{subsection.E.4.1}
-\contentsline {subsection}{\numberline {E.4.2}Manuten\IeC {\c c}\IeC {\~a}o: 04 ciclos (VCEC)}{128}{subsection.E.4.2}
-\contentsline {subsection}{\numberline {E.4.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{130}{subsection.E.4.3}
-\contentsline {appendix}{\chapternumberline {F}Terapia alvo, imunoterapia, terapia biol\IeC {\'o}gica}{133}{appendix.F}
-\contentsline {section}{\numberline {F.1}Interferon para craniofaringiomas}{135}{section.F.1}
-\contentsline {subsection}{\numberline {F.1.1}Esquema: 4 semanas - repetir 2 a 6 vezes}{135}{subsection.F.1.1}
-\contentsline {section}{\numberline {F.2}Interferon alfa 2b para doen\IeC {\c c}as neopl\IeC {\'a}sicas}{137}{section.F.2}
-\contentsline {subsection}{\numberline {F.2.1}Esquema geral: 4 semanas - continuar at\IeC {\'e} progress\IeC {\~a}o}{137}{subsection.F.2.1}
-\contentsline {section}{\numberline {F.3}Everolimo para astrocitoma subependim\IeC {\'a}rio de c\IeC {\'e}lulas gigantes}{139}{section.F.3}
-\contentsline {subsection}{\numberline {F.3.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{139}{subsection.F.3.1}
-\contentsline {section}{\numberline {F.4}Sirolimo para anomalias vasculares}{140}{section.F.4}
-\contentsline {subsection}{\numberline {F.4.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{140}{subsection.F.4.1}
-\contentsline {section}{\numberline {F.5}Sirolimo para tumores cerebrais recorrentes}{141}{section.F.5}
-\contentsline {subsection}{\numberline {F.5.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{141}{subsection.F.5.1}
-\contentsline {appendix}{\chapternumberline {G}Protocolos experimentais (estudos cl\IeC {\'\i }nicos)}{143}{appendix.G}
-\contentsline {section}{\numberline {G.1}VALQUIRIA (VALPROATO, QUIMIOTERAPIA E RADIOTERAPIA - protocolo experimental cancelado}{145}{section.G.1}
-\contentsline {subsection}{\numberline {G.1.1}Resumo do tratamento:}{146}{subsection.G.1.1}
-\contentsline {subsubsection}{Droga oral:}{146}{section*.15}
-\contentsline {subsubsection}{Protocolo de quimioterapia:}{146}{section*.16}
-\contentsline {subsubsection}{Radioquimioterapia simult\IeC {\^a}nea:}{146}{section*.17}
-\contentsline {subsection}{\numberline {G.1.2}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{146}{subsection.G.1.2}
-\contentsline {subsection}{\numberline {G.1.3}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{148}{subsection.G.1.3}
-\contentsline {subsection}{\numberline {G.1.4}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{150}{subsection.G.1.4}
+\contentsline {subsection}{\numberline {A.3.2}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{57}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{61}{subsection.A.3.3}
+\contentsline {section}{\numberline {A.4}Ependimoma -- Adaptado dos ensaios do COG e SIOP e de dados combinados da literatura}{63}{section.A.4}
+\contentsline {section}{\numberline {A.5}Tumores embrion\IeC {\'a}rios -- Adaptado dos ensaios COG-A99701 e ACNS0332}{65}{section.A.5}
+\contentsline {subsection}{\numberline {A.5.1}Radioquimioterapia: 7 semanas (43 dias)}{65}{subsection.A.5.1}
+\contentsline {subsection}{\numberline {A.5.2}Manuten\IeC {\c c}\IeC {\~a}o: 06 ciclos}{68}{subsection.A.5.2}
+\contentsline {subsection}{\numberline {A.5.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{69}{subsection.A.5.3}
+\contentsline {section}{\numberline {A.6}Glioma de alto grau -- Adaptado do ensaio ACNS0423}{71}{section.A.6}
+\contentsline {subsection}{\numberline {A.6.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{71}{subsection.A.6.1}
+\contentsline {subsection}{\numberline {A.6.2}Manuten\IeC {\c c}\IeC {\~a}o: 06 ciclos}{72}{subsection.A.6.2}
+\contentsline {subsection}{\numberline {A.6.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{74}{subsection.A.6.3}
+\contentsline {appendix}{\chapternumberline {B}Quimioterapia de resgate (doen\IeC {\c c}a recorrente/progressiva)}{77}{appendix.B}
+\contentsline {section}{\numberline {B.1}Tumores do SNC recorrentes}{79}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Quimioterapia: 10 ciclos}{79}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{84}{subsection.B.1.2}
+\contentsline {section}{\numberline {B.2}Ifosfamida/Etoposido}{85}{section.B.2}
+\contentsline {subsection}{\numberline {B.2.1}Resgate: 03 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{85}{subsection.B.2.1}
+\contentsline {subsection}{\numberline {B.2.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{86}{subsection.B.2.2}
+\contentsline {section}{\numberline {B.3}Ifosfamida, carboplatina e etoposido (ICE)}{89}{section.B.3}
+\contentsline {subsection}{\numberline {B.3.1}Resgate: 02 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{89}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.3.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{90}{subsection.B.3.2}
+\contentsline {appendix}{\chapternumberline {C}Quimioterapia neoadjuvante}{93}{appendix.C}
+\contentsline {section}{\numberline {C.1}Vimblastina neoadjuvante}{95}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Esquema: 6 semanas}{95}{subsection.C.1.1}
+\contentsline {subsection}{\numberline {C.1.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{98}{subsection.C.1.2}
+\contentsline {section}{\numberline {C.2}Ifosfamida, carboplatina e etoposido neoadjuvante}{99}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Dois ciclos - repetir uma vez se necess\IeC {\'a}rio e n\IeC {\~a}o houver progress\IeC {\~a}o}{99}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{100}{subsection.C.2.2}
+\contentsline {appendix}{\chapternumberline {D}Quimioterapia metron\IeC {\^o}mica}{101}{appendix.D}
+\contentsline {section}{\numberline {D.1}Vimblastina metron\IeC {\^o}mica}{103}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}Esquema 1: 6 semanas - usar esquema 1 ou 2, n\IeC {\~a}o ambos}{103}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Esquema 2: 6 semanas - usar esquema 1 ou 2, n\IeC {\~a}o ambos}{105}{subsection.D.1.2}
+\contentsline {subsection}{\numberline {D.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{107}{subsection.D.1.3}
+\contentsline {appendix}{\chapternumberline {E}Qumioterapia alternativa (substitu\IeC {\'\i }dos por atualiza\IeC {\c c}\IeC {\~o}es)}{109}{appendix.E}
+\contentsline {section}{\numberline {E.1}Glioma de baixo grau -- Adaptado do ensaio COG-A9952}{111}{section.E.1}
+\contentsline {subsection}{\numberline {E.1.1}Indu\IeC {\c c}\IeC {\~a}o: 10 semanas}{111}{subsection.E.1.1}
+\contentsline {subsection}{\numberline {E.1.2}Manuten\IeC {\c c}\IeC {\~a}o: 48 semanas (08 blocos de 6 semanas)}{112}{subsection.E.1.2}
+\contentsline {subsection}{\numberline {E.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{116}{subsection.E.1.3}
+\contentsline {section}{\numberline {E.2}Glioma de alto grau -- Adaptado do ensaio ACNS0126}{117}{section.E.2}
+\contentsline {subsection}{\numberline {E.2.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{117}{subsection.E.2.1}
+\contentsline {subsection}{\numberline {E.2.2}Manuten\IeC {\c c}\IeC {\~a}o: 10 ciclos}{118}{subsection.E.2.2}
+\contentsline {subsection}{\numberline {E.2.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{122}{subsection.E.2.3}
+\contentsline {section}{\numberline {E.3}Glioma de alto grau -- Adaptado do ensaio HIT-GBM-D}{123}{section.E.3}
+\contentsline {subsection}{\numberline {E.3.1}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{123}{subsection.E.3.1}
+\contentsline {subsection}{\numberline {E.3.2}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{125}{subsection.E.3.2}
+\contentsline {subsection}{\numberline {E.3.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{127}{subsection.E.3.3}
+\contentsline {section}{\numberline {E.4}Ependimoma n\IeC {\~a}o metast\IeC {\'a}tico -- Adaptado dos ensaios ACNS0121 e ACNS0831}{129}{section.E.4}
+\contentsline {subsection}{\numberline {E.4.1}Indu\IeC {\c c}\IeC {\~a}o: 2 ciclos (pr\IeC {\'e}-radioterapia)}{130}{subsection.E.4.1}
+\contentsline {subsection}{\numberline {E.4.2}Manuten\IeC {\c c}\IeC {\~a}o: 04 ciclos (VCEC)}{130}{subsection.E.4.2}
+\contentsline {subsection}{\numberline {E.4.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{132}{subsection.E.4.3}
+\contentsline {appendix}{\chapternumberline {F}Terapia alvo, imunoterapia, terapia biol\IeC {\'o}gica}{135}{appendix.F}
+\contentsline {section}{\numberline {F.1}Interferon para craniofaringiomas}{137}{section.F.1}
+\contentsline {subsection}{\numberline {F.1.1}Esquema: 4 semanas - repetir 2 a 6 vezes}{137}{subsection.F.1.1}
+\contentsline {section}{\numberline {F.2}Interferon alfa 2b para doen\IeC {\c c}as neopl\IeC {\'a}sicas}{139}{section.F.2}
+\contentsline {subsection}{\numberline {F.2.1}Esquema geral: 4 semanas - continuar at\IeC {\'e} progress\IeC {\~a}o}{139}{subsection.F.2.1}
+\contentsline {section}{\numberline {F.3}Everolimo para astrocitoma subependim\IeC {\'a}rio de c\IeC {\'e}lulas gigantes}{141}{section.F.3}
+\contentsline {subsection}{\numberline {F.3.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{141}{subsection.F.3.1}
+\contentsline {section}{\numberline {F.4}Sirolimo para anomalias vasculares}{142}{section.F.4}
+\contentsline {subsection}{\numberline {F.4.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{142}{subsection.F.4.1}
+\contentsline {section}{\numberline {F.5}Sirolimo para tumores cerebrais recorrentes}{143}{section.F.5}
+\contentsline {subsection}{\numberline {F.5.1}Esquema: cont\IeC {\'\i }nuo at\IeC {\'e} progress\IeC {\~a}o}{143}{subsection.F.5.1}
+\contentsline {appendix}{\chapternumberline {G}Protocolos experimentais (estudos cl\IeC {\'\i }nicos)}{145}{appendix.G}
+\contentsline {section}{\numberline {G.1}VALQUIRIA (VALPROATO, QUIMIOTERAPIA E RADIOTERAPIA - protocolo experimental cancelado}{147}{section.G.1}
+\contentsline {subsection}{\numberline {G.1.1}Resumo do tratamento:}{148}{subsection.G.1.1}
+\contentsline {subsubsection}{Droga oral:}{148}{section*.15}
+\contentsline {subsubsection}{Protocolo de quimioterapia:}{148}{section*.16}
+\contentsline {subsubsection}{Radioquimioterapia simult\IeC {\^a}nea:}{148}{section*.17}
+\contentsline {subsection}{\numberline {G.1.2}Indu\IeC {\c c}\IeC {\~a}o: 6 semanas (radioquimioterapia)}{148}{subsection.G.1.2}
+\contentsline {subsection}{\numberline {G.1.3}Manuten\IeC {\c c}\IeC {\~a}o: 08 ciclos}{150}{subsection.G.1.3}
+\contentsline {subsection}{\numberline {G.1.4}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{152}{subsection.G.1.4}
