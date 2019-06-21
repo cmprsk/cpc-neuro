@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.6.20)  20 JUN 2019 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.6.21)  21 JUN 2019 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1610,32 +1610,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.614 ...te\relax\footnotetext{Versão Abril/2018}
+l.614 ...te\relax\footnotetext{Versão Junho/2019}
                                                   }
-
-LaTeX Warning: Citation `doi:10.1002/cncr.21091' on page 31 undefined on input 
-line 615.
-
-
-LaTeX Warning: Citation `doi:10.1200/JCO.2011.34.5843' on page 31 undefined on 
-input line 615.
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 621.
-[31] [32] [33]
+ [31] [32] [33]
 Overfull \vbox (1.21625pt too high) has occurred while \output is active []
 
 
 [34]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 968.
- [35] [36] [37
+ [35] [36
 
-] [38]pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
-te.9}) has been already used, duplicate ignored
+] [37] [38]pdfTeX warning (ext4): destination with the same identifier (name{Hf
+ootnote.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1110 ...e\relax\footnotetext{Versão Abril/2018}
+l.1109 ...e\relax\footnotetext{Versão Abril/2018}
                                                   } [39
 
 ] [40] [41] [42]
@@ -1645,220 +1637,197 @@ l.1110 ...e\relax\footnotetext{Versão Abril/2018}
 te.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1498 ...e\relax\footnotetext{Versão Abril/2018}
+l.1497 ...e\relax\footnotetext{Versão Abril/2018}
                                                   }
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1506.
+(Font)              <7> on input line 1505.
  [45
 
-] [46] [47
+] [46] [47] [48
 
-] [48]
-[49
-
-] [50] [51]
+]
+[49] [50]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2046.
- [52] [53] [54
-
-]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.9}
-) has been already used, duplicate ignored
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2044.
+ [51] [52]pdfTeX warning (ext4): destination with the same identifier (name{Hfo
+otnote.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2066 ...e\relax\footnotetext{Versão Junho/2019}
-                                                  }
+l.2064 ...e\relax\footnotetext{Versão Junho/2019}
+                                                  } [53
 
-LaTeX Warning: Citation `doi:10.1200/JCO.18.01765' on page 55 undefined on inpu
-t line 2068.
-
-
-LaTeX Warning: Citation `doi:10.1200/JCO.2015.65.7825' on page 55 undefined on 
-input line 2076.
-
-
-LaTeX Warning: Citation `10.1093/neuonc/now108' on page 55 undefined on input l
-ine 2076.
-
-
-LaTeX Warning: Citation `doi:10.1200/JCO.2017.73.1265' on page 55 undefined on 
-input line 2078.
-
-
-LaTeX Warning: Citation `doi:10.1200/JCO.2017.73.1265' on page 55 undefined on 
-input line 2078.
-
-[55] [56]pdfTeX warning (ext4): destination with the same identifier (name{Hfoo
-tnote.9}) has been already used, duplicate ignored
+] [54]pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
+te.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2176 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [57
+l.2174 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [55
 
-] [58] [59] [60]
-[61] [62
+] [56] [57] [58]
+[59] [60
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.10
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2507 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [63] [64] [65] [66]
-[67] [68
+l.2505 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [61] [62] [63] [64]
+[65] [66
 
-] [69
+] [67
 
-] [70
+] [68
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.11
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2764 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [71] [72] [73] [74]
-[75] [76]pdfTeX warning (ext4): destination with the same identifier (name{Hfoo
+l.2762 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [69] [70] [71] [72]
+[73] [74]pdfTeX warning (ext4): destination with the same identifier (name{Hfoo
 tnote.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3106 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [77
+l.3104 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [75
 
-] [78] [79] [80
+] [76] [77] [78
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.12
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3210 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [81] [82] [83] [84
+l.3208 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [79] [80] [81] [82
 
 ]
-[85
+[83
 
-] [86
+] [84
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.13
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3309 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [87] [88] [89] [90]pdfTeX w
+l.3307 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [85] [86] [87] [88]pdfTeX w
 arning (ext4): destination with the same identifier (name{Hfootnote.19}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3462 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [91
+l.3460 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [89
 
-] [92] [93
+] [90] [91
 
 
-] [94
+] [92
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.21
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3537 ...e\relax\footnotetext{Versão Abril/2018}
-                                                  } [95] [96] [97] [98]
-[99] [100
+l.3535 ...e\relax\footnotetext{Versão Abril/2018}
+                                                  } [93] [94] [95] [96]
+[97] [98
 
-] [101
+] [99
 
-] [102
+] [100
 
-] [103pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
+] [101pdfTeX warning (ext4): destination with the same identifier (name{Hfootno
 te.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.3848 \textbf{Intervalo de 21 dias.}
-                                     ] [104] [105] [106] [107] [108]pdfTeX warn
+l.3846 \textbf{Intervalo de 21 dias.}
+                                     ] [102] [103] [104] [105] [106]pdfTeX warn
 ing (ext4): destination with the same identifier (name{Hfootnote.25}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4103 ...relax\footnotetext{Versão Outubro/2017}
-                                                  } [109
+l.4101 ...relax\footnotetext{Versão Outubro/2017}
+                                                  } [107
 
-] [110] [111] [112]
-[113] [114]pdfTeX warning (ext4): destination with the same identifier (name{Hf
+] [108] [109] [110]
+[111] [112]pdfTeX warning (ext4): destination with the same identifier (name{Hf
 ootnote.26}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4471 ...relax\footnotetext{Versão Outubro/2017}
-                                                  } [115
+l.4469 ...relax\footnotetext{Versão Outubro/2017}
+                                                  } [113
 
-] [116] [117] [118]
-[119] [120]pdfTeX warning (ext4): destination with the same identifier (name{Hf
+] [114] [115] [116]
+[117] [118]pdfTeX warning (ext4): destination with the same identifier (name{Hf
 ootnote.27}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4809 ...relax\footnotetext{Versão Outubro/2017}
-                                                  } [121
+l.4807 ...relax\footnotetext{Versão Outubro/2017}
+                                                  } [119
 
-] [122] [123] [124]
+] [120] [121] [122]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5042.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5040.
 
-[125] [126
+[123] [124
 
-] [127
+] [125
 
-] [128
+] [126
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.29
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5053 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [129]pdfTeX warning (ext4):
+l.5051 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [127]pdfTeX warning (ext4):
  destination with the same identifier (name{Hfootnote.31}) has been already use
 d, duplicate ignored
 <to be read again> 
                    \relax 
-l.5155 ...e\relax\footnotetext{Versão Abril/2019}
-                                                  } [130] [131] [132]pdfTeX war
+l.5153 ...e\relax\footnotetext{Versão Abril/2019}
+                                                  } [128] [129] [130]pdfTeX war
 ning (ext4): destination with the same identifier (name{Hfootnote.32}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5264 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [133
+l.5262 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [131
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.34
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5301 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [134
+l.5299 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [132
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.35
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5338 ...e\relax\footnotetext{Versão Junho/2018}
-                                                  } [135
+l.5336 ...e\relax\footnotetext{Versão Junho/2018}
+                                                  } [133
+
+] [134
+
+] [135
 
 ] [136
-
-] [137
-
-] [138
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.36
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5377 ...relax\footnotetext{Versão Outubro/2017}
-                                                  } [139]
+l.5375 ...relax\footnotetext{Versão Outubro/2017}
+                                                  } [137]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 5446.
- [140] [141] [142]
-[143] [144] (./CPC-NEURO2014.bbl [145] [146
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 5444.
+ [138] [139] [140]
+[141] [142] (./CPC-NEURO2014.bbl [143] [144
 
 ]
 bibitemlist
-[147] [148] [149] [150] [151]) [152]
+[145] [146] [147] [148] [149]) [150]
 \tf@toc=\write6
 \openout6 = `CPC-NEURO2014.toc'.
 
@@ -1868,27 +1837,20 @@ bibitemlist
 \tf@lot=\write8
 \openout8 = `CPC-NEURO2014.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5800.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5800.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5798.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5798.
  (./CPC-NEURO2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5800.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5800.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5798.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5798.
 
 Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
-(rerunfilecheck)             Checksum: 455F1C4854502B4F4021D1A3E39C494B;9509.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5800.
+(rerunfilecheck)             Checksum: C2C696D08837B50C07856EA4688D170E;9510.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5798.
  ) 
 Here is how much of TeX's memory you used:
- 25055 strings out of 494926
- 452024 string characters out of 6180259
- 636043 words of memory out of 5000000
+ 25053 strings out of 494926
+ 452008 string characters out of 6180259
+ 636728 words of memory out of 5000000
  27122 multiletter control sequences out of 15000+600000
  127720 words of font info for 345 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -1908,10 +1870,10 @@ xlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf
 s/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CPC-NEURO2014.pdf (164 pages, 824996 bytes).
+Output written on CPC-NEURO2014.pdf (162 pages, 823757 bytes).
 PDF statistics:
- 1695 PDF objects out of 1728 (max. 8388607)
+ 1693 PDF objects out of 1728 (max. 8388607)
  1485 compressed objects within 15 object streams
- 388 named destinations out of 1000 (max. 500000)
+ 386 named destinations out of 1000 (max. 500000)
  58801 words of extra memory for PDF output out of 61914 (max. 10000000)
 
