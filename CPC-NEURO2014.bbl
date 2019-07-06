@@ -596,6 +596,28 @@ F.~H. Kung, S.~J. Desai, J.~D. Dickerman, A.~M. Goorin, M.~B. Harris, S.~Inoue,
 \newblock {\em Journal of Pediatric Hematology/Oncology}, 17(3):265–269,
   1995.
 
+\bibitem{kung1999}
+Faith~H. Kung, Michael~B. Harris, and Jeffrey~P. Krischer.
+\newblock Ifosfamide/carboplatin/etoposide (ice), an effective salvaging
+  therapy for recurrent malignant non-hodgkin lymphoma of childhood: A
+  pediatric oncology group phase ii study.
+\newblock {\em Medical and Pediatric Oncology}, 32(3):225–226, 1999.
+
+\bibitem{10.1093/annonc/mdf028}
+A.~M. Abu-Ghosh, M.~D. Krailo, S.~C. Goldman, R.~S. Slack, V.~Davenport,
+  E.~Morris, J.~H. Laver, G.~H. Reaman, and M.~S. Cairo.
+\newblock {Ifosfamide, carboplatin and etoposide in children with poor-risk
+  relapsed Wilms’ tumor: a Children’s Cancer Group report}.
+\newblock {\em Annals of Oncology}, 13(3):460--469, 03 2002.
+
+\bibitem{doi:10.1002/pbc.20227}
+Patrick Van~Winkle, Anne Angiolillo, Mark Krailo, Ying-Kuen Cheung, Barry
+  Anderson, Virginia Davenport, Gregory Reaman, and Mitchell~S. Cairo.
+\newblock Ifosfamide, carboplatin, and etoposide (ice) reinduction chemotherapy
+  in a large cohort of children and adolescents with recurrent/refractory
+  sarcoma: The children's cancer group (ccg) experience.
+\newblock {\em Pediatric Blood \& Cancer}, 44(4):338--347, 2005.
+
 \bibitem{cairo}
 Mitchell~S. Cairo, Violet Shen, Mark~D. Krailo, Madeline Bauer, James~S. Miser,
   Judith~K. Sato, Julie Blatt, Bruce~R. Blazar, Sharon Frierdich, Wen
@@ -606,12 +628,19 @@ Mitchell~S. Cairo, Violet Shen, Mark~D. Krailo, Madeline Bauer, James~S. Miser,
   report.
 \newblock {\em Journal of Pediatric Hematology/Oncology}, 23(1):30–38, 2001.
 
-\bibitem{doi:10.1002/pbc.20227}
-Patrick Van~Winkle, Anne Angiolillo, Mark Krailo, Ying-Kuen Cheung, Barry
-  Anderson, Virginia Davenport, Gregory Reaman, and Mitchell~S. Cairo.
-\newblock Ifosfamide, carboplatin, and etoposide (ice) reinduction chemotherapy
-  in a large cohort of children and adolescents with recurrent/refractory
-  sarcoma: The children's cancer group (ccg) experience.
-\newblock {\em Pediatric Blood \& Cancer}, 44(4):338--347, 2005.
+\bibitem{aydin}
+Burca Aydin, Canan Akyuz, Ali Varan, Bilgehan Yalcin, Nilgun Kurucu, and Tezer
+  Kutluk.
+\newblock Ice regimen for relapsed/refractory bone and soft tissue sarcomas in
+  children.
+\newblock {\em Reviews on Recent Clinical Trials}, 13(2):126–131, 2018.
+
+\bibitem{doi:10.1002/pbc.10375}
+Jiseh~Fagundes Loss, Pedro Paulo~Albino Santos, Luciane~Di Leone, and
+  Algemir~Lunardi Brunetto.
+\newblock Outcome of pediatric recurrent and refractory malignant solid tumors
+  following ifosfamide/carboplatin/etoposide (ice): A phase ii study in a
+  pediatric oncology centre in brazil.
+\newblock {\em Pediatric Blood \& Cancer}, 42(2):139--144, 2004.
 
 \end{thebibliography}
