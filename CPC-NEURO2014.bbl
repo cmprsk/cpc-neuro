@@ -580,6 +580,15 @@ Faith~H. Kung, Charles~B. Pratt, Roger~A. Vega, Norman Jaffe, Douglas Strother,
   study.
 \newblock {\em Cancer}, 71(5):1898--1903, 1993.
 
+\bibitem{doi:10.1200/JCO.1987.5.8.1191}
+J~S Miser, T~J Kinsella, T~J Triche, M~Tsokos, P~Jarosinski, R~Forquer,
+  R~Wesley, and I~Magrath.
+\newblock Ifosfamide with mesna uroprotection and etoposide: an effective
+  regimen in the treatment of recurrent sarcomas and other tumors of children
+  and young adults.
+\newblock {\em Journal of Clinical Oncology}, 5(8):1191--1198, 1987.
+\newblock PMID: 3114435.
+
 \bibitem{doi:10.1200/JCO.1993.11.3.554}
 N~M Marina, J~Rodman, S~J Shema, L~C Bowman, E~Douglass, W~Furman, V~M Santana,
   M~Hudson, J~Wilimas, and W~Meyer.
@@ -642,5 +651,11 @@ Jiseh~Fagundes Loss, Pedro Paulo~Albino Santos, Luciane~Di Leone, and
   following ifosfamide/carboplatin/etoposide (ice): A phase ii study in a
   pediatric oncology centre in brazil.
 \newblock {\em Pediatric Blood \& Cancer}, 42(2):139--144, 2004.
+
+\bibitem{doi:10.1002/cncr.27783}
+Brian~H. Kushner, Shakeel Modak, Kim Kramer, Ellen~M. Basu, Stephen~S. Roberts,
+  and Nai-Kong~V. Cheung.
+\newblock Ifosfamide, carboplatin, and etoposide for neuroblastoma.
+\newblock {\em Cancer}, 119(3):665--671, 2013.
 
 \end{thebibliography}
