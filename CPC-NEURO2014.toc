@@ -59,22 +59,24 @@
 \contentsline {subsection}{\numberline {B.2.1}Resgate: 03 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{85}{subsection.B.2.1}
 \contentsline {subsection}{\numberline {B.2.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{86}{subsection.B.2.2}
 \contentsline {section}{\numberline {B.3}Ifosfamida, carboplatina e etoposido (ICE)}{87}{section.B.3}
-\contentsline {subsection}{\numberline {B.3.1}Resgate: 02 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{89}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.3.1}ICE CCG: 02 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{89}{subsection.B.3.1}
 \contentsline {subsection}{\numberline {B.3.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{90}{subsection.B.3.2}
-\contentsline {appendix}{\chapternumberline {C}Quimioterapia neoadjuvante}{91}{appendix.C}
-\contentsline {section}{\numberline {C.1}Vimblastina neoadjuvante}{93}{section.C.1}
-\contentsline {subsection}{\numberline {C.1.1}Esquema: 6 semanas}{95}{subsection.C.1.1}
-\contentsline {subsection}{\numberline {C.1.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{97}{subsection.C.1.2}
-\contentsline {section}{\numberline {C.2}Ifosfamida, carboplatina e etoposido neoadjuvante}{98}{section.C.2}
-\contentsline {subsection}{\numberline {C.2.1}Dois ciclos - repetir uma vez se necess\IeC {\'a}rio e n\IeC {\~a}o houver progress\IeC {\~a}o}{99}{subsection.C.2.1}
-\contentsline {subsection}{\numberline {C.2.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{99}{subsection.C.2.2}
-\contentsline {appendix}{\chapternumberline {D}Quimioterapia metron\IeC {\^o}mica}{101}{appendix.D}
-\contentsline {section}{\numberline {D.1}Vimblastina metron\IeC {\^o}mica}{103}{section.D.1}
-\contentsline {subsection}{\numberline {D.1.1}Esquema 1: 6 semanas - usar esquema 1 ou 2, n\IeC {\~a}o ambos}{105}{subsection.D.1.1}
-\contentsline {subsection}{\numberline {D.1.2}Esquema 2: 6 semanas - usar esquema 1 ou 2, n\IeC {\~a}o ambos}{106}{subsection.D.1.2}
-\contentsline {subsection}{\numberline {D.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{108}{subsection.D.1.3}
-\contentsline {appendix}{\chapternumberline {E}Quimioterapia alternativa (substitu\IeC {\'\i }dos por atualiza\IeC {\c c}\IeC {\~o}es)}{109}{appendix.E}
-\contentsline {section}{\numberline {E.1}Glioma de baixo grau -- Adaptado do ensaio COG-A9952}{111}{section.E.1}
+\contentsline {subsection}{\numberline {B.3.3}ICE POG: 02 ciclos - repetir enquanto n\IeC {\~a}o houver progress\IeC {\~a}o}{91}{subsection.B.3.3}
+\contentsline {subsection}{\numberline {B.3.4}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{92}{subsection.B.3.4}
+\contentsline {appendix}{\chapternumberline {C}Quimioterapia neoadjuvante}{93}{appendix.C}
+\contentsline {section}{\numberline {C.1}Vimblastina neoadjuvante}{95}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Esquema: 6 semanas}{97}{subsection.C.1.1}
+\contentsline {subsection}{\numberline {C.1.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{99}{subsection.C.1.2}
+\contentsline {section}{\numberline {C.2}Ifosfamida, carboplatina e etoposido neoadjuvante}{100}{section.C.2}
+\contentsline {subsection}{\numberline {C.2.1}Dois ciclos - repetir uma vez se necess\IeC {\'a}rio e n\IeC {\~a}o houver progress\IeC {\~a}o}{101}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{101}{subsection.C.2.2}
+\contentsline {appendix}{\chapternumberline {D}Quimioterapia metron\IeC {\^o}mica}{103}{appendix.D}
+\contentsline {section}{\numberline {D.1}Vimblastina metron\IeC {\^o}mica}{105}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}Esquema 1: 6 semanas - usar esquema 1 ou 2, n\IeC {\~a}o ambos}{107}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Esquema 2: 6 semanas - usar esquema 1 ou 2, n\IeC {\~a}o ambos}{108}{subsection.D.1.2}
+\contentsline {subsection}{\numberline {D.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{110}{subsection.D.1.3}
+\contentsline {appendix}{\chapternumberline {E}Quimioterapia alternativa (substitu\IeC {\'\i }dos por atualiza\IeC {\c c}\IeC {\~o}es)}{111}{appendix.E}
+\contentsline {section}{\numberline {E.1}Glioma de baixo grau -- Adaptado do ensaio COG-A9952}{113}{section.E.1}
 \contentsline {subsection}{\numberline {E.1.1}Indu\IeC {\c c}\IeC {\~a}o: 10 semanas}{113}{subsection.E.1.1}
 \contentsline {subsection}{\numberline {E.1.2}Manuten\IeC {\c c}\IeC {\~a}o: 48 semanas (08 blocos de 6 semanas)}{114}{subsection.E.1.2}
 \contentsline {subsection}{\numberline {E.1.3}Modifica\IeC {\c c}\IeC {\~o}es de dose:}{118}{subsection.E.1.3}

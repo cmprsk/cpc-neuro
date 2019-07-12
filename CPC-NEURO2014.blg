@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: CPC-NEURO2014.aux
 The style file: unsrt.bst
 Database file #1: bib.bib
-You've used 69 entries,
+You've used 95 entries,
             1791 wiz_defined-function locations,
-            889 strings with 33284 characters,
-and the built_in function-call counts, 26140 in all, are:
-= -- 1531
-> -- 2836
+            1033 strings with 42703 characters,
+and the built_in function-call counts, 34481 in all, are:
+= -- 2064
+> -- 3612
 < -- 2
-+ -- 969
-- -- 900
-* -- 2836
-:= -- 4804
-add.period$ -- 219
-call.type$ -- 69
-change.case$ -- 68
++ -- 1237
+- -- 1142
+* -- 3689
+:= -- 6300
+add.period$ -- 300
+call.type$ -- 95
+change.case$ -- 94
 chr.to.int$ -- 0
-cite$ -- 69
-duplicate$ -- 627
-empty$ -- 1674
-format.name$ -- 900
-if$ -- 5155
+cite$ -- 95
+duplicate$ -- 855
+empty$ -- 2286
+format.name$ -- 1142
+if$ -- 6846
 int.to.chr$ -- 0
-int.to.str$ -- 69
-missing$ -- 67
-newline$ -- 357
-num.names$ -- 71
-pop$ -- 94
+int.to.str$ -- 95
+missing$ -- 92
+newline$ -- 490
+num.names$ -- 97
+pop$ -- 123
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 224
+skip$ -- 307
 stack$ -- 0
-substring$ -- 1513
-swap$ -- 80
+substring$ -- 2039
+swap$ -- 106
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 153
-width$ -- 71
-write$ -- 779
+while$ -- 203
+width$ -- 97
+write$ -- 1070

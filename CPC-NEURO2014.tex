@@ -53,7 +53,88 @@ bookmarks=true,bookmarksopenlevel=2]{hyperref}
 \usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
     decorations.pathreplacing,decorations.pathmorphing,shapes,%
     matrix,shapes.symbols,shapes.arrows}
-    
+
+\tikzset{
+>=stealth',
+  punktchain/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=10em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=10em,
+    draw=blue!40!black!90, very thick,
+    text width=10em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+\tikzset{
+>=stealth',
+  pequeno/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=2em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=2em,
+    draw=blue!40!black!90, very thick,
+    text width=2em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+\tikzset{
+>=stealth',
+  grande/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=20em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=20em,
+    draw=blue!40!black!90, very thick,
+    text width=20em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
 \OnehalfSpacing
 %\linespread{1.3}
 
@@ -617,6 +698,24 @@ Formulação e estabilidade:
 \textbf{Elegível:} astrocitoma de baixo grau (pilocítico, difuso, outros), oligodendroglioma, ganglioglioma, tumores mistos (oligoastrocitomas, outros), tumores de vias ópticas/hipotálamo (imagem típica, mesmo sem biópsia). Incluir tumores focais de tronco, excluir DIPG, ou tumores difusos de linha média H3K27M+. Pacientes com reação ou contraindicação ao uso de carboplatina; doença recorrente após prévio tratamento com quimioterapia e/ou radioterapia. Alternativa como primeira linha de tratamento. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
 \textbf{Alternativa:} a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. O protocolo baseado no estudo COG-A9952 (carboplatina e vincristina) pode ser usado como primeira linha. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT.
+%\begin{center}
+%\begin{tikzpicture}
+%  [node distance=.4cm, start chain=going right,]
+%    \node[grande, ] (i) {indução};
+%    \node[grande, ] (m) {manutenção};
+%    \node[pequeno, below of=i, node distance=2cm] (cv) {cv};
+%    \node[pequeno, join] (cv) {cv};
+%    \node[pequeno, join] (cv) {cv};
+%    \node[pequeno, join] (cv) {cv};
+%    \node[pequeno, join] (cv) {cv};
+%    \node[pequeno, join] (cv) {v};
+%    \node[pequeno, join] (cv) {v};
+%    \node[pequeno, join] (cv) {cv};
+%    \node[pequeno, join] (cv) {cv};
+%    \node[pequeno, join] (cv) {cv};
+%    \node[pequeno, join] (cv) {cv};
+%\end{tikzpicture}
+%\end{center}
 \cleardoublepage
 
 \noindent{
@@ -2072,33 +2171,6 @@ Assim, o principal tratamento para pacientes com ependimoma mantém-se a ressec�
 
 \textbf{Alternativa:} não existe esquema de QT amplamente aceito para tratar crianças com ependimoma. O tratamento padrão é RT no leito tumoral. Os pacientes com ressecção incompleta têm um prognóstico insatisfatório e sobrevida livre de progressão prolongada reduzida.}
 
-\tikzset{
->=stealth',
-  punktchain/.style={
-    rectangle, 
-    rounded corners, 
-    % fill=black!10,
-    draw=black, very thick,
-    text width=10em, 
-    minimum height=3em, 
-    text centered, 
-    on chain},
-  line/.style={draw, thick, <-},
-  element/.style={
-    tape,
-    top color=white,
-    bottom color=blue!50!black!60!,
-    minimum width=8em,
-    draw=blue!40!black!90, very thick,
-    text width=10em, 
-    minimum height=3.5em, 
-    text centered, 
-    on chain},
-  every join/.style={->, thick,shorten >=1pt},
-  decoration={brace},
-  tuborg/.style={decorate},
-  tubnode/.style={midway, right=2pt},
-}
 \begin{tikzpicture}
   [node distance=.8cm,
   start chain=going below,]
@@ -3090,8 +3162,10 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
 
 \cleardoublepage
 \section{Ifosfamida/Etoposido}
-{\let\thefootnote\relax\footnotetext{Versão Abril/2018}}
-\textbf{Racional:} o Pediatric Oncology Group (POG) publicou os resultados de um ensaio fase II que incluiu 294 pacientes com tumores sólidos previamente tratados (mais de 70\% metastáticos) que receberam uma mediana de 4 ciclos, dos quais 30\% obtiveram resposta parcial ou completa. Este ensaio não incluiu pacientes com tumores cerebrais \cite{kung}. No entanto, esta combinação tem sido usada em vários protocolos no tratamento de pacientes pediátricos com tumores cerebrais, em vários cenários diferentes.
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} o Pediatric Oncology Group (POG) publicou os resultados de um ensaio fase II que incluiu 294 pacientes com tumores sólidos previamente tratados (mais de 70\% metastáticos) que receberam uma mediana de 4 ciclos de ifosfamida 2,0 \(g/m^2/d\), etoposido 100 \(mg/m^2/d\) e MESNA 1,5 \(g/m^2/d\), por 3 dias, a cada 14-21 dias. Os pacientes que não tiveram toxicidade após o primeiro ciclo fizeram ciclos subsequentes de 4 dias de duração. Uma resposta completa ocorreu em 31 (10\%) dos pacientes e resposta parcial ocorreu em 57 (20\%) dos pacientes. Toxicidade: 81\% dos pacientes apresentou neutropenia, 25\% apresentou plaquetopenia. Este ensaio não incluiu pacientes com tumores cerebrais \cite{kung}. No entanto, esta combinação tem sido usada em vários protocolos no tratamento de pacientes pediátricos com tumores cerebrais, em vários cenários diferentes.
+
+Um ensaio incluiu 124 pacientes pediátricos e adultos jovens com sarcomas recidivados. Os paciente foram tratados com ifosfamida 1,8 \(g/m^2/d\), etoposido 100 \(mg/m^2/d\) e MESNA 2,8 \(g/m^2/d\), por 5 dias. De 77 pacientes avaliáveis, 43 (56\%) tiveram resposta parcial ou completa. Em pacientes com sarcoma de Ewing, 16 de 17 obtiveram resposta objetiva. Toxicidade hematológica grau III-IV ocorreu em grande número dos pacientes. Neutropenia ocorreu em quase todos os pacientes, e plaquetopenia em um terço deles\cite{doi:10.1200/JCO.1987.5.8.1191}. 
 
 \textbf{Elegível:} Inclui meduloblastoma, outros tumores embrionários, ependimoma clássico ou anaplásico, gliomas difusos de linha média H3K27M+ (DIPG), glioblastoma multiforme, astrocitoma anaplásico, oligodendroglioma anaplásico, tumores malignos raros do SNC. Pacientes com doença recorrente e/ou progressiva após 1 ou mais esquemas de tratamento. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -3195,9 +3269,16 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes em 25\
 \cleardoublepage
 
 \section{Ifosfamida, carboplatina e etoposido (ICE)}
-{\let\thefootnote\relax\footnotetext{Versão Abril/2018}}
-\textbf{Racional:} um estudo fase I do Saint Jude Children's Research Hospital tratou 45 crianças com tumores sólidos recorrentes com ifosfamida 2 \(g/m^2\) e etoposido 100 \(mg/m^2\) por dois dias, além de doses escalonadas de carboplatina no primeiro dia. Resposta objetiva ocorreu em 17 (38\%) dos pacientes tratados, às custas de toxicidade grau III ou IV em praticamente todos os pacientes nas maiores doses \cite{doi:10.1200/JCO.1993.11.3.554}.  O Pediatric Oncology Group (POG) completou um ensaio fase I/II que tratou 92 pacientes com tumore sólidos recorrentes ou refratários com ifosfamida 1,5 \(g/m^2\) e etoposido 100 \(mg/m^2\) por 3 dias e carboplatina no primeiro dia, a partir de 300 \(mg/m^2\). A dose máxima tolerada de carboplatina foi de 635 \(mg/m^2\), a toxicidade limitante foi hematológica e 53\% dos pacientes obtiveram resposta parcial ou completa \cite{kung2}. Num ensaio fase II que se seguiu, o POG tratou 21 pacientes com linfoma não Hodgkin recorrente com ICE. Os pacientes responderam após 1-2 ciclos e a taxa de resposta objetiva foi de 71\% (resposta completa 43\%) \cite{kung}. 
-Um ensaio randomizou duas doses do fator estimulador hematopoiético G-CSF em pacientes tratados com ICE (ifosfamida 1,8 \(g/m^2\) e etoposido 100 \(mg/m^2\) por cinco dias e carboplatina 400 \(mg/m^2\) por dois dias). Um total de 123 pacientes com tumores sólidos recorrentes ou refratários foram tratados. Resposta objetiva ocorreu em 51\% dos pacientes (completa em 27\%). A dose recomendada de G-CSF foi de 5 \(\mu g/kg\) \cite{cairo}. O Children's Cancer Group (CCG) publicou os resultados de alguns ensaios fase II que incluíram, conjuntamente, 229 pacientes com tumores previamente tratados (43 com tumores cerebrais) que receberam uma mediana de 1 ciclo. Dos pacientes com sarcomas, cerca de 50\% obtiveram resposta parcial ou completa  \cite{doi:10.1002/pbc.20227}.
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} um estudo fase I do Saint Jude Children's Research Hospital tratou 45 crianças com tumores sólidos recorrentes com ifosfamida 2 \(g/m^2\) e etoposido 100 \(mg/m^2\) por dois dias, além de doses escalonadas de carboplatina no primeiro dia. Resposta objetiva ocorreu em 17 (38\%) dos pacientes tratados, às custas de toxicidade grau III ou IV em praticamente todos os pacientes nas maiores doses \cite{doi:10.1200/JCO.1993.11.3.554}.  
+
+O Pediatric Oncology Group (POG) completou um ensaio fase I/II que tratou 92 pacientes com tumore sólidos recorrentes ou refratários com ifosfamida 1,5 \(g/m^2\) e etoposido 100 \(mg/m^2\) por 3 dias e carboplatina no primeiro dia, a partir de 300 \(mg/m^2\). A dose máxima tolerada de carboplatina foi de 635 \(mg/m^2\), a toxicidade limitante foi hematológica e 53\% dos pacientes obtiveram resposta parcial ou completa \cite{kung2}. Num ensaio fase II que se seguiu, o POG tratou 21 pacientes com linfoma não Hodgkin recorrente com ICE. Os pacientes responderam após 1-2 ciclos e a taxa de resposta objetiva foi de 71\% (resposta completa 43\%) \cite{kung1999}.  
+
+O Children's Cancer Group (CCG) publicou os resultados de ensaios fase II que incluíram pacientes com tumores previamente tratados que receberam ICE (ifosfamida 1,8 \(g/m^2\) e etoposido 100 \(mg/m^2\) por cinco dias e carboplatina 400 \(mg/m^2\) por dois dias). Pacientes com tumor de Wilms (n = 11) obtiveram 82\% de resposta parcial ou completa \cite{10.1093/annonc/mdf028}.  Pacientes com sarcomas (n = 97) obtiveram 51\% de resposta objetiva \cite{doi:10.1002/pbc.20227}. Um ensaio randomizou duas doses do fator estimulador hematopoiético G-CSF em pacientes tratados com ICE (ifosfamida 1,8 \(g/m^2\) e etoposido 100 \(mg/m^2\) por cinco dias e carboplatina 400 \(mg/m^2\) por dois dias). Um total de 123 pacientes com tumores sólidos recorrentes ou refratários (28 com tumores cerebrais) foram tratados. Resposta objetiva ocorreu em 51\% dos pacientes (completa em 27\%). A dose recomendada de G-CSF foi de 5 \(\mu g/kg\) \cite{cairo}.
+
+Outro ensaio tratou 66 pacientes pediátricos com sarcomas recorrentes com ICE (ifosfamida 3,0 \(g/m^2\) por dois dias, etoposido 100 \(mg/m^2\) por três dias e carboplatina 400 \(mg/m^2\) no primeiro dia). A taxa de resposta objetiva foi de 42\% \cite{aydin}. Um ensaio realizado em Porto Alegre tratou 21 pacientes com tumores sólidos malignos recorrentes ou refratários com ICE (ifosfamida 3,0 \(g/m^2\) por três dias, etoposido 160 \(mg/m^2\) por três dias e carboplatina 400 \(mg/m^2\) por dois dias). Uma resposta objetiva ocorreu em 53\% dos pacientes \cite{doi:10.1002/pbc.10375}.
+
+Uma avaliação retrospectiva de pacientes com neuroblastoma recorrente ou progressivo tratados com ICE dose elevada (HD-ICE, ifosfamida 2,0 \(g/m^2\) e etoposido 100 \(mg/m^2\) por cinco dias e carboplatina 500 \(mg/m^2\) por dois dias). Apenas pacientes com reserva hematológica adequada (contagem de plaquetas \(> 100000/ \mu L\) foram tratados sem receber resgate com células-tronco hematopoiéticas periféricas. Um total de 74 pacientes recebeu 92 ciclos de HD-ICE. O nadir da contagem de neutrófilos (500/ \(\mu L\)) foi atingida em uma mediana de 22 dias (17-30). Resposta parcial (menor ou maior) ocorreu em 14 de 17 (82\%) pacientes com recaída, 13 de 26 (50\%) pacientes refratários e 12 de 34 (35\%) pacientes com doença progressiva durante o tratamento inicial \cite{doi:10.1002/cncr.27783}. 
 
 \textbf{Elegível:} Inclui meduloblastoma, outros tumores embrionários, ependimoma clássico ou anaplásico, gliomas difusos de linha média H3K27M+ (DIPG), glioblastoma multiforme, astrocitoma anaplásico, oligodendroglioma anaplásico, tumores malignos raros do SNC. Pacientes com doença recorrente e/ou progressiva após 1 ou mais esquemas de tratamento. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -3208,11 +3289,11 @@ Um ensaio randomizou duas doses do fator estimulador hematopoiético G-CSF em pa
 \\[0.3cm]
 \entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 
-\subsection{Resgate: 02 ciclos - repetir enquanto não houver progressão}
+\subsection{ICE CCG: 02 ciclos - repetir enquanto não houver progressão}
 
 \begin{center}
 \begin{table}[H]
-\begin{tabular}{c|p{5cm}|p{1.4cm}|p{4cm}|p{2.8cm}}
+\begin{tabular}{c|p{4cm}|p{1.4cm}|p{3cm}|p{2.8cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
 \hline
@@ -3232,12 +3313,6 @@ Um ensaio randomizou duas doses do fator estimulador hematopoiético G-CSF em pa
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
-    \hline
-\end{tabular}
-\end{table}
-\begin{table}[H]
-\begin{tabular}{c|p{4cm}|p{1.3cm}|p{3cm}|p{2.7cm}}
-   \hline
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
@@ -3250,7 +3325,7 @@ Um ensaio randomizou duas doses do fator estimulador hematopoiético G-CSF em pa
 \end{table}
 \textbf{Intervalo de 21 dias.}
 \begin{table}[H]
-\begin{tabular}{c|p{4cm}|p{1.3cm}|p{3cm}|p{2.7cm}}
+\begin{tabular}{c|p{4cm}|p{1.4cm}|p{3cm}|p{2.8cm}}
 	\hline
 	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
 \hline
@@ -3283,6 +3358,74 @@ Um ensaio randomizou duas doses do fator estimulador hematopoiético G-CSF em pa
 \textbf{REAVALIAR A CADA 2 CICLOS}
 \end{center}
 
+\subsection{Modificações de dose:}
+Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subsequentes em 25\% (todas as drogas). Caso não ocorra recuperação após o D35, o protocolo deve ser interrompido.
+
+\textbf{Avaliação:} imagem a cada 4 ciclos, se progressão, interromper protocolo.
+
+\textbf{ATENÇÃO:} este protocolo mostrou eficácia em um ensaio fase II não comparativo com número limitado de pacientes. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+
+\clearpage
+
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{ICE POG: 02 ciclos - repetir enquanto não houver progressão}
+
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{c|p{4cm}|p{1.4cm}|p{3cm}|p{2.8cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(635\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 21 dias.}
+\begin{table}[H]
+\begin{tabular}{c|p{4cm}|p{1.4cm}|p{3cm}|p{2.8cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(635\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D6 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{REAVALIAR A CADA 2 CICLOS}
+\end{center}
 
 \subsection{Modificações de dose:}
 Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subsequentes em 25\% (todas as drogas). Caso não ocorra recuperação após o D35, o protocolo deve ser interrompido.
@@ -3291,17 +3434,18 @@ Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subseq
 
 \textbf{ATENÇÃO:} este protocolo mostrou eficácia em um ensaio fase II não comparativo com número limitado de pacientes. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
 
+
 \cleardoublepage
 \chapter{Quimioterapia neoadjuvante}
 \cleardoublepage
 
 \section{Vimblastina neoadjuvante}
-{\let\thefootnote\relax\footnotetext{Versão Junho/2018}}
-\textbf{Racional:} Um estudo fase II piloto que incluiu 33 pacientes pediátricos com tumores sólidos recorrentes usou a vimblastina como terapia metronômica, associada ou não à ciclofosfamida, mostrando resultados objetivos num subgrupo pequeno \footnote{Stempak \textit{et al}, 2006}. Um outro estudo tratou 64 pacientes pediátricos com tumores sólidos recorrentes (incluindo 9 pacientes com tumor cerebral) com vimblastina metronômica e radioterapia, obtendo resposta objetiva em quase 50\% \footnote{Ali \textit{et al}, 2016}. Os esquemas variam na dose ($1-6 mg/m^2$), na frequência (1 a 3 vezes por semana) e na associação com outras terapias (celecoxibe, quimioterapia convencional, radioterapia). 
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} Um estudo fase II piloto que incluiu 33 pacientes pediátricos com tumores sólidos recorrentes usou a vimblastina como terapia metronômica, associada ou não à ciclofosfamida, mostrando resultados objetivos num subgrupo pequeno \cite{stempak}. Um outro estudo tratou 64 pacientes pediátricos com tumores sólidos recorrentes (incluindo 9 pacientes com tumor cerebral) com vimblastina metronômica e radioterapia, obtendo resposta objetiva em quase 50\% \cite{ali_el-sayed}. Os esquemas variam na dose ($1-6 mg/m^2$), na frequência (1 a 3 vezes por semana) e na associação com outras terapias (celecoxibe, quimioterapia convencional, radioterapia). 
 
-Um estudo fase II que incluiu 54 pacientes com gliomas de baixo grau progressivos usou a vimblastina como primeira linha, mostrando resultados aparentemente semelhantes a outros estudos (como o COG-A9952) \footnote{Lassaletta \textit{et al}, 2016}.
+Um estudo fase II que incluiu 54 pacientes com gliomas de baixo grau progressivos usou a vimblastina como primeira linha, mostrando resultados aparentemente semelhantes a outros estudos (como o COG-A9952) \cite{lassaletta}.
 
-Os tumores cerebrais primários mais frequentes no cerebelo são astrocitoma pilocítico, meduloblastoma e ependimoma. A ressecção cirúrgica é um fator importante para o prognóstico em todos estes tipos tumorais. Um dos fatores que pode associar-se a maior morbimortalidade pós-operatória em tumores cerebelares é o tamanho do tumor \footnote{Harisiadis \textit{et al}, 1977}. Dados iniciais já davam conta de um possível benefício da quimioterapia em pacientes com meduloblastoma e doença mais extensa na apresentação \footnote{Evans \textit{et al}, 1990}. Mais recentemente, a QT neoadjuvante em crianças jovens mostrou potencial de reduzir a vascularização tumoral e melhorar a identificação da interface cérebro-tumor \footnote{Iwama \textit{et al}, 2015}.
+Os tumores cerebrais primários mais frequentes no cerebelo são astrocitoma pilocítico, meduloblastoma e ependimoma. A ressecção cirúrgica é um fator importante para o prognóstico em todos estes tipos tumorais. Um dos fatores que pode associar-se a maior morbimortalidade pós-operatória em tumores cerebelares é o tamanho do tumor \cite{HARISIADIS1977833}. Dados iniciais já davam conta de um possível benefício da quimioterapia em pacientes com meduloblastoma e doença mais extensa na apresentação \cite{evans}. Mais recentemente, a QT neoadjuvante em crianças jovens mostrou potencial de reduzir a vascularização tumoral e melhorar a identificação da interface cérebro-tumor \cite{iwama}.
 
 \textbf{Elegível:} pacientes pediátricos com tumores cerebelares estadiamento de Chang T4 com > 5 cm de tumor, \textit{antes da cirurgia (sem histologia)}. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -3439,10 +3583,10 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
 \clearpage
 
 \section{Ifosfamida, carboplatina e etoposido neoadjuvante}
-{\let\thefootnote\relax\footnotetext{Versão Junho/2018}}
-\textbf{Racional:} crianças jovens com tumores cerebrais grandes e altamente vascularizados t6em uma elevada morbimortalidade perioperatória. Carcinomas de plexo coróide são modelos desse perfil de apresentação. São tumores cerebrais raros, mais frequentes em lactentes e criança jovens e altamente vascularizados. Recentemente, estudos observacionais sugeriram a vantagem de realizar quimioterapia intensiva com esquema ICE (ifosfamida, carboplatina e etoposide) neoadjuvante em pacientes com carcinoma de plexo coróide \footnote{lafay-Cousin \textit{et al}, 2010; Schneider \textit{et al}, 2015}.
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} crianças jovens com tumores cerebrais grandes e altamente vascularizados têm uma elevada morbimortalidade perioperatória. Carcinomas de plexo coróide são modelos desse perfil de apresentação. São tumores cerebrais raros, mais frequentes em lactentes e criança jovens e altamente vascularizados. Recentemente, estudos observacionais sugeriram a vantagem de realizar quimioterapia intensiva com esquema ICE (ifosfamida, carboplatina e etoposide) neoadjuvante em pacientes com carcinoma de plexo coróide \cite{lafay-cousin,schneider}.
 
-Mais recentemente, a QT neoadjuvante em crianças jovens mostrou potencial de reduzir a vascularização tumoral e melhorar a identificação da interface cérebro-tumor em pacientes com outras histologias \footnote{Iwama \textit{et al}, 2015}.
+Mais recentemente, a QT neoadjuvante em crianças jovens mostrou potencial de reduzir a vascularização tumoral e melhorar a identificação da interface cérebro-tumor em pacientes com outras histologias \cite{iwama}.
 
 \textbf{Elegível:} Inclui meduloblastoma, outros tumores embrionários, ependimoma clássico ou anaplásico, gliomas difusos de linha média H3K27M+ (menos DIPG), glioblastoma multiforme, astrocitoma anaplásico, oligodendroglioma anaplásico, carcinoma do plexo coróide, outros tumores malignos raros do SNC. Pacientes com menos de cinco anos e doença inoperável ou com elevado risco cirúrgico ao diagnóstico. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -3516,7 +3660,7 @@ Se recuperação hematológica nâo ocorrer até o D28, reduzir os ciclos subseq
 
 \section{Vimblastina metronômica}
 {\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
-\textbf{Racional:} Estudos mostraram a utilidade da vimblastina como monoterapia ou associada à terapia convencional em pacientes pediátricos com linfoma anaplásico de grandes células, na primeira linha ou após recorrência.  \footnote{Le Deley \textit{et al}, 2010; Brugières \textit{et al}, 2009}. Um estudo fase II piloto que incluiu 33 pacientes pediátricos com tumores sólidos recorrentes usou a vimblastina como terapia metronômica, associada ou não à ciclofosfamida, mostrando resultados objetivos num subgrupo pequeno \footnote{Stempak \textit{et al}, 2006}. Um outro estudo tratou 64 pacientes pediátricos com tumores sólidos recorrentes (incluindo 9 pacientes com tumor cerebral) com vimblastina metronômica e radioterapia, obtendo resposta objetiva em quase 50\% \footnote{Ali \textit{et al}, 2016}. Os esquemas variam na dose ($1-6 mg/m^2$), na frequência (1 a 3 vezes por semana) e na associação com outras terapias (celecoxibe, quimioterapia convencional, radioterapia). 
+\textbf{Racional:} Estudos mostraram a utilidade da vimblastina como monoterapia ou associada à terapia convencional em pacientes pediátricos com linfoma anaplásico de grandes células, na primeira linha ou após recorrência.  \cite{doi:10.1200/JCO.2010.28.5999, doi:10.1200/JCO.2008.20.1764}. Um estudo fase II piloto que incluiu 33 pacientes pediátricos com tumores sólidos recorrentes usou a vimblastina como terapia metronômica, associada ou não à ciclofosfamida, mostrando resultados objetivos num subgrupo pequeno \cite{stempak}. Um outro estudo tratou 64 pacientes pediátricos com tumores sólidos recorrentes (incluindo 9 pacientes com tumor cerebral) com vimblastina metronômica e radioterapia, obtendo resposta objetiva em quase 50\% \cite{ali_el-sayed}. Os esquemas variam na dose ($1-6 mg/m^2$), na frequência (1 a 3 vezes por semana) e na associação com outras terapias (celecoxibe, quimioterapia convencional, radioterapia). 
 
 \textbf{Elegível:} pacientes pediátricos com tumores solidos recorrentes ou progressivos após múltiplos tratamentos. Este protocolo não tem objetivo curativo e somente deve ser utilizado em pacientes para os quais se contraindica QT de resgate ou se os pais ou responsáveis do paciente preferirem. Radioterapia concomitante a critério clínico. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -3749,15 +3893,13 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
 \cleardoublepage
 \section{Glioma de baixo grau -- Adaptado do ensaio COG-A9952}
 
-\textbf{Racional:} no estudo fase III do COG, a QT possibilitou adiar a RT em pacientes com gliomas de baixo grau recorrentes ou progressivos.\footnote{Ater \textit{et al}, 2012} Dois esquemas foram comparados: o TPCV, mais antigo, e carboplatina-vincristina. Embora o esquema TPCV tenha mostrado resultados algo superiores (não estatisticamente significantes), o segundo esquema ainda é o preferido pelo menor risco de efeitos a longo prazo.{\let\thefootnote\relax\footnotetext{Versão Outubro/2017}}
+\textbf{Racional:} no estudo fase III do COG, a QT possibilitou adiar a RT em pacientes com gliomas de baixo grau recorrentes ou progressivos.\cite{Ater20072012} Dois esquemas foram comparados: o TPCV, mais antigo, e carboplatina-vincristina. Embora o esquema TPCV tenha mostrado resultados algo superiores (não estatisticamente significantes), o segundo esquema ainda é o preferido pelo menor risco de efeitos a longo prazo.{\let\thefootnote\relax\footnotetext{Versão Outubro/2017}}
 
 \textbf{Elegível:} pacientes com menos de 12 anos ou portadores de NF-1, com astrocitoma de baixo grau (pilocítico, difuso, outros), oligodendroglioma, ganglioglioma, tumores mistos (oligoastrocitomas, outros), tumores de vias ópticas/hipotálamo (imagem típica, mesmo sem biópsia). Incluir tumores focais de tronco, excluir DIPG, ou tumores difusos de linha média H3K27M+. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
 
 \textbf{Alternativa:} a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. O tratamento com vimblastina semanal também pode ser usado como primeira linha. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT.
-\cleardoublepage
-
-\noindent
+\\[0.4cm]
 \entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
 \\[0.3cm]
 \entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
@@ -3800,7 +3942,10 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D36}}}&{Vincristina \(1,5\) mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&&{Data:}&\\
     \hline
-    \\
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{4.9cm}|p{4.7cm}|p{3cm}}
     \hline
     \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D43}}}&{Carboplatina \(175\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
     \multicolumn{1}{c|}{}&{Vincristina \(1,5\) mg/m\(^2\)}&{Data:}&\\
@@ -3859,6 +4004,12 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
 \end{table}
 \textbf{Intervalo de 21 dias.}
 
+\pagebreak
+\noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
 \begin{table}[H]
 \begin{tabular}{p{1.3cm}p{4.9cm}|p{4.7cm}|p{3cm}}
     \hline
@@ -3886,12 +4037,6 @@ Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{
 \end{tabular}
 \end{table}
 \textbf{Intervalo de 21 dias.}
-
-\pagebreak
-\noindent
-\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
-\\[0.3cm]
-\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
 
 \begin{table}[H]
 \begin{tabular}{p{1.3cm}p{4.9cm}|p{4.7cm}|p{3cm}}
@@ -4082,7 +4227,7 @@ Iniciar a manutenção se Neut > 1000/mm\(^3\) e Plaq > 100 mil/mm\(^3\). Adiar 
 \cleardoublepage
 \section{Glioma de alto grau -- Adaptado do ensaio ACNS0126}
 {\let\thefootnote\relax\footnotetext{Versão Outubro/2017}}
-\textbf{Racional:} no estudo do COG, a temozolomida (TMZ) não mostrou aumento de sobrevida em relação ao controle histórico (CCG-945), porém é proposta como alternativa principal por suas vantagens \footnote{Cohen \textit{et al}, 2011}. Deve-se levar em conta a disponibilidade e custo do esquema. Este protocolo foi substituído em 2017 pelo ACNS-0423, que mostrou resultados superiores.
+\textbf{Racional:} no estudo do COG, a temozolomida (TMZ) não mostrou aumento de sobrevida em relação ao controle histórico (CCG-945), porém é proposta como alternativa principal por suas vantagens \cite{noq191}. Deve-se levar em conta a disponibilidade e custo do esquema. Este protocolo foi substituído em 2017 pelo ACNS-0423, que mostrou resultados superiores.
 
 \textbf{Elegível:} extensão da ressecção cirúrgica (RNM de controle até 21 dias pós-op, preferido 72h após); não é necessário pesquisar metástases de rotina (RNM de neuro-eixo e PL/MO). Tratamento precisa iniciar até 42 dias após cirurgia. Inclui glioblastoma multiforme, astrocitoma anaplásico, oligodendroglioma anaplásico, gliossarcoma. Pacientes com mais de 3 anos de idade. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -4451,7 +4596,7 @@ Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 1
 \section{Glioma de alto grau -- Adaptado do ensaio HIT-GBM-D}
 {\let\thefootnote\relax\footnotetext{Versão Outubro/2017}}
 
-\textbf{Racional:} no estudo fase II do GPOH, a manutenção simplificada com prednisona, vincristina e lomustina foi tão eficaz quanto a manutenção intensiva do HIT-GBM-C \footnote{Wolff et al, 2011}. Optamos por não usar a lomustina, apenas a manutenção com prednisona e VCR. O braço experimental com MTX não foi utilizado, apenas o braço controle.
+\textbf{Racional:} no estudo fase II do GPOH, a manutenção simplificada com prednisona, vincristina e lomustina foi tão eficaz quanto a manutenção intensiva do HIT-GBM-C \cite{Wolff2011}. Optamos por não usar a lomustina, apenas a manutenção com prednisona e VCR. O braço experimental com MTX não foi utilizado, apenas o braço controle.
 
 \textbf{Elegível:} extensão da ressecção cirúrgica (RNM de controle 24-48h pós-op, máximo 72h após); citologia do LCR 10-14 dias pós-op. Iniciar 2 semanas após a cirurgia. Inclui glioblastoma multiforme, astrocitoma anaplásico, oligodendroglioma anaplásico, gliossarcoma. Pacientes com mais de 3 anos de idade. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -4789,7 +4934,7 @@ Antes da próxima dose: anti-histamínicos e corticóide pré-quimioterapia e me
 \section{Ependimoma não metastático -- Adaptado dos ensaios ACNS0121 e ACNS0831}
 {\let\thefootnote\relax\footnotetext{Versão Outubro/2017}}
 \small{
-\textbf{Racional:} no estudo recém-terminado do COG (ACNS0121), os pacientes foram estratificados em 4 grupos \footnote{Merchant \textit{et al}, 2015}:
+\textbf{Racional:} no estudo recém-terminado do COG (ACNS0121), os pacientes foram estratificados em 4 grupos \cite{merchant_2015}:
 \begin{itemize}
 \item[Estrato 1] - Paciente com ependimomas clássicos supratentoriais com ressecção microscopicamente completa.
 \item[Estrato 2] - Pacientes com ressecção parcial.
@@ -4797,7 +4942,7 @@ Antes da próxima dose: anti-histamínicos e corticóide pré-quimioterapia e me
 \item[Estrato 4] - Pacientes com ependimomas anaplásicos supratentoriais com ressecção total ou infratentoriais (qualquer histologia) com ressecção total.
 \end{itemize}
 
-Os pacientes do estrato 1 foram apenas observados, sendo que 5 de 11 apresentaram recidiva. Os pacientes do estrato 3 e 4 receberam RT conformacional no leito tumoral logo após a ressecção, com sobrevida livre de eventos de 75\% para ependimoma clássico e 60\% para ependimoma anaplásico. Os pacientes do estrato 2 receberam QT antes da RT e foram avaliados para possível nova cirurgia. A sobrevida livre de eventos deste último grupo foi de 40\%. Os resultados deste estudo deixaram claro que a primeira escolha de tratamento para ependimoma, clássico ou anaplásico, é a RT no leito tumoral imediatamente após a cirurgia, a partir de 1 ano de idade. O uso de QT com este protocolo, assim, deve ser deixado para casos selecionados nos quais a RT inicial tem poucas chances de ser bem sucedida. O estudo em andamento ACNS0831 inclui QT pós-RT para pacientes do estrato 2. Todavia, em 2016, um estudo avaliou retrospectivamente uma coorte combinada de 820 casos de ependimoma levando em conta os novos subgrupos moleculares recém-descritos e não encontrou nenhuma vantagem do tratamento adjuvante com quimioterapia \footnote{Ramaswamy \textit{et al}, 2016}.
+Os pacientes do estrato 1 foram apenas observados, sendo que 5 de 11 apresentaram recidiva. Os pacientes do estrato 3 e 4 receberam RT conformacional no leito tumoral logo após a ressecção, com sobrevida livre de eventos de 75\% para ependimoma clássico e 60\% para ependimoma anaplásico. Os pacientes do estrato 2 receberam QT antes da RT e foram avaliados para possível nova cirurgia. A sobrevida livre de eventos deste último grupo foi de 40\%. Os resultados deste estudo deixaram claro que a primeira escolha de tratamento para ependimoma, clássico ou anaplásico, é a RT no leito tumoral imediatamente após a cirurgia, a partir de 1 ano de idade. O uso de QT com este protocolo, assim, deve ser deixado para casos selecionados nos quais a RT inicial tem poucas chances de ser bem sucedida. O estudo em andamento ACNS0831 inclui QT pós-RT para pacientes do estrato 2. Todavia, em 2016, um estudo avaliou retrospectivamente uma coorte combinada de 820 casos de ependimoma levando em conta os novos subgrupos moleculares recém-descritos e não encontrou nenhuma vantagem do tratamento adjuvante com quimioterapia \cite{doi:10.1200/JCO.2015.65.7825}.
 
 \textbf{Elegível:}Estadiamento pré-tratamento: mais de 0,5cm de tumor residual (RNM de controle até 21 dias pós-op, preferido 72h após); sem metástases (RNM de neuro-eixo e PL/MO). Tratamento precisa iniciar até 56 dias após cirurgia. Apenas EPENDIMOMA (excluindo espinhal). Pacientes com mais de 3 anos de idade. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -5031,9 +5176,9 @@ Carboplatina: 12,5 mg/kg – Vincristina: 0,05 mg/kg – Ciclofosfamida: 33 mg/k
 \cleardoublepage
 
 \section{Interferon para craniofaringiomas}
-{\let\thefootnote\relax\footnotetext{Versão Junho/2018}}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
 
-\textbf{Racional:} Um estudo retrospectivo da Société Internationale d'Oncologie Pédiatrique (SIOP) e International Society for Pediatric Neurosurgery (ISPN) revisou 56 pacientes tratados em 21 centros em diversos países, com lesões císticas (39\%) ou sólido-císticas (61\%). Em 77\% dos pacientes, tratamento prévios já haviam sido realizados. O estudo mostrou que a administração intracística de interferon alfa atrasa significativamente a progressão. Um total de 42 pacientes (75\%) progrediu, com uma mediana de 14 meses (0-8 anos) e uma mediana de 5,8 anos (1,8-9,7) entre a terapia com interferon e o tratamento definitivo\footnote{Kilday \textit{et al}, 2017}. Os eventos adversos foram mínimos. Tanto o interferon alfa 2a quanto o interferon alfa 2b são usados, com mesmo perfil terapêutico e de segurança\footnote{Cavalheiro \textit{et al}, 2010; Bartels \textit{et al}, 2012}.
+\textbf{Racional:} Um estudo retrospectivo da Société Internationale d'Oncologie Pédiatrique (SIOP) e International Society for Pediatric Neurosurgery (ISPN) revisou 56 pacientes tratados em 21 centros em diversos países, com lesões císticas (39\%) ou sólido-císticas (61\%). Em 77\% dos pacientes, tratamento prévios já haviam sido realizados. O estudo mostrou que a administração intracística de interferon alfa atrasa significativamente a progressão. Um total de 42 pacientes (75\%) progrediu, com uma mediana de 14 meses (0-8 anos) e uma mediana de 5,8 anos (1,8-9,7) entre a terapia com interferon e o tratamento definitivo\cite{10.1093/neuonc/nox056}. Os eventos adversos foram mínimos. Tanto o interferon alfa 2a quanto o interferon alfa 2b são usados, com mesmo perfil terapêutico e de segurança\cite{cavalheiro,10.3389/fendo.2012.00039}.
 
 \textbf{Elegível:} pacientes pediátricos com craniofariogioma, histologicamente confirmado, cístico ou cístico-sólido, com ou sem tratamento anterior. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -5131,15 +5276,15 @@ Carboplatina: 12,5 mg/kg – Vincristina: 0,05 mg/kg – Ciclofosfamida: 33 mg/k
 \end{tabular}
 \end{table}
 \end{center}
-
+\clearpage
 \section{Interferon alfa 2b para doenças neoplásicas}
-{\let\thefootnote\relax\footnotetext{Versão Abril/2019}}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
 
 \textbf{Racional:} O interferon (IFN) é uma proteína natural modificadora da resposta imunobiológica, com efeito antiproliferativo e imunomodulador. O IFN tem efeito antagonista a todos fatores de crescimento conhecidos, porém seu efeito não é citotóxico e sim citostático, portanto reversível. Como imunomodulador, ele estimula a atividade de células NK, LT citotóxicos e macrófagos contra células tumorais. 
 
 O IFN é indicado para tratar Papilomatose Respiratória Recorrente (PRR), Leucamia Mielóide Crônica (LMC), Sarcoma de Kaposi, Carcinoma Renal metastático, Tricoleucemia e Melanoma Maligno. Outras indicações, como as Histiocitoses, são "não padronizadas" (\textit{off-label}).
 
-Histiocitoses não Langerhans são neoplasias mielóides inflamatórias de caráter benigno que, em alguns casos, podem cursar com doença disseminada e com elevada morbimortalidade. O grupo inclui a doença de Rosai-Dorfman, o xantogranuloma juvenil (mais comuns em crianças, adolescentes e adultos jovens) e a Doença de Erdheim-Chester (mais comum na terceira idade). São doenças raras sem tratamento amplamente recomendado\footnote{Diamond \textit{et al}, 2014; Haroche \textit{et al}, 2015}.
+Histiocitoses não Langerhans são neoplasias mielóides inflamatórias de caráter benigno que, em alguns casos, podem cursar com doença disseminada e com elevada morbimortalidade. O grupo inclui a doença de Rosai-Dorfman, o xantogranuloma juvenil (mais comuns em crianças, adolescentes e adultos jovens) e a Doença de Erdheim-Chester (mais comum na terceira idade). São doenças raras sem tratamento amplamente recomendado\cite{Diamond483,Haroche05122015}.
 
 \textbf{Elegível:} pacientes pediátricos com as doenças listadas na indicação ou histiocitose não Langerhans (doença de Rosai-Dorfman, xantogranuloma juvenil ou doença de Erdheim-Chester), histologicamente confirmado, com ou sem tratamento anterior. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -5242,11 +5387,11 @@ A dose pode ser aumentada até 6 MUI/m\(^2\). Checar esquema de cada patologia.
 \end{center}
 \clearpage
 \section{Everolimo para astrocitoma subependimário de células gigantes}
-{\let\thefootnote\relax\footnotetext{Versão Junho/2018}}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
 
-\textbf{Racional:} A esclerose tuberosa (ET)é uma patologia genética na qual ocorre a ativação constitutiva da via mTOR, com consequente facilitação do surgimento de neoplasias benignas em vários órgãos. O astrocitoma subependimário de células gigantes (SEGA) é um tumor benigno de crescimento lento mais frequente em pacientes com ET, típico das imediações do forame de Monro e que cresce nos ventrículos laterais, determinando hidrocefalia e outras complicações. O ensaio clínico EXIST-1 mostrou remissão parcial (> 50\%) em pelo menos 35\% dos pacientes com SEGA tratados com everolimo (um inibidor mTORC1), com mínimos eventos adversos. \footnote{Franz \textit{et al}, 2013}.
+\textbf{Racional:} A esclerose tuberosa (ET)é uma patologia genética na qual ocorre a ativação constitutiva da via mTOR, com consequente facilitação do surgimento de neoplasias benignas em vários órgãos. O astrocitoma subependimário de células gigantes (SEGA) é um tumor benigno de crescimento lento mais frequente em pacientes com ET, típico das imediações do forame de Monro e que cresce nos ventrículos laterais, determinando hidrocefalia e outras complicações. O ensaio clínico EXIST-1 mostrou remissão parcial (> 50\%) em pelo menos 35\% dos pacientes com SEGA tratados com everolimo (um inibidor mTORC1), com mínimos eventos adversos. \cite{franz}.
 
-\textbf{Elegível:} pacientes pediátricos com ET e SEGA (diagnosticado por imagem ou histologicamente, de acordo com definições padronizadas\footnote{Roth \textit{et al}, 2013}), com ou sem tratamento anterior. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+\textbf{Elegível:} pacientes pediátricos com ET e SEGA (diagnosticado por imagem ou histologicamente, de acordo com definições padronizadas\cite{ROTH2013439}), com ou sem tratamento anterior. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
 \textbf{Alternativa:} a recomendação terapêutica padrão é ressecção cirúrgica completa, porém esta situação está evoluindo rapidamente. O último consenso recomenda o julgamento caso-a-caso e admite a farmacoterapia como primeira escolha em lesões pequenas.
 \\[0.4cm]
@@ -5279,9 +5424,9 @@ A dose pode ser aumentada até 6 MUI/m\(^2\). Checar esquema de cada patologia.
 \end{center}
 \clearpage
 \section{Sirolimo para anomalias vasculares}
-{\let\thefootnote\relax\footnotetext{Versão Junho/2018}}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
 
-\textbf{Racional:} Anomalias vasculares são alterações morfocitológicas de vasos sanguíneos que podem ter caráter proliferativo (neoplasias verdadeiras) ou morfofuncional (malformações), muito embora exista uma sobreposição entre estas categorias. Até a última década, não haviam praticamente tratamentos farmacológicos amplamente aceitos e validados para anomalias vasculares. A partir de 2008, drogas já utilizadas para outras indicações passaram a mostrar efeito em tipos específicos de anomalias vasculares. É o caso dos beta-bloqueadores, validados para o tratamento de hemangiomas. Mais recentemente, o sirolimo, droga inibidora das vias moleculares mTORC1 e mTORC2, mostrou induzir a estabilização ou regressão de anomalias vasculares de diversas naturezas, principalmente com componentes linfáticos e venosos \footnote{Adams \textit{et al}, 2016}.
+\textbf{Racional:} Anomalias vasculares são alterações morfocitológicas de vasos sanguíneos que podem ter caráter proliferativo (neoplasias verdadeiras) ou morfofuncional (malformações), muito embora exista uma sobreposição entre estas categorias. Até a última década, não haviam praticamente tratamentos farmacológicos amplamente aceitos e validados para anomalias vasculares. A partir de 2008, drogas já utilizadas para outras indicações passaram a mostrar efeito em tipos específicos de anomalias vasculares. É o caso dos beta-bloqueadores, validados para o tratamento de hemangiomas. Mais recentemente, o sirolimo, droga inibidora das vias moleculares mTORC1 e mTORC2, mostrou induzir a estabilização ou regressão de anomalias vasculares de diversas naturezas, principalmente com componentes linfáticos e venosos \cite{Adamse20153257}.
 
 \textbf{Elegível:} pacientes pediátricos com anomalias vasculares (diagnosticado histologicamente), complicadas e inoperáveis. Isso inclui malformações vasculares acometendo o sistema nervoso central e impossíveis de serem ressecadas cirurgicamente. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -5316,9 +5461,9 @@ A dose pode ser aumentada até 6 MUI/m\(^2\). Checar esquema de cada patologia.
 
 \clearpage
 \section{Sirolimo para tumores cerebrais recorrentes}
-{\let\thefootnote\relax\footnotetext{Versão Junho/2018}}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
 
-\textbf{Racional:} O prognóstico de pacientes pediátricos com tumores cerebrais malignos recorrentes é sombrio. Invariavelmente, a mediana de sobrevida não passa de 3-4 meses. Crianças com gliomas de baixo grau com recorrência após múltiplos tratamentos com QT/RT também constituem um desafio terapêutico. Recentemente, o sirolimo, droga inibidora das vias moleculares mTORC1 e mTORC2, tem sido testado em pacientes pediátricos com tumores recorrentes, incluindo tumores malignos e gliomas de baixo grau multiplamente recorrentes \footnote{Morgenstern \textit{et al}, 2014}.
+\textbf{Racional:} O prognóstico de pacientes pediátricos com tumores cerebrais malignos recorrentes é sombrio. Invariavelmente, a mediana de sobrevida não passa de 3-4 meses. Crianças com gliomas de baixo grau com recorrência após múltiplos tratamentos com QT/RT também constituem um desafio terapêutico. Recentemente, o sirolimo, droga inibidora das vias moleculares mTORC1 e mTORC2, tem sido testado em pacientes pediátricos com tumores recorrentes, incluindo tumores malignos e gliomas de baixo grau multiplamente recorrentes \cite{doi:10.1002/pbc.24656}.
 
 \textbf{Elegível:} pacientes pediátricos com tumores cerebrais malignos recidivados ou gliomas de baixo grau recorrentes após 2 ou mais tratamentos prévios (incluindo RT e/ou QT). NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
 
@@ -5439,7 +5584,7 @@ fim de atingir uma concentração sérica entre 75 e 100 mcg/ml.//
 \subsubsection{Protocolo de quimioterapia:}
 Adaptado do HIT-GBM-D do GPOH. O texto a
 seguir baseia-se parcialmente na livre tradução, com adaptações, para o
-português do texto do protocolo HIT-GBM-D \footnote{Wolff, 2010c}.//
+português do texto do protocolo HIT-GBM-D \cite{felix_2016_44888}.//
 \subsubsection{Radioquimioterapia simultânea:}
 Resumo geral: a radioterapia fracionada convencional deve iniciar em 14
 dias até no máximo quatro semanas após o diagnóstico radiológico,.
