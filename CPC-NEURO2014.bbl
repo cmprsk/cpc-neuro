@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{CNCR20910}
+Eva Steliarova-Foucher, Charles Stiller, Brigitte Lacour, and Peter Kaatsch.
+\newblock International classification of childhood cancer, third edition.
+\newblock {\em Cancer}, 103(7):1457--1467, 2005.
+
 \bibitem{Ostrom01102014}
 Quinn~T. Ostrom, Haley Gittleman, Peter Liao, Chaturia Rouse, Yanwen Chen,
   Jacqueline Dowling, Yingli Wolinsky, Carol Kruchko, and Jill Barnholtz-Sloan.
@@ -155,11 +160,6 @@ Regina~I. Jakacki, Peter~C. Burger, Tianni Zhou, Emiko~J. Holmes, Mehmet Kocak,
   phase i/ii study.
 \newblock {\em Journal of Clinical Oncology}, 30(21):2648--2653, 2012.
 \newblock PMID: 22665539.
-
-\bibitem{CNCR20910}
-Eva Steliarova-Foucher, Charles Stiller, Brigitte Lacour, and Peter Kaatsch.
-\newblock International classification of childhood cancer, third edition.
-\newblock {\em Cancer}, 103(7):1457--1467, 2005.
 
 \bibitem{louis}
 David~N. Louis, Hiroko Ohgaki, OtmarD. Wiestler, WebsterK. Cavenee, PeterC.
