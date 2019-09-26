@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.9.26)  26 SEP 2019 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.9.26)  26 SEP 2019 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1917,10 +1917,6 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5926.
 
 Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
 (rerunfilecheck)             Checksum: E74CD0EE0B6B665D9D362D578F6AF7EF;9712.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5926.
  ) 
 Here is how much of TeX's memory you used:
@@ -1946,7 +1942,7 @@ xlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf
 s/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CPC-NEURO2014.pdf (178 pages, 847883 bytes).
+Output written on CPC-NEURO2014.pdf (178 pages, 847896 bytes).
 PDF statistics:
  1809 PDF objects out of 2073 (max. 8388607)
  1583 compressed objects within 16 object streams
