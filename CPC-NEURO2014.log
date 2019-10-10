@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.9.26)  26 SEP 2019 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.10.10)  10 OCT 2019 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1546,7 +1546,7 @@ l.415
        [3
 
 
-] <fig/fig1.pdf, id=677, 614.295pt x 794.97pt>
+] <fig/fig1.pdf, id=679, 614.295pt x 794.97pt>
 File: fig/fig1.pdf Graphic file (type pdf)
  <use fig/fig1.pdf>
 Package pdftex.def Info: fig/fig1.pdf used on input line 419.
@@ -1562,7 +1562,7 @@ l.423 \clearpage
                    \relax 
 l.423 \clearpage
                  [5 <./fig/fig1.pdf>]
-<fig/fig2.pdf, id=691, 614.295pt x 794.97pt>
+<fig/fig2.pdf, id=693, 614.295pt x 794.97pt>
 File: fig/fig2.pdf Graphic file (type pdf)
  <use fig/fig2.pdf>
 Package pdftex.def Info: fig/fig2.pdf used on input line 425.
@@ -1611,19 +1611,19 @@ l.458 \chapter
               {O tratamento de tumores cerebrais em crianças} [10
 
 ]
-<fig/fig3.pdf, id=760, 614.295pt x 794.97pt>
+<fig/fig3.pdf, id=762, 614.295pt x 794.97pt>
 File: fig/fig3.pdf Graphic file (type pdf)
  <use fig/fig3.pdf>
 Package pdftex.def Info: fig/fig3.pdf used on input line 464.
 (pdftex.def)             Requested size: 447.54402pt x 671.43837pt.
  [11] [12]
-[13] [14] [15] [16] <fig/fig4.pdf, id=851, 614.295pt x 794.97pt>
+[13] [14] [15] [16] <fig/fig4.pdf, id=853, 614.295pt x 794.97pt>
 File: fig/fig4.pdf Graphic file (type pdf)
 
 <use fig/fig4.pdf>
 Package pdftex.def Info: fig/fig4.pdf used on input line 562.
 (pdftex.def)             Requested size: 452.74516pt x 587.65282pt.
- [17] <fig/fig5.pdf, id=868, 614.295pt x 794.97pt>
+ [17] <fig/fig5.pdf, id=870, 614.295pt x 794.97pt>
 File: fig/fig5.pdf Graphic file (type pdf)
 
 <use fig/fig5.pdf>
@@ -1633,17 +1633,17 @@ Package pdftex.def Info: fig/fig5.pdf used on input line 568.
 
 ] [23]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 604.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 621.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 604.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 621.
  [24]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/fig6.pdf, id=929, 660.4675pt x 467.7475pt>
+<fig/fig6.pdf, id=931, 660.4675pt x 467.7475pt>
 File: fig/fig6.pdf Graphic file (type pdf)
  <use fig/fig6.pdf>
-Package pdftex.def Info: fig/fig6.pdf used on input line 640.
+Package pdftex.def Info: fig/fig6.pdf used on input line 657.
 (pdftex.def)             Requested size: 198.14177pt x 140.32532pt.
 
 
@@ -1659,16 +1659,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.695 ...te\relax\footnotetext{Versão Junho/2019}
+l.712 ...te\relax\footnotetext{Versão Junho/2019}
                                                   } [31] [32
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 722.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 739.
  [33] [34]
 [35]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1057.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1074.
  [36] [37
 
 ] [38] [39] [40
@@ -1677,7 +1677,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1198 ...e\relax\footnotetext{Versão Junho/2019}
+l.1215 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [41] [42
 
 ] [43] [44]
@@ -1687,33 +1687,33 @@ l.1198 ...e\relax\footnotetext{Versão Junho/2019}
 te.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1587 ...e\relax\footnotetext{Versão Junho/2019}
+l.1604 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [49
 
 ] [50
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1596.
+(Font)              <7> on input line 1613.
  [51] [52]
 [53
 
 ] [54] [55]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2130.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2147.
  [56] [57] [58
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.9}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2150 ...e\relax\footnotetext{Versão Junho/2019}
+l.2167 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [59] [60]pdfTeX warning (ex
 t4): destination with the same identifier (name{Hfootnote.9}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2233 ...e\relax\footnotetext{Versão Junho/2019}
+l.2250 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [61
 
 ] [62
@@ -1723,7 +1723,7 @@ l.2233 ...e\relax\footnotetext{Versão Junho/2019}
 tnote.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2561 ...e\relax\footnotetext{Versão Junho/2019}
+l.2578 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [67
 
 ] [68
@@ -1738,7 +1738,7 @@ l.2561 ...e\relax\footnotetext{Versão Junho/2019}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2820 ...e\relax\footnotetext{Versão Junho/2019}
+l.2837 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [75] [76
 
 ] [77] [78]
@@ -1746,7 +1746,7 @@ l.2820 ...e\relax\footnotetext{Versão Junho/2019}
 (name{Hfootnote.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3165 ...e\relax\footnotetext{Versão Junho/2019}
+l.3182 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [83
 
 ] [84
@@ -1755,7 +1755,7 @@ l.3165 ...e\relax\footnotetext{Versão Junho/2019}
 ootnote.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3272 ...e\relax\footnotetext{Versão Junho/2019}
+l.3289 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [87
 
 ] [88
@@ -1772,7 +1772,7 @@ l.3272 ...e\relax\footnotetext{Versão Junho/2019}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3443 ...e\relax\footnotetext{Versão Junho/2019}
+l.3460 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [95] [96
 
 ] [97] [98]
@@ -1780,7 +1780,7 @@ l.3443 ...e\relax\footnotetext{Versão Junho/2019}
 .9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3586 ...e\relax\footnotetext{Versão Junho/2019}
+l.3603 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [100
 
 ] [101
@@ -1795,7 +1795,7 @@ l.3586 ...e\relax\footnotetext{Versão Junho/2019}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3662 ...e\relax\footnotetext{Versão Junho/2019}
+l.3679 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [105] [106
 
 ] [107] [108]
@@ -1808,13 +1808,13 @@ l.3662 ...e\relax\footnotetext{Versão Junho/2019}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3896 ...relax\footnotetext{Versão Outubro/2017}
+l.3913 ...relax\footnotetext{Versão Outubro/2017}
                                                   } [113] [114] [115] [116]
 [117] [118]pdfTeX warning (ext4): destination with the same identifier (name{Hf
 ootnote.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4229 ...relax\footnotetext{Versão Outubro/2017}
+l.4246 ...relax\footnotetext{Versão Outubro/2017}
                                                   } [119
 
 ] [120] [121] [122]
@@ -1822,7 +1822,7 @@ l.4229 ...relax\footnotetext{Versão Outubro/2017}
 ootnote.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4597 ...relax\footnotetext{Versão Outubro/2017}
+l.4614 ...relax\footnotetext{Versão Outubro/2017}
                                                   } [125
 
 ] [126] [127] [128]
@@ -1830,12 +1830,12 @@ l.4597 ...relax\footnotetext{Versão Outubro/2017}
 ootnote.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4935 ...relax\footnotetext{Versão Outubro/2017}
+l.4952 ...relax\footnotetext{Versão Outubro/2017}
                                                   } [131
 
 ] [132] [133] [134]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5168.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5185.
 
 [135] [136
 
@@ -1847,34 +1847,34 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5179 ...e\relax\footnotetext{Versão Junho/2019}
+l.5196 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [139] [140]pdfTeX warning (
 ext4): destination with the same identifier (name{Hfootnote.9}) has been alread
 y used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5281 ...e\relax\footnotetext{Versão Junho/2019}
+l.5298 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [141
 
 ] [142]pdfTeX warning (ext4): destination with the same identifier (name{Hfootn
 ote.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5390 ...e\relax\footnotetext{Versão Junho/2019}
+l.5407 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [143
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.9}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5427 ...e\relax\footnotetext{Versão Junho/2019}
+l.5444 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [144
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{Hfootnote.9}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5464 ...e\relax\footnotetext{Versão Junho/2019}
+l.5481 ...e\relax\footnotetext{Versão Junho/2019}
                                                   } [145
 
 ] [146
@@ -1887,10 +1887,10 @@ l.5464 ...e\relax\footnotetext{Versão Junho/2019}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5503 ...relax\footnotetext{Versão Outubro/2017}
+l.5520 ...relax\footnotetext{Versão Outubro/2017}
                                                   } [149]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 5572.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 5589.
  [150] [151] [152]
 [153] [154] (./CPC-NEURO2014.bbl [155] [156
 
@@ -1908,20 +1908,20 @@ bibitemlist
 \tf@lot=\write8
 \openout8 = `CPC-NEURO2014.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5926.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5926.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5943.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5943.
 
 (./CPC-NEURO2014.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5926.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5926.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5943.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5943.
 
 Package rerunfilecheck Info: File `CPC-NEURO2014.out' has not changed.
 (rerunfilecheck)             Checksum: E74CD0EE0B6B665D9D362D578F6AF7EF;9712.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5926.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5943.
  ) 
 Here is how much of TeX's memory you used:
- 27203 strings out of 494926
- 515475 string characters out of 6180259
+ 27204 strings out of 494926
+ 515484 string characters out of 6180258
  678970 words of memory out of 5000000
  29232 multiletter control sequences out of 15000+600000
  127720 words of font info for 345 fonts, out of 8000000 for 9000
@@ -1942,10 +1942,10 @@ xlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf
 s/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CPC-NEURO2014.pdf (178 pages, 847896 bytes).
+Output written on CPC-NEURO2014.pdf (178 pages, 848320 bytes).
 PDF statistics:
- 1809 PDF objects out of 2073 (max. 8388607)
- 1583 compressed objects within 16 object streams
- 414 named destinations out of 1000 (max. 500000)
+ 1812 PDF objects out of 2073 (max. 8388607)
+ 1586 compressed objects within 16 object streams
+ 415 named destinations out of 1000 (max. 500000)
  55233 words of extra memory for PDF output out of 61914 (max. 10000000)
 
