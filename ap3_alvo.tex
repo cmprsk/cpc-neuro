@@ -1,0 +1,469 @@
+
+% RECOMMENDED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[graybox]{svmult}
+
+% choose options for [] as required from the list
+% in the Reference Guide
+
+\usepackage{mathptmx}       % selects Times Roman as basic font
+\usepackage{helvet}         % selects Helvetica as sans-serif font
+\usepackage{courier}        % selects Courier as typewriter font
+\usepackage{type1cm}        % activate if the above 3 fonts are
+                            % not available on your system
+%
+\usepackage{makeidx}         % allows index generation
+\usepackage{graphicx}        % standard LaTeX graphics tool
+                             % when including figure files
+\usepackage{multicol}        % used for the two-column index
+\usepackage[bottom]{footmisc}% places footnotes at page bottom
+
+% see the list of further useful packages
+% in the Reference Guide
+
+\makeindex             % used for the subject index
+                       % please use the style svind.ist with
+                       % your makeindex program
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{float}
+
+\def\entrywithlabel[#1]#2{\parbox{#1}{{\small #2:} \hrulefill}}
+\def\entrywithlabelunder[#1]#2{\parbox{#1}{\hrulefill\\[-.75ex]\centerline {#2}}}
+\def\entrywithlabelraised[#1]#2{\parbox{#1}{\smash{\raise-1ex\hbox{{\tiny #2}}}\hrulefill}}
+\def\boxentry[#1]#2{{\setlength{\fboxsep}{-\fboxrule}\fbox{\parbox{#1}{\smash{\raise-6.5pt\hbox{~{\tiny #2}}}\vspace{2ex}\mbox{}}}}}
+\def\boxpar[#1]#2#3{{\setlength{\fboxsep}{-\fboxrule}\fbox{\parbox[][#2][t]{#1}{\mbox{}\\[-.125\baselineskip]\mbox{}~#3}}}}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols,shapes.arrows}
+
+\tikzset{
+>=stealth',
+  punktchain/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=10em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=10em,
+    draw=blue!40!black!90, very thick,
+    text width=10em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+\tikzset{
+>=stealth',
+  pequeno/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=2em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=2em,
+    draw=blue!40!black!90, very thick,
+    text width=2em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+\tikzset{
+>=stealth',
+  grande/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=20em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=20em,
+    draw=blue!40!black!90, very thick,
+    text width=20em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+
+\begin{document}
+
+\title*{Terapia alvo, imunoterapia, terapia biológica}
+% Use \titlerunning{Short Title} for an abbreviated version of
+% your contribution title if the original one is too long
+\author{Francisco Hélder Cavalcante Félix e Juvenia Bezerra Fontenele}
+% Use \authorrunning{Short Title} for an abbreviated version of
+% your contribution title if the original one is too long
+\institute{Francisco Hélder Cavalcante Félix \at Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin, R. Alberto Montezuma, 350, 60410-780, Fortaleza - CE \email{fhcflx@outlook.com}
+\and Juvenia Bezerra Fontenele \at Faculdade de Farmácia, Odontologia e Enfermagem, Universidade Federal do Ceará, R. Alexandre Baraúna, 949, 60430-160, Fortaleza - CE %\email{juvenia.fontenele@gmail.com}
+}
+%
+% Use the package "url.sty" to avoid
+% problems with special characters
+% used in your e-mail or web address
+%
+\maketitle
+
+\abstract{}
+
+\section{Interferon para craniofaringiomas}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+
+\textbf{Racional:} Um estudo retrospectivo da Société Internationale d'Oncologie Pédiatrique (SIOP) e International Society for Pediatric Neurosurgery (ISPN) revisou 56 pacientes tratados em 21 centros em diversos países, com lesões císticas (39\%) ou sólido-císticas (61\%). Em 77\% dos pacientes, tratamento prévios já haviam sido realizados. O estudo mostrou que a administração intracística de interferon alfa atrasa significativamente a progressão. Um total de 42 pacientes (75\%) progrediu, com uma mediana de 14 meses (0-8 anos) e uma mediana de 5,8 anos (1,8-9,7) entre a terapia com interferon e o tratamento definitivo\cite{10.1093/neuonc/nox056}. Os eventos adversos foram mínimos. Tanto o interferon alfa 2a quanto o interferon alfa 2b são usados, com mesmo perfil terapêutico e de segurança\cite{cavalheiro,10.3389/fendo.2012.00039}.
+
+\textbf{Elegível:} pacientes pediátricos com craniofariogioma, histologicamente confirmado, cístico ou cístico-sólido, com ou sem tratamento anterior. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} a ressecção cirúrgica é o tratamento padrâo para pacientes com craniofaringioma.
+\\[0.4cm]
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Esquema: 4 semanas - repetir 2 a 6 vezes}
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{4.2cm}|p{8cm}|p{1,3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S1}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Intracístico 3.000.000 UI}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S2}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Intracístico 3.000.000 UI}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{4.2cm}|p{8cm}|p{1,3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S3}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Intracístico 3.000.000 UI}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S4}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Intracístico 3.000.000 UI}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{\textit{Reavaliar e repetir se resposta objetiva}}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{4.2cm}|p{8cm}|p{1,3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S5}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Intracístico 3.000.000 UI}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S6}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Intracístico 3.000.000 UI}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{4.2cm}|p{8cm}|p{1,3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S7}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Intracístico 3.000.000 UI}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S8}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Intracístico 3.000.000 UI}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\end{center}
+\clearpage
+\section{Interferon alfa 2b para doenças neoplásicas}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+
+\textbf{Racional:} O interferon (IFN) é uma proteína natural modificadora da resposta imunobiológica, com efeito antiproliferativo e imunomodulador. O IFN tem efeito antagonista a todos fatores de crescimento conhecidos, porém seu efeito não é citotóxico e sim citostático, portanto reversível. Como imunomodulador, ele estimula a atividade de células NK, LT citotóxicos e macrófagos contra células tumorais. 
+
+O IFN é indicado para tratar Papilomatose Respiratória Recorrente (PRR), Leucamia Mielóide Crônica (LMC), Sarcoma de Kaposi, Carcinoma Renal metastático, Tricoleucemia e Melanoma Maligno. Outras indicações, como as Histiocitoses, são "não padronizadas" (\textit{off-label}).
+
+Histiocitoses não Langerhans são neoplasias mielóides inflamatórias de caráter benigno que, em alguns casos, podem cursar com doença disseminada e com elevada morbimortalidade. O grupo inclui a doença de Rosai-Dorfman, o xantogranuloma juvenil (mais comuns em crianças, adolescentes e adultos jovens) e a Doença de Erdheim-Chester (mais comum na terceira idade). São doenças raras sem tratamento amplamente recomendado\cite{Diamond483,Haroche05122015}.
+
+\textbf{Elegível:} pacientes pediátricos com as doenças listadas na indicação ou histiocitose não Langerhans (doença de Rosai-Dorfman, xantogranuloma juvenil ou doença de Erdheim-Chester), histologicamente confirmado, com ou sem tratamento anterior. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} pacientes com carcinoma renal e melanoma podem ser tratados com inibidores de \textit{checkpoint} (anti-PD1 e anti-PD-L1). Pacientes com LMC podem ser tratados  com imatinibe. A maioria dos pacientes com Rosai-Dorfman e xantogranuloma juvenil têm doença autolimitada e a conduta expectante é adequada. Naqueles pacientes com doença disseminada, especialmente afetando o SNC, ou com complicações que ameacem a vida, o tratamento é adequado. Interferon alfa é considerado o tratamento padrão para histicitose não Langerhans. Pacientes com xantogranuloma juvenil podem ser tratados com quimioterapia para LCH. Em pacientes portadores da mutação BRAF V600E, inibidores específicos de BRAF, como o vemurafenibe, podem ser usados.
+\\[0.4cm]
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Esquema geral: 4 semanas - continuar até progressão}
+
+A dose pode ser aumentada até 6 MUI/m\(^2\). Checar esquema de cada patologia.
+
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{p{1.4cm}p{3.5cm}|p{8cm}|p{1.2cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S1}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Subcutâneo}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{3.000.000 UI/m\(^2\)}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S2}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Subcutâneo}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{3.000.000 UI/m\(^2\)}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{p{1.4cm}p{3.5cm}|p{8cm}|p{1.2cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S3}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Subcutâneo}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{3.000.000 UI/m\(^2\)}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S4}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Subcutâneo}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{3.000.000 UI/m\(^2\)}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{\textit{Reavaliar e repetir se resposta objetiva}}
+\begin{table}[H]
+\begin{tabular}{p{1.4cm}p{3.5cm}|p{8cm}|p{1.2cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S5}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Subcutâneo}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{3.000.000 UI/m\(^2\)}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S6}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Subcutâneo}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{3.000.000 UI/m\(^2\)}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{p{1.4cm}p{3.5cm}|p{8cm}|p{1.2cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S7}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Subcutâneo }&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{3.000.000 UI/m\(^2\)}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{S8}}}&{Interferon alfa 2b}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{Subcutâneo}&{Datas:}&\\
+    \multicolumn{1}{c|}{}&{3.000.000 UI/m\(^2\)}&{D1: \_\_\_/\_\_\_/\_\_\_ D3:\_\_\_/\_\_\_/\_\_\_ D5: \_\_\_/\_\_\_/\_\_\_}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\end{center}
+\clearpage
+\section{Everolimo para astrocitoma subependimário de células gigantes}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+
+\textbf{Racional:} A esclerose tuberosa (ET)é uma patologia genética na qual ocorre a ativação constitutiva da via mTOR, com consequente facilitação do surgimento de neoplasias benignas em vários órgãos. O astrocitoma subependimário de células gigantes (SEGA) é um tumor benigno de crescimento lento mais frequente em pacientes com ET, típico das imediações do forame de Monro e que cresce nos ventrículos laterais, determinando hidrocefalia e outras complicações. O ensaio clínico EXIST-1 mostrou remissão parcial (> 50\%) em pelo menos 35\% dos pacientes com SEGA tratados com everolimo (um inibidor mTORC1), com mínimos eventos adversos. \cite{franz}.
+
+\textbf{Elegível:} pacientes pediátricos com ET e SEGA (diagnosticado por imagem ou histologicamente, de acordo com definições padronizadas\cite{ROTH2013439}), com ou sem tratamento anterior. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} a recomendação terapêutica padrão é ressecção cirúrgica completa, porém esta situação está evoluindo rapidamente. O último consenso recomenda o julgamento caso-a-caso e admite a farmacoterapia como primeira escolha em lesões pequenas.
+\\[0.4cm]
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Esquema: contínuo até progressão}
+\begin{center}
+\begin{table}[H]
+	\begin{tabular}{p{2.0cm}|p{4.0cm}|p{5.0cm}p{3.5cm}}
+    \hline
+		\multirow{4}{*}{\textbf{Everolimo}}&\multicolumn{1}{c|}{\(1,5 - 10\) mg/m\(^2\)}&\multicolumn{2}{c}{Manter concentração sérica entre \(5-15\) ng/ml}\\
+		{}&{Primeiro tratamento}&\multicolumn{2}{l}{Início: \_\_\_/\_\_\_/\_\_\_ Término:\_\_\_/\_\_\_/\_\_\_}\\
+		{}&{Tratamento adicional}&\multicolumn{2}{l}{Início: \_\_\_/\_\_\_/\_\_\_ Término:\_\_\_/\_\_\_/\_\_\_}\\
+		{}&{Tratamento adicional}&\multicolumn{2}{l}{Início: \_\_\_/\_\_\_/\_\_\_ Término:\_\_\_/\_\_\_/\_\_\_}\\
+    \hline
+		\multicolumn{2}{c|}{\multirow{2}{*}{Apresentação}}&\multicolumn{2}{c}{Comprimidos de 0,5 e 1 mg (Certican)}\\
+		\multicolumn{2}{c|}{}&\multicolumn{2}{c}{Comprimidos de 2,5 e 5 mg (Afinitor)}\\
+    \hline
+		\multirow{4}{*}{Doses}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+		{}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+		{}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+		{}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+    \hline
+        \multicolumn{4}{c}{Ingestão com alimentos ricos em gordura  pode reduzir a concentração máxima em cerca de 30-50\%}\\
+    \hline
+\end{tabular}
+\end{table}
+\end{center}
+\clearpage
+\section{Sirolimo para anomalias vasculares}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+
+\textbf{Racional:} Anomalias vasculares são alterações morfocitológicas de vasos sanguíneos que podem ter caráter proliferativo (neoplasias verdadeiras) ou morfofuncional (malformações), muito embora exista uma sobreposição entre estas categorias. Até a última década, não haviam praticamente tratamentos farmacológicos amplamente aceitos e validados para anomalias vasculares. A partir de 2008, drogas já utilizadas para outras indicações passaram a mostrar efeito em tipos específicos de anomalias vasculares. É o caso dos beta-bloqueadores, validados para o tratamento de hemangiomas. Mais recentemente, o sirolimo, droga inibidora das vias moleculares mTORC1 e mTORC2, mostrou induzir a estabilização ou regressão de anomalias vasculares de diversas naturezas, principalmente com componentes linfáticos e venosos \cite{Adamse20153257}.
+
+\textbf{Elegível:} pacientes pediátricos com anomalias vasculares (diagnosticado histologicamente), complicadas e inoperáveis. Isso inclui malformações vasculares acometendo o sistema nervoso central e impossíveis de serem ressecadas cirurgicamente. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} a recomendação terapêutica padrão é ressecção cirúrgica completa, porém esta pode ser impossível ou muito perigosa.
+\\[0.4cm]
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Esquema: contínuo até progressão}
+\begin{center}
+\begin{table}[H]
+	\begin{tabular}{p{2.0cm}|p{4.0cm}|p{5.0cm}p{3.5cm}}
+    \hline
+		\multirow{4}{*}{\textbf{Sirolimo}}&\multicolumn{1}{c|}{A partir de \(0,8\) mg/m\(^2\)}&\multicolumn{2}{c}{Manter concentração sérica entre \(10-15\) ng/ml}\\
+		{}&{Primeiro tratamento}&\multicolumn{2}{l}{Início: \_\_\_/\_\_\_/\_\_\_ Término:\_\_\_/\_\_\_/\_\_\_}\\
+		{}&{Tratamento adicional}&\multicolumn{2}{l}{Início: \_\_\_/\_\_\_/\_\_\_ Término:\_\_\_/\_\_\_/\_\_\_}\\
+		{}&{Tratamento adicional}&\multicolumn{2}{l}{Início: \_\_\_/\_\_\_/\_\_\_ Término:\_\_\_/\_\_\_/\_\_\_}\\
+    \hline
+		\multicolumn{2}{c|}{Apresentação}&\multicolumn{2}{c}{Comprimidos de 1 e 2 mg (Rapamune)}\\
+    \hline
+		\multirow{4}{*}{Doses}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+		{}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+		{}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+		{}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+    \hline
+    \multicolumn{4}{c}{Ingestão com alimentos ricos em gordura  pode reduzir a concentração máxima em cerca de 30\%}\\
+    \hline
+\end{tabular}
+\end{table}
+\end{center}
+
+\clearpage
+\section{Sirolimo para tumores cerebrais recorrentes}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+
+\textbf{Racional:} O prognóstico de pacientes pediátricos com tumores cerebrais malignos recorrentes é sombrio. Invariavelmente, a mediana de sobrevida não passa de 3-4 meses. Crianças com gliomas de baixo grau com recorrência após múltiplos tratamentos com QT/RT também constituem um desafio terapêutico. Recentemente, o sirolimo, droga inibidora das vias moleculares mTORC1 e mTORC2, tem sido testado em pacientes pediátricos com tumores recorrentes, incluindo tumores malignos e gliomas de baixo grau multiplamente recorrentes \cite{doi:10.1002/pbc.24656}.
+
+\textbf{Elegível:} pacientes pediátricos com tumores cerebrais malignos recidivados ou gliomas de baixo grau recorrentes após 2 ou mais tratamentos prévios (incluindo RT e/ou QT). NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} não existe recomendação terapêutica padrão para este perfil de paciente.
+\\[0.4cm]
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Esquema: contínuo até progressão}
+\begin{center}
+\begin{table}[H]
+	\begin{tabular}{p{2.0cm}|p{4.0cm}|p{5.0cm}p{3.5cm}}
+    \hline
+		\multirow{4}{*}{\textbf{Sirolimo}}&\multicolumn{1}{c|}{A partir de \(0,8\) mg/m\(^2\)}&\multicolumn{2}{c}{Manter concentração sérica entre \(10-15\) ng/ml}\\
+		{}&{Primeiro tratamento}&\multicolumn{2}{l}{Início: \_\_\_/\_\_\_/\_\_\_ Término:\_\_\_/\_\_\_/\_\_\_}\\
+		{}&{Tratamento adicional}&\multicolumn{2}{l}{Início: \_\_\_/\_\_\_/\_\_\_ Término:\_\_\_/\_\_\_/\_\_\_}\\
+		{}&{Tratamento adicional}&\multicolumn{2}{l}{Início: \_\_\_/\_\_\_/\_\_\_ Término:\_\_\_/\_\_\_/\_\_\_}\\
+    \hline
+		\multicolumn{2}{c|}{Apresentação}&\multicolumn{2}{c}{Comprimidos de 1 e 2 mg (Rapamune)}\\
+    \hline
+		\multirow{4}{*}{Doses}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+		{}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+		{}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+		{}&\multicolumn{1}{r}{\_\_\_\_\_ mg}&{a cada \_\_\_ horas}&{Data: \_\_\_/\_\_\_/\_\_\_}\\
+    \hline
+    \multicolumn{4}{c}{Ingestão com alimentos ricos em gordura  pode reduzir a concentração máxima em cerca de 30\%}\\
+    \hline
+\end{tabular}
+\end{table}
+\end{center}
+
+\bibliographystyle{unsrt}
+\bibliography{cpc-neuro2014/bib}
+
+\end{document}

@@ -1,0 +1,1220 @@
+
+% RECOMMENDED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[graybox]{svmult}
+
+% choose options for [] as required from the list
+% in the Reference Guide
+
+\usepackage{mathptmx}       % selects Times Roman as basic font
+\usepackage{helvet}         % selects Helvetica as sans-serif font
+\usepackage{courier}        % selects Courier as typewriter font
+\usepackage{type1cm}        % activate if the above 3 fonts are
+                            % not available on your system
+%
+\usepackage{makeidx}         % allows index generation
+\usepackage{graphicx}        % standard LaTeX graphics tool
+                             % when including figure files
+\usepackage{multicol}        % used for the two-column index
+\usepackage[bottom]{footmisc}% places footnotes at page bottom
+
+% see the list of further useful packages
+% in the Reference Guide
+
+\makeindex             % used for the subject index
+                       % please use the style svind.ist with
+                       % your makeindex program
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{float}
+
+\def\entrywithlabel[#1]#2{\parbox{#1}{{\small #2:} \hrulefill}}
+\def\entrywithlabelunder[#1]#2{\parbox{#1}{\hrulefill\\[-.75ex]\centerline {#2}}}
+\def\entrywithlabelraised[#1]#2{\parbox{#1}{\smash{\raise-1ex\hbox{{\tiny #2}}}\hrulefill}}
+\def\boxentry[#1]#2{{\setlength{\fboxsep}{-\fboxrule}\fbox{\parbox{#1}{\smash{\raise-6.5pt\hbox{~{\tiny #2}}}\vspace{2ex}\mbox{}}}}}
+\def\boxpar[#1]#2#3{{\setlength{\fboxsep}{-\fboxrule}\fbox{\parbox[][#2][t]{#1}{\mbox{}\\[-.125\baselineskip]\mbox{}~#3}}}}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,trees,positioning,arrows,chains,shapes.geometric,%
+    decorations.pathreplacing,decorations.pathmorphing,shapes,%
+    matrix,shapes.symbols,shapes.arrows}
+
+\tikzset{
+>=stealth',
+  punktchain/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=10em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=10em,
+    draw=blue!40!black!90, very thick,
+    text width=10em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+\tikzset{
+>=stealth',
+  pequeno/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=2em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=2em,
+    draw=blue!40!black!90, very thick,
+    text width=2em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+\tikzset{
+>=stealth',
+  grande/.style={
+    rectangle, 
+    rounded corners, 
+    % fill=black!10,
+    draw=black, very thick,
+    text width=20em, 
+    minimum height=3em, 
+    text centered, 
+    on chain},
+  line/.style={draw, thick, <-},
+  element/.style={
+    tape,
+    top color=white,
+    bottom color=blue!50!black!60!,
+    minimum width=20em,
+    draw=blue!40!black!90, very thick,
+    text width=20em, 
+    minimum height=3.5em, 
+    text centered, 
+    on chain},
+  every join/.style={->, thick,shorten >=1pt},
+  decoration={brace},
+  tuborg/.style={decorate},
+  tubnode/.style={midway, right=2pt},
+}
+
+\begin{document}
+
+\title*{Quimioterapia de resgate (doença recorrente/progressiva)}
+% Use \titlerunning{Short Title} for an abbreviated version of
+% your contribution title if the original one is too long
+\author{Francisco Hélder Cavalcante Félix e Juvenia Bezerra Fontenele}
+% Use \authorrunning{Short Title} for an abbreviated version of
+% your contribution title if the original one is too long
+\institute{Francisco Hélder Cavalcante Félix \at Centro Pediátrico do Câncer, Hospital Infantil Albert Sabin, R. Alberto Montezuma, 350, 60410-780, Fortaleza - CE \email{fhcflx@outlook.com}
+\and Juvenia Bezerra Fontenele \at Faculdade de Farmácia, Odontologia e Enfermagem, Universidade Federal do Ceará, R. Alexandre Baraúna, 949, 60430-160, Fortaleza - CE %\email{juvenia.fontenele@gmail.com}
+}
+%
+% Use the package "url.sty" to avoid
+% problems with special characters
+% used in your e-mail or web address
+%
+\maketitle
+
+\abstract{}
+
+\section{Tumores do SNC recorrentes}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} em 2007, Nicholson et al publicaram um ensaio fase II do COG de pacientes pediátricos com tumores recorrentes tratados com ciclos mensais de temozolomida.\cite{doi:10.1002/cncr.22961} A série incluía 104 pacientes com tumores cerebrais, sendo que 25 tinham tumores embrionários, 22 tinham astrocitomas de baixo grau recorrentes e 8 tinham outros tumores de baixo grau. Dentre as respostas objetivas (parcial ou completa), 4 de 6 pacientes respondedores tinham tumores embrionários. No subgrupo de tumores de baixo grau, os pacientes mostraram uma sobrevida livre de progressão prolongada, com cerca de 40\% dos pacientes mostrando estabilidade de doença. Um estudo fase II mostrou sobrevida global de 43\% em 1 ano após o tratamento de pacientes com tumores embrionários recorrentes com temozolomida.\cite{10.1093/neuonc/not320}
+
+\textbf{Elegível:} pacientes com glioma de baixo grau (astrocitoma pilocítico, pilomixóide, difuso (ou fibrilar), oligodendroglioma, ganglioglioma, tumores mistos, tumores de vias ópticas/hipotálamo, tumores focais de tronco). Todos os pacientes devem ter feito, pelo menos, 2 (dois) esquemas de QT previamente (recorrência múltipla). Pacientes com contra-indicação à RT (menores de 5 anos e portadores de NF-1) podem ser incluídos. Paciente com tumores embrionários (meduloblastoma, pineoblastoma, ATRT, outros) na primeira recidiva. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} para pacientes com tumores de baixo grau, a conduta expectante é uma opção, uma vez que, via de regra, o crescimento destes tumores é lento e sua progressão demora anos, ou mesmo décadas. Pacientes de maior risco, como aqueles com lesões de vias ópticas ou hipotálamo, síndrome diencefálica ou com lesões de crescimento rápido devem ser tratados sem grande demora. Se possível, uma nova ressecção cirúrgica deve ser avaliada. A principal alternativa adjuvante para pacientes com mais de 5 anos e sem NF-1 é a RT local. Pacientes com astrocitomas difusos têm maior risco de transformação maligna após RT. Pacientes com tumores embrionários recorrentes não tem alternativa estabelecida de tratamento.
+\cleardoublepage
+
+\noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Quimioterapia: 10 ciclos}
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 3}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 4}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+
+\pagebreak
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 5}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 6}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 7}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 8}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+
+\pagebreak
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 9}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1cm}|p{4.5cm}|p{2cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 10}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Temozolomida \(200\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14 dias.}
+\begin{table}[H]
+\begin{tabular}{p{5cm}|p{5cm}|p{4.7cm}}
+    \hline
+    \textbf{Exames (data):}&{Neut (\(>7,5\times10^2\)):}&{Plaq (\(>7,5\times10^4\)):}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+
+\textbf{FIM DE PROTOCOLO}
+
+\end{center}
+\subsection{Modificações de dose:}
+Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes para 150 mg/m\textsuperscript{2}/dia.
+
+\textbf{Avaliação:} imagem a cada 3 ciclos (3 meses), se progressão, interromper protocolo.
+
+\textbf{APRESENTAÇÕES DE TEMOZOLOMIDA NO HIAS:} cápsulas de 100mg e 250mg
+
+\textbf{ADVERTÊNCIA:} SMZ+TMP não deve ser administrada juntamente com a temozolomida!
+
+\textbf{ATENÇÃO:} este protocolo mostrou eficácia em um estudo observacional não comparativo e em um ensaio fase II com número limitado de pacientes. Logo, é inadequado iniciar este esquema de QT em crianças em regime de internação prolongada, dependentes de cuidados hospitalares, visando "melhorar" sua condição clínica. Igualmente, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+
+\cleardoublepage
+\section{Ifosfamida/Etoposido}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} o Pediatric Oncology Group (POG) publicou os resultados de um ensaio fase II que incluiu 294 pacientes com tumores sólidos previamente tratados (mais de 70\% metastáticos) que receberam uma mediana de 4 ciclos de ifosfamida 2,0 \(g/m^2/d\), etoposido 100 \(mg/m^2/d\) e MESNA 1,5 \(g/m^2/d\), por 3 dias, a cada 14-21 dias. Os pacientes que não tiveram toxicidade após o primeiro ciclo fizeram ciclos subsequentes de 4 dias de duração. Uma resposta completa ocorreu em 31 (10\%) dos pacientes e resposta parcial ocorreu em 57 (20\%) dos pacientes. Toxicidade: 81\% dos pacientes apresentou neutropenia, 25\% apresentou plaquetopenia. Este ensaio não incluiu pacientes com tumores cerebrais \cite{kung}. No entanto, esta combinação tem sido usada em vários protocolos no tratamento de pacientes pediátricos com tumores cerebrais, em vários cenários diferentes.
+
+Um ensaio incluiu 124 pacientes pediátricos e adultos jovens com sarcomas recidivados. Os paciente foram tratados com ifosfamida 1,8 \(g/m^2/d\), etoposido 100 \(mg/m^2/d\) e MESNA 2,8 \(g/m^2/d\), por 5 dias. De 77 pacientes avaliáveis, 43 (56\%) tiveram resposta parcial ou completa. Em pacientes com sarcoma de Ewing, 16 de 17 obtiveram resposta objetiva. Toxicidade hematológica grau III-IV ocorreu em grande número dos pacientes. Neutropenia ocorreu em quase todos os pacientes, e plaquetopenia em um terço deles\cite{doi:10.1200/JCO.1987.5.8.1191}. 
+
+\textbf{Elegível:} Inclui meduloblastoma, outros tumores embrionários, ependimoma clássico ou anaplásico, gliomas difusos de linha média H3K27M+ (DIPG), glioblastoma multiforme, astrocitoma anaplásico, oligodendroglioma anaplásico, tumores malignos raros do SNC. Pacientes com doença recorrente e/ou progressiva após 1 ou mais esquemas de tratamento. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} não existe esquema de QT amplamente aceito para tratar crianças com tumores malignos do SNC recorrentes e/ou progressivos. Verificar a possibilidade de incluir o paciente em algum estudo investigacional. Outra alternativa é repetir RT craniana.
+\cleardoublepage
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Resgate: 03 ciclos - repetir enquanto não houver progressão}
+
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1.4cm}|p{3cm}|p{3cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(2000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(2000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(2000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14-21 dias.}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1.4cm}|p{3cm}|p{3cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(2000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(2000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(2000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 14-21 dias.}
+\begin{table}[H]
+\begin{tabular}{p{1cm}p{5cm}|p{1.4cm}|p{3cm}|p{3cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 3}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(2000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(2000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(2000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{TGO:}\\
+    \cline{2-5}
+    \multicolumn{1}{c|}{\multirow{2}{*}{{}}}&\multicolumn{2}{l|}{Creat(\(<1,5\) vezes)}&{BT(\(<1,5\) vezes):}&{TGP:}
+    \\
+    \hline
+\end{tabular}
+\end{table}
+
+\textbf{REAVALIAR A CADA 3 CICLOS}
+\end{center}
+
+\subsection{Modificações de dose:}
+Se atraso maior que 7 dias por toxicidade, reduzir os ciclos subsequentes em 25\% (ambas as drogas).
+
+\textbf{Avaliação:} imagem a cada 3 ciclos, se progressão, interromper protocolo.
+
+\textbf{ATENÇÃO:} este protocolo mostrou eficácia em um ensaio fase II não comparativo com número limitado de pacientes. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+\cleardoublepage
+
+\section{Ifosfamida, carboplatina e etoposido (ICE)}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} um estudo fase I do Saint Jude Children's Research Hospital tratou 45 crianças com tumores sólidos recorrentes com ifosfamida 2 \(g/m^2\) e etoposido 100 \(mg/m^2\) por dois dias, além de doses escalonadas de carboplatina no primeiro dia. Resposta objetiva ocorreu em 17 (38\%) dos pacientes tratados, às custas de toxicidade grau III ou IV em praticamente todos os pacientes nas maiores doses \cite{doi:10.1200/JCO.1993.11.3.554}.  
+
+O Pediatric Oncology Group (POG) completou um ensaio fase I/II que tratou 92 pacientes com tumore sólidos recorrentes ou refratários com ifosfamida 1,5 \(g/m^2\) e etoposido 100 \(mg/m^2\) por 3 dias e carboplatina no primeiro dia, a partir de 300 \(mg/m^2\). A dose máxima tolerada de carboplatina foi de 635 \(mg/m^2\), a toxicidade limitante foi hematológica e 53\% dos pacientes obtiveram resposta parcial ou completa \cite{kung2}. Num ensaio fase II que se seguiu, o POG tratou 21 pacientes com linfoma não Hodgkin recorrente com ICE. Os pacientes responderam após 1-2 ciclos e a taxa de resposta objetiva foi de 71\% (resposta completa 43\%) \cite{kung1999}.  
+
+O Children's Cancer Group (CCG) publicou os resultados de ensaios fase II que incluíram pacientes com tumores previamente tratados que receberam ICE (ifosfamida 1,8 \(g/m^2\) e etoposido 100 \(mg/m^2\) por cinco dias e carboplatina 400 \(mg/m^2\) por dois dias). Pacientes com tumor de Wilms (n = 11) obtiveram 82\% de resposta parcial ou completa \cite{10.1093/annonc/mdf028}.  Pacientes com sarcomas (n = 97) obtiveram 51\% de resposta objetiva \cite{doi:10.1002/pbc.20227}. Um ensaio randomizou duas doses do fator estimulador hematopoiético G-CSF em pacientes tratados com ICE (ifosfamida 1,8 \(g/m^2\) e etoposido 100 \(mg/m^2\) por cinco dias e carboplatina 400 \(mg/m^2\) por dois dias). Um total de 123 pacientes com tumores sólidos recorrentes ou refratários (28 com tumores cerebrais) foram tratados. Resposta objetiva ocorreu em 51\% dos pacientes (completa em 27\%). A dose recomendada de G-CSF foi de 5 \(\mu g/kg\) \cite{cairo}.
+
+Outro ensaio tratou 66 pacientes pediátricos com sarcomas recorrentes com ICE (ifosfamida 3,0 \(g/m^2\) por dois dias, etoposido 100 \(mg/m^2\) por três dias e carboplatina 400 \(mg/m^2\) no primeiro dia). A taxa de resposta objetiva foi de 42\% \cite{aydin}. Um ensaio realizado em Porto Alegre tratou 21 pacientes com tumores sólidos malignos recorrentes ou refratários com ICE (ifosfamida 3,0 \(g/m^2\) por três dias, etoposido 160 \(mg/m^2\) por três dias e carboplatina 400 \(mg/m^2\) por dois dias). Uma resposta objetiva ocorreu em 53\% dos pacientes \cite{doi:10.1002/pbc.10375}.
+
+Uma avaliação retrospectiva de pacientes com neuroblastoma recorrente ou progressivo tratados com ICE dose elevada (HD-ICE, ifosfamida 2,0 \(g/m^2\) e etoposido 100 \(mg/m^2\) por cinco dias e carboplatina 500 \(mg/m^2\) por dois dias). Apenas pacientes com reserva hematológica adequada (contagem de plaquetas \(> 100000/ \mu L\) foram tratados sem receber resgate com células-tronco hematopoiéticas periféricas. Um total de 74 pacientes recebeu 92 ciclos de HD-ICE. O nadir da contagem de neutrófilos (500/ \(\mu L\)) foi atingida em uma mediana de 22 dias (17-30). Resposta parcial (menor ou maior) ocorreu em 14 de 17 (82\%) pacientes com recaída, 13 de 26 (50\%) pacientes refratários e 12 de 34 (35\%) pacientes com doença progressiva durante o tratamento inicial \cite{doi:10.1002/cncr.27783}. 
+
+\textbf{Elegível:} Inclui meduloblastoma, outros tumores embrionários, ependimoma clássico ou anaplásico, gliomas difusos de linha média H3K27M+ (DIPG), glioblastoma multiforme, astrocitoma anaplásico, oligodendroglioma anaplásico, tumores malignos raros do SNC. Pacientes com doença recorrente e/ou progressiva após 1 ou mais esquemas de tratamento. Somente iniciar o protocolo após a assinatura do TERMO DE CONSENTIMENTO INFORMADO, conforme acordado. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} não existe esquema de QT amplamente aceito para tratar crianças com tumores malignos do SNC recorrentes e/ou progressivos. Verificar a possibilidade de incluir o paciente em algum estudo investigacional. Outra alternativa é repetir RT craniana.
+\cleardoublepage
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{ICE CCG: 02 ciclos - repetir enquanto não houver progressão}
+
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{c|p{4cm}|p{1.4cm}|p{3cm}|p{2.8cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(400\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(400\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D6 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 21 dias.}
+\begin{table}[H]
+\begin{tabular}{c|p{4cm}|p{1.4cm}|p{3cm}|p{2.8cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(400\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(400\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D5}}}&{Ifosfamida \(1800\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D6 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{REAVALIAR A CADA 2 CICLOS}
+\end{center}
+
+\subsection{Modificações de dose:}
+Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subsequentes em 25\% (todas as drogas). Caso não ocorra recuperação após o D35, o protocolo deve ser interrompido.
+
+\textbf{Avaliação:} imagem a cada 4 ciclos, se progressão, interromper protocolo.
+
+\textbf{ATENÇÃO:} este protocolo mostrou eficácia em um ensaio fase II não comparativo com número limitado de pacientes. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+
+\clearpage
+
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{ICE POG: 02 ciclos - repetir enquanto não houver progressão}
+
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{c|p{4cm}|p{1.4cm}|p{3cm}|p{2.8cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(635\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{Intervalo de 21 dias.}
+\begin{table}[H]
+\begin{tabular}{c|p{4cm}|p{1.4cm}|p{3cm}|p{2.8cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Carboplatina \(635\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Ifosfamida \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(100\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(1500\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D6 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{REAVALIAR A CADA 2 CICLOS}
+\end{center}
+
+\subsection{Modificações de dose:}
+Se recuperação hematológica nâo ocorrer até o D21, reduzir os ciclos subsequentes em 25\% (todas as drogas). Caso não ocorra recuperação após o D35, o protocolo deve ser interrompido.
+
+\textbf{Avaliação:} imagem a cada 4 ciclos, se progressão, interromper protocolo.
+
+\textbf{ATENÇÃO:} este protocolo mostrou eficácia em um ensaio fase II não comparativo com número limitado de pacientes. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+
+
+\cleardoublepage
+\chapter{Quimioterapia neoadjuvante}
+\cleardoublepage
+
+\section{Vimblastina neoadjuvante}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} Um estudo fase II piloto que incluiu 33 pacientes pediátricos com tumores sólidos recorrentes usou a vimblastina como terapia metronômica, associada ou não à ciclofosfamida, mostrando resultados objetivos num subgrupo pequeno \cite{stempak}. Um outro estudo tratou 64 pacientes pediátricos com tumores sólidos recorrentes (incluindo 9 pacientes com tumor cerebral) com vimblastina metronômica e radioterapia, obtendo resposta objetiva em quase 50\% \cite{ali_el-sayed}. Os esquemas variam na dose ($1-6 mg/m^2$), na frequência (1 a 3 vezes por semana) e na associação com outras terapias (celecoxibe, quimioterapia convencional, radioterapia). 
+
+Um estudo fase II que incluiu 54 pacientes com gliomas de baixo grau progressivos usou a vimblastina como primeira linha, mostrando resultados aparentemente semelhantes a outros estudos (como o COG-A9952) \cite{lassaletta}.
+
+Os tumores cerebrais primários mais frequentes no cerebelo são astrocitoma pilocítico, meduloblastoma e ependimoma. A ressecção cirúrgica é um fator importante para o prognóstico em todos estes tipos tumorais. Um dos fatores que pode associar-se a maior morbimortalidade pós-operatória em tumores cerebelares é o tamanho do tumor \cite{HARISIADIS1977833}. Dados iniciais já davam conta de um possível benefício da quimioterapia em pacientes com meduloblastoma e doença mais extensa na apresentação \cite{evans}. Mais recentemente, a QT neoadjuvante em crianças jovens mostrou potencial de reduzir a vascularização tumoral e melhorar a identificação da interface cérebro-tumor \cite{iwama}.
+
+\textbf{Elegível:} pacientes pediátricos com tumores cerebelares estadiamento de Chang T4 com > 5 cm de tumor, \textit{antes da cirurgia (sem histologia)}. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:}  O tratamento padrão é a cirurgia com ressecção máxima possível, mantendo com segurança uma mínima incidência de complicações. 
+\cleardoublepage
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Esquema: 6 semanas}
+\begin{center}
+\textbf{Solicitar imagem (RNM com perfusão se disponível)}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D1}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D3}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D5}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D8}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D10}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D12}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+   \hline
+       \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D15}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D17}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+   \end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D19}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D22}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D24}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D26}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+   \hline
+          \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D29}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D31}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D33}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D36}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D38}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D40}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+\end{tabular}
+\end{table}
+\textbf{\textit{Reavaliar e encaminhar à cirurgia}}
+
+\textbf{Solicitar imagem (RNM com perfusão se disponível)}
+\end{center}
+\subsection{Modificações de dose:}
+Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{2}. Se Neut < 500mm\(^3\), interromper até subir para 750 ou mais. Se toxicidade hematológica recorrente, reduzir dose para 4mg/m\textsuperscript{2}.
+
+\textbf{ATENÇÃO:} o objetivo deste protocolo é permitir a máxima ressecção possível em tumores cerebelares de difícil abordagem. Seu desfecho principal mensurável é a quantidade de pacientes com ressecção total ou subtotal. Logo, deve-se considerar caso a caso a possibilidade de iniciar este esquema de QT em crianças em regime de internação prolongada, dependentes de cuidados hospitalares intensivos, ou com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+\clearpage
+
+\section{Ifosfamida, carboplatina e etoposido neoadjuvante}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} crianças jovens com tumores cerebrais grandes e altamente vascularizados têm uma elevada morbimortalidade perioperatória. Carcinomas de plexo coróide são modelos desse perfil de apresentação. São tumores cerebrais raros, mais frequentes em lactentes e criança jovens e altamente vascularizados. Recentemente, estudos observacionais sugeriram a vantagem de realizar quimioterapia intensiva com esquema ICE (ifosfamida, carboplatina e etoposide) neoadjuvante em pacientes com carcinoma de plexo coróide \cite{lafay-cousin,schneider}.
+
+Mais recentemente, a QT neoadjuvante em crianças jovens mostrou potencial de reduzir a vascularização tumoral e melhorar a identificação da interface cérebro-tumor em pacientes com outras histologias \cite{iwama}.
+
+\textbf{Elegível:} Inclui meduloblastoma, outros tumores embrionários, ependimoma clássico ou anaplásico, gliomas difusos de linha média H3K27M+ (menos DIPG), glioblastoma multiforme, astrocitoma anaplásico, oligodendroglioma anaplásico, carcinoma do plexo coróide, outros tumores malignos raros do SNC. Pacientes com menos de cinco anos e doença inoperável ou com elevado risco cirúrgico ao diagnóstico. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:} O tratamento padrão é a cirurgia com ressecção máxima possível, mantendo com segurança uma mínima incidência de complicações. 
+\cleardoublepage
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Dois ciclos - repetir uma vez se necessário e não houver progressão}
+
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{c|p{5cm}|p{1.4cm}|p{3.3cm}|p{1.8cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 1}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(150\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(150\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Carboplatina \(600\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+
+\textbf{Intervalo de 28 dias.}
+\begin{table}[H]
+\begin{tabular}{c|p{5cm}|p{1.4cm}|p{3.3cm}|p{1.8cm}}
+	\hline
+	\multicolumn{5}{c}{\textbf{CICLO 2}}\\
+\hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Dia}}}&{Dose}&{Data}&{Administrado}&{Rubrica} \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D1}}}&{Ifosfamida \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(150\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D2}}}&{Ifosfamida \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{Etoposido \(150\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{}}}&{MESNA \(3000\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+     \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D3}}}&{Carboplatina \(600\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{D4 até recuperar}}}&{Filgrastima \(0,01\) mg/m\(^2\)}&&{(  ) Sim (  ) Não}&\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{1}{*}{\textbf{Exames}}}&\multicolumn{2}{l|}{Neut (\(>1,0\times10^3\)):}&{Plaq (\(>7,5\times10^4\)):}&{}\\
+    \hline
+\end{tabular}
+\end{table}
+\textbf{REAVALIAR A CADA 2 CICLOS}
+\end{center}
+
+\subsection{Modificações de dose:}
+Se recuperação hematológica nâo ocorrer até o D28, reduzir os ciclos subsequentes em 25\% (todas as drogas). Caso não ocorra recuperação após o D35, o protocolo deve ser interrompido.
+
+\textbf{Avaliação:} imagem a cada 4 ciclos, se progressão, interromper protocolo.
+
+\textbf{ATENÇÃO:} este protocolo teve sua eficácia comparada com tratamento padrão sem QT através de estudos preliminares, ou pilotos, ou ainda não completamente conclusivos. Dessa forma, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+
+\cleardoublepage
+\chapter{Quimioterapia metronômica}
+\cleardoublepage
+
+\section{Vimblastina metronômica}
+{\let\thefootnote\relax\footnotetext{Versão Junho/2019}}
+\textbf{Racional:} Estudos mostraram a utilidade da vimblastina como monoterapia ou associada à terapia convencional em pacientes pediátricos com linfoma anaplásico de grandes células, na primeira linha ou após recorrência.  \cite{doi:10.1200/JCO.2010.28.5999, doi:10.1200/JCO.2008.20.1764}. Um estudo fase II piloto que incluiu 33 pacientes pediátricos com tumores sólidos recorrentes usou a vimblastina como terapia metronômica, associada ou não à ciclofosfamida, mostrando resultados objetivos num subgrupo pequeno \cite{stempak}. Um outro estudo tratou 64 pacientes pediátricos com tumores sólidos recorrentes (incluindo 9 pacientes com tumor cerebral) com vimblastina metronômica e radioterapia, obtendo resposta objetiva em quase 50\% \cite{ali_el-sayed}. Os esquemas variam na dose ($1-6 mg/m^2$), na frequência (1 a 3 vezes por semana) e na associação com outras terapias (celecoxibe, quimioterapia convencional, radioterapia). 
+
+\textbf{Elegível:} pacientes pediátricos com tumores solidos recorrentes ou progressivos após múltiplos tratamentos. Este protocolo não tem objetivo curativo e somente deve ser utilizado em pacientes para os quais se contraindica QT de resgate ou se os pais ou responsáveis do paciente preferirem. Radioterapia concomitante a critério clínico. NÃO INICIAR ESTE PROTOCOLO EM CRIANÇAS GRAVEMENTE ENFERMAS.
+
+\textbf{Alternativa:}  Não existe alternativa amplamente aceita para este perfil de paciente. Apenas paliação é uma alternativa aceitável.
+\cleardoublepage
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\subsection{Esquema 1: 6 semanas - usar esquema 1 ou 2, não ambos}
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D1}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D8}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D15}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D22}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D29}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D36}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \end{tabular}
+    \end{table}
+\textbf{\textit{Reavaliar e repetir se resposta objetiva}}
+	\begin{table}[H]
+    \begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+       \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D43}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \end{tabular}
+    \end{table}
+    \begin{table}[H]
+    \begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D50}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D57}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D64}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D71}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D78}}}&{Vimblastina \(6,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+\end{tabular}
+\end{table}
+
+\end{center}
+\subsection{Esquema 2: 6 semanas - usar esquema 1 ou 2, não ambos}
+\begin{center}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D1}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D3}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D5}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+\end{tabular}
+\end{table}
+
+\pagebreak
+    \noindent
+\entrywithlabel[1\hsize]{\textbf{Nome}}\hfill
+\\[0.3cm]
+\entrywithlabel[.45\hsize]{\textbf{Peso}}\hfill  \entrywithlabel[.45\hsize]{\textbf{Estatura}}
+
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D8}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D10}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline\\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D12}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+   \hline
+       \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D15}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D17}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D19}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D22}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D24}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+\end{tabular}
+\end{table}
+\begin{table}[H]
+\begin{tabular}{p{1.3cm}p{5cm}|p{5cm}|p{3cm}}
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D26}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+   \hline
+          \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D29}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D31}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D33}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D36}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+    \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D38}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    {Exames:}&{Neut(\(>1,5\times10^3\)):}&{Plaq(\(>10^5\)):}&{TGO:}
+    \\
+    \hline
+    \\
+   \hline
+    \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{D40}}}&{Vimblastina \(1,0\)mg/m\(^2\)}&{Administrado: (  ) Sim (  ) Não}&{Rubrica}\\
+    \multicolumn{1}{c|}{}&{EV em bolo (max 10mg)}&{Data:}&\\
+    \hline
+    \\
+\end{tabular}
+\end{table}
+\textbf{\textit{Reavaliar e repetir se resposta objetiva}}
+
+\textbf{Solicitar imagem (RNM)}
+\end{center}
+\subsection{Modificações de dose:}
+Se 750 $\geq$ Neut $\geq$ 500/mm\(^3\), reduzir dose para 5mg/m\textsuperscript{2}. Se Neut < 500mm\(^3\), interromper até subir para 750 ou mais. Se toxicidade hematológica recorrente, reduzir dose para 4mg/m\textsuperscript{2}.
+
+\textbf{ATENÇÃO:} o objetivo deste protocolo é controlar doença recidivada após diversos tratamentos anteriores, quando não existem outras alternativas. A principal resposta esperada deste protocolo é ESTABILIZAÇÃO DA DOENÇA. Logo, é inadequado iniciar este esquema de QT em crianças em regime de internação prolongada, dependentes de cuidados hospitalares, visando "melhorar" sua condição clínica. Igualmente, é inadequado iniciar este protocolo em crianças com risco de complicações graves, como naquelas que têm sequelas importantes e muito limitantes.
+
+\bibliographystyle{unsrt}
+\bibliography{cpc-neuro2014/bib}
+
+\end{document}
