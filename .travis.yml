@@ -16,9 +16,9 @@ script:
 #- bibtex   cpc-neuro2014/CPC-NEURO2014
 - bibtex cap1*.aux
 - bibtex cap2*.aux
-- bibtex cap3*.aux
+#- bibtex cap3*.aux
 - bibtex cap4*.aux
-- bibtex cap5*.aux
+#- bibtex cap5*.aux
 - bibtex ap1*.aux
 - bibtex ap2*.aux
 - bibtex ap3*.aux
