@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: cap1_intro.aux
+The style file: unsrt.bst
+Database file #1: cpc-neuro2014/bib.bib
+You've used 24 entries,
+            1791 wiz_defined-function locations,
+            612 strings with 10696 characters,
+and the built_in function-call counts, 7162 in all, are:
+= -- 528
+> -- 556
+< -- 2
++ -- 193
+- -- 169
+* -- 660
+:= -- 1230
+add.period$ -- 78
+call.type$ -- 24
+change.case$ -- 24
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 226
+empty$ -- 579
+format.name$ -- 169
+if$ -- 1508
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 22
+newline$ -- 127
+num.names$ -- 26
+pop$ -- 45
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 88
+stack$ -- 0
+substring$ -- 468
+swap$ -- 35
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 53
+width$ -- 26
+write$ -- 275

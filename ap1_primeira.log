@@ -1,0 +1,3005 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.3)  3 MAY 2020 12:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ap1_primeira.tex
+(./ap1_primeira.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 4 language(s) loaded.
+(./svmult.cls
+Document Class: svmult 2007/06/25 v5.4 
+Springer Verlag global LaTeX document class for multi authored books
+Class Springer-SVMult Info: extra/valid Springer sub-package 
+(Springer-SVMult)           not found in option list - using "global" style.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\svparindent=\dimen103
+\bibindent=\dimen104
+\betweenumberspace=\dimen105
+\headlineindent=\dimen106
+\minitoc=\write3
+\c@minitocdepth=\count87
+\c@chapter=\count88
+\mottowidth=\dimen107
+\svitemindent=\dimen108
+\verbatimindent=\dimen109
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 963.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 964.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 965.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 966.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 967.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 968.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 969.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 970.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 971.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 972.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 973.
+\tocchpnum=\dimen110
+\tocsecnum=\dimen111
+\tocsectotal=\dimen112
+\tocsubsecnum=\dimen113
+\tocsubsectotal=\dimen114
+\tocsubsubsecnum=\dimen115
+\tocsubsubsectotal=\dimen116
+\tocparanum=\dimen117
+\tocparatotal=\dimen118
+\tocsubparanum=\dimen119
+\foot@parindent=\dimen120
+\spthmsep=\dimen121
+\c@theorem=\count89
+\c@case=\count90
+\c@conjecture=\count91
+\c@corollary=\count92
+\c@definition=\count93
+\c@example=\count94
+\c@exercise=\count95
+\c@lemma=\count96
+\c@note=\count97
+\c@problem=\count98
+\c@property=\count99
+\c@proposition=\count100
+\c@question=\count101
+\c@solution=\count102
+\c@remark=\count103
+\c@prob=\count104
+\instindent=\dimen122
+\figgap=\dimen123
+\bildb@x=\box26
+\figcapgap=\dimen124
+\tabcapgap=\dimen125
+\c@merk=\count105
+\c@@inst=\count106
+\c@@auth=\count107
+\c@auco=\count108
+\instindent=\dimen126
+\authrun=\box27
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box28
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@contribution=\count109
+LaTeX Info: Redefining \abstract on input line 2320.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count110
+))
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip43
+\fb@frw=\dimen127
+\fb@frh=\dimen128
+\FrameRule=\dimen129
+\FrameSep=\dimen130
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/type1cm/type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+)
+\Gin@req@height=\dimen131
+\Gin@req@width=\dimen132
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
+\c@tracingmulticols=\count111
+\mult@box=\box29
+\multicol@leftmargin=\dimen133
+\c@unbalance=\count112
+\c@collectmore=\count113
+\doublecol@number=\count114
+\multicoltolerance=\count115
+\multicolpretolerance=\count116
+\full@width=\dimen134
+\page@free=\dimen135
+\premulticols=\dimen136
+\postmulticols=\dimen137
+\multicolsep=\skip44
+\multicolbaselineskip=\skip45
+\partial@page=\box30
+\last@line=\box31
+\maxbalancingoverflow=\dimen138
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count117
+\c@finalcolumnbadness=\count118
+\last@try=\dimen139
+\multicolovershoot=\dimen140
+\multicolundershoot=\dimen141
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+\mc@col@check@num=\count119
+)
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks19
+\footnotemargin=\dimen142
+\c@pp@next@reset=\count120
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+\@indexfile=\write4
+\openout4 = `ap1_primeira.idx'.
+
+
+Writing index file ap1_primeira.idx
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen143
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count121
+\LTcapwidth=\dimen144
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@cols=\count122
+\LT@rows=\count123
+\c@LT@tables=\count124
+\c@LT@chunks=\count125
+\LT@p@ftn=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count126
+\float@exts=\toks21
+\float@box=\box59
+\@float@everytoks=\toks22
+\@floatcapt=\box60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen145
+\pgfutil@tempdimb=\dimen146
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box61
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen147
+\pgf@y=\dimen148
+\pgf@xa=\dimen149
+\pgf@ya=\dimen150
+\pgf@xb=\dimen151
+\pgf@yb=\dimen152
+\pgf@xc=\dimen153
+\pgf@yc=\dimen154
+\w@pgf@writea=\write5
+\r@pgf@reada=\read1
+\c@pgf@counta=\count127
+\c@pgf@countb=\count128
+\c@pgf@countc=\count129
+\c@pgf@countd=\count130
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count131
+\pgfsyssoftpath@bigbuffer@items=\count132
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen155
+\pgfmath@count=\count133
+\pgfmath@box=\box62
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count134
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen156
+\pgf@picmaxx=\dimen157
+\pgf@picminy=\dimen158
+\pgf@picmaxy=\dimen159
+\pgf@pathminx=\dimen160
+\pgf@pathmaxx=\dimen161
+\pgf@pathminy=\dimen162
+\pgf@pathmaxy=\dimen163
+\pgf@xx=\dimen164
+\pgf@xy=\dimen165
+\pgf@yx=\dimen166
+\pgf@yy=\dimen167
+\pgf@zx=\dimen168
+\pgf@zy=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen170
+\pgf@path@lasty=\dimen171
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen172
+\pgf@shorten@start@additional=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count135
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen174
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen175
+\pgf@pt@y=\dimen176
+\pgf@pt@temp=\dimen177
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen178
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen179
+\pgf@sys@shading@range@num=\count136
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box66
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box67
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen180
+\pgf@nodesepend=\dimen181
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen182
+\pgffor@skip=\dimen183
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count137
+\pgfplotmarksize=\dimen184
+)
+\tikz@lastx=\dimen185
+\tikz@lasty=\dimen186
+\tikz@lastxsaved=\dimen187
+\tikz@lastysaved=\dimen188
+\tikzleveldistance=\dimen189
+\tikzsiblingdistance=\dimen190
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count138
+\tikznumberofchildren=\count139
+\tikznumberofcurrentchild=\count140
+\tikz@fig@count=\count141
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count142
+\pgfmatrixcurrentcolumn=\count143
+\pgf@matrix@numberofcolumns=\count144
+)
+\tikz@expandcount=\count145
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen191
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarychains.code.tex
+File: tikzlibrarychains.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.6)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen192
+\pgfdecoratedremainingdistance=\dimen193
+\pgfdecoratedinputsegmentcompleteddistance=\dimen194
+\pgfdecoratedinputsegmentremainingdistance=\dimen195
+\pgf@decorate@distancetomove=\dimen196
+\pgf@decorate@repeatstate=\count146
+\pgfdecorationsegmentamplitude=\dimen197
+\pgfdecorationsegmentlength=\dimen198
+)
+\tikz@lib@dec@box=\box72
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box73
+\pgfnodeparttwobox=\box74
+\pgfnodepartthreebox=\box75
+\pgfnodepartfourbox=\box76
+\pgfnodeparttwentybox=\box77
+\pgfnodepartnineteenbox=\box78
+\pgfnodeparteighteenbox=\box79
+\pgfnodepartseventeenbox=\box80
+\pgfnodepartsixteenbox=\box81
+\pgfnodepartfifteenbox=\box82
+\pgfnodepartfourteenbox=\box83
+\pgfnodepartthirteenbox=\box84
+\pgfnodeparttwelvebox=\box85
+\pgfnodepartelevenbox=\box86
+\pgfnodeparttenbox=\box87
+\pgfnodepartninebox=\box88
+\pgfnodeparteightbox=\box89
+\pgfnodepartsevenbox=\box90
+\pgfnodepartsixbox=\box91
+\pgfnodepartfivebox=\box92
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
+) (./ap1_primeira.aux)
+\openout1 = `ap1_primeira.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 125.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count147
+\scratchdimen=\dimen199
+\scratchbox=\box93
+\nofMPsegments=\count148
+\nofMParguments=\count149
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count150
+\MPscratchDim=\dimen256
+\MPnumerator=\count151
+\makeMPintoPDFobject=\count152
+\everyMPtoPDFconversion=\toks36
+)
+\big@size=\dimen257
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+
+
+Package mathptmx Warning: There are no bold math fonts on input line 141.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 141.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 14
+1.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 14
+1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 14
+1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 14
+1.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.29004> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.10005> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¢ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no   in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+
+LaTeX Warning: Citation `doi:10.1002/cncr.21091' on page 1 undefined on input l
+ine 147.
+
+
+LaTeX Warning: Citation `doi:10.1200/JCO.2011.34.5843' on page 1 undefined on i
+nput line 147.
+
+
+LaTeX Warning: Citation `lassaletta' on page 1 undefined on input line 147.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ­ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ƒ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+
+Overfull \hbox (2.49957pt too wide) in paragraph at lines 149--150
+[]\OT1/ptm/b/n/10 Elegvel: \OT1/ptm/m/n/10 as-troc-it-oma de baixo grau (pi-loc
+-tico, di-fuso, out-ros), oligo-den-droglioma,
+ []
+
+[1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+ [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 178.
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (85.97723pt too wide) in paragraph at lines 181--258
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (85.97723pt too wide) in paragraph at lines 260--346
+[][] 
+ []
+
+[3
+
+] [4] [5]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (85.97723pt too wide) in paragraph at lines 355--435
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (85.97723pt too wide) in paragraph at lines 437--507
+[][] 
+ []
+
+[6]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 508.
+ [7]
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (85.97723pt too wide) in paragraph at lines 521--597
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (85.97723pt too wide) in paragraph at lines 599--625
+[][] 
+ []
+
+[8
+
+]
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no µ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¢ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no £ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¢ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no £ in font ptmbi7t!
+ [9]
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ‡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ƒ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ƒ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+ [10]
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no £ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+
+
+LaTeX Warning: Citation `4980' on page 11 undefined on input line 650.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+LaTeX Warning: Citation `Michalski2016' on page 11 undefined on input line 650.
+
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ­ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ƒ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+[11
+
+] [12
+
+]
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 685--705
+[][] 
+ []
+
+
+Overfull \hbox (59.86551pt too wide) in paragraph at lines 664--705
+ [] 
+ []
+
+
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 707--726
+[][] 
+ []
+
+
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 728--748
+[][] 
+ []
+
+
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 750--770
+[][] 
+ []
+
+[13]
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 772--792
+[][] 
+ []
+
+[14]
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 801--817
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¡ in font ptmb7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no £ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 826--849
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 852--871
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 874--897
+[][] 
+ []
+
+[15]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 901--920
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 923--946
+[][] 
+ []
+
+[16]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 956--975
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 978--1001
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 1004--1023
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no µ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no § in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no £ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ‡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ƒ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+[17
+
+] [18]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+
+
+LaTeX Warning: Citation `095' on page 19 undefined on input line 1040.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ­ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ƒ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+[19
+
+] [20
+
+]
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no £ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (15.32266pt too wide) in paragraph at lines 1054--1077
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (35.25395pt too wide) in paragraph at lines 1079--1088
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (10.1384pt too wide) in paragraph at lines 1090--1113
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (35.25438pt too wide) in paragraph at lines 1115--1124
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (10.1384pt too wide) in paragraph at lines 1126--1149
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (35.25438pt too wide) in paragraph at lines 1151--1160
+[][] 
+ []
+
+[21]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (33.79906pt too wide) in paragraph at lines 1163--1184
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (33.79906pt too wide) in paragraph at lines 1186--1207
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no § in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no £ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no § in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no £ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+[22] [23]
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no £ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56392pt too wide) in paragraph at lines 1223--1238
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56392pt too wide) in paragraph at lines 1240--1251
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56392pt too wide) in paragraph at lines 1253--1265
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56392pt too wide) in paragraph at lines 1267--1282
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56392pt too wide) in paragraph at lines 1284--1295
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56392pt too wide) in paragraph at lines 1297--1309
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1312--1327
+[][] 
+ []
+
+[24
+
+]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1329--1340
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1342--1354
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1356--1371
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1373--1384
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1386--1398
+[][] 
+ []
+
+[25] [26]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1406--1421
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1423--1434
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1436--1448
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1450--1465
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1467--1478
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1480--1492
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1494--1509
+[][] 
+ []
+
+[27]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1511--1522
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1524--1536
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1538--1553
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1555--1566
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (29.56404pt too wide) in paragraph at lines 1568--1580
+[][] 
+ []
+
+[28]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8.5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1581.
+
+Missing character: There is no â in font ptmbi7t!
+Missing character: There is no € in font ptmbi7t!
+Missing character: There is no “ in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no £ in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no ­ in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no µ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ‡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ƒ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+ [29] [30
+
+]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+
+LaTeX Warning: Citation `doi:10.1200/JCO.18.01765' on page 31 undefined on inpu
+t line 1603.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+LaTeX Warning: Citation `doi:10.1200/JCO.2015.65.7825' on page 31 undefined on 
+input line 1611.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¢ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+LaTeX Warning: Citation `10.1093/neuonc/now108' on page 31 undefined on input l
+ine 1611.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+
+LaTeX Warning: Citation `doi:10.1200/JCO.2017.73.1265' on page 31 undefined on 
+input line 1613.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+
+LaTeX Warning: Citation `doi:10.1200/JCO.2017.73.1265' on page 31 undefined on 
+input line 1613.
+
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no £ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ³ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no £ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ­ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no © in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no § in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no £ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ­ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ƒ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (9.32541pt too wide) in paragraph at lines 1679--1680
+[][] 
+ []
+
+[31]
+Overfull \vbox (27.33727pt too high) has occurred while \output is active []
+
+
+[32]
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ¡ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+
+LaTeX Warning: Citation `jak' on page 33 undefined on input line 1685.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+LaTeX Warning: Citation `doi:10.1200/JCO.2017.76.4720' on page 33 undefined on 
+input line 1685.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ­ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ƒ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+[33
+
+] [34
+
+]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 1701--1721
+[][] 
+ []
+
+
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 1723--1743
+[][] 
+ []
+
+
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 1745--1766
+[][] 
+ []
+
+
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 1768--1789
+[][] 
+ []
+
+[35]
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 1792--1813
+[][] 
+ []
+
+
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 1815--1836
+[][] 
+ []
+
+
+Overfull \hbox (54.86604pt too wide) in paragraph at lines 1838--1854
+[][] 
+ []
+
+[36] [37]
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no £ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 1868--1887
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 1890--1909
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 1913--1932
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 1936--1954
+[][] 
+ []
+
+[38]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 1957--1976
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.21492pt too wide) in paragraph at lines 1979--1998
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no µ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no § in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no £ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ‡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ƒ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+[39] [40
+
+]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no   in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+
+
+LaTeX Warning: Citation `10.1093/neuonc/now038' on page 41 undefined on input l
+ine 2013.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ­ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+
+LaTeX Warning: Citation `10.1093/neuonc/noq205' on page 41 undefined on input l
+ine 2015.
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ƒ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ­ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+[41] [42
+
+]
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no £ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no £ in font ptmbi7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.09244pt too wide) in paragraph at lines 2055--2074
+[][] 
+ []
+
+
+Overfull \hbox (94.35818pt too wide) in paragraph at lines 2077--2083
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.09244pt too wide) in paragraph at lines 2086--2105
+[][] 
+ []
+
+[43]
+Overfull \hbox (94.35818pt too wide) in paragraph at lines 2108--2114
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.09244pt too wide) in paragraph at lines 2118--2137
+[][] 
+ []
+
+
+Overfull \hbox (94.35818pt too wide) in paragraph at lines 2140--2146
+[][] 
+ []
+
+[44]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.09244pt too wide) in paragraph at lines 2156--2175
+[][] 
+ []
+
+
+Overfull \hbox (94.35818pt too wide) in paragraph at lines 2178--2184
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.09244pt too wide) in paragraph at lines 2187--2206
+[][] 
+ []
+
+
+Overfull \hbox (94.35818pt too wide) in paragraph at lines 2209--2215
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+
+Overfull \hbox (66.09244pt too wide) in paragraph at lines 2218--2237
+[][] 
+ []
+
+[45]
+Overfull \hbox (94.35818pt too wide) in paragraph at lines 2240--2246
+[][] 
+ []
+
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no § in font ptmbi7t!
+Missing character: There is no Ã in font ptmbi7t!
+Missing character: There is no µ in font ptmbi7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no § in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no £ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ‡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no • in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ‡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no • in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ‡ in font ptmb7t!
+Missing character: There is no Ã in font ptmb7t!
+Missing character: There is no ƒ in font ptmb7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no £ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+(./ap1_primeira.bbl [46]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¯ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¡ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ± in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+ [47]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¨ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+) [48] (./ap1_primeira.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 16044 strings out of 494929
+ 349155 string characters out of 6180143
+ 438278 words of memory out of 5000000
+ 18972 multiletter control sequences out of 15000+600000
+ 44302 words of font info for 88 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 55i,14n,71p,963b,802s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ap1_primeira.pdf (48 pages, 170944 bytes).
+PDF statistics:
+ 196 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
