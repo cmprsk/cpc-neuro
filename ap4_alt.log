@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.3)  3 MAY 2020 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.3)  3 MAY 2020 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,10 +860,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
-
-
-LaTeX Warning: Citation `Ater20072012' on page 1 undefined on input line 147.
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -933,7 +929,7 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ³ in font ptmr7t!
-[1
+ [1
 
 
 
@@ -1198,10 +1194,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
-
-
-LaTeX Warning: Citation `noq191' on page 9 undefined on input line 481.
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ­ in font ptmr7t!
 Missing character: There is no Ã in font ptmb7t!
@@ -1273,7 +1265,7 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
-[9]
+ [9]
 Missing character: There is no Ã in font ptmbi7t!
 Missing character: There is no § in font ptmbi7t!
 Missing character: There is no Ã in font ptmbi7t!
@@ -1536,10 +1528,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no § in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
-
-
-LaTeX Warning: Citation `Wolff2011' on page 17 undefined on input line 850.
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -1989,11 +1977,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
-
-
-LaTeX Warning: Citation `merchant_2015' on page 27 undefined on input line 1188
-.
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -2050,10 +2033,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
-
-LaTeX Warning: Citation `doi:10.1200/JCO.2015.65.7825' on page 27 undefined on 
-input line 1196.
-
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ­ in font ptmb7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -2095,7 +2074,7 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ³ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
-[27]
+ [27]
 Missing character: There is no Ã in font ptmbi7t!
 Missing character: There is no § in font ptmbi7t!
 Missing character: There is no Ã in font ptmbi7t!
@@ -2572,11 +2551,6 @@ Missing character: There is no § in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no µ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
-
-
-LaTeX Warning: Citation `felix_2016_44888' on page 33 undefined on input line 1
-510.
-
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ¢ in font ptmb7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -3005,30 +2979,23 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¼ in font ptmr7t!
-) [41] (./ap4_alt.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) [41] (./ap4_alt.aux) ) 
 Here is how much of TeX's memory you used:
  15737 strings out of 494929
  342915 string characters out of 6180143
- 421615 words of memory out of 5000000
+ 421633 words of memory out of 5000000
  18665 multiletter control sequences out of 15000+600000
  45244 words of font info for 88 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  55i,12n,71p,1208b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ap4_alt.pdf (41 pages, 147888 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
+enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ap4_alt.pdf (41 pages, 147370 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  118 compressed objects within 2 object streams

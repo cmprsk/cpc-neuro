@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.3)  3 MAY 2020 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.3)  3 MAY 2020 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -882,11 +882,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ­ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
-
-
-LaTeX Warning: Citation `10.1093/neuonc/nox056' on page 1 undefined on input li
-ne 148.
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ­ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -894,13 +889,6 @@ Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no § in font ptmr7t!
-
-LaTeX Warning: Citation `cavalheiro' on page 1 undefined on input line 148.
-
-
-LaTeX Warning: Citation `10.3389/fendo.2012.00039' on page 1 undefined on input
- line 148.
-
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ­ in font ptmb7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -925,7 +913,7 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¢ in font ptmr7t!
-[1
+ [1
 
 
 
@@ -1059,14 +1047,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no § in font ptmr7t!
-
-
-LaTeX Warning: Citation `Diamond483' on page 4 undefined on input line 254.
-
-
-LaTeX Warning: Citation `Haroche05122015' on page 4 undefined on input line 254
-.
-
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ­ in font ptmb7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -1222,10 +1202,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ­ in font ptmr7t!
-
-
-LaTeX Warning: Citation `franz' on page 6 undefined on input line 359.
-
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ­ in font ptmb7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -1234,9 +1210,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no § in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no µ in font ptmr7t!
-
-LaTeX Warning: Citation `ROTH2013439' on page 6 undefined on input line 361.
-
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ƒ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -1362,11 +1335,6 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
-
-
-LaTeX Warning: Citation `Adamse20153257' on page 7 undefined on input line 396.
-
-
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ­ in font ptmb7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -1468,11 +1436,6 @@ Missing character: There is no © in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ¡ in font ptmr7t!
-
-
-LaTeX Warning: Citation `doi:10.1002/pbc.24656' on page 8 undefined on input li
-ne 433.
-
 Missing character: There is no Ã in font ptmb7t!
 Missing character: There is no ­ in font ptmb7t!
 Missing character: There is no Ã in font ptmr7t!
@@ -1556,29 +1519,23 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ³ in font ptmr7t!
 Missing character: There is no Å in font ptmr7t!
 Missing character: There is no º in font ptmr7t!
-) [9] (./ap3_alvo.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) [9] (./ap3_alvo.aux) ) 
 Here is how much of TeX's memory you used:
  15734 strings out of 494929
  342927 string characters out of 6180143
- 416615 words of memory out of 5000000
+ 416642 words of memory out of 5000000
  18666 multiletter control sequences out of 15000+600000
  41302 words of font info for 82 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  55i,12n,71p,906b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ap3_alvo.pdf (9 pages, 95166 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
+enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on ap3_alvo.pdf (9 pages, 94630 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
