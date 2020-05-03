@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
+mv CPC-NEURO2014.pdf c.pdf
+rm *2014.*
+mv c.pdf CPC-NEURO2014.pdf
+rm bib.bib
 git add .
 git commit -m "new update [skip ci]"
 git push origin HEAD:master
