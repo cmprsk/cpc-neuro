@@ -1,11 +1,11 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: CPC-NEURO2014.aux
+The top-level auxiliary file: cpc-neuro2014/CPC-NEURO2014.aux
 The style file: unsrt.bst
 Database file #1: bib.bib
 You've used 95 entries,
             1791 wiz_defined-function locations,
-            1033 strings with 42703 characters,
+            1033 strings with 42731 characters,
 and the built_in function-call counts, 34481 in all, are:
 = -- 2064
 > -- 3612
