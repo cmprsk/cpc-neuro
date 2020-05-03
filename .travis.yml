@@ -3,7 +3,7 @@ before_script:
 - chmod a+x script/cibuild
 - script/cibuild
 script:
-#- pdflatex -interaction=nonstopmode -halt-on-error cpc-neuro2014/CPC-NEURO2014.tex
+- pdflatex -interaction=nonstopmode -halt-on-error cpc-neuro2014/CPC-NEURO2014.tex
 - pdflatex -interaction=nonstopmode -halt-on-error cap1*.tex
 - pdflatex -interaction=nonstopmode -halt-on-error cap2*.tex
 - pdflatex -interaction=nonstopmode -halt-on-error cap3*.tex
@@ -13,7 +13,7 @@ script:
 - pdflatex -interaction=nonstopmode -halt-on-error ap2*.tex
 - pdflatex -interaction=nonstopmode -halt-on-error ap3*.tex
 - pdflatex -interaction=nonstopmode -halt-on-error ap4*.tex
-#- bibtex   cpc-neuro2014/CPC-NEURO2014
+- bibtex   cpc-neuro2014/CPC-NEURO2014
 - bibtex cap1*.aux
 - bibtex cap2*.aux
 #- bibtex cap3*.aux
@@ -23,7 +23,7 @@ script:
 - bibtex ap2*.aux
 - bibtex ap3*.aux
 - bibtex ap4*.aux
-#- pdflatex -interaction=nonstopmode -halt-on-error cpc-neuro2014/CPC-NEURO2014.tex
+- pdflatex -interaction=nonstopmode -halt-on-error cpc-neuro2014/CPC-NEURO2014.tex
 - pdflatex -interaction=nonstopmode -halt-on-error cap1*.tex
 - pdflatex -interaction=nonstopmode -halt-on-error cap2*.tex
 - pdflatex -interaction=nonstopmode -halt-on-error cap3*.tex
