@@ -3,9 +3,11 @@ before_script:
 - chmod a+x script/cibuild
 - script/cibuild
 script:
-- pdflatex -interaction=nonstopmode -halt-on-error CPC-NEURO2014.tex
-- bibtex   CPC-NEURO2014
-- pdflatex -interaction=nonstopmode -halt-on-error CPC-NEURO2014.tex
+- pdflatex -interaction=nonstopmode -halt-on-error cpc-neuro2014/CPC-NEURO2014.tex
+- pdflatex -interaction=nonstopmode -halt-on-error cap*.tex
+- bibtex   cpc-neuro2014/CPC-NEURO2014
+- pdflatex -interaction=nonstopmode -halt-on-error cpc-neuro2014/CPC-NEURO2014.tex
+- pdflatex -interaction=nonstopmode -halt-on-error cap*.tex
 after_success:
 - chmod a+x script/afterbuild
 - script/afterbuild
