@@ -18,4 +18,4 @@ echo "Host github.com" >> ~/.ssh/config
 echo "  IdentityFile ~/.ssh/publish-key" >> ~/.ssh/config
 git remote set-url origin git@github.com:fhcflx/cpc-neuro.git
 git fetch origin -f master:master
-cp cpc-neuro2014/bib.bib ./
+#cp cpc-neuro2014/bib.bib ./
