@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.3)  3 MAY 2020 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.10)  10 MAY 2020 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -491,8 +491,8 @@ No file cap3_embrio.bbl.
 [3 <./fig/fig5.pdf>] [4] (./cap3_embrio.aux) ) 
 Here is how much of TeX's memory you used:
  2622 strings out of 494929
- 36729 string characters out of 6180143
- 107595 words of memory out of 5000000
+ 36729 string characters out of 6180142
+ 107596 words of memory out of 5000000
  5865 multiletter control sequences out of 15000+600000
  30576 words of font info for 64 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191

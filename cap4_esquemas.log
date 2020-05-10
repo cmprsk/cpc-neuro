@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.3)  3 MAY 2020 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.10)  10 MAY 2020 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,8 +1172,8 @@ Missing character: There is no ê in font ptmr7t!
 ) [6] (./cap4_esquemas.aux) ) 
 Here is how much of TeX's memory you used:
  2673 strings out of 494929
- 37412 string characters out of 6180143
- 105616 words of memory out of 5000000
+ 37412 string characters out of 6180142
+ 105617 words of memory out of 5000000
  5899 multiletter control sequences out of 15000+600000
  36780 words of font info for 77 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
