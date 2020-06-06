@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.10)  10 MAY 2020 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.6.6)  6 JUN 2020 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2426,8 +2426,8 @@ Missing character: There is no ¨ in font ptmr7t!
 ) [38] (./ap2_resgate.aux) ) 
 Here is how much of TeX's memory you used:
  15754 strings out of 494929
- 343233 string characters out of 6180142
- 422699 words of memory out of 5000000
+ 343233 string characters out of 6180143
+ 422698 words of memory out of 5000000
  18682 multiletter control sequences out of 15000+600000
  43780 words of font info for 87 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191

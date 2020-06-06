@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.5.10)  10 MAY 2020 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2020.6.6)  6 JUN 2020 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -887,8 +887,8 @@ No file cap5_drogas.bbl.
 [3] (./cap5_drogas.aux) ) 
 Here is how much of TeX's memory you used:
  2619 strings out of 494929
- 36633 string characters out of 6180142
- 102596 words of memory out of 5000000
+ 36633 string characters out of 6180143
+ 102595 words of memory out of 5000000
  5856 multiletter control sequences out of 15000+600000
  36097 words of font info for 74 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
